@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Analyst Goes Analyst</title><link href="http://dmark.github.io/" rel="alternate"></link><link href="http://dmark.github.io/feeds/mark-e-drummond.atom.xml" rel="self"></link><id>http://dmark.github.io/</id><updated>2014-07-23T16:14:00-04:00</updated><entry><title>The First (real) Post</title><link href="http://dmark.github.io/the-first-real-post.html" rel="alternate"></link><updated>2014-07-22T20:59:00-04:00</updated><author><name>Mark E. Drummond</name></author><id>tag:dmark.github.io,2014-07-22:the-first-real-post.html</id><summary type="html">&lt;p&gt;Welcome!&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Analyst Goes Analyst</title><link href="http://dmark.github.io/" rel="alternate"></link><link href="http://dmark.github.io/feeds/mark-e-drummond.atom.xml" rel="self"></link><id>http://dmark.github.io/</id><updated>2014-07-23T16:29:00-04:00</updated><entry><title>New Squat PR</title><link href="http://dmark.github.io/squat-pr-001.html" rel="alternate"></link><updated>2014-07-23T16:29:00-04:00</updated><author><name>Mark E. Drummond</name></author><id>tag:dmark.github.io,2014-07-21:squat-pr-001.html</id><summary type="html">&lt;p&gt;We just completed a cycle of volume work at the
+&lt;a href="http://www.crossfitkingston.com/"&gt;gym&lt;/a&gt;. This week we are chasing new PRs.  I
+haven&amp;#8217;t attempted a new squat &lt;span class="caps"&gt;PR&lt;/span&gt; since March when I managed 290lbs. Even then,
+290lbs is only a recent &lt;span class="caps"&gt;PR&lt;/span&gt;, not my all-time&amp;nbsp;best.&lt;/p&gt;
+&lt;p&gt;On Monday I hit 315lbs which is both a recent and all time &lt;span class="caps"&gt;PR&lt;/span&gt;, so I am pretty
+happy about that. The lift felt good and I&amp;#8217;m sure I could manage 325lbs or
+more. There is a faint glimmer at the end of a long tunnel that looks like a
+405lb&amp;nbsp;squat.&lt;/p&gt;
+&lt;p&gt;Looking forward to a new Clean &lt;span class="caps"&gt;PR&lt;/span&gt;. Like my squat, it has been a while, but I
+have a shot at finally making 100kg. As long as I have the, and please excuse
+the vernacular, testicular fortitude to get under the&amp;nbsp;bar.&lt;/p&gt;</summary><category term="weightlifting"></category><category term="pr"></category></entry><entry><title>The First (real) Post</title><link href="http://dmark.github.io/the-first-real-post.html" rel="alternate"></link><updated>2014-07-22T20:59:00-04:00</updated><author><name>Mark E. Drummond</name></author><id>tag:dmark.github.io,2014-07-20:the-first-real-post.html</id><summary type="html">&lt;p&gt;Welcome!&lt;/p&gt;
 &lt;p&gt;My name is Mark. I&amp;#8217;m a career &lt;span class="caps"&gt;IT&lt;/span&gt; systems analyst edging my way toward a second
 career in data analysis. In recent years I&amp;#8217;ve been looking for a new challenge
 on my career path.  I&amp;#8217;ve also been working on an undergraduate degree in
@@ -10,12 +20,4 @@ work, I have an exciting opportunity to turn this into something&amp;nbsp;real.&
 &lt;p&gt;I hope to use this site to record much of my journey from &lt;span class="caps"&gt;IT&lt;/span&gt; Systems Analyst to
 Data Analyst, highlighting some of my work in an online portfolio. If you are
 interested in some background information, please visit &lt;a href="http://dmark.github.io/pages/the-about-page.html"&gt;The About
-Page&lt;/a&gt;.&lt;/p&gt;</summary><category term="data"></category><category term="analyst"></category></entry><entry><title>New Squat PR</title><link href="http://dmark.github.io/squat-pr-001.html" rel="alternate"></link><updated>2014-07-23T16:14:00-04:00</updated><author><name>Mark E. Drummond</name></author><id>tag:dmark.github.io,2014-07-21:squat-pr-001.html</id><summary type="html">&lt;p&gt;We just completed a cycle of volume work at the
-&lt;a href="http://www.crossfitkingston.com/"&gt;gym&lt;/a&gt;. This week we are chasing new PRs.  I
-haven&amp;#8217;t even attempted a new squat &lt;span class="caps"&gt;PR&lt;/span&gt; since March when I managed 290lbs. On
-Monday I hit 315lbs which is both a recent and all time &lt;span class="caps"&gt;PR&lt;/span&gt;, so I am pretty
-happy about that. The lift felt good and I&amp;#8217;m sure I have 325lbs or more in me
-now. There is a faint glimmer at the end of a long tunnel that looks like&amp;nbsp;400lbs.&lt;/p&gt;
-&lt;p&gt;Looking forward to a new Clean &lt;span class="caps"&gt;PR&lt;/span&gt;. Like my squat, it has been a while, but I
-have a shot at finally making 100kg. As long as I have the, and please excuse
-the vernacular, testicular fortitude to get under the&amp;nbsp;bar.&lt;/p&gt;</summary><category term="weightlifting"></category><category term="pr"></category></entry></feed>
+Page&lt;/a&gt;.&lt;/p&gt;</summary><category term="data"></category><category term="analyst"></category></entry></feed>
