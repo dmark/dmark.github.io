@@ -1,13 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Analyst Goes Analyst</title><link href="http://dmark.github.io/" rel="alternate"></link><link href="http://dmark.github.io/feeds/mark-e-drummond.atom.xml" rel="self"></link><id>http://dmark.github.io/</id><updated>2014-07-22T20:59:00-04:00</updated><entry><title>The First (real) Post</title><link href="http://dmark.github.io/the-first-real-post.html" rel="alternate"></link><updated>2014-07-22T20:59:00-04:00</updated><author><name>Mark E. Drummond</name></author><id>tag:dmark.github.io,2014-07-20:the-first-real-post.html</id><summary type="html">&lt;p&gt;Welcome!&lt;/p&gt;
-&lt;p&gt;My name is Mark. I&amp;#8217;m a career &lt;span class="caps"&gt;IT&lt;/span&gt; systems analyst edging my way toward a second
-career in data analysis. In recent years I&amp;#8217;ve been looking for a new challenge
-on my career path.  I&amp;#8217;ve also been working on an undergraduate degree in
-Economics, gearing my courses towards econometrics, computing and&amp;nbsp;mathematics.&lt;/p&gt;
-&lt;p&gt;Combining my &lt;span class="caps"&gt;IT&lt;/span&gt; systems background, my academic studies, some excellent data
-related MOOCs and an opportunity to work with the nascent data team where I
-work, I have an exciting opportunity to turn this into something&amp;nbsp;real.&lt;/p&gt;
-&lt;p&gt;I hope to use this site to record much of my journey from &lt;span class="caps"&gt;IT&lt;/span&gt; Systems Analyst to
-Data Analyst, highlighting some of my work in an online portfolio. If you are
-interested in some background information, please visit &lt;a href="http://dmark.github.io/pages/the-about-page.html"&gt;The About
-Page&lt;/a&gt;.&lt;/p&gt;</summary><category term="data"></category><category term="analyst"></category></entry></feed>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Analyst Goes Analyst</title><link href="http://dmark.github.io/" rel="alternate"></link><link href="http://dmark.github.io/feeds/mark-e-drummond.atom.xml" rel="self"></link><id>http://dmark.github.io/</id><updated>2015-05-19T11:54:00-04:00</updated><entry><title>The First Post</title><link href="http://dmark.github.io/the-first-post.html" rel="alternate"></link><updated>2015-05-19T11:54:00-04:00</updated><author><name>Mark E. Drummond</name></author><id>tag:dmark.github.io,2014-07-20:the-first-post.html</id><summary type="html">&lt;p&gt;Testing&amp;nbsp;Pelican.&lt;/p&gt;
+&lt;p&gt;If you are interested in some background information, please visit &lt;a href="http://dmark.github.io/pages/the-about-page.html"&gt;The About
+Page&lt;/a&gt;.&lt;/p&gt;</summary><category term="foo"></category><category term="bar"></category><category term="baz"></category></entry></feed>
