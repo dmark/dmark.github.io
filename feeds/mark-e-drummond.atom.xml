@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Analyst Goes Analyst</title><link href="/" rel="alternate"></link><link href="/feeds/mark-e-drummond.atom.xml" rel="self"></link><id>/</id><updated>2015-05-20T17:11:00-04:00</updated><entry><title>My First Pull Request</title><link href="/my-first-pull-request.html" rel="alternate"></link><updated>2015-05-20T17:11:00-04:00</updated><author><name>Mark E. Drummond</name></author><id>tag:,2015-05-20:my-first-pull-request.html</id><summary type="html">&lt;p&gt;I made my first honest-to-goodness pull request today. Minor stuff but I added
-a feature to the pelican-bootstrap3 theme that allows you to plug images into
-the sidebar. The original intent was to allow me to add certification marks to
-my sidebar. Props to &lt;a href="https://github.com/DandyDev"&gt;@DandyDev&lt;/a&gt; for the pro&amp;nbsp;tips.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="My first pull request." src="/images/my-first-pull-request.png" /&gt;&lt;/p&gt;</summary><category term="git"></category><category term="github"></category><category term="pelican-bootstrap3"></category></entry><entry><title>AWS SysOps Administration - Associate</title><link href="/aws-sysops.html" rel="alternate"></link><updated>2015-05-20T10:01:00-04:00</updated><author><name>Mark E. Drummond</name></author><id>tag:,2015-05-20:aws-sysops.html</id><summary type="html">&lt;p&gt;Last week I took the &lt;a href="http://aws.amazon.com/certification/certified-sysops-admin-associate/"&gt;&lt;span class="caps"&gt;AWS&lt;/span&gt; SysOps Administrator -
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Analyst Goes Analyst</title><link href="/" rel="alternate"></link><link href="/feeds/mark-e-drummond.atom.xml" rel="self"></link><id>/</id><updated>2015-05-20T19:42:00-04:00</updated><entry><title>My First Pull Request</title><link href="/my-first-pull-request.html" rel="alternate"></link><updated>2015-05-20T19:36:00-04:00</updated><author><name>Mark E. Drummond</name></author><id>tag:,2015-05-20:my-first-pull-request.html</id><summary type="html">&lt;p&gt;I use &lt;a href="http://getpelican.com/"&gt;Pelican&lt;/a&gt; and the
+&lt;a href="https://github.com/DandyDev/pelican-bootstrap3"&gt;pelican-bootstrap3&lt;/a&gt; theme to
+built this&amp;nbsp;site.&lt;/p&gt;
+&lt;p&gt;I made my first real pull request today in the form of a minor contribution to
+&lt;a href="https://github.com/DandyDev/pelican-bootstrap3"&gt;pelican-bootstrap3&lt;/a&gt;. I added a
+&lt;a href="https://github.com/DandyDev/pelican-bootstrap3/pull/190"&gt;feature&lt;/a&gt; that allows
+you to add a series of images to the sidebar. The original intent was to allow
+me to add certification marks to my sidebar, which you can now see in action
+right&amp;nbsp;here!&lt;/p&gt;
+&lt;p&gt;Props to &lt;a href="https://github.com/DandyDev"&gt;@DandyDev&lt;/a&gt; for the pro&amp;nbsp;tips.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="My first pull request" src="/images/my-first-pull-request.png" title="My first pull request" /&gt;&lt;/p&gt;</summary><category term="git"></category><category term="github"></category><category term="pelican-bootstrap3"></category></entry><entry><title>AWS SysOps Administration - Associate</title><link href="/aws-sysops.html" rel="alternate"></link><updated>2015-05-20T19:42:00-04:00</updated><author><name>Mark E. Drummond</name></author><id>tag:,2015-05-20:aws-sysops.html</id><summary type="html">&lt;p&gt;Last week I took the &lt;a href="http://aws.amazon.com/certification/certified-sysops-admin-associate/"&gt;&lt;span class="caps"&gt;AWS&lt;/span&gt; SysOps Administrator -
 Associate&lt;/a&gt;
 test and &lt;a href="/files/awsSysOpsAdmin_AE.pdf"&gt;passed&lt;/a&gt; with flying colours. Next step
-will the Developer and then the DevOps certifications, both of which I hope to
-complete this year. I look forward to doing a lot more work in &lt;span class="caps"&gt;AWS&lt;/span&gt; in the&amp;nbsp;future.&lt;/p&gt;</summary><category term="aws"></category></entry><entry><title>The First Post</title><link href="/the-first-post.html" rel="alternate"></link><updated>2015-05-20T10:00:00-04:00</updated><author><name>Mark E. Drummond</name></author><id>tag:,2015-05-18:the-first-post.html</id><summary type="html">&lt;p&gt;I am absolutely terrible at this blog business, but I&amp;#8217;m giving it another
+will be the Developer and then the DevOps certifications, both of which I hope
+to complete this year. I look forward to doing a lot more work in &lt;span class="caps"&gt;AWS&lt;/span&gt; in the&amp;nbsp;future.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="AWS SysOps Administrator -
+Associate" src="/images/SysOps-Administrator-Associate.png" title="&amp;quot;AWS SysOps Administrator - Associate" /&gt;&lt;/p&gt;</summary><category term="aws"></category></entry><entry><title>The First Post</title><link href="/the-first-post.html" rel="alternate"></link><updated>2015-05-20T10:00:00-04:00</updated><author><name>Mark E. Drummond</name></author><id>tag:,2015-05-18:the-first-post.html</id><summary type="html">&lt;p&gt;I am absolutely terrible at this blog business, but I&amp;#8217;m giving it another
 whirl. This is intended to be some sort of work / professional experience
 related info site. I suppose it is really meant to be what would be called a
 &amp;#8220;brag&amp;nbsp;sheet&amp;#8221;.&lt;/p&gt;</summary><category term="misc"></category></entry></feed>
