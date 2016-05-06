@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
+<head>
+    <title>Highly Available NAT with AWS Auto Scaling - Precisely</title>
+    <!-- Using the latest rendering mode for IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+<link rel="canonical" href="/aws-ha-nat-auto-scaling.html">
+
+        <meta name="author" content="Mark E. Drummond" />
+        <meta name="keywords" content="aws" />
+        <meta name="description" content="[This document is a work-in-porgress.] This is largely a re-spin of Cake Solutions’ methodology documented on their blog. I needed a practical exercise for working with AWS Auto Scaling. Cake Solutions’ methodology fit the bill and I got a highly available NAT service for my AWS VPC environments for my ..." />
+
+        <meta property="og:site_name" content="Precisely" />
+        <meta property="og:type" content="article"/>
+        <meta property="og:title" content="Highly Available NAT with AWS Auto Scaling"/>
+        <meta property="og:url" content="/aws-ha-nat-auto-scaling.html"/>
+        <meta property="og:description" content="[This document is a work-in-porgress.] This is largely a re-spin of Cake Solutions’ methodology documented on their blog. I needed a practical exercise for working with AWS Auto Scaling. Cake Solutions’ methodology fit the bill and I got a highly available NAT service for my AWS VPC environments for my ..."/>
+        <meta property="article:published_time" content="2015-05-22" />
+            <meta property="article:section" content="Amazon Web Services" />
+            <meta property="article:tag" content="aws" />
+            <meta property="article:author" content="Mark E. Drummond" />
+
+
+    <!-- Bootstrap -->
+        <link rel="stylesheet" href="/theme/css/bootstrap.simplex.min.css" type="text/css"/>
+    <link href="/theme/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="/theme/css/pygments/native.css" rel="stylesheet">
+        <link href="/theme/css/typogrify.css" rel="stylesheet">
+    <link rel="stylesheet" href="/theme/css/style.css" type="text/css"/>
+
+
+
+
+
+</head>
+<body>
+
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="/" class="navbar-brand">
+Precisely            </a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                    <li><a href="/files/Mark_Drummond_Resume.pdf">Resume</a></li>
+                    <li><a href="/files/awsSysOpsAdmin_AE.pdf">AWS SysOps Admin</a></li>
+                    <li><a href="/files/lfcs.pdf">LFCS</a></li>
+                         <li><a href="/pages/about.html">
+                             About
+                          </a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="/archives.html"><i class="fa fa-th-list"></i><span class="icon-label">Archives</span></a></li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+</div> <!-- /.navbar -->
+<!-- Banner -->
+<!-- End Banner -->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-9">
+    <section id="content">
+        <article>
+            <header class="page-header">
+                <h1>
+                    <a href="/aws-ha-nat-auto-scaling.html"
+                       rel="bookmark"
+                       title="Permalink to Highly Available NAT with AWS Auto Scaling">
+                        Highly Available <span class="caps">NAT</span> with <span class="caps">AWS</span> Auto&nbsp;Scaling
+                    </a>
+                </h1>
+            </header>
+            <div class="entry-content">
+                <div class="panel">
+                    <div class="panel-body">
+<footer class="post-info">
+    <span class="label label-default">Date</span>
+    <span class="published">
+        <i class="fa fa-calendar"></i><time datetime="2015-05-22T16:31:00-04:00"> Fri 22 May 2015</time>
+    </span>
+
+
+
+
+
+<span class="label label-default">Tags</span>
+	<a href="/tag/aws.html">aws</a>
+    
+</footer><!-- /.post-info -->                    </div>
+                </div>
+                <p>[This document is a&nbsp;work-in-porgress.]</p>
+<p>This is largely a re-spin of <a href="http://cakesolutions.net/">Cake Solutions&#8217;</a>
+methodology documented on their
+<a href="http://www.cakesolutions.net/teamblogs/making-aws-nat-instances-highly-available-without-the-compromises">blog</a>.
+I needed a practical exercise for working with <a href="http://aws.amazon.com/autoscaling/"><span class="caps">AWS</span> Auto
+Scaling</a>. Cake Solutions&#8217; methodology fit
+the bill and I got a highly available <span class="caps">NAT</span> service for my <span class="caps">AWS</span> <span class="caps">VPC</span> environments
+for my, and their (mostly their),&nbsp;efforts.</p>
+<p>Highly available in this context means Auto Scaling will replace my running <span class="caps">NAT</span>
+instance if there are any problems with that instance. There is a short outage
+while the instance is&nbsp;replaced.</p>
+<p>This is written from the perspective of Linux&nbsp;instances.</p>
+<h1>Overview</h1>
+<p>In order for an <span class="caps">EC2</span> instance to initiate connections out to the Internet, it
+must either have a public <span class="caps">IP</span> address assigned to it, or have access to a <span class="caps">NAT</span>
+instance that has a public <span class="caps">IP</span> address itself. Since instances on private
+subnets do not have public <span class="caps">IP</span> addresses, they must use a <span class="caps">NAT</span> instance. Probably
+the most common use-case here is for instances on private subnets to be able to
+query their appropriate software repositories to download and update their&nbsp;software.</p>
+<p>The <span class="caps">NAT</span> server instance solves this problem by offering instances on private
+subnets proxy access to the Internet. This is implemented by setting the
+default route for your private subnets to point to the <span class="caps">NAT</span> instance, rather
+than pointing to the <span class="caps">VPC</span>&#8217;s internet gateway as the public subnets&nbsp;do.</p>
+<p>If your <span class="caps">NAT</span> instance is replaced for any reason, the routing table for your
+private subnets will need to be updated to point to the replacement <span class="caps">NAT</span>
+instance. The solution documented here automates the process by pointing the
+private subnet route table default gateway at a discrete Elastic <span class="caps">IP</span>. That <span class="caps">EIP</span>
+is moved from one <span class="caps">NAT</span> server instance to the next, automatically during the
+instance creation process. This obviates the need to touch the route table, and
+is fully automated using Auto Scaling. In&nbsp;short:</p>
+<ol>
+<li>Auto Scaling sees there is no <span class="caps">NAT</span> instance, or the <span class="caps">NAT</span> instance is no longer in a healthy&nbsp;state.</li>
+<li>Auto Scaling terminates any existing <span class="caps">NAT</span> server instance and creates a new&nbsp;instance.</li>
+<li>Commands in the instance user data attaches the discrete <span class="caps">EIP</span> to the new&nbsp;instance.</li>
+<li>Private subnet traffic now flows through the new <span class="caps">NAT</span>&nbsp;instance.</li>
+</ol>
+<h1><span class="caps">IAM</span>&nbsp;Role</h1>
+<p>As you will see below, when a replacement <span class="caps">NAT</span> instance is brought online, the
+new instance runs a script (&#8220;<a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/user-data.html">User
+Data</a>&#8220;). One
+of the functions of that script is to attach the discrete <span class="caps">EIP</span> to the instance.
+The <span class="caps">NAT</span> instance requires appropriate permissions before it is allowed to make
+changes to the <span class="caps">EIP</span>. We use an <span class="caps">AWS</span> <span class="caps">IAM</span> role to provision the necessary&nbsp;permissions.</p>
+<p>In the <span class="caps">AWS</span> console, go to Services -&gt; <span class="caps">IAM</span>, click &#8220;Roles&#8221; and then click &#8220;Create
+New&nbsp;Role&#8221;.</p>
+<p><img alt="Create New Role" src="images/ha_nat/ha_nat_iam_001.png" /></p>
+<p>Give the role an appropriate name and click &#8220;Next&nbsp;Step&#8221;.</p>
+<p><img alt="Set Role Name" src="images/ha_nat/ha_nat_iam_002.png" /></p>
+<p>At Step 2, select the &#8220;Amazon <span class="caps">EC2</span>&#8221; service role and then click &#8220;Next&nbsp;Step&#8221;.</p>
+<p><img alt="Select Role Type" src="images/ha_nat/ha_nat_iam_003.png" /></p>
+<p>Review and click &#8220;Create&nbsp;Role&#8221;.</p>
+<p><img alt="Create Role" src="images/ha_nat/ha_nat_iam_004.png" /></p>
+<p>Now select the new role, expand the &#8220;Inline Policies&#8221; section and click the
+&#8220;click here&#8221; text to create an inline&nbsp;policy.</p>
+<p><img alt="Inline Policy" src="images/ha_nat/ha_nat_iam_005.png" /></p>
+<p>By default the Policy Generator should be selected. Click the &#8220;Select&#8221;&nbsp;button.</p>
+<p><img alt="Set Permissions" src="images/ha_nat/ha_nat_iam_006.png" /></p>
+<p>Change the <span class="caps">AWS</span> Service to &#8220;Amazon <span class="caps">EC2</span>&#8221; and in the Actions drop down, select
+&#8220;AttachNetworkInterface&#8221; and &#8220;ModifyInstanceAttribute&#8221;. In the <span class="caps">ARN</span> text box,
+just enter &#8220;*&#8221;. Click &#8220;Add Statement&#8221; and then click &#8220;Next&nbsp;Step&#8221;.</p>
+<p><img alt="Edit Permissions" src="images/ha_nat/ha_nat_iam_008.png" /></p>
+<p>Click Apply&nbsp;Policy.</p>
+<p><img alt="Review Policy" src="images/ha_nat/ha_nat_iam_009.png" /></p>
+<p>The policy should look like&nbsp;this:</p>
+<pre><code>{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Stmt1431450055000",
+            "Effect": "Allow",
+            "Action": [
+                "ec2:AttachNetworkInterface",
+                "ec2:ModifyInstanceAttribute"
+            ],
+            "Resource": [
+                "*"
+            ]
+        }
+    ]
+}
+</code></pre>
+<h1>Elastic <span class="caps">IP</span></h1>
+<p>We will create a new <span class="caps">EIP</span>, distinct from any one instance. This <span class="caps">EIP</span> will be
+attached to the current active <span class="caps">NAT</span> instance, and moved from one instance to the
+next as needed. As mentioned, as each new <span class="caps">NAT</span> instance comes online, its user
+data script actually &#8220;grabs&#8221; the discrete <span class="caps">EIP</span>.</p>
+<h1>User&nbsp;Data</h1>
+<p><span class="caps">AWS</span> allows you to customize new instances with &#8220;User Data&#8221;. User data can be
+specified in a number of ways, including passing a shell script to the
+instance. The user data is executed towards the end of the instance creation
+cycle. The user data we will use instructs a new instance to attach the Elastic
+<span class="caps">IP</span> to it itself, to disable source-destination checks, and to ensure forwarding
+is enabled on the&nbsp;instance.</p>
+<pre><code>#!/bin/bash
+
+function log () {
+    echo "$(date +"%b %e %T") $@"
+    logger -- $(basename $0)" - $@"
+}
+
+export AWS_DEFAULT_REGION="us-east-1"
+instance_id=$(curl -s http://169.254.169.254/latest/meta-data/instance-id)
+eni_id="eni-fd054db5"
+
+/usr/bin/aws ec2 modify-instance-attribute --instance-id ${instance_id} --no-source-dest-check
+/usr/bin/aws ec2 attach-network-interface  --instance-id ${instance_id} --network-interface-id ${eni_id} --device-index 1
+
+retcode=$?
+[ "$retcode" -eq 0 ] &amp;&amp; { log "eni attachment successful" ; } || { log "eni attachment failed" ; exit 1 ; }
+
+sleep 60
+ifdown eth0
+iptables -t nat -A POSTROUTING -j MASQUERADE
+iptables -A FORWARD -j ACCEPT
+echo 1 &gt; /proc/sys/net/ipv4/ip_forward
+</code></pre>
+<h1>Security&nbsp;Group</h1>
+<p>You will need an appropriate security group. It should allow <span class="caps">HTTP</span> and <span class="caps">HTTPS</span>
+from your private subnets or your entire <span class="caps">VPC</span>.</p>
+<h1>Launch&nbsp;Configuration</h1>
+<p>ami-303b1458</p>
+<p>We use the launch configuration to define the characteristics of the <span class="caps">EC2</span>
+instances that Auto Scaling will launch. We specify the Amazon Machine Image to
+use, the instance type, user data, etc. Essentially all the same information
+you would specify if you were manually launching a <span class="caps">EC2</span>&nbsp;instance.</p>
+<p>Amazon provides ready-made NAt server instances, based on Amazon Linux, and
+that is what we use here. No matter your preference for <span class="caps">OS</span>, the Amazon Linux
+based <span class="caps">NAT</span> instances are essentially appliances. Specifically, and at the time
+of this writing, I am using the <span class="caps">AMI</span> ami-303b1458, the latest availbel Amazon
+Linux <span class="caps">NAT</span> <span class="caps">AMI</span> in the <span class="caps">US</span> East&nbsp;region.</p>
+<p>I&#8217;ve specific t2.micro instance type and my <span class="caps">NAT</span> security&nbsp;group.</p>
+<p>I&#8217;ve included my above user data shell&nbsp;script.</p>
+<h1>Auto Scaling&nbsp;Group</h1>
+<p>The Auto Scaling group ties everything&nbsp;together.</p>
+            </div>
+            <!-- /.entry-content -->
+        </article>
+    </section>
+
+        </div>
+        <div class="col-sm-3" id="sidebar">
+            <aside>
+<div id="aboutme">
+        <p>
+            <img width="100%" class="img-thumbnail" src="/images/nihla.jpg"/>
+        </p>
+    <p>
+        <strong>About Mark E. Drummond</strong><br/>
+        Level 81 IT Systems Analyst, Level 2 Data Analyst. Motorcycling, weightlifting, and gaming enthusiast.
+    </p>
+</div>
+<section class="well well-sm">
+    <ul class="list-group list-group-flush">
+            <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Social</span></h4>
+              <ul class="list-group" id="social">
+                <li class="list-group-item"><a href="https://github.com/dmark"><i class="fa fa-github-square fa-lg"></i> github</a></li>
+                <li class="list-group-item"><a href="http://stackoverflow.com/users/3606230/shep"><i class="fa fa-stack-overflow fa-lg"></i> stackoverflow</a></li>
+                <li class="list-group-item"><a href="https://www.kaggle.com/markdrummond"><i class="fa fa-line-chart fa-lg"></i> kaggle</a></li>
+                <li class="list-group-item"><a href="http://ca.linkedin.com/in/s19647/"><i class="fa fa-linkedin-square fa-lg"></i> linkedin</a></li>
+                <li class="list-group-item"><a href="http://last.fm/user/med1972"><i class="fa fa-lastfm-square fa-lg"></i> last.fm</a></li>
+              </ul>
+            </li>
+
+
+
+
+
+        <li class="list-group-item"><h4><i class="fa fa-external-link-square fa-lg"></i><span class="icon-label">Certifications</span></h4>
+    <li class="list-group-item">
+        <ul class="list-group" id="links">
+            <img width="100%" class="img-thumbnail" src="/images/SysOps-Administrator-Associate.png"/>
+            <img width="100%" class="img-thumbnail" src="/images/lfcs.png"/>
+        </ul>
+    </li>
+    </ul>
+</section>
+            </aside>
+        </div>
+    </div>
+</div>
+<footer>
+   <div class="container-fluid">
+      <hr>
+      <div class="row">
+         <div class="col-xs-10">&copy; 2016 Mark E. Drummond
+            &middot; Powered by <a href="https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
+            <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
+            <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>         </div>
+         <div class="col-xs-2"><p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">Back to top</a></p></div>
+      </div>
+   </div>
+</footer>
+<script src="/theme/js/jquery.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="/theme/js/bootstrap.min.js"></script>
+
+<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+<script src="/theme/js/respond.min.js"></script>
+
+
+</body>
+</html>
