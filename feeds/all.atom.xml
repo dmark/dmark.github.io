@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Mark E. Drummond</title><link href="https://dmark.github.io/" rel="alternate"></link><link href="https://dmark.github.io/feeds/all.atom.xml" rel="self"></link><id>https://dmark.github.io/</id><updated>2016-07-13T23:42:00-04:00</updated><entry><title>Platform and Data Operations Analyst</title><link href="https://dmark.github.io/new-job.html" rel="alternate"></link><published>2016-07-13T23:42:00-04:00</published><author><name>Mark E. Drummond</name></author><id>tag:dmark.github.io,2016-07-08:new-job.html</id><summary type="html">&lt;p&gt;In what was more than a bit of a surprise, I was &amp;#8220;laterally promoted&amp;#8221; to a new
+role with my employer, something I only found out less than 24 hours before it
+was announced to the department. I shall not complain. A bit of an odd way to
+go about things from a human resources perspective, but I&amp;#8217;m very happy about my
+position, and very excited about what lies&amp;nbsp;ahead.&lt;/p&gt;
+&lt;p&gt;My somewhat nebulous new title is &amp;#8220;Platform and Data Operations Analyst&amp;#8221;. Good
+descriptors for what I will actually be doing include &amp;#8220;cloud guy&amp;#8221; and &amp;#8220;putting
+the Ops in DevOps&amp;#8221;. Having previously taken lead on some of our department&amp;#8217;s
+cloud initiatives, I&amp;#8217;m being given the chance to do cloud operations full-time.
+Which is bloody fantastic. But I think they should have put &amp;#8220;Cloud&amp;#8221; in front of&amp;nbsp;&amp;#8220;Platform&amp;#8221;.&lt;/p&gt;
+&lt;p&gt;As the title suggests, there is also a data portion to this. I have been doing
+some very junior level work with our Data Services team for the past year or
+so, and I hope to continue doing more, though the details still need to be
+hammered out. It is possible my new position will lead me more toward &amp;#8216;data
+engineering&amp;#8217;, helping our data team leverage cloud-based data services. The
+door is certainly open for me to spend more of my time on data /&amp;nbsp;analytics.&lt;/p&gt;</summary><category term="misc"></category></entry><entry><title>Linux Foundation Certified System Administrator</title><link href="https://dmark.github.io/lfcs.html" rel="alternate"></link><published>2016-05-05T10:59:00-04:00</published><author><name>Mark E. Drummond</name></author><id>tag:dmark.github.io,2016-05-05:lfcs.html</id><summary type="html">&lt;p&gt;I&amp;#8217;ve been at this Unix and Linux systems management stuff for over 20 years
+now. As with my undergraduate degree&lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1" rel="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt;, I&amp;#8217;ve long wanted to knock out a few
+relevant technology certifications. Following on from my &lt;span class="caps"&gt;AWS&lt;/span&gt; SysOps
+certification, I took and passed the &lt;a href="http://www.linuxfoundation.org/"&gt;Linux
+Foundation&amp;#8217;s&lt;/a&gt;
+&lt;a href="https://training.linuxfoundation.org/certification/lfcs"&gt;&lt;span class="caps"&gt;LFCS&lt;/span&gt;&lt;/a&gt; certification
+exam this&amp;nbsp;week.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Linux Foundation Certified System Administrator" src="/images/lfcs.png" title="Linux Foundation Certified System Administrator" /&gt;&lt;/p&gt;
+&lt;div class="footnote"&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;I am a part-time undergrad at my &lt;a href="http://www.queensu.ca/"&gt;local
+University&lt;/a&gt;, chipping away at a &lt;span class="caps"&gt;B.A.&lt;/span&gt; in
+&lt;a href="http://www.econ.queensu.ca"&gt;Economics&lt;/a&gt;.&amp;#160;&lt;a class="footnote-backref" href="#fnref:1" rev="footnote" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</summary><category term="lfcs"></category></entry><entry><title>Highly Available NAT with AWS Auto Scaling</title><link href="https://dmark.github.io/aws-ha-nat-auto-scaling.html" rel="alternate"></link><published>2016-05-06T11:06:00-04:00</published><author><name>Mark E. Drummond</name></author><id>tag:dmark.github.io,2015-05-22:aws-ha-nat-auto-scaling.html</id><summary type="html">&lt;p&gt;[This document is a&amp;nbsp;work-in-porgress.]&lt;/p&gt;
+&lt;p&gt;This is largely a re-spin of &lt;a href="http://cakesolutions.net/"&gt;Cake Solutions&amp;#8217;&lt;/a&gt;
+methodology documented on their
+&lt;a href="http://www.cakesolutions.net/teamblogs/making-aws-nat-instances-highly-available-without-the-compromises"&gt;blog&lt;/a&gt;.
+I needed a practical exercise for working with &lt;a href="http://aws.amazon.com/autoscaling/"&gt;&lt;span class="caps"&gt;AWS&lt;/span&gt; Auto
+Scaling&lt;/a&gt;. Cake Solutions&amp;#8217; methodology fit
+the bill and I got a highly available &lt;span class="caps"&gt;NAT&lt;/span&gt; service for my &lt;span class="caps"&gt;AWS&lt;/span&gt; &lt;span class="caps"&gt;VPC&lt;/span&gt; environments
+for my, and their (mostly their),&amp;nbsp;efforts.&lt;/p&gt;
+&lt;p&gt;Highly available in this context means Auto Scaling will replace my running &lt;span class="caps"&gt;NAT&lt;/span&gt;
+instance if there are any problems with that instance. There is a short outage
+while the instance is&amp;nbsp;replaced.&lt;/p&gt;
+&lt;p&gt;This is written from the perspective of Linux&amp;nbsp;instances.&lt;/p&gt;
+&lt;h1&gt;Overview&lt;/h1&gt;
+&lt;p&gt;In order for an &lt;span class="caps"&gt;EC2&lt;/span&gt; instance to initiate connections out to the Internet, it
+must either have a public &lt;span class="caps"&gt;IP&lt;/span&gt; address assigned to it, or have access to a &lt;span class="caps"&gt;NAT&lt;/span&gt;
+instance that has a public &lt;span class="caps"&gt;IP&lt;/span&gt; address itself. Since instances on private
+subnets do not have public &lt;span class="caps"&gt;IP&lt;/span&gt; addresses, they must use a &lt;span class="caps"&gt;NAT&lt;/span&gt; instance. Probably
+the most common use-case here is for instances on private subnets to be able to
+query their appropriate software repositories to download and update their&amp;nbsp;software.&lt;/p&gt;
+&lt;p&gt;The &lt;span class="caps"&gt;NAT&lt;/span&gt; server instance solves this problem by offering instances on private
+subnets proxy access to the Internet. This is implemented by setting the
+default route for your private subnets to point to the &lt;span class="caps"&gt;NAT&lt;/span&gt; instance, rather
+than pointing to the &lt;span class="caps"&gt;VPC&lt;/span&gt;&amp;#8217;s internet gateway as the public subnets&amp;nbsp;do.&lt;/p&gt;
+&lt;p&gt;If your &lt;span class="caps"&gt;NAT&lt;/span&gt; instance is replaced for any reason, the routing table for your
+private subnets will need to be updated to point to the replacement &lt;span class="caps"&gt;NAT&lt;/span&gt;
+instance. The solution documented here automates the process by pointing the
+private subnet route table default gateway at a discrete Elastic &lt;span class="caps"&gt;IP&lt;/span&gt;. That &lt;span class="caps"&gt;EIP&lt;/span&gt;
+is moved from one &lt;span class="caps"&gt;NAT&lt;/span&gt; server instance to the next, automatically during the
+instance creation process. This obviates the need to touch the route table, and
+is fully automated using Auto Scaling. In&amp;nbsp;short:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Auto Scaling sees there is no &lt;span class="caps"&gt;NAT&lt;/span&gt; instance, or the &lt;span class="caps"&gt;NAT&lt;/span&gt; instance is no longer in a healthy&amp;nbsp;state.&lt;/li&gt;
+&lt;li&gt;Auto Scaling terminates any existing &lt;span class="caps"&gt;NAT&lt;/span&gt; server instance and creates a new&amp;nbsp;instance.&lt;/li&gt;
+&lt;li&gt;Commands in the instance user data attaches the discrete &lt;span class="caps"&gt;EIP&lt;/span&gt; to the new&amp;nbsp;instance.&lt;/li&gt;
+&lt;li&gt;Private subnet traffic now flows through the new &lt;span class="caps"&gt;NAT&lt;/span&gt;&amp;nbsp;instance.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1&gt;&lt;span class="caps"&gt;IAM&lt;/span&gt;&amp;nbsp;Role&lt;/h1&gt;
+&lt;p&gt;As you will see below, when a replacement &lt;span class="caps"&gt;NAT&lt;/span&gt; instance is brought online, the
+new instance runs a script (&amp;#8220;&lt;a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/user-data.html"&gt;User
+Data&lt;/a&gt;&amp;#8220;). One
+of the functions of that script is to attach the discrete &lt;span class="caps"&gt;EIP&lt;/span&gt; to the instance.
+The &lt;span class="caps"&gt;NAT&lt;/span&gt; instance requires appropriate permissions before it is allowed to make
+changes to the &lt;span class="caps"&gt;EIP&lt;/span&gt;. We use an &lt;span class="caps"&gt;AWS&lt;/span&gt; &lt;span class="caps"&gt;IAM&lt;/span&gt; role to provision the necessary&amp;nbsp;permissions.&lt;/p&gt;
+&lt;p&gt;In the &lt;span class="caps"&gt;AWS&lt;/span&gt; console, go to Services -&amp;gt; &lt;span class="caps"&gt;IAM&lt;/span&gt;, click &amp;#8220;Roles&amp;#8221; and then click &amp;#8220;Create
+New&amp;nbsp;Role&amp;#8221;.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Create New Role" src="images/ha_nat/ha_nat_iam_001.png" /&gt;&lt;/p&gt;
+&lt;p&gt;Give the role an appropriate name and click &amp;#8220;Next&amp;nbsp;Step&amp;#8221;.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Set Role Name" src="images/ha_nat/ha_nat_iam_002.png" /&gt;&lt;/p&gt;
+&lt;p&gt;At Step 2, select the &amp;#8220;Amazon &lt;span class="caps"&gt;EC2&lt;/span&gt;&amp;#8221; service role and then click &amp;#8220;Next&amp;nbsp;Step&amp;#8221;.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Select Role Type" src="images/ha_nat/ha_nat_iam_003.png" /&gt;&lt;/p&gt;
+&lt;p&gt;Review and click &amp;#8220;Create&amp;nbsp;Role&amp;#8221;.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Create Role" src="images/ha_nat/ha_nat_iam_004.png" /&gt;&lt;/p&gt;
+&lt;p&gt;Now select the new role, expand the &amp;#8220;Inline Policies&amp;#8221; section and click the
+&amp;#8220;click here&amp;#8221; text to create an inline&amp;nbsp;policy.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Inline Policy" src="images/ha_nat/ha_nat_iam_005.png" /&gt;&lt;/p&gt;
+&lt;p&gt;By default the Policy Generator should be selected. Click the &amp;#8220;Select&amp;#8221;&amp;nbsp;button.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Set Permissions" src="images/ha_nat/ha_nat_iam_006.png" /&gt;&lt;/p&gt;
+&lt;p&gt;Change the &lt;span class="caps"&gt;AWS&lt;/span&gt; Service to &amp;#8220;Amazon &lt;span class="caps"&gt;EC2&lt;/span&gt;&amp;#8221; and in the Actions drop down, select
+&amp;#8220;AttachNetworkInterface&amp;#8221; and &amp;#8220;ModifyInstanceAttribute&amp;#8221;. In the &lt;span class="caps"&gt;ARN&lt;/span&gt; text box,
+just enter &amp;#8220;*&amp;#8221;. Click &amp;#8220;Add Statement&amp;#8221; and then click &amp;#8220;Next&amp;nbsp;Step&amp;#8221;.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Edit Permissions" src="images/ha_nat/ha_nat_iam_008.png" /&gt;&lt;/p&gt;
+&lt;p&gt;Click Apply&amp;nbsp;Policy.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Review Policy" src="images/ha_nat/ha_nat_iam_009.png" /&gt;&lt;/p&gt;
+&lt;p&gt;The policy should look like&amp;nbsp;this:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Stmt1431450055000",
+            "Effect": "Allow",
+            "Action": [
+                "ec2:AttachNetworkInterface",
+                "ec2:ModifyInstanceAttribute"
+            ],
+            "Resource": [
+                "*"
+            ]
+        }
+    ]
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h1&gt;Elastic &lt;span class="caps"&gt;IP&lt;/span&gt;&lt;/h1&gt;
+&lt;p&gt;We will create a new &lt;span class="caps"&gt;EIP&lt;/span&gt;, distinct from any one instance. This &lt;span class="caps"&gt;EIP&lt;/span&gt; will be
+attached to the current active &lt;span class="caps"&gt;NAT&lt;/span&gt; instance, and moved from one instance to the
+next as needed. As mentioned, as each new &lt;span class="caps"&gt;NAT&lt;/span&gt; instance comes online, its user
+data script actually &amp;#8220;grabs&amp;#8221; the discrete &lt;span class="caps"&gt;EIP&lt;/span&gt;.&lt;/p&gt;
+&lt;h1&gt;User&amp;nbsp;Data&lt;/h1&gt;
+&lt;p&gt;&lt;span class="caps"&gt;AWS&lt;/span&gt; allows you to customize new instances with &amp;#8220;User Data&amp;#8221;. User data can be
+specified in a number of ways, including passing a shell script to the
+instance. The user data is executed towards the end of the instance creation
+cycle. The user data we will use instructs a new instance to attach the Elastic
+&lt;span class="caps"&gt;IP&lt;/span&gt; to it itself, to disable source-destination checks, and to ensure forwarding
+is enabled on the&amp;nbsp;instance.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;#!/bin/bash
+
+function log () {
+    echo "$(date +"%b %e %T") $@"
+    logger -- $(basename $0)" - $@"
+}
+
+export AWS_DEFAULT_REGION="us-east-1"
+instance_id=$(curl -s http://169.254.169.254/latest/meta-data/instance-id)
+eni_id="eni-fd054db5"
+
+/usr/bin/aws ec2 modify-instance-attribute --instance-id ${instance_id} --no-source-dest-check
+/usr/bin/aws ec2 attach-network-interface  --instance-id ${instance_id} --network-interface-id ${eni_id} --device-index 1
+
+retcode=$?
+[ "$retcode" -eq 0 ] &amp;amp;&amp;amp; { log "eni attachment successful" ; } || { log "eni attachment failed" ; exit 1 ; }
+
+sleep 60
+ifdown eth0
+iptables -t nat -A POSTROUTING -j MASQUERADE
+iptables -A FORWARD -j ACCEPT
+echo 1 &amp;gt; /proc/sys/net/ipv4/ip_forward
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h1&gt;Security&amp;nbsp;Group&lt;/h1&gt;
+&lt;p&gt;You will need an appropriate security group. It should allow &lt;span class="caps"&gt;HTTP&lt;/span&gt; and &lt;span class="caps"&gt;HTTPS&lt;/span&gt;
+from your private subnets or your entire &lt;span class="caps"&gt;VPC&lt;/span&gt;.&lt;/p&gt;
+&lt;h1&gt;Launch&amp;nbsp;Configuration&lt;/h1&gt;
+&lt;p&gt;ami-303b1458&lt;/p&gt;
+&lt;p&gt;We use the launch configuration to define the characteristics of the &lt;span class="caps"&gt;EC2&lt;/span&gt;
+instances that Auto Scaling will launch. We specify the Amazon Machine Image to
+use, the instance type, user data, etc. Essentially all the same information
+you would specify if you were manually launching a &lt;span class="caps"&gt;EC2&lt;/span&gt;&amp;nbsp;instance.&lt;/p&gt;
+&lt;p&gt;Amazon provides ready-made NAt server instances, based on Amazon Linux, and
+that is what we use here. No matter your preference for &lt;span class="caps"&gt;OS&lt;/span&gt;, the Amazon Linux
+based &lt;span class="caps"&gt;NAT&lt;/span&gt; instances are essentially appliances. Specifically, and at the time
+of this writing, I am using the &lt;span class="caps"&gt;AMI&lt;/span&gt; ami-303b1458, the latest availbel Amazon
+Linux &lt;span class="caps"&gt;NAT&lt;/span&gt; &lt;span class="caps"&gt;AMI&lt;/span&gt; in the &lt;span class="caps"&gt;US&lt;/span&gt; East&amp;nbsp;region.&lt;/p&gt;
+&lt;p&gt;I&amp;#8217;ve specific t2.micro instance type and my &lt;span class="caps"&gt;NAT&lt;/span&gt; security&amp;nbsp;group.&lt;/p&gt;
+&lt;p&gt;I&amp;#8217;ve included my above user data shell&amp;nbsp;script.&lt;/p&gt;
+&lt;h1&gt;Auto Scaling&amp;nbsp;Group&lt;/h1&gt;
+&lt;p&gt;The Auto Scaling group ties everything&amp;nbsp;together.&lt;/p&gt;</summary><category term="aws"></category></entry><entry><title>My First Pull Request</title><link href="https://dmark.github.io/my-first-pull-request.html" rel="alternate"></link><published>2015-05-20T19:36:00-04:00</published><author><name>Mark E. Drummond</name></author><id>tag:dmark.github.io,2015-05-20:my-first-pull-request.html</id><summary type="html">&lt;p&gt;I use &lt;a href="http://getpelican.com/"&gt;Pelican&lt;/a&gt; and the
+&lt;a href="https://github.com/DandyDev/pelican-bootstrap3"&gt;pelican-bootstrap3&lt;/a&gt; theme to
+built this&amp;nbsp;site.&lt;/p&gt;
+&lt;p&gt;I made my first real pull request today in the form of a minor contribution to
+&lt;a href="https://github.com/DandyDev/pelican-bootstrap3"&gt;pelican-bootstrap3&lt;/a&gt;. I added a
+&lt;a href="https://github.com/DandyDev/pelican-bootstrap3/pull/190"&gt;feature&lt;/a&gt; that allows
+you to add a series of images to the sidebar. The original intent was to allow
+me to add certification marks to my sidebar, which you can now see in action
+right&amp;nbsp;here!&lt;/p&gt;
+&lt;p&gt;Props to &lt;a href="https://github.com/DandyDev"&gt;@DandyDev&lt;/a&gt; for the pro&amp;nbsp;tips.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="My first pull request" src="/images/my-first-pull-request.png" title="My first pull request" /&gt;&lt;/p&gt;</summary><category term="git"></category><category term="github"></category><category term="pelican-bootstrap3"></category></entry><entry><title>AWS SysOps Administration - Associate</title><link href="https://dmark.github.io/aws-sysops.html" rel="alternate"></link><published>2015-05-20T19:42:00-04:00</published><author><name>Mark E. Drummond</name></author><id>tag:dmark.github.io,2015-05-20:aws-sysops.html</id><summary type="html">&lt;p&gt;Last week I took the &lt;a href="http://aws.amazon.com/certification/certified-sysops-admin-associate/"&gt;&lt;span class="caps"&gt;AWS&lt;/span&gt; SysOps Administrator -
+Associate&lt;/a&gt;
+test and &lt;a href="/files/awsSysOpsAdmin_AE.pdf"&gt;passed&lt;/a&gt; with flying colours. Next step
+will be the Developer and then the DevOps certifications, both of which I hope
+to complete this year. I look forward to doing a lot more work in &lt;span class="caps"&gt;AWS&lt;/span&gt; in the&amp;nbsp;future.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="AWS SysOps Administrator -
+Associate" src="/images/SysOps-Administrator-Associate.png" title="&amp;quot;AWS SysOps Administrator - Associate" /&gt;&lt;/p&gt;</summary><category term="aws"></category></entry><entry><title>My First Kaggle Competition</title><link href="https://dmark.github.io/my-first-kaggle-comp.html" rel="alternate"></link><published>2015-05-04T00:00:00-04:00</published><author><name>Mark E. Drummond</name></author><id>tag:dmark.github.io,2015-05-04:my-first-kaggle-comp.html</id><summary type="html">&lt;p&gt;We are wrapping up the final week of &lt;span class="caps"&gt;MIT&lt;/span&gt;&amp;#8217;s &lt;a href="https://www.edx.org/course/analytics-edge-mitx-15-071x-0"&gt;15.071x &amp;#8220;The Analytics
+Edge&amp;#8221;&lt;/a&gt; course,
+delivered online via &lt;a href="http://edx.org"&gt;edX.org&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;As part of the course I participated in my first Kaggle competition. I finished
+in 1406th place out of 2923 people with a Private leaderboard score of 0.88319,
+down from a public leaderboard score of&amp;nbsp;0.91792.&lt;/p&gt;
+&lt;p&gt;The mean score for all submissions was 0.8551523, median 0.90237, with a
+standard deviation of&amp;nbsp;0.09301734.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Min.    1st Qu. Median  Mean    3rd Qu. Max.
+0.2500  0.7945  0.9024  0.8552  0.9204  0.9455
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Not a great result, but a great learning experience. Many of the top finishers
+are sharing their code so I look forward to reviewing what they did. It is
+interesting to see some of the dramatic shifts in the top tier finishers when
+going from the publicly available test data to the private test data&amp;nbsp;set.&lt;/p&gt;
+&lt;p&gt;The red and blue lines below represent my final and public leaderboard scores&amp;nbsp;respectively.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Kaggle Results" src="/images/15.071x-kaggle-results.png" /&gt;&lt;/p&gt;</summary><category term="data"></category><category term="analytics"></category></entry><entry><title>The First Post</title><link href="https://dmark.github.io/the-first-post.html" rel="alternate"></link><published>2016-05-06T10:34:00-04:00</published><author><name>Mark E. Drummond</name></author><id>tag:dmark.github.io,2015-01-18:the-first-post.html</id><summary type="html">&lt;p&gt;I have proven to be absolutely terrible at this blogging business, but I&amp;#8217;m
+giving it another whirl. This is intended to be some form of working life /
+professional experience related site. I suppose it is meant to be a &amp;#8220;brag
+sheet&amp;#8221;, and possibly a &amp;#8220;negative exposure&amp;#8221; blog, in the sense that exposing my
+failures publicly helps me to avoid failure. I&amp;#8217;m looking at you burgeoning
+waistline and wasted gym membership&amp;nbsp;dollars.&lt;/p&gt;
+&lt;p&gt;You will find more personal details on the &lt;a href="/pages/about.html"&gt;About&lt;/a&gt; page, and
+a reasonably up-to-date resume &lt;a href="/files/Mark_Drummond_Resume.pdf"&gt;here&lt;/a&gt;. More
+info can be gleaned from my other online presences, linked in the&amp;nbsp;sidebar.&lt;/p&gt;
+&lt;p&gt;If the image on the right is still there when you read this, that&amp;#8217;s one of my
+dogs, Nihla. She&amp;#8217;s no longer with us, and she is sorely&amp;nbsp;missed.&lt;/p&gt;</summary><category term="misc"></category></entry></feed>
