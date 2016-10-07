@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Mark Drummond</title><link href="http://dmark.github.io/" rel="alternate"></link><link href="http://dmark.github.io/feeds/narcissism.atom.xml" rel="self"></link><id>http://dmark.github.io/</id><updated>2016-07-20T07:18:00+00:00</updated><entry><title>About</title><link href="http://dmark.github.io/about.html" rel="alternate"></link><published>2016-07-20T07:18:00+00:00</published><updated>2016-07-20T07:18:00+00:00</updated><author><name></name></author><id>tag:dmark.github.io,1972-05-17:about.html</id><summary type="html">&lt;p&gt;mark [AT] markdrummond [DOT] ca&lt;/p&gt;
+&lt;p&gt;I am a career IT systems analyst, until recently specializing in Linux and Unix
+systems, Identity and Access Management, and Java EE application server
+environments.&lt;/p&gt;
+&lt;p&gt;Over the past few years I took a lead role in my organization's first steps
+into the cloud, and I've gotten involved with our data analytics team as well.
+As a result of my cloud initiatives and data work, I was recently "laterally
+promoted" to the position of Platform and Data Operations Analyst.&lt;/p&gt;
+&lt;p&gt;I am also a part-time undergraduate student at &lt;a href="http://www.queensu.ca/"&gt;Queen's
+University&lt;/a&gt;, working on a B.A. in
+&lt;a href="http://www.econ.queensu.ca/"&gt;Economics&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;My professional interests include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Cloud technologies including AWS, Google Cloud, Docker, Heroku, CoreOS, etc.&lt;/li&gt;
+&lt;li&gt;Data Analytics and Machine Learning, particularly their implementation in code.&lt;/li&gt;
+&lt;li&gt;Coding, primarily in Python and R.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A PDF copy of a reasonably up-to-date &lt;a href="/files/Mark_Drummond_Resume.pdf"&gt;resume&lt;/a&gt;
+is linked in the header above, and more details are available on my
+&lt;a href="http://ca.linkedin.com/in/s19647/"&gt;LinkedIn&lt;/a&gt; page.&lt;/p&gt;</summary><category term="about"></category></entry></feed>

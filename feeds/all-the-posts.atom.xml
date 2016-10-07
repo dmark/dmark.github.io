@@ -1,62 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Mark Drummond</title><link href="http://dmark.github.io/" rel="alternate"></link><link href="http://dmark.github.io/feeds/all-the-posts.atom.xml" rel="self"></link><id>http://dmark.github.io/</id><updated>2016-08-26T17:58:00-04:00</updated><entry><title>AWS Certified Solutions Architect - Associate</title><link href="http://dmark.github.io/aws-architect.html" rel="alternate"></link><published>2016-08-26T00:00:00-04:00</published><author><name>Mark Drummond</name></author><id>tag:dmark.github.io,2016-08-26:aws-architect.html</id><summary type="html">&lt;p&gt;Another certification in the bag. I wrote the &lt;span class="caps"&gt;AWS&lt;/span&gt; Associate level Solutions
-Architect exam today. I didn&amp;#8217;t realize &lt;span class="caps"&gt;AWS&lt;/span&gt; certs are only good for 2 years.
-Sets a bit of a roadmap for my &lt;span class="caps"&gt;AWS&lt;/span&gt; certifications going forward. I got my
-Associate level SysOps cert in earl 2015, so I&amp;#8217;ll want to replace it with the
-Professional level DevOps cert next year, and I&amp;#8217;ll want to replace my Associate
-level Architect cert with the Professional level cert in&amp;nbsp;2018.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="AWS Certified Solutions Architect - Associate" src="https://s3.amazonaws.com/citmkd/aws-certification-marks/Solutions-Architect-Associate.png" /&gt;&lt;/p&gt;</summary><category term="aws"></category></entry><entry><title>Platform and Data Operations Analyst</title><link href="http://dmark.github.io/new-job.html" rel="alternate"></link><published>2016-07-20T09:00:00-04:00</published><author><name>Mark Drummond</name></author><id>tag:dmark.github.io,2016-07-08:new-job.html</id><summary type="html">&lt;p&gt;In what was more than a bit of a surprise, I was &amp;#8220;laterally promoted&amp;#8221; to a new
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Mark Drummond</title><link href="http://dmark.github.io/" rel="alternate"></link><link href="http://dmark.github.io/feeds/all-the-posts.atom.xml" rel="self"></link><id>http://dmark.github.io/</id><updated>2016-08-26T17:58:00+00:00</updated><entry><title>AWS Certified Solutions Architect - Associate</title><link href="http://dmark.github.io/aws-architect.html" rel="alternate"></link><published>2016-08-26T00:00:00+00:00</published><updated>2016-08-26T00:00:00+00:00</updated><author><name></name></author><id>tag:dmark.github.io,2016-08-26:aws-architect.html</id><summary type="html">&lt;p&gt;Another certification in the bag. I wrote the AWS Associate level Solutions
+Architect exam today. I didn't realize AWS certs are only good for 2 years.
+Sets a bit of a roadmap for my AWS certifications going forward. I got my
+Associate level SysOps cert in earl 2015, so I'll want to replace it with the
+Professional level DevOps cert next year, and I'll want to replace my Associate
+level Architect cert with the Professional level cert in 2018.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="AWS Certified Solutions Architect - Associate" src="https://s3.amazonaws.com/citmkd/aws-certification-marks/Solutions-Architect-Associate.png" /&gt;&lt;/p&gt;</summary><category term="aws"></category></entry><entry><title>Platform and Data Operations Analyst</title><link href="http://dmark.github.io/new-job.html" rel="alternate"></link><published>2016-07-20T09:00:00+00:00</published><updated>2016-07-20T09:00:00+00:00</updated><author><name></name></author><id>tag:dmark.github.io,2016-07-08:new-job.html</id><summary type="html">&lt;p&gt;In what was more than a bit of a surprise, I was "laterally promoted" to a new
 role with my employer, something I only found out less than 24 hours before it
 was announced to the department. I shall not complain. A bit of an odd way to
-go about things from a human resources perspective, but I&amp;#8217;m very happy about my
-new position, and very excited about what lies&amp;nbsp;ahead.&lt;/p&gt;
-&lt;p&gt;My somewhat nebulous new title is &amp;#8220;Platform and Data Operations Analyst&amp;#8221;. Good
-descriptors for what I will actually be doing include &amp;#8220;cloud guy&amp;#8221; and &amp;#8220;putting
-the Ops in DevOps&amp;#8221;. Having previously taken lead on some of our department&amp;#8217;s
-cloud initiatives, I&amp;#8217;m being given the chance to do cloud operations full-time.
-Which is bloody fantastic. But I think they should have put &amp;#8220;Cloud&amp;#8221; in front of&amp;nbsp;&amp;#8220;Platform&amp;#8221;.&lt;/p&gt;
+go about things from a human resources perspective, but I'm very happy about my
+new position, and very excited about what lies ahead.&lt;/p&gt;
+&lt;p&gt;My somewhat nebulous new title is "Platform and Data Operations Analyst". Good
+descriptors for what I will actually be doing include "cloud guy" and "putting
+the Ops in DevOps". Having previously taken lead on some of our department's
+cloud initiatives, I'm being given the chance to do cloud operations full-time.
+Which is bloody fantastic. But I think they should have put "Cloud" in front of
+"Platform".&lt;/p&gt;
 &lt;p&gt;As the title suggests, there is also a data portion to this. I have been doing
 some very junior level work with our Data Services team for the past year or
 so, and I hope to continue doing more, though the details still need to be
-hammered out. It is possible my new position will lead me more toward &amp;#8216;data
-engineering&amp;#8217;, helping our data team leverage cloud-based data services. The
-door is certainly open for me to spend more of my time on data /&amp;nbsp;analytics.&lt;/p&gt;</summary><category term="misc"></category></entry><entry><title>Linux Foundation Certified System Administrator</title><link href="http://dmark.github.io/lfcs.html" rel="alternate"></link><published>2016-05-05T10:59:00-04:00</published><author><name>Mark Drummond</name></author><id>tag:dmark.github.io,2016-05-05:lfcs.html</id><summary type="html">&lt;p&gt;I&amp;#8217;ve been at this Unix and Linux systems management stuff for over 20 years
-now. As with my undergraduate degree&lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1" rel="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt;, I&amp;#8217;ve long wanted to knock out a few
-relevant technology certifications. Following on from my &lt;span class="caps"&gt;AWS&lt;/span&gt; SysOps
+hammered out. It is possible my new position will lead me more toward 'data
+engineering', helping our data team leverage cloud-based data services. The
+door is certainly open for me to spend more of my time on data / analytics.&lt;/p&gt;</summary><category term="misc"></category></entry><entry><title>Linux Foundation Certified System Administrator</title><link href="http://dmark.github.io/lfcs.html" rel="alternate"></link><published>2016-05-05T10:59:00+00:00</published><updated>2016-05-05T10:59:00+00:00</updated><author><name></name></author><id>tag:dmark.github.io,2016-05-05:lfcs.html</id><summary type="html">&lt;p&gt;I've been at this Unix and Linux systems management stuff for over 20 years
+now. As with my undergraduate degree&lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1" rel="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt;, I've long wanted to knock out a few
+relevant technology certifications. Following on from my AWS SysOps
 certification, I took and passed the &lt;a href="http://www.linuxfoundation.org/"&gt;Linux
-Foundation&amp;#8217;s&lt;/a&gt;
-&lt;a href="https://training.linuxfoundation.org/certification/lfcs"&gt;&lt;span class="caps"&gt;LFCS&lt;/span&gt;&lt;/a&gt; certification
-exam this&amp;nbsp;week.&lt;/p&gt;
+Foundation's&lt;/a&gt;
+&lt;a href="https://training.linuxfoundation.org/certification/lfcs"&gt;LFCS&lt;/a&gt; certification
+exam this week.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Linux Foundation Certified System Administrator" src="/images/lfcs-small.png" title="Linux Foundation Certified System Administrator" /&gt;&lt;/p&gt;
 &lt;div class="footnote"&gt;
 &lt;hr /&gt;
 &lt;ol&gt;
 &lt;li id="fn:1"&gt;
 &lt;p&gt;I am a part-time undergrad at my &lt;a href="http://www.queensu.ca/"&gt;local
-University&lt;/a&gt;, chipping away at a &lt;span class="caps"&gt;B.A.&lt;/span&gt; in
+University&lt;/a&gt;, chipping away at a B.A. in
 &lt;a href="http://www.econ.queensu.ca"&gt;Economics&lt;/a&gt;.&amp;#160;&lt;a class="footnote-backref" href="#fnref:1" rev="footnote" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</summary><category term="lfcs"></category></entry><entry><title>My First Pull Request</title><link href="http://dmark.github.io/my-first-pull-request.html" rel="alternate"></link><published>2015-05-20T19:36:00-04:00</published><author><name>Mark Drummond</name></author><id>tag:dmark.github.io,2015-05-20:my-first-pull-request.html</id><summary type="html">&lt;p&gt;I use &lt;a href="http://getpelican.com/"&gt;Pelican&lt;/a&gt; and the
+&lt;/div&gt;</summary><category term="lfcs"></category></entry><entry><title>My First Pull Request</title><link href="http://dmark.github.io/my-first-pull-request.html" rel="alternate"></link><published>2015-05-20T19:36:00+00:00</published><updated>2015-05-20T19:36:00+00:00</updated><author><name></name></author><id>tag:dmark.github.io,2015-05-20:my-first-pull-request.html</id><summary type="html">&lt;p&gt;I use &lt;a href="http://getpelican.com/"&gt;Pelican&lt;/a&gt; and the
 &lt;a href="https://github.com/DandyDev/pelican-bootstrap3"&gt;pelican-bootstrap3&lt;/a&gt; theme to
-built this&amp;nbsp;site.&lt;/p&gt;
+built this site.&lt;/p&gt;
 &lt;p&gt;I made my first real pull request today in the form of a minor contribution to
 &lt;a href="https://github.com/DandyDev/pelican-bootstrap3"&gt;pelican-bootstrap3&lt;/a&gt;. I added a
 &lt;a href="https://github.com/DandyDev/pelican-bootstrap3/pull/190"&gt;feature&lt;/a&gt; that allows
 you to add a series of images to the sidebar. The original intent was to allow
 me to add certification marks to my sidebar, which you can now see in action
-right&amp;nbsp;here!&lt;/p&gt;
-&lt;p&gt;Props to &lt;a href="https://github.com/DandyDev"&gt;@DandyDev&lt;/a&gt; for the pro&amp;nbsp;tips.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="My first pull request" src="/images/my-first-pull-request.png" title="My first pull request" /&gt;&lt;/p&gt;</summary><category term="git"></category><category term="github"></category><category term="pelican-bootstrap3"></category></entry><entry><title>AWS SysOps Administration - Associate</title><link href="http://dmark.github.io/aws-sysops.html" rel="alternate"></link><published>2015-05-20T19:42:00-04:00</published><author><name>Mark Drummond</name></author><id>tag:dmark.github.io,2015-05-20:aws-sysops.html</id><summary type="html">&lt;p&gt;Last week I took the &lt;a href="http://aws.amazon.com/certification/certified-sysops-admin-associate/"&gt;&lt;span class="caps"&gt;AWS&lt;/span&gt; SysOps Administrator -
+right here!&lt;/p&gt;
+&lt;p&gt;Props to &lt;a href="https://github.com/DandyDev"&gt;@DandyDev&lt;/a&gt; for the pro tips.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="My first pull request" src="/images/my-first-pull-request.png" title="My first pull request" /&gt;&lt;/p&gt;</summary><category term="git"></category><category term="github"></category><category term="pelican-bootstrap3"></category></entry><entry><title>AWS SysOps Administration - Associate</title><link href="http://dmark.github.io/aws-sysops.html" rel="alternate"></link><published>2015-05-20T19:42:00+00:00</published><updated>2015-05-20T19:42:00+00:00</updated><author><name></name></author><id>tag:dmark.github.io,2015-05-20:aws-sysops.html</id><summary type="html">&lt;p&gt;Last week I took the &lt;a href="http://aws.amazon.com/certification/certified-sysops-admin-associate/"&gt;AWS SysOps Administrator -
 Associate&lt;/a&gt;
 test and &lt;a href="/files/awsSysOpsAdmin_AE.pdf"&gt;passed&lt;/a&gt; with flying colours. Next step
 will be the Developer and then the DevOps certifications, both of which I hope
-to complete this year. I look forward to doing a lot more work in &lt;span class="caps"&gt;AWS&lt;/span&gt; in the&amp;nbsp;future.&lt;/p&gt;
+to complete this year. I look forward to doing a lot more work in AWS in the
+future.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="AWS SysOps Administrator -
-Associate" src="/images/SysOps-Administrator-Associate.png" title="&amp;quot;AWS SysOps Administrator - Associate" /&gt;&lt;/p&gt;</summary><category term="aws"></category></entry><entry><title>The First Post</title><link href="http://dmark.github.io/the-first-post.html" rel="alternate"></link><published>2016-08-26T17:58:00-04:00</published><author><name>Mark Drummond</name></author><id>tag:dmark.github.io,2015-01-18:the-first-post.html</id><summary type="html">&lt;p&gt;I have proven to be absolutely terrible at this blogging business, but I&amp;#8217;m
+Associate" src="/images/SysOps-Administrator-Associate.png" title="&amp;quot;AWS SysOps Administrator - Associate" /&gt;&lt;/p&gt;</summary><category term="aws"></category></entry><entry><title>The First Post</title><link href="http://dmark.github.io/the-first-post.html" rel="alternate"></link><published>2016-08-26T17:58:00+00:00</published><updated>2016-08-26T17:58:00+00:00</updated><author><name></name></author><id>tag:dmark.github.io,2015-01-18:the-first-post.html</id><summary type="html">&lt;p&gt;I have proven to be absolutely terrible at this blogging business, but I'm
 giving it another whirl. This is intended to be some form of working life /
-professional experience related site. I suppose it is meant to be a &amp;#8220;brag
-sheet&amp;#8221;, though there may be some non-work stuff&amp;nbsp;too.&lt;/p&gt;
+professional experience related site. I suppose it is meant to be a "brag
+sheet", though there may be some non-work stuff too.&lt;/p&gt;
 &lt;p&gt;You will find more personal details on the &lt;a href="/pages/about.html"&gt;About&lt;/a&gt; page, and
 a reasonably up-to-date resume &lt;a href="/files/Mark_Drummond_Resume.pdf"&gt;here&lt;/a&gt;. More
-info can be gleaned from my other online presences, linked in the&amp;nbsp;sidebar.&lt;/p&gt;</summary><category term="misc"></category></entry></feed>
+info can be gleaned from my other online presences, linked in the sidebar.&lt;/p&gt;</summary><category term="misc"></category></entry></feed>
