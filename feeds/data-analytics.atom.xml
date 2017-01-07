@@ -1,21 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Mark Drummond</title><link href="http://dmark.github.io/" rel="alternate"></link><link href="http://dmark.github.io/feeds/data-analytics.atom.xml" rel="self"></link><id>http://dmark.github.io/</id><updated>2015-05-04T00:00:00+00:00</updated><entry><title>My First Kaggle Competition</title><link href="http://dmark.github.io/my-first-kaggle-comp.html" rel="alternate"></link><published>2015-05-04T00:00:00+00:00</published><updated>2015-05-04T00:00:00+00:00</updated><author><name></name></author><id>tag:dmark.github.io,2015-05-04:my-first-kaggle-comp.html</id><summary type="html">&lt;p&gt;We are wrapping up the final week of MIT's &lt;a href="https://www.edx.org/course/analytics-edge-mitx-15-071x-0"&gt;15.071x "The Analytics
-Edge"&lt;/a&gt; course,
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Mark Drummond</title><link href="http://dmark.github.io/" rel="alternate"></link><link href="http://dmark.github.io/feeds/data-analytics.atom.xml" rel="self"></link><id>http://dmark.github.io/</id><updated>2015-05-04T00:00:00-04:00</updated><entry><title>My First Kaggle Competition</title><link href="http://dmark.github.io/my-first-kaggle-comp.html" rel="alternate"></link><published>2015-05-04T00:00:00-04:00</published><updated>2015-05-04T00:00:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:dmark.github.io,2015-05-04:my-first-kaggle-comp.html</id><summary type="html">&lt;p&gt;We are wrapping up the final week of &lt;span class="caps"&gt;MIT&lt;/span&gt;&amp;#8217;s &lt;a href="https://www.edx.org/course/analytics-edge-mitx-15-071x-0"&gt;15.071x &amp;#8220;The Analytics
+Edge&amp;#8221;&lt;/a&gt; course,
 delivered online via &lt;a href="http://edx.org"&gt;edX.org&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;As part of the course I participated in my first Kaggle competition. I finished
 in 1406th place out of 2923 people with a Private leaderboard score of 0.88319,
-down from a public leaderboard score of 0.91792.&lt;/p&gt;
+down from a public leaderboard score of&amp;nbsp;0.91792.&lt;/p&gt;
 &lt;p&gt;The mean score for all submissions was 0.8551523, median 0.90237, with a
-standard deviation of 0.09301734.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;Min.    1st Qu. Median  Mean    3rd Qu. Max.
+standard deviation of&amp;nbsp;0.09301734.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Min.    1st Qu. Median  Mean    3rd Qu. Max.
 0.2500  0.7945  0.9024  0.8552  0.9204  0.9455
-&lt;/pre&gt;&lt;/div&gt;
-
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Not a great result, but a great learning experience. Many of the top finishers
 are sharing their code so I look forward to reviewing what they did. It is
 interesting to see some of the dramatic shifts in the top tier finishers when
-going from the publicly available test data to the private test data set.&lt;/p&gt;
-&lt;p&gt;The red and blue lines below represent my final and public leaderboard scores
-respectively.&lt;/p&gt;
+going from the publicly available test data to the private test data&amp;nbsp;set.&lt;/p&gt;
+&lt;p&gt;The red and blue lines below represent my final and public leaderboard scores&amp;nbsp;respectively.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Kaggle Results" src="/images/15.071x-kaggle-results.png" /&gt;&lt;/p&gt;</summary><category term="data"></category><category term="analytics"></category></entry></feed>

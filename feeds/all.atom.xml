@@ -1,451 +1,398 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Mark Drummond</title><link href="http://dmark.github.io/" rel="alternate"></link><link href="http://dmark.github.io/feeds/all.atom.xml" rel="self"></link><id>http://dmark.github.io/</id><updated>2016-09-13T14:42:00+00:00</updated><entry><title>My 2016 BMW R1200GS</title><link href="http://dmark.github.io/my-new-moto.html" rel="alternate"></link><published>2016-09-13T14:42:00+00:00</published><updated>2016-09-13T14:42:00+00:00</updated><author><name></name></author><id>tag:dmark.github.io,2016-09-13:my-new-moto.html</id><summary type="html">&lt;p&gt;Like all right thinking peoples, I like to ride the train. And I particularly like riding the train when there's a brand new motorcycle waiting for me at the other end of the line.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Mark Drummond</title><link href="http://dmark.github.io/" rel="alternate"></link><link href="http://dmark.github.io/feeds/all.atom.xml" rel="self"></link><id>http://dmark.github.io/</id><updated>2017-01-06T23:26:00-05:00</updated><entry><title>Rockstar!</title><link href="http://dmark.github.io/rockstar.html" rel="alternate"></link><published>2017-01-06T23:26:00-05:00</published><updated>2017-01-06T23:26:00-05:00</updated><author><name>Mark Drummond</name></author><id>tag:dmark.github.io,2017-01-06:rockstar.html</id><summary type="html">&lt;h2&gt;And My&amp;nbsp;Axe!&lt;/h2&gt;
+&lt;p&gt;I bought a guitar: An Epiphone &lt;a href="http://www.epiphone.com/Products/Les-Paul/Ltd-Ed-Les-Paul-Standard-Plustop-PRO.aspx"&gt;Les Paul Standard PlusTop
+Pro&lt;/a&gt;
+in &amp;#8220;Bourbon Burst&amp;#8221; colour scheme. And it is freakin&amp;#8217;&amp;nbsp;gorgeous.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Epiphone Les Paul Standard PlusTop Pro" src="http://images.epiphone.com.s3.amazonaws.com/Products/Exclusives/2014/Les-Paul-Standard-PlusTop-PRO/POP_LPSTDPLUSproBB.jpg" /&gt;&lt;/p&gt;</summary><category term="guitar"></category></entry><entry><title>My 2016 BMW R1200GS</title><link href="http://dmark.github.io/my-new-moto.html" rel="alternate"></link><published>2016-09-13T14:42:00-04:00</published><updated>2016-09-13T14:42:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:dmark.github.io,2016-09-13:my-new-moto.html</id><summary type="html">&lt;p&gt;Like all right thinking peoples, I like to ride the train. And I particularly like riding the train when there&amp;#8217;s a brand new motorcycle waiting for me at the other end of the&amp;nbsp;line.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="All Aboard" src="/images/new-moto-1.jpg" /&gt;&lt;/p&gt;
-&lt;p&gt;Of course, a good book is a great way to pass the time if the scenery isn't grabbing you.&lt;/p&gt;
+&lt;p&gt;Of course, a good book is a great way to pass the time if the scenery isn&amp;#8217;t grabbing&amp;nbsp;you.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Sci Fi" src="/images/new-moto-2.jpg" /&gt;&lt;/p&gt;
-&lt;p&gt;It makes me very, very happy to have this in my driveway:&lt;/p&gt;
+&lt;p&gt;It makes me very, very happy to have this in my&amp;nbsp;driveway:&lt;/p&gt;
 &lt;p&gt;&lt;img alt="My 2016 BMW R1200GS" src="/images/new-moto-3.jpg" /&gt;&lt;/p&gt;
 &lt;h2&gt;Niggles&lt;/h2&gt;
-&lt;p&gt;As I have mentioned elsewhere, the turn signal switch has very little feel to
-it.&lt;/p&gt;
+&lt;p&gt;As I have mentioned elsewhere, the turn signal switch has very little feel to&amp;nbsp;it.&lt;/p&gt;
 &lt;p&gt;Also, the fuel neck is quite long, making it very difficult to tell when the
-tank is full.&lt;/p&gt;
-&lt;p&gt;Really hard to come up with negatives with this bike!&lt;/p&gt;</summary><category term="motorcycling"></category></entry><entry><title>AWS Certified Solutions Architect - Associate</title><link href="http://dmark.github.io/aws-architect.html" rel="alternate"></link><published>2016-08-26T00:00:00+00:00</published><updated>2016-08-26T00:00:00+00:00</updated><author><name></name></author><id>tag:dmark.github.io,2016-08-26:aws-architect.html</id><summary type="html">&lt;p&gt;Another certification in the bag. I wrote the AWS Associate level Solutions
-Architect exam today. I didn't realize AWS certs are only good for 2 years.
-Sets a bit of a roadmap for my AWS certifications going forward. I got my
-Associate level SysOps cert in earl 2015, so I'll want to replace it with the
-Professional level DevOps cert next year, and I'll want to replace my Associate
-level Architect cert with the Professional level cert in 2018.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="AWS Certified Solutions Architect - Associate" src="https://s3.amazonaws.com/citmkd/aws-certification-marks/Solutions-Architect-Associate.png" /&gt;&lt;/p&gt;</summary><category term="aws"></category></entry><entry><title>A New Lid - the BMW System 6</title><link href="http://dmark.github.io/system6.html" rel="alternate"></link><published>2016-08-24T19:01:00+00:00</published><updated>2016-08-24T19:01:00+00:00</updated><author><name></name></author><id>tag:dmark.github.io,2016-08-24:system6.html</id><summary type="html">&lt;p&gt;So I dropped my reasonably new Shoei RF-1200, from about handlebar height, onto
+tank is&amp;nbsp;full.&lt;/p&gt;
+&lt;p&gt;Really hard to come up with negatives with this&amp;nbsp;bike!&lt;/p&gt;</summary><category term="motorcycling"></category></entry><entry><title>AWS Certified Solutions Architect - Associate</title><link href="http://dmark.github.io/aws-architect.html" rel="alternate"></link><published>2016-08-26T00:00:00-04:00</published><updated>2016-08-26T00:00:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:dmark.github.io,2016-08-26:aws-architect.html</id><summary type="html">&lt;p&gt;Another certification in the bag. I wrote the &lt;span class="caps"&gt;AWS&lt;/span&gt; Associate level Solutions
+Architect exam today. I didn&amp;#8217;t realize &lt;span class="caps"&gt;AWS&lt;/span&gt; certs are only good for 2 years.
+Sets a bit of a roadmap for my &lt;span class="caps"&gt;AWS&lt;/span&gt; certifications going forward. I got my
+Associate level SysOps cert in earl 2015, so I&amp;#8217;ll want to replace it with the
+Professional level DevOps cert next year, and I&amp;#8217;ll want to replace my Associate
+level Architect cert with the Professional level cert in&amp;nbsp;2018.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="AWS Certified Solutions Architect - Associate" src="https://s3.amazonaws.com/citmkd/aws-certification-marks/Solutions-Architect-Associate.png" /&gt;&lt;/p&gt;</summary><category term="aws"></category></entry><entry><title>A New Lid - the BMW System 6</title><link href="http://dmark.github.io/system6.html" rel="alternate"></link><published>2016-08-24T19:01:00-04:00</published><updated>2016-08-24T19:01:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:dmark.github.io,2016-08-24:system6.html</id><summary type="html">&lt;p&gt;So I dropped my reasonably new Shoei &lt;span class="caps"&gt;RF&lt;/span&gt;-1200, from about handlebar height, onto
 my driveway, which calls in to question whether the helmet is still safe to
 wear. Is it even 2 years old yet? Shoei offers a helmet scanning service to
-confirm whether it is still safe, but that would mean no riding while I send it
-away.&lt;/p&gt;
-&lt;p&gt;So, a dealer had a bunch of BMW System 6 lids on sale and in my size, and I
-picked one up for a relative song. Maybe I'll send the Shoei off for testing
-now that I have another lid to wear.&lt;/p&gt;
-&lt;p&gt;The System 6 is a flip-up style helmet, manufactured for BMW by Schuberth. Mine
-is "Sapphire Black Metallic", or "shiny sparkly black" in English. Here it is
-in some other colour.&lt;/p&gt;
+confirm whether it is still safe, but that would mean no riding while I send it&amp;nbsp;away.&lt;/p&gt;
+&lt;p&gt;So, a dealer had a bunch of &lt;span class="caps"&gt;BMW&lt;/span&gt; System 6 lids on sale and in my size, and I
+picked one up for a relative song. Maybe I&amp;#8217;ll send the Shoei off for testing
+now that I have another lid to&amp;nbsp;wear.&lt;/p&gt;
+&lt;p&gt;The System 6 is a flip-up style helmet, manufactured for &lt;span class="caps"&gt;BMW&lt;/span&gt; by Schuberth. Mine
+is &amp;#8220;Sapphire Black Metallic&amp;#8221;, or &amp;#8220;shiny sparkly black&amp;#8221; in English. Here it is
+in some other&amp;nbsp;colour.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="BMW System 6" src="/images/s6.png" /&gt;&lt;/p&gt;
-&lt;h1&gt;A Short Term Review&lt;/h1&gt;
-&lt;p&gt;I've only worn the helmet for a half dozen or so hours, which includes a day
+&lt;h1&gt;A Short Term&amp;nbsp;Review&lt;/h1&gt;
+&lt;p&gt;I&amp;#8217;ve only worn the helmet for a half dozen or so hours, which includes a day
 trip involving maybe 4 hours of continuous wearing time, so this is a somewhat
-preliminary review.&lt;/p&gt;
-&lt;h2&gt;Fit &amp;amp; Finish&lt;/h2&gt;
+preliminary&amp;nbsp;review.&lt;/p&gt;
+&lt;h2&gt;Fit &lt;span class="amp"&gt;&amp;amp;&lt;/span&gt;&amp;nbsp;Finish&lt;/h2&gt;
 &lt;p&gt;At first blush, the helmet is not as comfortable as my Shoei, but so far it is
-"comfortable enough". Construction is great. A very minor issue: Opening and
+&amp;#8220;comfortable enough&amp;#8221;. Construction is great. A very minor issue: Opening and
 closing the visor has a bit of a cheap clicky plastic-y feel to it, where
-opening and closing the visor on the RF-1200 feels quite solid. It's hard to
-match Shoei on the fit and finish fronts and the S6 is no slouch.&lt;/p&gt;
+opening and closing the visor on the &lt;span class="caps"&gt;RF&lt;/span&gt;-1200 feels quite solid. It&amp;#8217;s hard to
+match Shoei on the fit and finish fronts and the S6 is no&amp;nbsp;slouch.&lt;/p&gt;
 &lt;p&gt;Fit is a very individual thing. For me, the internal shape feels somewhat
-shorter and wider than the RF-1200. Where the RF-1200 seems to evenly grab my
+shorter and wider than the &lt;span class="caps"&gt;RF&lt;/span&gt;-1200. Where the &lt;span class="caps"&gt;RF&lt;/span&gt;-1200 seems to evenly grab my
 noggin at all points, the S6 feels like it is gripping mainly my forhead and
-the back of my head, while it almost feels like there's a gap on the left and
-right.&lt;/p&gt;
-&lt;p&gt;The "cheek pads" are pretty tight around the TM joint, but time may allow those
-to get worked in a bit, and if not there are other sizes of cheek pads
-available.&lt;/p&gt;
+the back of my head, while it almost feels like there&amp;#8217;s a gap on the left and&amp;nbsp;right.&lt;/p&gt;
+&lt;p&gt;The &amp;#8220;cheek pads&amp;#8221; are pretty tight around the &lt;span class="caps"&gt;TM&lt;/span&gt; joint, but time may allow those
+to get worked in a bit, and if not there are other sizes of cheek pads&amp;nbsp;available.&lt;/p&gt;
 &lt;h2&gt;Features&lt;/h2&gt;
-&lt;p&gt;I've been wanting a flip-up lid for a while and I had been eye-balling the S6,
+&lt;p&gt;I&amp;#8217;ve been wanting a flip-up lid for a while and I had been eye-balling the S6,
 the Shoei Neotec, and the Schuberth C3 Pro. Had the sale price on the System 6
 not been so attractive, I would have given the Neotec a close look, being
-somewhat of a "Shoei guy".&lt;/p&gt;
-&lt;p&gt;The mechanism for lifting the chin bar on the S6 is easy to use, and there's a
-decently satisfying click when you close the chin bar.&lt;/p&gt;
-&lt;p&gt;Pinlock shield is standard.&lt;/p&gt;
+somewhat of a &amp;#8220;Shoei&amp;nbsp;guy&amp;#8221;.&lt;/p&gt;
+&lt;p&gt;The mechanism for lifting the chin bar on the S6 is easy to use, and there&amp;#8217;s a
+decently satisfying click when you close the chin&amp;nbsp;bar.&lt;/p&gt;
+&lt;p&gt;Pinlock shield is&amp;nbsp;standard.&lt;/p&gt;
 &lt;p&gt;Internal sunvisor is great. Easy to operate and no more packing a clear visor
-with me when I expect to be out after sun-down.&lt;/p&gt;
-&lt;p&gt;I'm also liking the ratchet style chin strap. So much easier to operate than
-the old D-ring.&lt;/p&gt;
+with me when I expect to be out after&amp;nbsp;sun-down.&lt;/p&gt;
+&lt;p&gt;I&amp;#8217;m also liking the ratchet style chin strap. So much easier to operate than
+the old&amp;nbsp;D-ring.&lt;/p&gt;
 &lt;h2&gt;Ventilation&lt;/h2&gt;
 &lt;p&gt;Seem plenty adequate. The top vent lets plenty of air in to cool your noggin.
-Unlike my RF-1200, when the chin vent is open, there is little to no air on
-your face. I think that is good? With the RF-1200 I occasionally have to close
-the chin vent on long rids because the air flow is drying out my eyeballs.&lt;/p&gt;
+Unlike my &lt;span class="caps"&gt;RF&lt;/span&gt;-1200, when the chin vent is open, there is little to no air on
+your face. I think that is good? With the &lt;span class="caps"&gt;RF&lt;/span&gt;-1200 I occasionally have to close
+the chin vent on long rids because the air flow is drying out my&amp;nbsp;eyeballs.&lt;/p&gt;
 &lt;p&gt;Another very minor niggle: The chin vent mechanism is super easy to operate. It
 is also super easy to close if you are manipulating the chin bar or the main
 visor. Many times I found I had accidentally closed the chin vent when I did
-not mean to.&lt;/p&gt;
-&lt;h2&gt;ECE 22.05&lt;/h2&gt;
-&lt;p&gt;Helmet safety standards are weird. This lid is ECE 22.05 certified. ECE 22.05
+not mean&amp;nbsp;to.&lt;/p&gt;
+&lt;h2&gt;&lt;span class="caps"&gt;ECE&lt;/span&gt;&amp;nbsp;22.05&lt;/h2&gt;
+&lt;p&gt;Helmet safety standards are weird. This lid is &lt;span class="caps"&gt;ECE&lt;/span&gt; 22.05 certified. &lt;span class="caps"&gt;ECE&lt;/span&gt; 22.05
 is approved for use in Ontario. Not sure about other provinces. The user manual
-explicitly states the helmet is not legal to wear in the US, as it is not DOT
-certified. I'm not expecting to get pulled over on my trip to Maine next year,
-but helmet standards are still weird.&lt;/p&gt;
+explicitly states the helmet is not legal to wear in the &lt;span class="caps"&gt;US&lt;/span&gt;, as it is not &lt;span class="caps"&gt;DOT&lt;/span&gt;
+certified. I&amp;#8217;m not expecting to get pulled over on my trip to Maine next year,
+but helmet standards are still&amp;nbsp;weird.&lt;/p&gt;
 &lt;h2&gt;Comms&lt;/h2&gt;
-&lt;p&gt;I plan to get a comm system to pair with my GPS, phone, and riding partners.
-The BMW comm system is intriguing for its specific integration with the System
-6 helmet, but the technology seems dated and the price is a bit out there.&lt;/p&gt;
-&lt;p&gt;Compare the Bluetooth 2.1 based BMW system at about $570CAD to the Bluetooth
-4.0 based Sena 20S at about $370CAD. The BMW system claims a best case
+&lt;p&gt;I plan to get a comm system to pair with my &lt;span class="caps"&gt;GPS&lt;/span&gt;, phone, and riding partners.
+The &lt;span class="caps"&gt;BMW&lt;/span&gt; comm system is intriguing for its specific integration with the System
+6 helmet, but the technology seems dated and the price is a bit out&amp;nbsp;there.&lt;/p&gt;
+&lt;p&gt;Compare the Bluetooth 2.1 based &lt;span class="caps"&gt;BMW&lt;/span&gt; system at about $&lt;span class="caps"&gt;570CAD&lt;/span&gt; to the Bluetooth
+4.0 based Sena 20S at about $&lt;span class="caps"&gt;370CAD&lt;/span&gt;. The &lt;span class="caps"&gt;BMW&lt;/span&gt; system claims a best case
 bike-o-bike range of 100 metres, while the newer Sena and Cardo systems claim
-more than 1km. Maybe the newer BT standards don't really offer a motorcyclist
-much over the older standard? No idea.&lt;/p&gt;
-&lt;p&gt;I really appreciate the level of integration that the BMW system has, but BMW
-needs to do a better job of keeping up.&lt;/p&gt;</summary><category term="motorcycling"></category></entry><entry><title>A New Ride - the BMW R1200GS</title><link href="http://dmark.github.io/r1200gs.html" rel="alternate"></link><published>2016-08-24T17:36:00+00:00</published><updated>2016-08-24T17:36:00+00:00</updated><author><name></name></author><id>tag:dmark.github.io,2016-08-07:r1200gs.html</id><summary type="html">&lt;h2&gt;A Winner [Updated]&lt;/h2&gt;
-&lt;p&gt;I had a 2017 BMW R1200GS in "Frozen Dark Blue Metallic" on order with a variety
-of gizmos including BMW's Navigator V GPS system, keyless ride, and the
+more than 1km. Maybe the newer &lt;span class="caps"&gt;BT&lt;/span&gt; standards don&amp;#8217;t really offer a motorcyclist
+much over the older standard? No&amp;nbsp;idea.&lt;/p&gt;
+&lt;p&gt;I really appreciate the level of integration that the &lt;span class="caps"&gt;BMW&lt;/span&gt; system has, but &lt;span class="caps"&gt;BMW&lt;/span&gt;
+needs to do a better job of keeping&amp;nbsp;up.&lt;/p&gt;</summary><category term="motorcycling"></category></entry><entry><title>A New Ride - the BMW R1200GS</title><link href="http://dmark.github.io/r1200gs.html" rel="alternate"></link><published>2016-08-24T17:36:00-04:00</published><updated>2016-08-24T17:36:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:dmark.github.io,2016-08-07:r1200gs.html</id><summary type="html">&lt;h2&gt;A Winner&amp;nbsp;[Updated]&lt;/h2&gt;
+&lt;p&gt;I had a 2017 &lt;span class="caps"&gt;BMW&lt;/span&gt; &lt;span class="caps"&gt;R1200GS&lt;/span&gt; in &amp;#8220;Frozen Dark Blue Metallic&amp;#8221; on order with a variety
+of gizmos including &lt;span class="caps"&gt;BMW&lt;/span&gt;&amp;#8217;s Navigator V &lt;span class="caps"&gt;GPS&lt;/span&gt; system, keyless ride, and the
 Akrapovic exhaust. Being only 172cm tall, I was getting the bike lowered to
-better fit my height.&lt;/p&gt;
+better fit my&amp;nbsp;height.&lt;/p&gt;
 &lt;p&gt;My dealer recently contacted me to say they had a 2016 model available thanks
 to another buyer who backed out of the deal. Still in its crate, same colour,
 all the factory options and the lowering kit installed, and it can be ready for
-me in a week or two.&lt;/p&gt;
+me in a week or&amp;nbsp;two.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="2016 BMW R1200GS" src="/images/r1200gs_large.jpg" /&gt;&lt;/p&gt;
-&lt;h2&gt;I Ride&lt;/h2&gt;
+&lt;h2&gt;I&amp;nbsp;Ride&lt;/h2&gt;
 &lt;p&gt;I received my motorcycle license in the Fall of 2011. I also bought my first
 and, until now, only motorcycle at the same time: a previously enjoyed 2006
-Yamaha FZ6 sport touring bike. The previous owners didn't do much with it,
-there being only 9,000kms on it at the time of purchase. Since then I've added
+Yamaha &lt;span class="caps"&gt;FZ6&lt;/span&gt; sport touring bike. The previous owners didn&amp;#8217;t do much with it,
+there being only 9,000kms on it at the time of purchase. Since then I&amp;#8217;ve added
 about 40,000kms to the odo. I commute to work by motorcycle most days from
 March until well into December, do occasional joy rides on the weekends, and I
-love long distance motorcycle touring.&lt;/p&gt;
-&lt;p&gt;The FZ6 is a blast to ride and I love it now as much, and possibly even more,
+love long distance motorcycle&amp;nbsp;touring.&lt;/p&gt;
+&lt;p&gt;The &lt;span class="caps"&gt;FZ6&lt;/span&gt; is a blast to ride and I love it now as much, and possibly even more,
 than ever. However, while it is a sport touring rig, it lacks certain creature
 comforts for the long road, like cruise control and power outlets. The
 after-market saddle I bought is good for 1.5 to 2 hours at a time. Not bad, but
-2+ hours would be better. Some of the missing features on the FZ6 can be added
+2+ hours would be better. Some of the missing features on the &lt;span class="caps"&gt;FZ6&lt;/span&gt; can be added
 (power, heated grips) but I want to upgrade to something with modern technology
-and touring features as stock.&lt;/p&gt;
-&lt;p&gt;I've been shopping new bikes for a year or more now and recently narrowed the
-field of options to a single mid-size bike, the Triumph Tiger 800 XRT, and
-four heavyweights:&lt;/p&gt;
+and touring features as&amp;nbsp;stock.&lt;/p&gt;
+&lt;p&gt;I&amp;#8217;ve been shopping new bikes for a year or more now and recently narrowed the
+field of options to a single mid-size bike, the Triumph Tiger 800 &lt;span class="caps"&gt;XRT&lt;/span&gt;, and
+four&amp;nbsp;heavyweights:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Yamaha FJR1300&lt;/li&gt;
-&lt;li&gt;Triumph Tiger Explorer 1200&lt;/li&gt;
-&lt;li&gt;BMW R1200RT&lt;/li&gt;
-&lt;li&gt;BMW R1200GS&lt;/li&gt;
+&lt;li&gt;Yamaha &lt;span class="caps"&gt;FJR1300&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;Triumph Tiger Explorer&amp;nbsp;1200&lt;/li&gt;
+&lt;li&gt;&lt;span class="caps"&gt;BMW&lt;/span&gt; &lt;span class="caps"&gt;R1200RT&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class="caps"&gt;BMW&lt;/span&gt; &lt;span class="caps"&gt;R1200GS&lt;/span&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Triumph Tiger 800&lt;/h2&gt;
+&lt;h2&gt;Triumph Tiger&amp;nbsp;800&lt;/h2&gt;
 &lt;p&gt;I was able to ride a Tiger 800 demo bike for a good 5 hours and it is just
-fantastic. If you like that style of bike, you'd be hard pressed to find
-something else that offers everything the 800 XTR offers. It is a blast to ride
+fantastic. If you like that style of bike, you&amp;#8217;d be hard pressed to find
+something else that offers everything the 800 &lt;span class="caps"&gt;XTR&lt;/span&gt; offers. It is a blast to ride
 and has both cruise control and heated seats, the later being a first in
-mid-sized bikes as far as I know.&lt;/p&gt;
-&lt;p&gt;I had looked at at Yamaha's FJ-09 as well, but it lacks cruise control, which
+mid-sized bikes as far as I&amp;nbsp;know.&lt;/p&gt;
+&lt;p&gt;I had looked at at Yamaha&amp;#8217;s &lt;span class="caps"&gt;FJ&lt;/span&gt;-09 as well, but it lacks cruise control, which
 is a deal breaker for me. I suspect Yamaha will add cruise for 2017 (it is on
-the new for 2017 FZ-10) but no matter, I have already decided to go with a
-heavyweight bike. One nice feature of the FJ-09 over the Tiger: adjustable
-suspension. Why Triumph did not include the adjustable WP suspension on the XR
-models of the 800, when it is included in the XC models, is beyond me.&lt;/p&gt;
-&lt;p&gt;I had actually put a deposit down on a 2017 Tiger 800 XRT, but I knew the
+the new for 2017 &lt;span class="caps"&gt;FZ&lt;/span&gt;-10) but no matter, I have already decided to go with a
+heavyweight bike. One nice feature of the &lt;span class="caps"&gt;FJ&lt;/span&gt;-09 over the Tiger: adjustable
+suspension. Why Triumph did not include the adjustable &lt;span class="caps"&gt;WP&lt;/span&gt; suspension on the &lt;span class="caps"&gt;XR&lt;/span&gt;
+models of the 800, when it is included in the &lt;span class="caps"&gt;XC&lt;/span&gt; models, is beyond&amp;nbsp;me.&lt;/p&gt;
+&lt;p&gt;I had actually put a deposit down on a 2017 Tiger 800 &lt;span class="caps"&gt;XRT&lt;/span&gt;, but I knew the
 mid-size bike was going to be a temporary measure on my way to an eventual
 heavyweight. I decided to skip the half-step and go straight to the heavy, in
 part because, why finance the 800 now, only to finance a heavyweight later? I
 had, and maybe still have, some concerns about using the larger bike for daily
-commuting. Nonetheless, I've decided to go with the heavy.&lt;/p&gt;
-&lt;h2&gt;Yamaha FJR1300&lt;/h2&gt;
-&lt;p&gt;My experiences with the FZ6 have made me somewhat of a "Yamaha guy". I really
-want to love the FJR. It is drop-dead gorgeous, and a fantastic ride by all
-accounts (I haven't ridden it myself). But it is old. The basic platform was
+commuting. Nonetheless, I&amp;#8217;ve decided to go with the&amp;nbsp;heavy.&lt;/p&gt;
+&lt;h2&gt;Yamaha &lt;span class="caps"&gt;FJR1300&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;My experiences with the &lt;span class="caps"&gt;FZ6&lt;/span&gt; have made me somewhat of a &amp;#8220;Yamaha guy&amp;#8221;. I really
+want to love the &lt;span class="caps"&gt;FJR&lt;/span&gt;. It is drop-dead gorgeous, and a fantastic ride by all
+accounts (I haven&amp;#8217;t ridden it myself). But it is old. The basic platform was
 introduced in 2001. Yamaha has made incremental changes to the bike over the
 years, including some very cool changes to the gearbox for 2016, but it still
 shows its age in features like the very basic ride mode technology. If Yamaha
-gave the FJR a full reboot, I would be giving it a good deal more attention.&lt;/p&gt;
-&lt;h2&gt;The Beemers&lt;/h2&gt;
-&lt;p&gt;I took advantage of BMW's demo roadshow on multiple occasions this year to ride
-the K1600GT, the R1200RT (twice), and the R1200GS (twice). The K was great, but
-just too much power for my liking. It's a race bike in full touring rig. Most
-recently I rode the RT and the GS back to back, and without any doubt I found
-the GS to be both more comfortable and more rideable for me.&lt;/p&gt;
-&lt;p&gt;I had some specific issues with the RT. The front end seemed to waver at low
-speeds (30 - 50kph). I don't remember that happening the first time I rode the
-RT, but it was a consistent issue the second time around. And there is a ton of
-vibration in handlebars at 4500 - 5000RPM which is a rev range you frequently
-find yourself in. The GS had neither of these problems. It's only 'issue' is
+gave the &lt;span class="caps"&gt;FJR&lt;/span&gt; a full reboot, I would be giving it a good deal more&amp;nbsp;attention.&lt;/p&gt;
+&lt;h2&gt;The&amp;nbsp;Beemers&lt;/h2&gt;
+&lt;p&gt;I took advantage of &lt;span class="caps"&gt;BMW&lt;/span&gt;&amp;#8217;s demo roadshow on multiple occasions this year to ride
+the &lt;span class="caps"&gt;K1600GT&lt;/span&gt;, the &lt;span class="caps"&gt;R1200RT&lt;/span&gt; (twice), and the &lt;span class="caps"&gt;R1200GS&lt;/span&gt; (twice). The K was great, but
+just too much power for my liking. It&amp;#8217;s a race bike in full touring rig. Most
+recently I rode the &lt;span class="caps"&gt;RT&lt;/span&gt; and the &lt;span class="caps"&gt;GS&lt;/span&gt; back to back, and without any doubt I found
+the &lt;span class="caps"&gt;GS&lt;/span&gt; to be both more comfortable and more rideable for&amp;nbsp;me.&lt;/p&gt;
+&lt;p&gt;I had some specific issues with the &lt;span class="caps"&gt;RT&lt;/span&gt;. The front end seemed to waver at low
+speeds (30 - 50kph). I don&amp;#8217;t remember that happening the first time I rode the
+&lt;span class="caps"&gt;RT&lt;/span&gt;, but it was a consistent issue the second time around. And there is a ton of
+vibration in handlebars at 4500 - &lt;span class="caps"&gt;5000RPM&lt;/span&gt; which is a rev range you frequently
+find yourself in. The &lt;span class="caps"&gt;GS&lt;/span&gt; had neither of these problems. It&amp;#8217;s only &amp;#8216;issue&amp;#8217; is
 its height. It is super-tall in its stock setup, and I am not! I did the demo
 rides with the low seat and that was manageable, but I am going with the
 lowering kit option which will allow me to use the low or regular seat. The low
 seat will be good for stop-and-god commuter traffic, while the regular height
 seat will provide extra comfort on long trips. Mind you, I found the low seat
-to be very comfortable in the first place.&lt;/p&gt;
+to be very comfortable in the first&amp;nbsp;place.&lt;/p&gt;
 &lt;p&gt;There is one very annoying issue with all the BMWs: The switch gear on the
 handlebars has little to no tactile feedback, in particular the turn signal
 switch. With gloves on you cannot feel the switch moving and there is no
-affirative 'click' when the signal is engaged. You actually have to look at
+affirative &amp;#8216;click&amp;#8217; when the signal is engaged. You actually have to look at
 your hand to see if you are pushing the switch properly, or actively check the
-display to confirm the signal is on. I've played with the switch gear on almost
-every BMW bike model and they are all the same. It is more than a little
-ridiculous that BMW would mess something like that up.&lt;/p&gt;
-&lt;h2&gt;Triumph Tiger Explorer 1200&lt;/h2&gt;
+display to confirm the signal is on. I&amp;#8217;ve played with the switch gear on almost
+every &lt;span class="caps"&gt;BMW&lt;/span&gt; bike model and they are all the same. It is more than a little
+ridiculous that &lt;span class="caps"&gt;BMW&lt;/span&gt; would mess something like that&amp;nbsp;up.&lt;/p&gt;
+&lt;h2&gt;Triumph Tiger Explorer&amp;nbsp;1200&lt;/h2&gt;
 &lt;p&gt;Unfortunately Triumph does not offer any sort of demo program for the Explorer
 in Canada.  While I am sure the Explorer is a very good bike (generally very
 positive reviews all around) and despite a strong personal affinity for the
 Triumph brand, the inability to ride a demo bike was a major factor in my
-decision to go with the BMW. Maybe I'll take a trip to the UK at some point and
+decision to go with the &lt;span class="caps"&gt;BMW&lt;/span&gt;. Maybe I&amp;#8217;ll take a trip to the &lt;span class="caps"&gt;UK&lt;/span&gt; at some point and
 take an Explorer out for a spin, but for now my decision is made, and I am
-bloody excited!&lt;/p&gt;
-&lt;p&gt;As an aside: I actually emailed Triumph "Canada" about the lack of demo
-programs and the role that played in my decision. It turns out:&lt;/p&gt;
+bloody&amp;nbsp;excited!&lt;/p&gt;
+&lt;p&gt;As an aside: I actually emailed Triumph &amp;#8220;Canada&amp;#8221; about the lack of demo
+programs and the role that played in my decision. It turns&amp;nbsp;out:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;The contact email address on the Triump Canada web site actually goes to
-   Triumph USA, and&lt;/p&gt;
+   Triumph &lt;span class="caps"&gt;USA&lt;/span&gt;,&amp;nbsp;and&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Triumph USA didn't much care about my story, telling me they "gave up the
-   demo trucks in 2006", downloading responsibility for demos to the dealers
-   and that I should "contact [my] local Triumph dealer".&lt;/p&gt;
+&lt;p&gt;Triumph &lt;span class="caps"&gt;USA&lt;/span&gt; didn&amp;#8217;t much care about my story, telling me they &amp;#8220;gave up the
+   demo trucks in 2006&amp;#8221;, downloading responsibility for demos to the dealers
+   and that I should &amp;#8220;contact [my] local Triumph&amp;nbsp;dealer&amp;#8221;.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;I'm guessing sales isn't particularly high on Triumph's agenda on this side of
-the pond? Would you be inclined to buy a ~$25,000 motorcycle without riding it
-first?&lt;/p&gt;</summary><category term="motorcycling"></category></entry><entry><title>Platform and Data Operations Analyst</title><link href="http://dmark.github.io/new-job.html" rel="alternate"></link><published>2016-07-20T09:00:00+00:00</published><updated>2016-07-20T09:00:00+00:00</updated><author><name></name></author><id>tag:dmark.github.io,2016-07-08:new-job.html</id><summary type="html">&lt;p&gt;In what was more than a bit of a surprise, I was "laterally promoted" to a new
+&lt;p&gt;I&amp;#8217;m guessing sales isn&amp;#8217;t particularly high on Triumph&amp;#8217;s agenda on this side of
+the pond? Would you be inclined to buy a ~$25,000 motorcycle without riding it&amp;nbsp;first?&lt;/p&gt;</summary><category term="motorcycling"></category></entry><entry><title>Platform and Data Operations Analyst</title><link href="http://dmark.github.io/new-job.html" rel="alternate"></link><published>2016-07-20T09:00:00-04:00</published><updated>2016-07-20T09:00:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:dmark.github.io,2016-07-08:new-job.html</id><summary type="html">&lt;p&gt;In what was more than a bit of a surprise, I was &amp;#8220;laterally promoted&amp;#8221; to a new
 role with my employer, something I only found out less than 24 hours before it
 was announced to the department. I shall not complain. A bit of an odd way to
-go about things from a human resources perspective, but I'm very happy about my
-new position, and very excited about what lies ahead.&lt;/p&gt;
-&lt;p&gt;My somewhat nebulous new title is "Platform and Data Operations Analyst". Good
-descriptors for what I will actually be doing include "cloud guy" and "putting
-the Ops in DevOps". Having previously taken lead on some of our department's
-cloud initiatives, I'm being given the chance to do cloud operations full-time.
-Which is bloody fantastic. But I think they should have put "Cloud" in front of
-"Platform".&lt;/p&gt;
+go about things from a human resources perspective, but I&amp;#8217;m very happy about my
+new position, and very excited about what lies&amp;nbsp;ahead.&lt;/p&gt;
+&lt;p&gt;My somewhat nebulous new title is &amp;#8220;Platform and Data Operations Analyst&amp;#8221;. Good
+descriptors for what I will actually be doing include &amp;#8220;cloud guy&amp;#8221; and &amp;#8220;putting
+the Ops in DevOps&amp;#8221;. Having previously taken lead on some of our department&amp;#8217;s
+cloud initiatives, I&amp;#8217;m being given the chance to do cloud operations full-time.
+Which is bloody fantastic. But I think they should have put &amp;#8220;Cloud&amp;#8221; in front of&amp;nbsp;&amp;#8220;Platform&amp;#8221;.&lt;/p&gt;
 &lt;p&gt;As the title suggests, there is also a data portion to this. I have been doing
 some very junior level work with our Data Services team for the past year or
 so, and I hope to continue doing more, though the details still need to be
-hammered out. It is possible my new position will lead me more toward 'data
-engineering', helping our data team leverage cloud-based data services. The
-door is certainly open for me to spend more of my time on data / analytics.&lt;/p&gt;</summary><category term="misc"></category></entry><entry><title>Linux Foundation Certified System Administrator</title><link href="http://dmark.github.io/lfcs.html" rel="alternate"></link><published>2016-05-05T10:59:00+00:00</published><updated>2016-05-05T10:59:00+00:00</updated><author><name></name></author><id>tag:dmark.github.io,2016-05-05:lfcs.html</id><summary type="html">&lt;p&gt;I've been at this Unix and Linux systems management stuff for over 20 years
-now. As with my undergraduate degree&lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1" rel="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt;, I've long wanted to knock out a few
-relevant technology certifications. Following on from my AWS SysOps
+hammered out. It is possible my new position will lead me more toward &amp;#8216;data
+engineering&amp;#8217;, helping our data team leverage cloud-based data services. The
+door is certainly open for me to spend more of my time on data /&amp;nbsp;analytics.&lt;/p&gt;</summary><category term="misc"></category></entry><entry><title>Linux Foundation Certified System Administrator</title><link href="http://dmark.github.io/lfcs.html" rel="alternate"></link><published>2016-05-05T10:59:00-04:00</published><updated>2016-05-05T10:59:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:dmark.github.io,2016-05-05:lfcs.html</id><summary type="html">&lt;p&gt;I&amp;#8217;ve been at this Unix and Linux systems management stuff for over 20 years
+now. As with my undergraduate degree&lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1" rel="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt;, I&amp;#8217;ve long wanted to knock out a few
+relevant technology certifications. Following on from my &lt;span class="caps"&gt;AWS&lt;/span&gt; SysOps
 certification, I took and passed the &lt;a href="http://www.linuxfoundation.org/"&gt;Linux
-Foundation's&lt;/a&gt;
-&lt;a href="https://training.linuxfoundation.org/certification/lfcs"&gt;LFCS&lt;/a&gt; certification
-exam this week.&lt;/p&gt;
+Foundation&amp;#8217;s&lt;/a&gt;
+&lt;a href="https://training.linuxfoundation.org/certification/lfcs"&gt;&lt;span class="caps"&gt;LFCS&lt;/span&gt;&lt;/a&gt; certification
+exam this&amp;nbsp;week.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Linux Foundation Certified System Administrator" src="/images/lfcs-small.png" title="Linux Foundation Certified System Administrator" /&gt;&lt;/p&gt;
 &lt;div class="footnote"&gt;
 &lt;hr /&gt;
 &lt;ol&gt;
 &lt;li id="fn:1"&gt;
 &lt;p&gt;I am a part-time undergrad at my &lt;a href="http://www.queensu.ca/"&gt;local
-University&lt;/a&gt;, chipping away at a B.A. in
+University&lt;/a&gt;, chipping away at a &lt;span class="caps"&gt;B.A.&lt;/span&gt; in
 &lt;a href="http://www.econ.queensu.ca"&gt;Economics&lt;/a&gt;.&amp;#160;&lt;a class="footnote-backref" href="#fnref:1" rev="footnote" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</summary><category term="lfcs"></category></entry><entry><title>Highly Available NAT with AWS Auto Scaling</title><link href="http://dmark.github.io/aws-ha-nat-auto-scaling.html" rel="alternate"></link><published>2016-08-18T09:09:00+00:00</published><updated>2016-08-18T09:09:00+00:00</updated><author><name></name></author><id>tag:dmark.github.io,2015-05-22:aws-ha-nat-auto-scaling.html</id><summary type="html">&lt;p&gt;[AWS now offers a highly available NAT Gateway service. You can still run your
-own NAT, and there are advantages and disadvantages to both options. I've
-converted my systems to use the NAT Gateway service. This document is a
-work-in-progress.]&lt;/p&gt;
-&lt;p&gt;This is largely a re-spin of &lt;a href="http://cakesolutions.net/"&gt;Cake Solutions'&lt;/a&gt;
+&lt;/div&gt;</summary><category term="lfcs"></category></entry><entry><title>Highly Available NAT with AWS Auto Scaling</title><link href="http://dmark.github.io/aws-ha-nat-auto-scaling.html" rel="alternate"></link><published>2016-08-18T09:09:00-04:00</published><updated>2016-08-18T09:09:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:dmark.github.io,2015-05-22:aws-ha-nat-auto-scaling.html</id><summary type="html">&lt;p&gt;[&lt;span class="caps"&gt;AWS&lt;/span&gt; now offers a highly available &lt;span class="caps"&gt;NAT&lt;/span&gt; Gateway service. You can still run your
+own &lt;span class="caps"&gt;NAT&lt;/span&gt;, and there are advantages and disadvantages to both options. I&amp;#8217;ve
+converted my systems to use the &lt;span class="caps"&gt;NAT&lt;/span&gt; Gateway service. This document is a&amp;nbsp;work-in-progress.]&lt;/p&gt;
+&lt;p&gt;This is largely a re-spin of &lt;a href="http://cakesolutions.net/"&gt;Cake Solutions&amp;#8217;&lt;/a&gt;
 methodology documented on their
 &lt;a href="http://www.cakesolutions.net/teamblogs/making-aws-nat-instances-highly-available-without-the-compromises"&gt;blog&lt;/a&gt;.
-I needed a practical exercise for working with &lt;a href="http://aws.amazon.com/autoscaling/"&gt;AWS Auto
-Scaling&lt;/a&gt;. Cake Solutions' methodology fit
-the bill and I got a highly available NAT service for my AWS VPC environments
-for my, and their (mostly their), efforts.&lt;/p&gt;
-&lt;p&gt;Highly available in this context means Auto Scaling will replace my running NAT
+I needed a practical exercise for working with &lt;a href="http://aws.amazon.com/autoscaling/"&gt;&lt;span class="caps"&gt;AWS&lt;/span&gt; Auto
+Scaling&lt;/a&gt;. Cake Solutions&amp;#8217; methodology fit
+the bill and I got a highly available &lt;span class="caps"&gt;NAT&lt;/span&gt; service for my &lt;span class="caps"&gt;AWS&lt;/span&gt; &lt;span class="caps"&gt;VPC&lt;/span&gt; environments
+for my, and their (mostly their),&amp;nbsp;efforts.&lt;/p&gt;
+&lt;p&gt;Highly available in this context means Auto Scaling will replace my running &lt;span class="caps"&gt;NAT&lt;/span&gt;
 instance if there are any problems with that instance. There is a short outage
-while the instance is replaced.&lt;/p&gt;
-&lt;p&gt;This is written from the perspective of Linux instances.&lt;/p&gt;
+while the instance is&amp;nbsp;replaced.&lt;/p&gt;
+&lt;p&gt;This is written from the perspective of Linux&amp;nbsp;instances.&lt;/p&gt;
 &lt;h1&gt;Overview&lt;/h1&gt;
-&lt;p&gt;In order for an EC2 instance to initiate connections out to the Internet, it
-must either have a public IP address assigned to it, or have access to a NAT
-instance that has a public IP address itself. Since instances on private
-subnets do not have public IP addresses, they must use a NAT instance. Probably
+&lt;p&gt;In order for an &lt;span class="caps"&gt;EC2&lt;/span&gt; instance to initiate connections out to the Internet, it
+must either have a public &lt;span class="caps"&gt;IP&lt;/span&gt; address assigned to it, or have access to a &lt;span class="caps"&gt;NAT&lt;/span&gt;
+instance that has a public &lt;span class="caps"&gt;IP&lt;/span&gt; address itself. Since instances on private
+subnets do not have public &lt;span class="caps"&gt;IP&lt;/span&gt; addresses, they must use a &lt;span class="caps"&gt;NAT&lt;/span&gt; instance. Probably
 the most common use-case here is for instances on private subnets to be able to
-query their appropriate software repositories to download and update their
-software.&lt;/p&gt;
-&lt;p&gt;The NAT server instance solves this problem by offering instances on private
+query their appropriate software repositories to download and update their&amp;nbsp;software.&lt;/p&gt;
+&lt;p&gt;The &lt;span class="caps"&gt;NAT&lt;/span&gt; server instance solves this problem by offering instances on private
 subnets proxy access to the Internet. This is implemented by setting the
-default route for your private subnets to point to the NAT instance, rather
-than pointing to the VPC's internet gateway as the public subnets do.&lt;/p&gt;
-&lt;p&gt;If your NAT instance is replaced for any reason, the routing table for your
-private subnets will need to be updated to point to the replacement NAT
+default route for your private subnets to point to the &lt;span class="caps"&gt;NAT&lt;/span&gt; instance, rather
+than pointing to the &lt;span class="caps"&gt;VPC&lt;/span&gt;&amp;#8217;s internet gateway as the public subnets&amp;nbsp;do.&lt;/p&gt;
+&lt;p&gt;If your &lt;span class="caps"&gt;NAT&lt;/span&gt; instance is replaced for any reason, the routing table for your
+private subnets will need to be updated to point to the replacement &lt;span class="caps"&gt;NAT&lt;/span&gt;
 instance. The solution documented here automates the process by pointing the
-private subnet route table default gateway at a discrete Elastic IP. That EIP
-is moved from one NAT server instance to the next, automatically during the
+private subnet route table default gateway at a discrete Elastic &lt;span class="caps"&gt;IP&lt;/span&gt;. That &lt;span class="caps"&gt;EIP&lt;/span&gt;
+is moved from one &lt;span class="caps"&gt;NAT&lt;/span&gt; server instance to the next, automatically during the
 instance creation process. This obviates the need to touch the route table, and
-is fully automated using Auto Scaling. In short:&lt;/p&gt;
+is fully automated using Auto Scaling. In&amp;nbsp;short:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;Auto Scaling sees there is no NAT instance, or the NAT instance is no longer in a healthy state.&lt;/li&gt;
-&lt;li&gt;Auto Scaling terminates any existing NAT server instance and creates a new instance.&lt;/li&gt;
-&lt;li&gt;Commands in the instance user data attaches the discrete EIP to the new instance.&lt;/li&gt;
-&lt;li&gt;Private subnet traffic now flows through the new NAT instance.&lt;/li&gt;
+&lt;li&gt;Auto Scaling sees there is no &lt;span class="caps"&gt;NAT&lt;/span&gt; instance, or the &lt;span class="caps"&gt;NAT&lt;/span&gt; instance is no longer in a healthy&amp;nbsp;state.&lt;/li&gt;
+&lt;li&gt;Auto Scaling terminates any existing &lt;span class="caps"&gt;NAT&lt;/span&gt; server instance and creates a new&amp;nbsp;instance.&lt;/li&gt;
+&lt;li&gt;Commands in the instance user data attaches the discrete &lt;span class="caps"&gt;EIP&lt;/span&gt; to the new&amp;nbsp;instance.&lt;/li&gt;
+&lt;li&gt;Private subnet traffic now flows through the new &lt;span class="caps"&gt;NAT&lt;/span&gt;&amp;nbsp;instance.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h1&gt;IAM Role&lt;/h1&gt;
-&lt;p&gt;As you will see below, when a replacement NAT instance is brought online, the
-new instance runs a script ("&lt;a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/user-data.html"&gt;User
-Data&lt;/a&gt;"). One
-of the functions of that script is to attach the discrete EIP to the instance.
-The NAT instance requires appropriate permissions before it is allowed to make
-changes to the EIP. We use an AWS IAM role to provision the necessary
-permissions.&lt;/p&gt;
-&lt;p&gt;In the AWS console, go to Services -&amp;gt; IAM, click "Roles" and then click "Create
-New Role".&lt;/p&gt;
+&lt;h1&gt;&lt;span class="caps"&gt;IAM&lt;/span&gt;&amp;nbsp;Role&lt;/h1&gt;
+&lt;p&gt;As you will see below, when a replacement &lt;span class="caps"&gt;NAT&lt;/span&gt; instance is brought online, the
+new instance runs a script (&amp;#8220;&lt;a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/user-data.html"&gt;User
+Data&lt;/a&gt;&amp;#8220;). One
+of the functions of that script is to attach the discrete &lt;span class="caps"&gt;EIP&lt;/span&gt; to the instance.
+The &lt;span class="caps"&gt;NAT&lt;/span&gt; instance requires appropriate permissions before it is allowed to make
+changes to the &lt;span class="caps"&gt;EIP&lt;/span&gt;. We use an &lt;span class="caps"&gt;AWS&lt;/span&gt; &lt;span class="caps"&gt;IAM&lt;/span&gt; role to provision the necessary&amp;nbsp;permissions.&lt;/p&gt;
+&lt;p&gt;In the &lt;span class="caps"&gt;AWS&lt;/span&gt; console, go to Services -&amp;gt; &lt;span class="caps"&gt;IAM&lt;/span&gt;, click &amp;#8220;Roles&amp;#8221; and then click &amp;#8220;Create
+New&amp;nbsp;Role&amp;#8221;.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Create New Role" src="images/ha_nat/ha_nat_iam_001.png" /&gt;&lt;/p&gt;
-&lt;p&gt;Give the role an appropriate name and click "Next Step".&lt;/p&gt;
+&lt;p&gt;Give the role an appropriate name and click &amp;#8220;Next&amp;nbsp;Step&amp;#8221;.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Set Role Name" src="images/ha_nat/ha_nat_iam_002.png" /&gt;&lt;/p&gt;
-&lt;p&gt;At Step 2, select the "Amazon EC2" service role and then click "Next Step".&lt;/p&gt;
+&lt;p&gt;At Step 2, select the &amp;#8220;Amazon &lt;span class="caps"&gt;EC2&lt;/span&gt;&amp;#8221; service role and then click &amp;#8220;Next&amp;nbsp;Step&amp;#8221;.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Select Role Type" src="images/ha_nat/ha_nat_iam_003.png" /&gt;&lt;/p&gt;
-&lt;p&gt;Review and click "Create Role".&lt;/p&gt;
+&lt;p&gt;Review and click &amp;#8220;Create&amp;nbsp;Role&amp;#8221;.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Create Role" src="images/ha_nat/ha_nat_iam_004.png" /&gt;&lt;/p&gt;
-&lt;p&gt;Now select the new role, expand the "Inline Policies" section and click the
-"click here" text to create an inline policy.&lt;/p&gt;
+&lt;p&gt;Now select the new role, expand the &amp;#8220;Inline Policies&amp;#8221; section and click the
+&amp;#8220;click here&amp;#8221; text to create an inline&amp;nbsp;policy.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Inline Policy" src="images/ha_nat/ha_nat_iam_005.png" /&gt;&lt;/p&gt;
-&lt;p&gt;By default the Policy Generator should be selected. Click the "Select" button.&lt;/p&gt;
+&lt;p&gt;By default the Policy Generator should be selected. Click the &amp;#8220;Select&amp;#8221;&amp;nbsp;button.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Set Permissions" src="images/ha_nat/ha_nat_iam_006.png" /&gt;&lt;/p&gt;
-&lt;p&gt;Change the AWS Service to "Amazon EC2" and in the Actions drop down, select
-"AttachNetworkInterface" and "ModifyInstanceAttribute". In the ARN text box,
-just enter "*". Click "Add Statement" and then click "Next Step".&lt;/p&gt;
+&lt;p&gt;Change the &lt;span class="caps"&gt;AWS&lt;/span&gt; Service to &amp;#8220;Amazon &lt;span class="caps"&gt;EC2&lt;/span&gt;&amp;#8221; and in the Actions drop down, select
+&amp;#8220;AttachNetworkInterface&amp;#8221; and &amp;#8220;ModifyInstanceAttribute&amp;#8221;. In the &lt;span class="caps"&gt;ARN&lt;/span&gt; text box,
+just enter &amp;#8220;*&amp;#8221;. Click &amp;#8220;Add Statement&amp;#8221; and then click &amp;#8220;Next&amp;nbsp;Step&amp;#8221;.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Edit Permissions" src="images/ha_nat/ha_nat_iam_008.png" /&gt;&lt;/p&gt;
-&lt;p&gt;Click Apply Policy.&lt;/p&gt;
+&lt;p&gt;Click Apply&amp;nbsp;Policy.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Review Policy" src="images/ha_nat/ha_nat_iam_009.png" /&gt;&lt;/p&gt;
-&lt;p&gt;The policy should look like this:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;{
-    &amp;quot;Version&amp;quot;: &amp;quot;2012-10-17&amp;quot;,
-    &amp;quot;Statement&amp;quot;: [
+&lt;p&gt;The policy should look like&amp;nbsp;this:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{
+    "Version": "2012-10-17",
+    "Statement": [
         {
-            &amp;quot;Sid&amp;quot;: &amp;quot;Stmt1431450055000&amp;quot;,
-            &amp;quot;Effect&amp;quot;: &amp;quot;Allow&amp;quot;,
-            &amp;quot;Action&amp;quot;: [
-                &amp;quot;ec2:AttachNetworkInterface&amp;quot;,
-                &amp;quot;ec2:ModifyInstanceAttribute&amp;quot;
+            "Sid": "Stmt1431450055000",
+            "Effect": "Allow",
+            "Action": [
+                "ec2:AttachNetworkInterface",
+                "ec2:ModifyInstanceAttribute"
             ],
-            &amp;quot;Resource&amp;quot;: [
-                &amp;quot;*&amp;quot;
+            "Resource": [
+                "*"
             ]
         }
     ]
 }
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;h1&gt;Elastic IP&lt;/h1&gt;
-&lt;p&gt;We will create a new EIP, distinct from any one instance. This EIP will be
-attached to the current active NAT instance, and moved from one instance to the
-next as needed. As mentioned, as each new NAT instance comes online, its user
-data script actually "grabs" the discrete EIP.&lt;/p&gt;
-&lt;h1&gt;User Data&lt;/h1&gt;
-&lt;p&gt;AWS allows you to customize new instances with "User Data". User data can be
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h1&gt;Elastic &lt;span class="caps"&gt;IP&lt;/span&gt;&lt;/h1&gt;
+&lt;p&gt;We will create a new &lt;span class="caps"&gt;EIP&lt;/span&gt;, distinct from any one instance. This &lt;span class="caps"&gt;EIP&lt;/span&gt; will be
+attached to the current active &lt;span class="caps"&gt;NAT&lt;/span&gt; instance, and moved from one instance to the
+next as needed. As mentioned, as each new &lt;span class="caps"&gt;NAT&lt;/span&gt; instance comes online, its user
+data script actually &amp;#8220;grabs&amp;#8221; the discrete &lt;span class="caps"&gt;EIP&lt;/span&gt;.&lt;/p&gt;
+&lt;h1&gt;User&amp;nbsp;Data&lt;/h1&gt;
+&lt;p&gt;&lt;span class="caps"&gt;AWS&lt;/span&gt; allows you to customize new instances with &amp;#8220;User Data&amp;#8221;. User data can be
 specified in a number of ways, including passing a shell script to the
 instance. The user data is executed towards the end of the instance creation
 cycle. The user data we will use instructs a new instance to attach the Elastic
-IP to it itself, to disable source-destination checks, and to ensure forwarding
-is enabled on the instance.&lt;/p&gt;
-&lt;table class="highlighttable"&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt; 1
- 2
- 3
- 4
- 5
- 6
- 7
- 8
- 9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="ch"&gt;#!/bin/bash&lt;/span&gt;
+&lt;span class="caps"&gt;IP&lt;/span&gt; to it itself, to disable source-destination checks, and to ensure forwarding
+is enabled on the&amp;nbsp;instance.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;#!/bin/bash
 
-&lt;span class="k"&gt;function&lt;/span&gt; log &lt;span class="o"&gt;()&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
-    &lt;span class="nb"&gt;echo&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="k"&gt;$(&lt;/span&gt;date +&lt;span class="s2"&gt;&amp;quot;%b %e %T&amp;quot;&lt;/span&gt;&lt;span class="k"&gt;)&lt;/span&gt;&lt;span class="s2"&gt; &lt;/span&gt;&lt;span class="nv"&gt;$@&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;
-    logger -- &lt;span class="k"&gt;$(&lt;/span&gt;basename &lt;span class="nv"&gt;$0&lt;/span&gt;&lt;span class="k"&gt;)&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot; - &lt;/span&gt;&lt;span class="nv"&gt;$@&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;
-&lt;span class="o"&gt;}&lt;/span&gt;
+function log () {
+    echo "$(date +"%b %e %T") $@"
+    logger -- $(basename $0)" - $@"
+}
 
-&lt;span class="nb"&gt;export&lt;/span&gt; &lt;span class="nv"&gt;AWS_DEFAULT_REGION&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;us-east-1&amp;quot;&lt;/span&gt;
-&lt;span class="nv"&gt;instance_id&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="k"&gt;$(&lt;/span&gt;curl -s http://169.254.169.254/latest/meta-data/instance-id&lt;span class="k"&gt;)&lt;/span&gt;
-&lt;span class="nv"&gt;eni_id&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;eni-fd054db5&amp;quot;&lt;/span&gt;
+export AWS_DEFAULT_REGION="us-east-1"
+instance_id=$(curl -s http://169.254.169.254/latest/meta-data/instance-id)
+eni_id="eni-fd054db5"
 
-/usr/bin/aws ec2 modify-instance-attribute --instance-id &lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;instance_id&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt; --no-source-dest-check
-/usr/bin/aws ec2 attach-network-interface  --instance-id &lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;instance_id&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt; --network-interface-id &lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;eni_id&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt; --device-index 1
+/usr/bin/aws ec2 modify-instance-attribute --instance-id ${instance_id} --no-source-dest-check
+/usr/bin/aws ec2 attach-network-interface  --instance-id ${instance_id} --network-interface-id ${eni_id} --device-index 1
 
-&lt;span class="nv"&gt;retcode&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="nv"&gt;$?&lt;/span&gt;
-&lt;span class="o"&gt;[&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="nv"&gt;$retcode&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt; -eq &lt;span class="m"&gt;0&lt;/span&gt; &lt;span class="o"&gt;]&lt;/span&gt; &lt;span class="o"&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt; log &lt;span class="s2"&gt;&amp;quot;eni attachment successful&amp;quot;&lt;/span&gt; &lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="o"&gt;}&lt;/span&gt; &lt;span class="o"&gt;||&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt; log &lt;span class="s2"&gt;&amp;quot;eni attachment failed&amp;quot;&lt;/span&gt; &lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="nb"&gt;exit&lt;/span&gt; &lt;span class="m"&gt;1&lt;/span&gt; &lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="o"&gt;}&lt;/span&gt;
+retcode=$?
+[ "$retcode" -eq 0 ] &amp;amp;&amp;amp; { log "eni attachment successful" ; } || { log "eni attachment failed" ; exit 1 ; }
 
 sleep 60
 ifdown eth0
 iptables -t nat -A POSTROUTING -j MASQUERADE
 iptables -A FORWARD -j ACCEPT
-&lt;span class="nb"&gt;echo&lt;/span&gt; &lt;span class="m"&gt;1&lt;/span&gt; &amp;gt; /proc/sys/net/ipv4/ip_forward
-&lt;/pre&gt;&lt;/div&gt;
-&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-
-&lt;h1&gt;Security Group&lt;/h1&gt;
-&lt;p&gt;You will need an appropriate security group. It should allow HTTP and HTTPS
-from your private subnets or your entire VPC.&lt;/p&gt;
-&lt;h1&gt;Launch Configuration&lt;/h1&gt;
+echo 1 &amp;gt; /proc/sys/net/ipv4/ip_forward
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h1&gt;Security&amp;nbsp;Group&lt;/h1&gt;
+&lt;p&gt;You will need an appropriate security group. It should allow &lt;span class="caps"&gt;HTTP&lt;/span&gt; and &lt;span class="caps"&gt;HTTPS&lt;/span&gt;
+from your private subnets or your entire &lt;span class="caps"&gt;VPC&lt;/span&gt;.&lt;/p&gt;
+&lt;h1&gt;Launch&amp;nbsp;Configuration&lt;/h1&gt;
 &lt;p&gt;ami-303b1458&lt;/p&gt;
-&lt;p&gt;We use the launch configuration to define the characteristics of the EC2
+&lt;p&gt;We use the launch configuration to define the characteristics of the &lt;span class="caps"&gt;EC2&lt;/span&gt;
 instances that Auto Scaling will launch. We specify the Amazon Machine Image to
 use, the instance type, user data, etc. Essentially all the same information
-you would specify if you were manually launching a EC2 instance.&lt;/p&gt;
+you would specify if you were manually launching a &lt;span class="caps"&gt;EC2&lt;/span&gt;&amp;nbsp;instance.&lt;/p&gt;
 &lt;p&gt;Amazon provides ready-made NAt server instances, based on Amazon Linux, and
-that is what we use here. No matter your preference for OS, the Amazon Linux
-based NAT instances are essentially appliances. Specifically, and at the time
-of this writing, I am using the AMI ami-303b1458, the latest availbel Amazon
-Linux NAT AMI in the US East region.&lt;/p&gt;
-&lt;p&gt;I've specific t2.micro instance type and my NAT security group.&lt;/p&gt;
-&lt;p&gt;I've included my above user data shell script.&lt;/p&gt;
-&lt;h1&gt;Auto Scaling Group&lt;/h1&gt;
-&lt;p&gt;The Auto Scaling group ties everything together.&lt;/p&gt;</summary><category term="aws"></category></entry><entry><title>My First Pull Request</title><link href="http://dmark.github.io/my-first-pull-request.html" rel="alternate"></link><published>2015-05-20T19:36:00+00:00</published><updated>2015-05-20T19:36:00+00:00</updated><author><name></name></author><id>tag:dmark.github.io,2015-05-20:my-first-pull-request.html</id><summary type="html">&lt;p&gt;I use &lt;a href="http://getpelican.com/"&gt;Pelican&lt;/a&gt; and the
+that is what we use here. No matter your preference for &lt;span class="caps"&gt;OS&lt;/span&gt;, the Amazon Linux
+based &lt;span class="caps"&gt;NAT&lt;/span&gt; instances are essentially appliances. Specifically, and at the time
+of this writing, I am using the &lt;span class="caps"&gt;AMI&lt;/span&gt; ami-303b1458, the latest availbel Amazon
+Linux &lt;span class="caps"&gt;NAT&lt;/span&gt; &lt;span class="caps"&gt;AMI&lt;/span&gt; in the &lt;span class="caps"&gt;US&lt;/span&gt; East&amp;nbsp;region.&lt;/p&gt;
+&lt;p&gt;I&amp;#8217;ve specific t2.micro instance type and my &lt;span class="caps"&gt;NAT&lt;/span&gt; security&amp;nbsp;group.&lt;/p&gt;
+&lt;p&gt;I&amp;#8217;ve included my above user data shell&amp;nbsp;script.&lt;/p&gt;
+&lt;h1&gt;Auto Scaling&amp;nbsp;Group&lt;/h1&gt;
+&lt;p&gt;The Auto Scaling group ties everything&amp;nbsp;together.&lt;/p&gt;</summary><category term="aws"></category></entry><entry><title>My First Pull Request</title><link href="http://dmark.github.io/my-first-pull-request.html" rel="alternate"></link><published>2015-05-20T19:36:00-04:00</published><updated>2015-05-20T19:36:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:dmark.github.io,2015-05-20:my-first-pull-request.html</id><summary type="html">&lt;p&gt;I use &lt;a href="http://getpelican.com/"&gt;Pelican&lt;/a&gt; and the
 &lt;a href="https://github.com/DandyDev/pelican-bootstrap3"&gt;pelican-bootstrap3&lt;/a&gt; theme to
-built this site.&lt;/p&gt;
+built this&amp;nbsp;site.&lt;/p&gt;
 &lt;p&gt;I made my first real pull request today in the form of a minor contribution to
 &lt;a href="https://github.com/DandyDev/pelican-bootstrap3"&gt;pelican-bootstrap3&lt;/a&gt;. I added a
 &lt;a href="https://github.com/DandyDev/pelican-bootstrap3/pull/190"&gt;feature&lt;/a&gt; that allows
 you to add a series of images to the sidebar. The original intent was to allow
 me to add certification marks to my sidebar, which you can now see in action
-right here!&lt;/p&gt;
-&lt;p&gt;Props to &lt;a href="https://github.com/DandyDev"&gt;@DandyDev&lt;/a&gt; for the pro tips.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="My first pull request" src="/images/my-first-pull-request.png" title="My first pull request" /&gt;&lt;/p&gt;</summary><category term="git"></category><category term="github"></category><category term="pelican-bootstrap3"></category></entry><entry><title>AWS SysOps Administration - Associate</title><link href="http://dmark.github.io/aws-sysops.html" rel="alternate"></link><published>2015-05-20T19:42:00+00:00</published><updated>2015-05-20T19:42:00+00:00</updated><author><name></name></author><id>tag:dmark.github.io,2015-05-20:aws-sysops.html</id><summary type="html">&lt;p&gt;Last week I took the &lt;a href="http://aws.amazon.com/certification/certified-sysops-admin-associate/"&gt;AWS SysOps Administrator -
+right&amp;nbsp;here!&lt;/p&gt;
+&lt;p&gt;Props to &lt;a href="https://github.com/DandyDev"&gt;@DandyDev&lt;/a&gt; for the pro&amp;nbsp;tips.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="My first pull request" src="/images/my-first-pull-request.png" title="My first pull request" /&gt;&lt;/p&gt;</summary><category term="git"></category><category term="github"></category><category term="pelican-bootstrap3"></category></entry><entry><title>AWS SysOps Administration - Associate</title><link href="http://dmark.github.io/aws-sysops.html" rel="alternate"></link><published>2015-05-20T19:42:00-04:00</published><updated>2015-05-20T19:42:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:dmark.github.io,2015-05-20:aws-sysops.html</id><summary type="html">&lt;p&gt;Last week I took the &lt;a href="http://aws.amazon.com/certification/certified-sysops-admin-associate/"&gt;&lt;span class="caps"&gt;AWS&lt;/span&gt; SysOps Administrator -
 Associate&lt;/a&gt;
 test and &lt;a href="/files/awsSysOpsAdmin_AE.pdf"&gt;passed&lt;/a&gt; with flying colours. Next step
 will be the Developer and then the DevOps certifications, both of which I hope
-to complete this year. I look forward to doing a lot more work in AWS in the
-future.&lt;/p&gt;
+to complete this year. I look forward to doing a lot more work in &lt;span class="caps"&gt;AWS&lt;/span&gt; in the&amp;nbsp;future.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="AWS SysOps Administrator -
-Associate" src="/images/SysOps-Administrator-Associate.png" title="&amp;quot;AWS SysOps Administrator - Associate" /&gt;&lt;/p&gt;</summary><category term="aws"></category></entry><entry><title>My First Kaggle Competition</title><link href="http://dmark.github.io/my-first-kaggle-comp.html" rel="alternate"></link><published>2015-05-04T00:00:00+00:00</published><updated>2015-05-04T00:00:00+00:00</updated><author><name></name></author><id>tag:dmark.github.io,2015-05-04:my-first-kaggle-comp.html</id><summary type="html">&lt;p&gt;We are wrapping up the final week of MIT's &lt;a href="https://www.edx.org/course/analytics-edge-mitx-15-071x-0"&gt;15.071x "The Analytics
-Edge"&lt;/a&gt; course,
+Associate" src="/images/SysOps-Administrator-Associate.png" title="&amp;quot;AWS SysOps Administrator - Associate" /&gt;&lt;/p&gt;</summary><category term="aws"></category></entry><entry><title>My First Kaggle Competition</title><link href="http://dmark.github.io/my-first-kaggle-comp.html" rel="alternate"></link><published>2015-05-04T00:00:00-04:00</published><updated>2015-05-04T00:00:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:dmark.github.io,2015-05-04:my-first-kaggle-comp.html</id><summary type="html">&lt;p&gt;We are wrapping up the final week of &lt;span class="caps"&gt;MIT&lt;/span&gt;&amp;#8217;s &lt;a href="https://www.edx.org/course/analytics-edge-mitx-15-071x-0"&gt;15.071x &amp;#8220;The Analytics
+Edge&amp;#8221;&lt;/a&gt; course,
 delivered online via &lt;a href="http://edx.org"&gt;edX.org&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;As part of the course I participated in my first Kaggle competition. I finished
 in 1406th place out of 2923 people with a Private leaderboard score of 0.88319,
-down from a public leaderboard score of 0.91792.&lt;/p&gt;
+down from a public leaderboard score of&amp;nbsp;0.91792.&lt;/p&gt;
 &lt;p&gt;The mean score for all submissions was 0.8551523, median 0.90237, with a
-standard deviation of 0.09301734.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;Min.    1st Qu. Median  Mean    3rd Qu. Max.
+standard deviation of&amp;nbsp;0.09301734.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Min.    1st Qu. Median  Mean    3rd Qu. Max.
 0.2500  0.7945  0.9024  0.8552  0.9204  0.9455
-&lt;/pre&gt;&lt;/div&gt;
-
-
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Not a great result, but a great learning experience. Many of the top finishers
 are sharing their code so I look forward to reviewing what they did. It is
 interesting to see some of the dramatic shifts in the top tier finishers when
-going from the publicly available test data to the private test data set.&lt;/p&gt;
-&lt;p&gt;The red and blue lines below represent my final and public leaderboard scores
-respectively.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Kaggle Results" src="/images/15.071x-kaggle-results.png" /&gt;&lt;/p&gt;</summary><category term="data"></category><category term="analytics"></category></entry><entry><title>The First Post</title><link href="http://dmark.github.io/the-first-post.html" rel="alternate"></link><published>2016-08-26T17:58:00+00:00</published><updated>2016-08-26T17:58:00+00:00</updated><author><name></name></author><id>tag:dmark.github.io,2015-01-18:the-first-post.html</id><summary type="html">&lt;p&gt;I have proven to be absolutely terrible at this blogging business, but I'm
+going from the publicly available test data to the private test data&amp;nbsp;set.&lt;/p&gt;
+&lt;p&gt;The red and blue lines below represent my final and public leaderboard scores&amp;nbsp;respectively.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Kaggle Results" src="/images/15.071x-kaggle-results.png" /&gt;&lt;/p&gt;</summary><category term="data"></category><category term="analytics"></category></entry><entry><title>The First Post</title><link href="http://dmark.github.io/the-first-post.html" rel="alternate"></link><published>2016-08-26T17:58:00-04:00</published><updated>2016-08-26T17:58:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:dmark.github.io,2015-01-18:the-first-post.html</id><summary type="html">&lt;p&gt;I have proven to be absolutely terrible at this blogging business, but I&amp;#8217;m
 giving it another whirl. This is intended to be some form of working life /
-professional experience related site. I suppose it is meant to be a "brag
-sheet", though there may be some non-work stuff too.&lt;/p&gt;
+professional experience related site. I suppose it is meant to be a &amp;#8220;brag
+sheet&amp;#8221;, though there may be some non-work stuff&amp;nbsp;too.&lt;/p&gt;
 &lt;p&gt;You will find more personal details on the &lt;a href="/pages/about.html"&gt;About&lt;/a&gt; page, and
 a reasonably up-to-date resume &lt;a href="/files/Mark_Drummond_Resume.pdf"&gt;here&lt;/a&gt;. More
-info can be gleaned from my other online presences, linked in the sidebar.&lt;/p&gt;</summary><category term="misc"></category></entry><entry><title>About</title><link href="http://dmark.github.io/about.html" rel="alternate"></link><published>2016-07-20T07:18:00+00:00</published><updated>2016-07-20T07:18:00+00:00</updated><author><name></name></author><id>tag:dmark.github.io,1972-05-17:about.html</id><summary type="html">&lt;p&gt;mark [AT] markdrummond [DOT] ca&lt;/p&gt;
-&lt;p&gt;I am a career IT systems analyst, until recently specializing in Linux and Unix
-systems, Identity and Access Management, and Java EE application server
-environments.&lt;/p&gt;
-&lt;p&gt;Over the past few years I took a lead role in my organization's first steps
-into the cloud, and I've gotten involved with our data analytics team as well.
-As a result of my cloud initiatives and data work, I was recently "laterally
-promoted" to the position of Platform and Data Operations Analyst.&lt;/p&gt;
-&lt;p&gt;I am also a part-time undergraduate student at &lt;a href="http://www.queensu.ca/"&gt;Queen's
-University&lt;/a&gt;, working on a B.A. in
-&lt;a href="http://www.econ.queensu.ca/"&gt;Economics&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;My professional interests include:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Cloud technologies including AWS, Google Cloud, Docker, Heroku, CoreOS, etc.&lt;/li&gt;
-&lt;li&gt;Data Analytics and Machine Learning, particularly their implementation in code.&lt;/li&gt;
-&lt;li&gt;Coding, primarily in Python and R.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;A PDF copy of a reasonably up-to-date &lt;a href="/files/Mark_Drummond_Resume.pdf"&gt;resume&lt;/a&gt;
-is linked in the header above, and more details are available on my
-&lt;a href="http://ca.linkedin.com/in/s19647/"&gt;LinkedIn&lt;/a&gt; page.&lt;/p&gt;</summary><category term="about"></category></entry></feed>
+info can be gleaned from my other online presences, linked in the&amp;nbsp;sidebar.&lt;/p&gt;</summary><category term="misc"></category></entry></feed>
