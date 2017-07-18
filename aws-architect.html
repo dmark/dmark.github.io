@@ -1,234 +1,159 @@
+
 <!DOCTYPE html>
-<html lang="en" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
+<html lang="en">
 <head>
-    <title>AWS Certified Solutions Architect - Associate - Mark Drummond</title>
-    <!-- Using the latest rendering mode for IE -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" type="text/css" href="http://dmark.github.io/theme/stylesheet/style.min.css">
+
+  <link rel="stylesheet" type="text/css" href="http://dmark.github.io/theme/pygments/github.min.css">
+  <link rel="stylesheet" type="text/css" href="http://dmark.github.io/theme/font-awesome/css/font-awesome.min.css">
 
 
-    <link href="http://dmark.github.io/images/Drummond.png" rel="icon">
-
-<link rel="canonical" href="http://dmark.github.io/aws-architect.html">
-
-        <meta name="author" content="Mark Drummond" />
-        <meta name="keywords" content="aws" />
-        <meta name="description" content="Another certification in the bag. I wrote the AWS Associate level Solutions Architect exam today. I didn’t realize AWS certs are only good for 2 years. Sets a bit of a roadmap for my AWS certifications going forward. I got my Associate level SysOps cert in earl 2015, so ..." />
-
-        <meta property="og:site_name" content="Mark Drummond" />
-        <meta property="og:type" content="article"/>
-        <meta property="og:title" content="AWS Certified Solutions Architect - Associate"/>
-        <meta property="og:url" content="http://dmark.github.io/aws-architect.html"/>
-        <meta property="og:description" content="Another certification in the bag. I wrote the AWS Associate level Solutions Architect exam today. I didn’t realize AWS certs are only good for 2 years. Sets a bit of a roadmap for my AWS certifications going forward. I got my Associate level SysOps cert in earl 2015, so ..."/>
-        <meta property="article:published_time" content="2016-08-26" />
-            <meta property="article:section" content="All The Posts" />
-            <meta property="article:tag" content="aws" />
-            <meta property="article:author" content="Mark Drummond" />
+    <link href="http://dmark.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Mark Drummond Atom">
 
 
-    <!-- Bootstrap -->
-        <link rel="stylesheet" href="http://dmark.github.io/theme/css/bootstrap.min.css" type="text/css"/>
-    <link href="http://dmark.github.io/theme/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="http://localhost:8000/images/Drummond.png" type="image/x-icon">
+    <link rel="icon" href="http://localhost:8000/images/Drummond.png" type="image/x-icon">
 
-    <link href="http://dmark.github.io/theme/css/pygments/native.css" rel="stylesheet">
-        <link href="http://dmark.github.io/theme/css/typogrify.css" rel="stylesheet">
-    <link rel="stylesheet" href="http://dmark.github.io/theme/css/style.css" type="text/css"/>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="index, follow" />
 
-        <link href="http://dmark.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
-              title="Mark Drummond ATOM Feed"/>
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#11335d">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#11335d">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
+<meta name="author" content="Mark Drummond" />
+<meta name="description" content="Another certification in the bag. I wrote the AWS Associate level Solutions Architect exam today. I didn’t realize AWS certs are only good for 2 years. Sets a bit of a roadmap for my AWS certifications going forward. I got my Associate level SysOps cert in earl 2015, so …" />
+<meta name="keywords" content="aws">
+<meta property="og:site_name" content="Mark Drummond"/>
+<meta property="og:title" content="AWS Certified Solutions Architect - Associate"/>
+<meta property="og:description" content="Another certification in the bag. I wrote the AWS Associate level Solutions Architect exam today. I didn’t realize AWS certs are only good for 2 years. Sets a bit of a roadmap for my AWS certifications going forward. I got my Associate level SysOps cert in earl 2015, so …"/>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:url" content="http://dmark.github.io/aws-architect.html"/>
+<meta property="og:type" content="article"/>
+<meta property="article:published_time" content="2016-08-26 00:00:00-04:00"/>
+<meta property="article:modified_time" content="2016-08-26 00:00:00-04:00"/>
+<meta property="article:author" content="http://dmark.github.io/author/mark-drummond.html">
+<meta property="article:section" content="All The Posts"/>
+<meta property="article:tag" content="aws"/>
+<meta property="og:image" content="http://localhost:8000/images/nihla.jpg">
 
-
-        <link href="http://dmark.github.io/feeds/all-the-posts.atom.xml" type="application/atom+xml" rel="alternate"
-              title="Mark Drummond All The Posts ATOM Feed"/>
+  <title>Mark Drummond &ndash; AWS Certified Solutions Architect - Associate</title>
 
 </head>
 <body>
+  <aside>
+    <div>
+      <a href="http://dmark.github.io">
+        <img src="http://localhost:8000/images/nihla.jpg" alt="Mark Drummond" title="Mark Drummond">
+      </a>
+      <h1><a href="http://dmark.github.io">Mark Drummond</a></h1>
 
-<div class="navbar navbar-default navbar-fixed-top" role="navigation">
-	<div class="container-fluid">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a href="http://dmark.github.io/" class="navbar-brand">
-Mark Drummond            </a>
-        </div>
-        <div class="collapse navbar-collapse navbar-ex1-collapse">
-            <ul class="nav navbar-nav">
-                    <li><a href="/files/Mark_Drummond_Resume.pdf">Resume</a></li>
-                    <li><a href="/files/awsSysOpsAdmin_AE.pdf">AWS SysOps Admin</a></li>
-                    <li><a href="/files/lfcs.pdf">LFCS</a></li>
-                         <li><a href="http://dmark.github.io/pages/about.html">
-                             About
-                          </a></li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-            </ul>
-        </div>
-        <!-- /.navbar-collapse -->
+<p>Platform and Data Operations Analyst</p>
+      <nav>
+        <ul class="list">
+          <li><a href="http://dmark.github.io/pages/about.html#about">About</a></li>
+
+          <li><a href="http://queensu.ca" target="_blank">Queen's University</a></li>
+          <li><a href="http://python.org/" target="_blank">Python.org</a></li>
+          <li><a href="http://getpelican.com/" target="_blank">Pelican</a></li>
+        </ul>
+      </nav>
+
+      <ul class="social">
+        <li><a class="sc-github" href="https://github.com/dmark" target="_blank"><i class="fa fa-github"></i></a></li>
+        <li><a class="sc-stack-overflow" href="http://stackoverflow.com/users/3606230/shep" target="_blank"><i class="fa fa-stack-overflow"></i></a></li>
+      </ul>
     </div>
-</div> <!-- /.navbar -->
-<!-- Banner -->
-<!-- End Banner -->
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-sm-9">
-    <section id="content">
-        <article>
-            <header class="page-header">
-                <h1>
-                    <a href="http://dmark.github.io/aws-architect.html"
-                       rel="bookmark"
-                       title="Permalink to AWS Certified Solutions Architect - Associate">
-                        <span class="caps">AWS</span> Certified Solutions Architect -&nbsp;Associate
-                    </a>
-                </h1>
-            </header>
-            <div class="entry-content">
-                <div class="panel">
-                    <div class="panel-body">
-<footer class="post-info">
-    <span class="label label-default">Date</span>
-    <span class="published">
-        <i class="fa fa-calendar"></i><time datetime="2016-08-26T00:00:00-04:00"> Fri 26 August 2016</time>
-    </span>
 
 
+  </aside>
+  <main>
+
+    <nav>
+      <a href="http://dmark.github.io">    Home
+</a>
+
+      <a href="/files/Mark_Drummond_Resume.pdf">Resume</a>
+      <a href="/files/awsSysOpsAdmin_AE.pdf">AWS SysOps Admin</a>
+      <a href="/files/lfcs.pdf">LFCS</a>
+
+      <a href="http://dmark.github.io/feeds/all.atom.xml">    Atom
+</a>
+
+    </nav>
+
+<article class="single">
+  <header>
+    <h1 id="aws-architect"><span class="caps">AWS</span> Certified Solutions Architect -&nbsp;Associate</h1>
+    <p>
+          Posted on Fri 26 August 2016 in <a href="http://dmark.github.io/category/all-the-posts.html">All The Posts</a>
 
 
+    </p>
+  </header>
 
-<span class="label label-default">Tags</span>
-	<a href="http://dmark.github.io/tag/aws.html">aws</a>
-    
-</footer><!-- /.post-info -->                    </div>
-                </div>
-                <p>Another certification in the bag. I wrote the <span class="caps">AWS</span> Associate level Solutions
+
+  <div>
+    <p>Another certification in the bag. I wrote the <span class="caps">AWS</span> Associate level Solutions
 Architect exam today. I didn&#8217;t realize <span class="caps">AWS</span> certs are only good for 2 years.
 Sets a bit of a roadmap for my <span class="caps">AWS</span> certifications going forward. I got my
 Associate level SysOps cert in earl 2015, so I&#8217;ll want to replace it with the
 Professional level DevOps cert next year, and I&#8217;ll want to replace my Associate
 level Architect cert with the Professional level cert in&nbsp;2018.</p>
-<p><img alt="AWS Certified Solutions Architect - Associate" src="https://s3.amazonaws.com/citmkd/aws-certification-marks/Solutions-Architect-Associate.png" /></p>
-            </div>
-            <!-- /.entry-content -->
-        </article>
-    </section>
-
-        </div>
-        <div class="col-sm-3" id="sidebar">
-            <aside>
-<div id="aboutme">
-        <p>
-            <img width="100%" class="img-thumbnail" src="images/nihla.jpg"/>
-        </p>
+<p><img alt="AWS Certified Solutions Architect - Associate" src="https://s3.amazonaws.com/citmkd/aws-certification-marks/Solutions-Architect-Associate.png"></p>
+  </div>
+  <div class="tag-cloud">
     <p>
-        <strong>About Mark Drummond</strong><br/>
-        Platform and Data Operations Analyst
+      <a href="http://dmark.github.io/tag/aws.html">aws</a>
     </p>
-</div>
-<section class="well well-sm">
-    <ul class="list-group list-group-flush">
-            <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Social</span></h4>
-              <ul class="list-group" id="social">
-                <li class="list-group-item"><a href="https://github.com/dmark"><i class="fa fa-github-square fa-lg"></i> github</a></li>
-                <li class="list-group-item"><a href="http://stackoverflow.com/users/3606230/shep"><i class="fa fa-stack-overflow fa-lg"></i> stackoverflow</a></li>
-                <li class="list-group-item"><a href="https://www.kaggle.com/markdrummond"><i class="fa fa-line-chart fa-lg"></i> kaggle</a></li>
-                <li class="list-group-item"><a href="http://last.fm/user/med1972"><i class="fa fa-lastfm-square fa-lg"></i> lastfm</a></li>
-              </ul>
-            </li>
+  </div>
+
+
+
+
+</article>
+
+    <footer>
+<p>
+  &copy; Mark Drummond  - This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses///">  International License</a>
+</p>
+<p>    Powered by <a href="http://getpelican.com" target="_blank">Pelican</a> - <a href="https://github.com/alexandrevicenzi/flex" target="_blank">Flex</a> theme by <a href="http://alexandrevicenzi.com" target="_blank">Alexandre Vicenzi</a>
+</p><p>
+  <a rel="license"
+     href="http://creativecommons.org/licenses///"
+     target="_blank">
+    <img alt="Creative Commons License"
+         title="Creative Commons License"
+         style="border-width:0"
+         src="https://i.creativecommons.org/l///80x15.png"
+         width="80"
+         height="15"/>
+  </a>
+</p>    </footer>
+  </main>
 
 
 
 
 
-
-    <li class="list-group-item"><h4><i class="fa fa-github fa-lg"></i><span class="icon-label">GitHub Repos</span></h4>
-        <div id="gh_repos">
-            <p class="list-group-item">Status updating...</p>
-        </div>
-    </li>
-    <li class="list-group-item"><h4><i class="fa fa-external-link-square fa-lg"></i><span class="icon-label">Links</span></h4>
-      <ul class="list-group" id="links">
-        <li class="list-group-item">
-            <a href="http://queensu.ca" target="_blank">
-                Queen's University
-            </a>
-        </li>
-        <li class="list-group-item">
-            <a href="http://python.org/" target="_blank">
-                Python.org
-            </a>
-        </li>
-        <li class="list-group-item">
-            <a href="http://getpelican.com/" target="_blank">
-                Pelican
-            </a>
-        </li>
-      </ul>
-    </li>
-        <li class="list-group-item"><h4><i class="fa fa-external-link-square fa-lg"></i><span class="icon-label">Certifications</span></h4>
-    <li class="list-group-item">
-        <ul class="list-group" id="links">
-            <img width="100%" class="img-thumbnail" src="images/stacked-certs-small.png"/>
-            <img width="100%" class="img-thumbnail" src="images/lfcs.png"/>
-        </ul>
-    </li>
-    </ul>
-</section>
-            </aside>
-        </div>
-    </div>
-</div>
-<footer>
-   <div class="container-fluid">
-      <hr>
-      <div class="row">
-         <div class="col-xs-10">&copy; 2017 Mark Drummond
-            &middot; Powered by <a href="https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
-            <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
-            <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>              <p><small>  <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="//i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a>
-    Content
-  licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>, except where indicated otherwise.
-</small></p>
-         </div>
-         <div class="col-xs-2"><p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">Back to top</a></p></div>
-      </div>
-   </div>
-</footer>
-<script src="http://dmark.github.io/theme/js/jquery.min.js"></script>
-
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="http://dmark.github.io/theme/js/bootstrap.min.js"></script>
-
-<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
-<script src="http://dmark.github.io/theme/js/respond.min.js"></script>
-
-    <!-- GitHub JS -->
-    <script type="text/javascript">
-        $(document).ready(function () {
-            if (!window.jXHR) {
-                var jxhr = document.createElement('script');
-                jxhr.type = 'text/javascript';
-                jxhr.src = 'http://dmark.github.io/theme/js/jXHR.js';
-                var s = document.getElementsByTagName('script')[0];
-                s.parentNode.insertBefore(jxhr, s);
-            }
-
-            github.showRepos({
-                user: 'dmark',
-                count: 3,
-                skip_forks: false,
-                target: '#gh_repos'
-            });
-        });
-    </script>
-    <script src="http://dmark.github.io/theme/js/github.js" type="text/javascript"></script>
-    <!-- End GitHub JS Code -->
-
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " Mark Drummond ",
+  "url" : "http://dmark.github.io",
+  "image": "http://localhost:8000/images/nihla.jpg",
+  "description": "xyzzy"
+}
+</script>
 </body>
 </html>

@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Mark Drummond</title><link href="http://dmark.github.io/" rel="alternate"></link><link href="http://dmark.github.io/feeds/all-en.atom.xml" rel="self"></link><id>http://dmark.github.io/</id><updated>2017-01-08T22:41:00-05:00</updated><entry><title>And My Axe!</title><link href="http://dmark.github.io/rockstar.html" rel="alternate"></link><published>2017-01-08T22:41:00-05:00</published><updated>2017-01-08T22:41:00-05:00</updated><author><name>Mark Drummond</name></author><id>tag:dmark.github.io,2017-01-06:rockstar.html</id><summary type="html">&lt;p&gt;I bought a guitar: An Epiphone &lt;a href="http://www.epiphone.com/Products/Les-Paul/Ltd-Ed-Les-Paul-Standard-Plustop-PRO.aspx"&gt;Les Paul Standard PlusTop
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Mark Drummond</title><link href="http://dmark.github.io/" rel="alternate"></link><link href="http://dmark.github.io/feeds/all-en.atom.xml" rel="self"></link><id>http://dmark.github.io/</id><updated>2017-01-08T22:41:00-05:00</updated><entry><title>And My Axe!</title><link href="http://dmark.github.io/rockstar.html" rel="alternate"></link><published>2017-01-06T23:00:00-05:00</published><updated>2017-01-08T22:41:00-05:00</updated><author><name>Mark Drummond</name></author><id>tag:dmark.github.io,2017-01-06:/rockstar.html</id><summary type="html">&lt;p&gt;I bought a guitar: An Epiphone &lt;a href="http://www.epiphone.com/Products/Les-Paul/Ltd-Ed-Les-Paul-Standard-Plustop-PRO.aspx"&gt;Les Paul Standard PlusTop
 Pro&lt;/a&gt;
 in &amp;#8220;Bourbon Burst&amp;#8221; colour scheme. And it is freakin&amp;#8217;&amp;nbsp;gorgeous.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Epiphone Les Paul Standard PlusTop Pro" src="http://images.epiphone.com.s3.amazonaws.com/Products/Exclusives/2014/Les-Paul-Standard-PlusTop-PRO/POP_LPSTDPLUSproBB.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Epiphone Les Paul Standard PlusTop Pro" src="http://images.epiphone.com.s3.amazonaws.com/Products/Exclusives/2014/Les-Paul-Standard-PlusTop-PRO/POP_LPSTDPLUSproBB.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;I&amp;#8217;ve started hacking on some basics, chords and chord transitions, various
+forms of scales, and lots of YouTube lessons (&lt;a href="https://www.youtube.com/channel/UCqB_YqWcTAZZz4viqcs6aLQ"&gt;Lessons with
+Cameron&lt;/a&gt;, &lt;a href="https://www.youtube.com/channel/UC9cvVvlvr-qBssphm1EdYGQ"&gt;Andy
+Guitar&lt;/a&gt;, and others).
+Nothing formal …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I bought a guitar: An Epiphone &lt;a href="http://www.epiphone.com/Products/Les-Paul/Ltd-Ed-Les-Paul-Standard-Plustop-PRO.aspx"&gt;Les Paul Standard PlusTop
+Pro&lt;/a&gt;
+in &amp;#8220;Bourbon Burst&amp;#8221; colour scheme. And it is freakin&amp;#8217;&amp;nbsp;gorgeous.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Epiphone Les Paul Standard PlusTop Pro" src="http://images.epiphone.com.s3.amazonaws.com/Products/Exclusives/2014/Les-Paul-Standard-PlusTop-PRO/POP_LPSTDPLUSproBB.jpg"&gt;&lt;/p&gt;
 &lt;p&gt;I&amp;#8217;ve started hacking on some basics, chords and chord transitions, various
 forms of scales, and lots of YouTube lessons (&lt;a href="https://www.youtube.com/channel/UCqB_YqWcTAZZz4viqcs6aLQ"&gt;Lessons with
 Cameron&lt;/a&gt;, &lt;a href="https://www.youtube.com/channel/UC9cvVvlvr-qBssphm1EdYGQ"&gt;Andy
@@ -10,23 +18,31 @@ Guitar&lt;/a&gt;, and others).
 Nothing formal for now. If I stick with it for a few weeks then maybe I&amp;#8217;ll
 consider formal lessons. Life goals: to be able to shred along to my favourite
 metal and punk&amp;nbsp;riffs.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Epiphone Les Paul Standard PlusTop Pro" src="http://www.guitarpusher.com/wp-content/uploads/2015/01/POP_LPSTDPLUSproBB_thumb.jpg" /&gt;&lt;/p&gt;</summary><category term="guitar"></category><category term="les paul"></category><category term="epiphone"></category></entry><entry><title>My 2016 BMW R1200GS</title><link href="http://dmark.github.io/my-new-moto.html" rel="alternate"></link><published>2016-09-13T14:42:00-04:00</published><updated>2016-09-13T14:42:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:dmark.github.io,2016-09-13:my-new-moto.html</id><summary type="html">&lt;p&gt;Like all right thinking peoples, I like to ride the train. And I particularly like riding the train when there&amp;#8217;s a brand new motorcycle waiting for me at the other end of the&amp;nbsp;line.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="All Aboard" src="/images/new-moto-1.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Epiphone Les Paul Standard PlusTop Pro" src="http://www.guitarpusher.com/wp-content/uploads/2015/01/POP_LPSTDPLUSproBB_thumb.jpg"&gt;&lt;/p&gt;</content><category term="guitar"></category><category term="les paul"></category><category term="epiphone"></category></entry><entry><title>My 2016 BMW R1200GS</title><link href="http://dmark.github.io/my-new-moto.html" rel="alternate"></link><published>2016-09-13T14:42:00-04:00</published><updated>2016-09-13T14:42:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:dmark.github.io,2016-09-13:/my-new-moto.html</id><summary type="html">&lt;p&gt;Like all right thinking peoples, I like to ride the train. And I particularly like riding the train when there&amp;#8217;s a brand new motorcycle waiting for me at the other end of the&amp;nbsp;line.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="All Aboard" src="/images/new-moto-1.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;Of course, a good book is a great way to pass the time if the …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Like all right thinking peoples, I like to ride the train. And I particularly like riding the train when there&amp;#8217;s a brand new motorcycle waiting for me at the other end of the&amp;nbsp;line.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="All Aboard" src="/images/new-moto-1.jpg"&gt;&lt;/p&gt;
 &lt;p&gt;Of course, a good book is a great way to pass the time if the scenery isn&amp;#8217;t grabbing&amp;nbsp;you.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Sci Fi" src="/images/new-moto-2.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Sci Fi" src="/images/new-moto-2.jpg"&gt;&lt;/p&gt;
 &lt;p&gt;It makes me very, very happy to have this in my&amp;nbsp;driveway:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="My 2016 BMW R1200GS" src="/images/new-moto-3.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="My 2016 BMW R1200GS" src="/images/new-moto-3.jpg"&gt;&lt;/p&gt;
 &lt;h2&gt;Niggles&lt;/h2&gt;
 &lt;p&gt;As I have mentioned elsewhere, the turn signal switch has very little feel to&amp;nbsp;it.&lt;/p&gt;
 &lt;p&gt;Also, the fuel neck is quite long, making it very difficult to tell when the
 tank is&amp;nbsp;full.&lt;/p&gt;
-&lt;p&gt;Really hard to come up with negatives with this&amp;nbsp;bike!&lt;/p&gt;</summary><category term="motorcycling"></category></entry><entry><title>AWS Certified Solutions Architect - Associate</title><link href="http://dmark.github.io/aws-architect.html" rel="alternate"></link><published>2016-08-26T00:00:00-04:00</published><updated>2016-08-26T00:00:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:dmark.github.io,2016-08-26:aws-architect.html</id><summary type="html">&lt;p&gt;Another certification in the bag. I wrote the &lt;span class="caps"&gt;AWS&lt;/span&gt; Associate level Solutions
+&lt;p&gt;Really hard to come up with negatives with this&amp;nbsp;bike!&lt;/p&gt;</content><category term="motorcycling"></category></entry><entry><title>AWS Certified Solutions Architect - Associate</title><link href="http://dmark.github.io/aws-architect.html" rel="alternate"></link><published>2016-08-26T00:00:00-04:00</published><updated>2016-08-26T00:00:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:dmark.github.io,2016-08-26:/aws-architect.html</id><summary type="html">&lt;p&gt;Another certification in the bag. I wrote the &lt;span class="caps"&gt;AWS&lt;/span&gt; Associate level Solutions
+Architect exam today. I didn&amp;#8217;t realize &lt;span class="caps"&gt;AWS&lt;/span&gt; certs are only good for 2 years.
+Sets a bit of a roadmap for my &lt;span class="caps"&gt;AWS&lt;/span&gt; certifications going forward. I got my
+Associate level SysOps cert in earl 2015, so …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Another certification in the bag. I wrote the &lt;span class="caps"&gt;AWS&lt;/span&gt; Associate level Solutions
 Architect exam today. I didn&amp;#8217;t realize &lt;span class="caps"&gt;AWS&lt;/span&gt; certs are only good for 2 years.
 Sets a bit of a roadmap for my &lt;span class="caps"&gt;AWS&lt;/span&gt; certifications going forward. I got my
 Associate level SysOps cert in earl 2015, so I&amp;#8217;ll want to replace it with the
 Professional level DevOps cert next year, and I&amp;#8217;ll want to replace my Associate
 level Architect cert with the Professional level cert in&amp;nbsp;2018.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="AWS Certified Solutions Architect - Associate" src="https://s3.amazonaws.com/citmkd/aws-certification-marks/Solutions-Architect-Associate.png" /&gt;&lt;/p&gt;</summary><category term="aws"></category></entry><entry><title>A New Lid - the BMW System 6</title><link href="http://dmark.github.io/system6.html" rel="alternate"></link><published>2016-08-24T19:01:00-04:00</published><updated>2016-08-24T19:01:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:dmark.github.io,2016-08-24:system6.html</id><summary type="html">&lt;p&gt;So I dropped my reasonably new Shoei &lt;span class="caps"&gt;RF&lt;/span&gt;-1200, from about handlebar height, onto
+&lt;p&gt;&lt;img alt="AWS Certified Solutions Architect - Associate" src="https://s3.amazonaws.com/citmkd/aws-certification-marks/Solutions-Architect-Associate.png"&gt;&lt;/p&gt;</content><category term="aws"></category></entry><entry><title>A New Lid - the BMW System 6</title><link href="http://dmark.github.io/system6.html" rel="alternate"></link><published>2016-08-24T19:01:00-04:00</published><updated>2016-08-24T19:01:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:dmark.github.io,2016-08-24:/system6.html</id><summary type="html">&lt;p&gt;So I dropped my reasonably new Shoei &lt;span class="caps"&gt;RF&lt;/span&gt;-1200, from about handlebar height, onto
+my driveway, which calls in to question whether the helmet is still safe to
+wear. Is it even 2 years old yet? Shoei offers a helmet scanning service to
+confirm whether it is still safe, but …&lt;/p&gt;</summary><content type="html">&lt;p&gt;So I dropped my reasonably new Shoei &lt;span class="caps"&gt;RF&lt;/span&gt;-1200, from about handlebar height, onto
 my driveway, which calls in to question whether the helmet is still safe to
 wear. Is it even 2 years old yet? Shoei offers a helmet scanning service to
 confirm whether it is still safe, but that would mean no riding while I send it&amp;nbsp;away.&lt;/p&gt;
@@ -36,7 +52,7 @@ now that I have another lid to&amp;nbsp;wear.&lt;/p&gt;
 &lt;p&gt;The System 6 is a flip-up style helmet, manufactured for &lt;span class="caps"&gt;BMW&lt;/span&gt; by Schuberth. Mine
 is &amp;#8220;Sapphire Black Metallic&amp;#8221;, or &amp;#8220;shiny sparkly black&amp;#8221; in English. Here it is
 in some other&amp;nbsp;colour.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="BMW System 6" src="/images/s6.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="BMW System 6" src="/images/s6.png"&gt;&lt;/p&gt;
 &lt;h1&gt;A Short Term&amp;nbsp;Review&lt;/h1&gt;
 &lt;p&gt;I&amp;#8217;ve only worn the helmet for a half dozen or so hours, which includes a day
 trip involving maybe 4 hours of continuous wearing time, so this is a somewhat
@@ -90,7 +106,12 @@ bike-o-bike range of 100 metres, while the newer Sena and Cardo systems claim
 more than 1km. Maybe the newer &lt;span class="caps"&gt;BT&lt;/span&gt; standards don&amp;#8217;t really offer a motorcyclist
 much over the older standard? No&amp;nbsp;idea.&lt;/p&gt;
 &lt;p&gt;I really appreciate the level of integration that the &lt;span class="caps"&gt;BMW&lt;/span&gt; system has, but &lt;span class="caps"&gt;BMW&lt;/span&gt;
-needs to do a better job of keeping&amp;nbsp;up.&lt;/p&gt;</summary><category term="motorcycling"></category></entry><entry><title>A New Ride - the BMW R1200GS</title><link href="http://dmark.github.io/r1200gs.html" rel="alternate"></link><published>2016-08-24T17:36:00-04:00</published><updated>2016-08-24T17:36:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:dmark.github.io,2016-08-07:r1200gs.html</id><summary type="html">&lt;h2&gt;A Winner&amp;nbsp;[Updated]&lt;/h2&gt;
+needs to do a better job of keeping&amp;nbsp;up.&lt;/p&gt;</content><category term="motorcycling"></category></entry><entry><title>A New Ride - the BMW R1200GS</title><link href="http://dmark.github.io/r1200gs.html" rel="alternate"></link><published>2016-08-07T14:05:00-04:00</published><updated>2016-08-24T17:36:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:dmark.github.io,2016-08-07:/r1200gs.html</id><summary type="html">&lt;h2&gt;A Winner&amp;nbsp;[Updated]&lt;/h2&gt;
+&lt;p&gt;I had a 2017 &lt;span class="caps"&gt;BMW&lt;/span&gt; &lt;span class="caps"&gt;R1200GS&lt;/span&gt; in &amp;#8220;Frozen Dark Blue Metallic&amp;#8221; on order with a variety
+of gizmos including &lt;span class="caps"&gt;BMW&lt;/span&gt;&amp;#8217;s Navigator V &lt;span class="caps"&gt;GPS&lt;/span&gt; system, keyless ride, and the
+Akrapovic exhaust. Being only 172cm tall, I was getting the bike lowered to
+better fit my&amp;nbsp;height.&lt;/p&gt;
+&lt;p&gt;My …&lt;/p&gt;</summary><content type="html">&lt;h2&gt;A Winner&amp;nbsp;[Updated]&lt;/h2&gt;
 &lt;p&gt;I had a 2017 &lt;span class="caps"&gt;BMW&lt;/span&gt; &lt;span class="caps"&gt;R1200GS&lt;/span&gt; in &amp;#8220;Frozen Dark Blue Metallic&amp;#8221; on order with a variety
 of gizmos including &lt;span class="caps"&gt;BMW&lt;/span&gt;&amp;#8217;s Navigator V &lt;span class="caps"&gt;GPS&lt;/span&gt; system, keyless ride, and the
 Akrapovic exhaust. Being only 172cm tall, I was getting the bike lowered to
@@ -99,7 +120,7 @@ better fit my&amp;nbsp;height.&lt;/p&gt;
 to another buyer who backed out of the deal. Still in its crate, same colour,
 all the factory options and the lowering kit installed, and it can be ready for
 me in a week or&amp;nbsp;two.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="2016 BMW R1200GS" src="/images/r1200gs_large.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="2016 BMW R1200GS" src="/images/r1200gs_large.jpg"&gt;&lt;/p&gt;
 &lt;h2&gt;I&amp;nbsp;Ride&lt;/h2&gt;
 &lt;p&gt;I received my motorcycle license in the Fall of 2011. I also bought my first
 and, until now, only motorcycle at the same time: a previously enjoyed 2006
@@ -197,7 +218,10 @@ programs and the role that played in my decision. It turns&amp;nbsp;out:&lt;/p&g
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;I&amp;#8217;m guessing sales isn&amp;#8217;t particularly high on Triumph&amp;#8217;s agenda on this side of
-the pond? Would you be inclined to buy a ~$25,000 motorcycle without riding it&amp;nbsp;first?&lt;/p&gt;</summary><category term="motorcycling"></category></entry><entry><title>Platform and Data Operations Analyst</title><link href="http://dmark.github.io/new-job.html" rel="alternate"></link><published>2016-07-20T09:00:00-04:00</published><updated>2016-07-20T09:00:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:dmark.github.io,2016-07-08:new-job.html</id><summary type="html">&lt;p&gt;In what was more than a bit of a surprise, I was &amp;#8220;laterally promoted&amp;#8221; to a new
+the pond? Would you be inclined to buy a ~$25,000 motorcycle without riding it&amp;nbsp;first?&lt;/p&gt;</content><category term="motorcycling"></category></entry><entry><title>Platform and Data Operations Analyst</title><link href="http://dmark.github.io/new-job.html" rel="alternate"></link><published>2016-07-08T12:00:00-04:00</published><updated>2016-07-20T09:00:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:dmark.github.io,2016-07-08:/new-job.html</id><summary type="html">&lt;p&gt;In what was more than a bit of a surprise, I was &amp;#8220;laterally promoted&amp;#8221; to a new
+role with my employer, something I only found out less than 24 hours before it
+was announced to the department. I shall not complain. A bit of an odd way to
+go about …&lt;/p&gt;</summary><content type="html">&lt;p&gt;In what was more than a bit of a surprise, I was &amp;#8220;laterally promoted&amp;#8221; to a new
 role with my employer, something I only found out less than 24 hours before it
 was announced to the department. I shall not complain. A bit of an odd way to
 go about things from a human resources perspective, but I&amp;#8217;m very happy about my
@@ -212,24 +236,33 @@ some very junior level work with our Data Services team for the past year or
 so, and I hope to continue doing more, though the details still need to be
 hammered out. It is possible my new position will lead me more toward &amp;#8216;data
 engineering&amp;#8217;, helping our data team leverage cloud-based data services. The
-door is certainly open for me to spend more of my time on data /&amp;nbsp;analytics.&lt;/p&gt;</summary><category term="misc"></category></entry><entry><title>Linux Foundation Certified System Administrator</title><link href="http://dmark.github.io/lfcs.html" rel="alternate"></link><published>2016-05-05T10:59:00-04:00</published><updated>2016-05-05T10:59:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:dmark.github.io,2016-05-05:lfcs.html</id><summary type="html">&lt;p&gt;I&amp;#8217;ve been at this Unix and Linux systems management stuff for over 20 years
-now. As with my undergraduate degree&lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1" rel="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt;, I&amp;#8217;ve long wanted to knock out a few
+door is certainly open for me to spend more of my time on data /&amp;nbsp;analytics.&lt;/p&gt;</content><category term="misc"></category></entry><entry><title>Linux Foundation Certified System Administrator</title><link href="http://dmark.github.io/lfcs.html" rel="alternate"></link><published>2016-05-05T10:25:00-04:00</published><updated>2016-05-05T10:59:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:dmark.github.io,2016-05-05:/lfcs.html</id><summary type="html">&lt;p&gt;I&amp;#8217;ve been at this Unix and Linux systems management stuff for over 20 years
+now. As with my undergraduate degree&lt;sup id="fnref-1"&gt;&lt;a class="footnote-ref" href="#fn-1"&gt;1&lt;/a&gt;&lt;/sup&gt;, I&amp;#8217;ve long wanted to knock out a few
+relevant technology certifications. Following on from my &lt;span class="caps"&gt;AWS&lt;/span&gt; SysOps
+certification, I took and passed the &lt;a href="http://www.linuxfoundation.org/"&gt;Linux
+Foundation&amp;#8217;s&lt;/a&gt;
+&lt;a href="https://training.linuxfoundation.org/certification/lfcs"&gt;&lt;span class="caps"&gt;LFCS …&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;I&amp;#8217;ve been at this Unix and Linux systems management stuff for over 20 years
+now. As with my undergraduate degree&lt;sup id="fnref-1"&gt;&lt;a class="footnote-ref" href="#fn-1"&gt;1&lt;/a&gt;&lt;/sup&gt;, I&amp;#8217;ve long wanted to knock out a few
 relevant technology certifications. Following on from my &lt;span class="caps"&gt;AWS&lt;/span&gt; SysOps
 certification, I took and passed the &lt;a href="http://www.linuxfoundation.org/"&gt;Linux
 Foundation&amp;#8217;s&lt;/a&gt;
 &lt;a href="https://training.linuxfoundation.org/certification/lfcs"&gt;&lt;span class="caps"&gt;LFCS&lt;/span&gt;&lt;/a&gt; certification
 exam this&amp;nbsp;week.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Linux Foundation Certified System Administrator" src="/images/lfcs-small.png" title="Linux Foundation Certified System Administrator" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Linux Foundation Certified System Administrator" src="/images/lfcs-small.png" title="Linux Foundation Certified System Administrator"&gt;&lt;/p&gt;
 &lt;div class="footnote"&gt;
-&lt;hr /&gt;
+&lt;hr&gt;
 &lt;ol&gt;
-&lt;li id="fn:1"&gt;
+&lt;li id="fn-1"&gt;
 &lt;p&gt;I am a part-time undergrad at my &lt;a href="http://www.queensu.ca/"&gt;local
 University&lt;/a&gt;, chipping away at a &lt;span class="caps"&gt;B.A.&lt;/span&gt; in
-&lt;a href="http://www.econ.queensu.ca"&gt;Economics&lt;/a&gt;.&amp;#160;&lt;a class="footnote-backref" href="#fnref:1" rev="footnote" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;a href="http://www.econ.queensu.ca"&gt;Economics&lt;/a&gt;.&amp;#160;&lt;a class="footnote-backref" href="#fnref-1" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</summary><category term="lfcs"></category></entry><entry><title>Highly Available NAT with AWS Auto Scaling</title><link href="http://dmark.github.io/aws-ha-nat-auto-scaling.html" rel="alternate"></link><published>2016-08-18T09:09:00-04:00</published><updated>2016-08-18T09:09:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:dmark.github.io,2015-05-22:aws-ha-nat-auto-scaling.html</id><summary type="html">&lt;p&gt;[&lt;span class="caps"&gt;AWS&lt;/span&gt; now offers a highly available &lt;span class="caps"&gt;NAT&lt;/span&gt; Gateway service. You can still run your
+&lt;/div&gt;</content><category term="lfcs"></category></entry><entry><title>Highly Available NAT with AWS Auto Scaling</title><link href="http://dmark.github.io/aws-ha-nat-auto-scaling.html" rel="alternate"></link><published>2015-05-22T16:31:00-04:00</published><updated>2016-08-18T09:09:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:dmark.github.io,2015-05-22:/aws-ha-nat-auto-scaling.html</id><summary type="html">&lt;p&gt;[&lt;span class="caps"&gt;AWS&lt;/span&gt; now offers a highly available &lt;span class="caps"&gt;NAT&lt;/span&gt; Gateway service. You can still run your
+own &lt;span class="caps"&gt;NAT&lt;/span&gt;, and there are advantages and disadvantages to both options. I&amp;#8217;ve
+converted my systems to use the &lt;span class="caps"&gt;NAT&lt;/span&gt; Gateway service. This document is a&amp;nbsp;work-in-progress.]&lt;/p&gt;
+&lt;p&gt;This is largely a re-spin of &lt;a href="http://cakesolutions.net/"&gt;Cake Solutions&amp;#8217;&lt;/a&gt;
+methodology …&lt;/p&gt;</summary><content type="html">&lt;p&gt;[&lt;span class="caps"&gt;AWS&lt;/span&gt; now offers a highly available &lt;span class="caps"&gt;NAT&lt;/span&gt; Gateway service. You can still run your
 own &lt;span class="caps"&gt;NAT&lt;/span&gt;, and there are advantages and disadvantages to both options. I&amp;#8217;ve
 converted my systems to use the &lt;span class="caps"&gt;NAT&lt;/span&gt; Gateway service. This document is a&amp;nbsp;work-in-progress.]&lt;/p&gt;
 &lt;p&gt;This is largely a re-spin of &lt;a href="http://cakesolutions.net/"&gt;Cake Solutions&amp;#8217;&lt;/a&gt;
@@ -276,42 +309,44 @@ The &lt;span class="caps"&gt;NAT&lt;/span&gt; instance requires appropriate perm
 changes to the &lt;span class="caps"&gt;EIP&lt;/span&gt;. We use an &lt;span class="caps"&gt;AWS&lt;/span&gt; &lt;span class="caps"&gt;IAM&lt;/span&gt; role to provision the necessary&amp;nbsp;permissions.&lt;/p&gt;
 &lt;p&gt;In the &lt;span class="caps"&gt;AWS&lt;/span&gt; console, go to Services -&amp;gt; &lt;span class="caps"&gt;IAM&lt;/span&gt;, click &amp;#8220;Roles&amp;#8221; and then click &amp;#8220;Create
 New&amp;nbsp;Role&amp;#8221;.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Create New Role" src="images/ha_nat/ha_nat_iam_001.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Create New Role" src="images/ha_nat/ha_nat_iam_001.png"&gt;&lt;/p&gt;
 &lt;p&gt;Give the role an appropriate name and click &amp;#8220;Next&amp;nbsp;Step&amp;#8221;.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Set Role Name" src="images/ha_nat/ha_nat_iam_002.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Set Role Name" src="images/ha_nat/ha_nat_iam_002.png"&gt;&lt;/p&gt;
 &lt;p&gt;At Step 2, select the &amp;#8220;Amazon &lt;span class="caps"&gt;EC2&lt;/span&gt;&amp;#8221; service role and then click &amp;#8220;Next&amp;nbsp;Step&amp;#8221;.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Select Role Type" src="images/ha_nat/ha_nat_iam_003.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Select Role Type" src="images/ha_nat/ha_nat_iam_003.png"&gt;&lt;/p&gt;
 &lt;p&gt;Review and click &amp;#8220;Create&amp;nbsp;Role&amp;#8221;.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Create Role" src="images/ha_nat/ha_nat_iam_004.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Create Role" src="images/ha_nat/ha_nat_iam_004.png"&gt;&lt;/p&gt;
 &lt;p&gt;Now select the new role, expand the &amp;#8220;Inline Policies&amp;#8221; section and click the
 &amp;#8220;click here&amp;#8221; text to create an inline&amp;nbsp;policy.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Inline Policy" src="images/ha_nat/ha_nat_iam_005.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Inline Policy" src="images/ha_nat/ha_nat_iam_005.png"&gt;&lt;/p&gt;
 &lt;p&gt;By default the Policy Generator should be selected. Click the &amp;#8220;Select&amp;#8221;&amp;nbsp;button.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Set Permissions" src="images/ha_nat/ha_nat_iam_006.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Set Permissions" src="images/ha_nat/ha_nat_iam_006.png"&gt;&lt;/p&gt;
 &lt;p&gt;Change the &lt;span class="caps"&gt;AWS&lt;/span&gt; Service to &amp;#8220;Amazon &lt;span class="caps"&gt;EC2&lt;/span&gt;&amp;#8221; and in the Actions drop down, select
 &amp;#8220;AttachNetworkInterface&amp;#8221; and &amp;#8220;ModifyInstanceAttribute&amp;#8221;. In the &lt;span class="caps"&gt;ARN&lt;/span&gt; text box,
 just enter &amp;#8220;*&amp;#8221;. Click &amp;#8220;Add Statement&amp;#8221; and then click &amp;#8220;Next&amp;nbsp;Step&amp;#8221;.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Edit Permissions" src="images/ha_nat/ha_nat_iam_008.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Edit Permissions" src="images/ha_nat/ha_nat_iam_008.png"&gt;&lt;/p&gt;
 &lt;p&gt;Click Apply&amp;nbsp;Policy.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Review Policy" src="images/ha_nat/ha_nat_iam_009.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Review Policy" src="images/ha_nat/ha_nat_iam_009.png"&gt;&lt;/p&gt;
 &lt;p&gt;The policy should look like&amp;nbsp;this:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;{
-    "Version": "2012-10-17",
-    "Statement": [
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;{
+    &amp;quot;Version&amp;quot;: &amp;quot;2012-10-17&amp;quot;,
+    &amp;quot;Statement&amp;quot;: [
         {
-            "Sid": "Stmt1431450055000",
-            "Effect": "Allow",
-            "Action": [
-                "ec2:AttachNetworkInterface",
-                "ec2:ModifyInstanceAttribute"
+            &amp;quot;Sid&amp;quot;: &amp;quot;Stmt1431450055000&amp;quot;,
+            &amp;quot;Effect&amp;quot;: &amp;quot;Allow&amp;quot;,
+            &amp;quot;Action&amp;quot;: [
+                &amp;quot;ec2:AttachNetworkInterface&amp;quot;,
+                &amp;quot;ec2:ModifyInstanceAttribute&amp;quot;
             ],
-            "Resource": [
-                "*"
+            &amp;quot;Resource&amp;quot;: [
+                &amp;quot;*&amp;quot;
             ]
         }
     ]
 }
-&lt;/code&gt;&lt;/pre&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
 &lt;h1&gt;Elastic &lt;span class="caps"&gt;IP&lt;/span&gt;&lt;/h1&gt;
 &lt;p&gt;We will create a new &lt;span class="caps"&gt;EIP&lt;/span&gt;, distinct from any one instance. This &lt;span class="caps"&gt;EIP&lt;/span&gt; will be
 attached to the current active &lt;span class="caps"&gt;NAT&lt;/span&gt; instance, and moved from one instance to the
@@ -324,29 +359,52 @@ instance. The user data is executed towards the end of the instance creation
 cycle. The user data we will use instructs a new instance to attach the Elastic
 &lt;span class="caps"&gt;IP&lt;/span&gt; to it itself, to disable source-destination checks, and to ensure forwarding
 is enabled on the&amp;nbsp;instance.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;#!/bin/bash
+&lt;table class="highlighttable"&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt; 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="ch"&gt;#!/bin/bash&lt;/span&gt;
 
-function log () {
-    echo "$(date +"%b %e %T") $@"
-    logger -- $(basename $0)" - $@"
-}
+&lt;span class="k"&gt;function&lt;/span&gt; log &lt;span class="o"&gt;()&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
+    &lt;span class="nb"&gt;echo&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="k"&gt;$(&lt;/span&gt;date +&lt;span class="s2"&gt;&amp;quot;%b %e %T&amp;quot;&lt;/span&gt;&lt;span class="k"&gt;)&lt;/span&gt;&lt;span class="s2"&gt; &lt;/span&gt;&lt;span class="nv"&gt;$@&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;
+    logger -- &lt;span class="k"&gt;$(&lt;/span&gt;basename &lt;span class="nv"&gt;$0&lt;/span&gt;&lt;span class="k"&gt;)&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot; - &lt;/span&gt;&lt;span class="nv"&gt;$@&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;
+&lt;span class="o"&gt;}&lt;/span&gt;
 
-export AWS_DEFAULT_REGION="us-east-1"
-instance_id=$(curl -s http://169.254.169.254/latest/meta-data/instance-id)
-eni_id="eni-fd054db5"
+&lt;span class="nb"&gt;export&lt;/span&gt; &lt;span class="nv"&gt;AWS_DEFAULT_REGION&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;us-east-1&amp;quot;&lt;/span&gt;
+&lt;span class="nv"&gt;instance_id&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="k"&gt;$(&lt;/span&gt;curl -s http://169.254.169.254/latest/meta-data/instance-id&lt;span class="k"&gt;)&lt;/span&gt;
+&lt;span class="nv"&gt;eni_id&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;eni-fd054db5&amp;quot;&lt;/span&gt;
 
-/usr/bin/aws ec2 modify-instance-attribute --instance-id ${instance_id} --no-source-dest-check
-/usr/bin/aws ec2 attach-network-interface  --instance-id ${instance_id} --network-interface-id ${eni_id} --device-index 1
+/usr/bin/aws ec2 modify-instance-attribute --instance-id &lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;instance_id&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt; --no-source-dest-check
+/usr/bin/aws ec2 attach-network-interface  --instance-id &lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;instance_id&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt; --network-interface-id &lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;eni_id&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt; --device-index &lt;span class="m"&gt;1&lt;/span&gt;
 
-retcode=$?
-[ "$retcode" -eq 0 ] &amp;amp;&amp;amp; { log "eni attachment successful" ; } || { log "eni attachment failed" ; exit 1 ; }
+&lt;span class="nv"&gt;retcode&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="nv"&gt;$?&lt;/span&gt;
+&lt;span class="o"&gt;[&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="nv"&gt;$retcode&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt; -eq &lt;span class="m"&gt;0&lt;/span&gt; &lt;span class="o"&gt;]&lt;/span&gt; &lt;span class="o"&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt; log &lt;span class="s2"&gt;&amp;quot;eni attachment successful&amp;quot;&lt;/span&gt; &lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="o"&gt;}&lt;/span&gt; &lt;span class="o"&gt;||&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt; log &lt;span class="s2"&gt;&amp;quot;eni attachment failed&amp;quot;&lt;/span&gt; &lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="nb"&gt;exit&lt;/span&gt; &lt;span class="m"&gt;1&lt;/span&gt; &lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="o"&gt;}&lt;/span&gt;
 
-sleep 60
+sleep &lt;span class="m"&gt;60&lt;/span&gt;
 ifdown eth0
 iptables -t nat -A POSTROUTING -j MASQUERADE
 iptables -A FORWARD -j ACCEPT
-echo 1 &amp;gt; /proc/sys/net/ipv4/ip_forward
-&lt;/code&gt;&lt;/pre&gt;
+&lt;span class="nb"&gt;echo&lt;/span&gt; &lt;span class="m"&gt;1&lt;/span&gt; &amp;gt; /proc/sys/net/ipv4/ip_forward
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
 &lt;h1&gt;Security&amp;nbsp;Group&lt;/h1&gt;
 &lt;p&gt;You will need an appropriate security group. It should allow &lt;span class="caps"&gt;HTTP&lt;/span&gt; and &lt;span class="caps"&gt;HTTPS&lt;/span&gt;
 from your private subnets or your entire &lt;span class="caps"&gt;VPC&lt;/span&gt;.&lt;/p&gt;
@@ -364,7 +422,13 @@ Linux &lt;span class="caps"&gt;NAT&lt;/span&gt; &lt;span class="caps"&gt;AMI&lt;
 &lt;p&gt;I&amp;#8217;ve specific t2.micro instance type and my &lt;span class="caps"&gt;NAT&lt;/span&gt; security&amp;nbsp;group.&lt;/p&gt;
 &lt;p&gt;I&amp;#8217;ve included my above user data shell&amp;nbsp;script.&lt;/p&gt;
 &lt;h1&gt;Auto Scaling&amp;nbsp;Group&lt;/h1&gt;
-&lt;p&gt;The Auto Scaling group ties everything&amp;nbsp;together.&lt;/p&gt;</summary><category term="aws"></category></entry><entry><title>My First Pull Request</title><link href="http://dmark.github.io/my-first-pull-request.html" rel="alternate"></link><published>2015-05-20T19:36:00-04:00</published><updated>2015-05-20T19:36:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:dmark.github.io,2015-05-20:my-first-pull-request.html</id><summary type="html">&lt;p&gt;I use &lt;a href="http://getpelican.com/"&gt;Pelican&lt;/a&gt; and the
+&lt;p&gt;The Auto Scaling group ties everything&amp;nbsp;together.&lt;/p&gt;</content><category term="aws"></category></entry><entry><title>My First Pull Request</title><link href="http://dmark.github.io/my-first-pull-request.html" rel="alternate"></link><published>2015-05-20T16:59:00-04:00</published><updated>2015-05-20T19:36:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:dmark.github.io,2015-05-20:/my-first-pull-request.html</id><summary type="html">&lt;p&gt;I use &lt;a href="http://getpelican.com/"&gt;Pelican&lt;/a&gt; and the
+&lt;a href="https://github.com/DandyDev/pelican-bootstrap3"&gt;pelican-bootstrap3&lt;/a&gt; theme to
+built this&amp;nbsp;site.&lt;/p&gt;
+&lt;p&gt;I made my first real pull request today in the form of a minor contribution to
+&lt;a href="https://github.com/DandyDev/pelican-bootstrap3"&gt;pelican-bootstrap3&lt;/a&gt;. I added a
+&lt;a href="https://github.com/DandyDev/pelican-bootstrap3/pull/190"&gt;feature&lt;/a&gt; that allows
+you to add a series of images to the sidebar. The original intent was to allow …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I use &lt;a href="http://getpelican.com/"&gt;Pelican&lt;/a&gt; and the
 &lt;a href="https://github.com/DandyDev/pelican-bootstrap3"&gt;pelican-bootstrap3&lt;/a&gt; theme to
 built this&amp;nbsp;site.&lt;/p&gt;
 &lt;p&gt;I made my first real pull request today in the form of a minor contribution to
@@ -374,13 +438,23 @@ you to add a series of images to the sidebar. The original intent was to allow
 me to add certification marks to my sidebar, which you can now see in action
 right&amp;nbsp;here!&lt;/p&gt;
 &lt;p&gt;Props to &lt;a href="https://github.com/DandyDev"&gt;@DandyDev&lt;/a&gt; for the pro&amp;nbsp;tips.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="My first pull request" src="/images/my-first-pull-request.png" title="My first pull request" /&gt;&lt;/p&gt;</summary><category term="git"></category><category term="github"></category><category term="pelican-bootstrap3"></category></entry><entry><title>AWS SysOps Administration - Associate</title><link href="http://dmark.github.io/aws-sysops.html" rel="alternate"></link><published>2015-05-20T19:42:00-04:00</published><updated>2015-05-20T19:42:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:dmark.github.io,2015-05-20:aws-sysops.html</id><summary type="html">&lt;p&gt;Last week I took the &lt;a href="http://aws.amazon.com/certification/certified-sysops-admin-associate/"&gt;&lt;span class="caps"&gt;AWS&lt;/span&gt; SysOps Administrator -
+&lt;p&gt;&lt;img alt="My first pull request" src="/images/my-first-pull-request.png" title="My first pull request"&gt;&lt;/p&gt;</content><category term="git"></category><category term="github"></category><category term="pelican-bootstrap3"></category></entry><entry><title>AWS SysOps Administration - Associate</title><link href="http://dmark.github.io/aws-sysops.html" rel="alternate"></link><published>2015-05-20T08:23:00-04:00</published><updated>2015-05-20T19:42:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:dmark.github.io,2015-05-20:/aws-sysops.html</id><summary type="html">&lt;p&gt;Last week I took the &lt;a href="http://aws.amazon.com/certification/certified-sysops-admin-associate/"&gt;&lt;span class="caps"&gt;AWS&lt;/span&gt; SysOps Administrator -
 Associate&lt;/a&gt;
 test and &lt;a href="/files/awsSysOpsAdmin_AE.pdf"&gt;passed&lt;/a&gt; with flying colours. Next step
 will be the Developer and then the DevOps certifications, both of which I hope
 to complete this year. I look forward to doing a lot more work in &lt;span class="caps"&gt;AWS&lt;/span&gt; in the&amp;nbsp;future.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="AWS SysOps Administrator -
-Associate" src="/images/SysOps-Administrator-Associate.png" title="&amp;quot;AWS SysOps Administrator - Associate" /&gt;&lt;/p&gt;</summary><category term="aws"></category></entry><entry><title>My First Kaggle Competition</title><link href="http://dmark.github.io/my-first-kaggle-comp.html" rel="alternate"></link><published>2015-05-04T00:00:00-04:00</published><updated>2015-05-04T00:00:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:dmark.github.io,2015-05-04:my-first-kaggle-comp.html</id><summary type="html">&lt;p&gt;We are wrapping up the final week of &lt;span class="caps"&gt;MIT&lt;/span&gt;&amp;#8217;s &lt;a href="https://www.edx.org/course/analytics-edge-mitx-15-071x-0"&gt;15.071x &amp;#8220;The Analytics
+&lt;p&gt;![&lt;span class="caps"&gt;AWS …&lt;/span&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Last week I took the &lt;a href="http://aws.amazon.com/certification/certified-sysops-admin-associate/"&gt;&lt;span class="caps"&gt;AWS&lt;/span&gt; SysOps Administrator -
+Associate&lt;/a&gt;
+test and &lt;a href="/files/awsSysOpsAdmin_AE.pdf"&gt;passed&lt;/a&gt; with flying colours. Next step
+will be the Developer and then the DevOps certifications, both of which I hope
+to complete this year. I look forward to doing a lot more work in &lt;span class="caps"&gt;AWS&lt;/span&gt; in the&amp;nbsp;future.&lt;/p&gt;
+&lt;p&gt;![&lt;span class="caps"&gt;AWS&lt;/span&gt; SysOps Administrator -
+Associate](/images/SysOps-Administrator-Associate.png &amp;#8220;&lt;span class="caps"&gt;AWS&lt;/span&gt; SysOps Administrator
+-&amp;nbsp;Associate)&lt;/p&gt;</content><category term="aws"></category></entry><entry><title>My First Kaggle Competition</title><link href="http://dmark.github.io/my-first-kaggle-comp.html" rel="alternate"></link><published>2015-05-04T00:00:00-04:00</published><updated>2015-05-04T00:00:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:dmark.github.io,2015-05-04:/my-first-kaggle-comp.html</id><summary type="html">&lt;p&gt;We are wrapping up the final week of &lt;span class="caps"&gt;MIT&lt;/span&gt;&amp;#8217;s &lt;a href="https://www.edx.org/course/analytics-edge-mitx-15-071x-0"&gt;15.071x &amp;#8220;The Analytics
+Edge&amp;#8221;&lt;/a&gt; course,
+delivered online via &lt;a href="http://edx.org"&gt;edX.org&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;As part of the course I participated in my first Kaggle competition. I finished
+in 1406th place out of 2923 people with a Private leaderboard score of 0.88319 …&lt;/p&gt;</summary><content type="html">&lt;p&gt;We are wrapping up the final week of &lt;span class="caps"&gt;MIT&lt;/span&gt;&amp;#8217;s &lt;a href="https://www.edx.org/course/analytics-edge-mitx-15-071x-0"&gt;15.071x &amp;#8220;The Analytics
 Edge&amp;#8221;&lt;/a&gt; course,
 delivered online via &lt;a href="http://edx.org"&gt;edX.org&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;As part of the course I participated in my first Kaggle competition. I finished
@@ -388,18 +462,23 @@ in 1406th place out of 2923 people with a Private leaderboard score of 0.88319,
 down from a public leaderboard score of&amp;nbsp;0.91792.&lt;/p&gt;
 &lt;p&gt;The mean score for all submissions was 0.8551523, median 0.90237, with a
 standard deviation of&amp;nbsp;0.09301734.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;Min.    1st Qu. Median  Mean    3rd Qu. Max.
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;Min.    1st Qu. Median  Mean    3rd Qu. Max.
 0.2500  0.7945  0.9024  0.8552  0.9204  0.9455
-&lt;/code&gt;&lt;/pre&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
 &lt;p&gt;Not a great result, but a great learning experience. Many of the top finishers
 are sharing their code so I look forward to reviewing what they did. It is
 interesting to see some of the dramatic shifts in the top tier finishers when
 going from the publicly available test data to the private test data&amp;nbsp;set.&lt;/p&gt;
 &lt;p&gt;The red and blue lines below represent my final and public leaderboard scores&amp;nbsp;respectively.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Kaggle Results" src="/images/15.071x-kaggle-results.png" /&gt;&lt;/p&gt;</summary><category term="data"></category><category term="analytics"></category></entry><entry><title>The First Post</title><link href="http://dmark.github.io/the-first-post.html" rel="alternate"></link><published>2016-08-26T17:58:00-04:00</published><updated>2016-08-26T17:58:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:dmark.github.io,2015-01-18:the-first-post.html</id><summary type="html">&lt;p&gt;I have proven to be absolutely terrible at this blogging business, but I&amp;#8217;m
+&lt;p&gt;&lt;img alt="Kaggle Results" src="/images/15.071x-kaggle-results.png"&gt;&lt;/p&gt;</content><category term="data"></category><category term="analytics"></category></entry><entry><title>The First Post</title><link href="http://dmark.github.io/the-first-post.html" rel="alternate"></link><published>2015-01-18T09:48:00-05:00</published><updated>2016-08-26T17:58:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:dmark.github.io,2015-01-18:/the-first-post.html</id><summary type="html">&lt;p&gt;I have proven to be absolutely terrible at this blogging business, but I&amp;#8217;m
+giving it another whirl. This is intended to be some form of working life /
+professional experience related site. I suppose it is meant to be a &amp;#8220;brag
+sheet&amp;#8221;, though there may be some non-work stuff&amp;nbsp;too …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I have proven to be absolutely terrible at this blogging business, but I&amp;#8217;m
 giving it another whirl. This is intended to be some form of working life /
 professional experience related site. I suppose it is meant to be a &amp;#8220;brag
 sheet&amp;#8221;, though there may be some non-work stuff&amp;nbsp;too.&lt;/p&gt;
 &lt;p&gt;You will find more personal details on the &lt;a href="/pages/about.html"&gt;About&lt;/a&gt; page, and
 a reasonably up-to-date resume &lt;a href="/files/Mark_Drummond_Resume.pdf"&gt;here&lt;/a&gt;. More
-info can be gleaned from my other online presences, linked in the&amp;nbsp;sidebar.&lt;/p&gt;</summary><category term="misc"></category></entry></feed>
+info can be gleaned from my other online presences, linked in the&amp;nbsp;sidebar.&lt;/p&gt;</content><category term="misc"></category></entry></feed>
