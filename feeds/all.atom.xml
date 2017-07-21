@@ -1,5 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Mark Drummond</title><link href="http://dmark.github.io/" rel="alternate"></link><link href="http://dmark.github.io/feeds/all.atom.xml" rel="self"></link><id>http://dmark.github.io/</id><updated>2017-06-18T19:27:00-04:00</updated><entry><title>Back To Flex</title><link href="http://dmark.github.io/flex.html" rel="alternate"></link><published>2017-06-18T15:53:00-04:00</published><updated>2017-06-18T15:53:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:dmark.github.io,2017-06-18:/flex.html</id><summary type="html">&lt;p&gt;It&amp;#8217;s been a long while since I changed anything here and as is often the case, when I tried
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Mark Drummond</title><link href="http://dmark.github.io/" rel="alternate"></link><link href="http://dmark.github.io/feeds/all.atom.xml" rel="self"></link><id>http://dmark.github.io/</id><updated>2017-06-19T18:38:00-04:00</updated><entry><title>The PlayStation Store Sucks</title><link href="http://dmark.github.io/the-ps-store-sucks.html" rel="alternate"></link><published>2017-06-19T18:38:00-04:00</published><updated>2017-06-19T18:38:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:dmark.github.io,2017-06-19:/the-ps-store-sucks.html</id><summary type="html">&lt;p&gt;I&amp;#8217;ve played a ton of great games on my
+&lt;a href="https://www.playstation.com/en-us/explore/playstationnetwork/"&gt;PlayStation&lt;/a&gt;
+consoles over the years, and I have a decent sized backlog of more great games
+yet to play. And of course, &lt;a href="https://www.destinythegame.com/ca/en/home"&gt;Destiny
+2&lt;/a&gt; is just around the corner. Which
+brings me to this&amp;nbsp;&amp;#8230;&lt;/p&gt;
+&lt;p&gt;Yes, the &lt;a href="https://store.playstation.com/#!/en-us/"&gt;&lt;span class="caps"&gt;PS&lt;/span&gt; Store&lt;/a&gt; design is …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I&amp;#8217;ve played a ton of great games on my
+&lt;a href="https://www.playstation.com/en-us/explore/playstationnetwork/"&gt;PlayStation&lt;/a&gt;
+consoles over the years, and I have a decent sized backlog of more great games
+yet to play. And of course, &lt;a href="https://www.destinythegame.com/ca/en/home"&gt;Destiny
+2&lt;/a&gt; is just around the corner. Which
+brings me to this&amp;nbsp;&amp;#8230;&lt;/p&gt;
+&lt;p&gt;Yes, the &lt;a href="https://store.playstation.com/#!/en-us/"&gt;&lt;span class="caps"&gt;PS&lt;/span&gt; Store&lt;/a&gt; design is
+something straight out of 10 years ago, but that is not what I am refering to.
+For years now the Store has been &lt;a href="https://community.playstation.com/content/pdc/us/en_US/pdc-communities/support/PlayStation-Network-Support.topic.html/we_ve_encounteredan-FUns.html"&gt;locking out paying
+customers&lt;/a&gt;
+for reasons that boggle the mind. The usual case is, at the final step in the
+check out process, the user gets a completely useless &amp;#8220;there was an error&amp;#8221; type
+error&amp;nbsp;message:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="There was an error" src="/images/there-was-an-error-error.png"&gt;&lt;/p&gt;
+&lt;p&gt;Note in particular the super helpful &amp;#8220;Please try again later&amp;#8221;. That&amp;#8217;s more
+important than you might realise. Sure, there&amp;#8217;s the obvious ambiguity &amp;#8230; just
+what the hell does Sony mean by &amp;#8220;later&amp;#8221;? But there more to it than that. And
+keep in mind this error seems to strike randomly. There&amp;#8217;s nothing that the user
+does that causes this to&amp;nbsp;happen.&lt;/p&gt;
+&lt;p&gt;This past week I was once again plagued by this error message while I was
+trying to buy Destiny 2. As usual I went to my console. Only this time, my
+console gave me an error as well, telling me my credit card information was
+invalid. Ok, but I&amp;#8217;m paying with &lt;a href="https://www.paypal.com/ca/home"&gt;PayPal&lt;/a&gt;
+sooooo&amp;#8230;  I tried making my purchase from my laptop (&lt;a href="https://linuxmint.com/"&gt;Linux Mint
+18.2&lt;/a&gt; with Firefox and Chromium, from my Windows 7 &lt;span class="caps"&gt;VM&lt;/span&gt;
+with Firefox, from one of my tablets, and my &lt;span class="caps"&gt;PS4&lt;/span&gt; Pro. No&amp;nbsp;dice.&lt;/p&gt;
+&lt;p&gt;After a &lt;a href="https://pastebin.com/Aj9EKLst"&gt;chat session&lt;/a&gt; with support and some
+&lt;a href="https://duckduckgo.com"&gt;DuckDuckGo-fu&lt;/a&gt;, it turns out the reason this happens
+is one of the most bat-shit crazy &lt;span class="caps"&gt;IT&lt;/span&gt; fuck ups I can recall. The root cause? If
+there&amp;#8217;s an error communicating with a payment provider during the checkout
+process, the &lt;span class="caps"&gt;PS&lt;/span&gt; Store&amp;#8217;s fraud detection systems will lock you &amp;#8220;for security
+reasons&amp;#8221;. The lock out lasts for 24 hours, and to make matters worse, the clock
+is reset every time you try checking out within the 24 hour window. Note that
+the error messages tell you none of this. A customer can keep themselves locked
+out&amp;nbsp;indefinitely!&lt;/p&gt;
+&lt;p&gt;Let&amp;#8217;s just repeat that so it&amp;#8217;s clear: When the &lt;span class="caps"&gt;PS&lt;/span&gt; Store has a problem
+communicating with a payment provider, the Store locks the user out! This has
+nothing to do with protecting you from fruadulent activities. This is the &lt;span class="caps"&gt;PS&lt;/span&gt;
+Store talking to PayPal or your credit card company. This problem goes back
+&lt;span class="caps"&gt;YEARS&lt;/span&gt;, and Sony has made no effort whatsoever to fix&amp;nbsp;it!&lt;/p&gt;
+&lt;p&gt;Just imagine if &lt;a href="https://www.amazon.ca/"&gt;Amazon&lt;/a&gt; locked you out every time
+their systems had a problem communicating with a payment&amp;nbsp;provider!&lt;/p&gt;</content><category term="sony"></category><category term="playstation"></category></entry><entry><title>Back To Flex</title><link href="http://dmark.github.io/flex.html" rel="alternate"></link><published>2017-06-18T15:53:00-04:00</published><updated>2017-06-18T15:53:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:dmark.github.io,2017-06-18:/flex.html</id><summary type="html">&lt;p&gt;It&amp;#8217;s been a long while since I changed anything here and as is often the case, when I tried
 to update pelican and the pelican-bootstrap3 theme started giving me a lot of grief. After much
 messing about, I switched back to the Flex theme which seems to be working …&lt;/p&gt;</summary><content type="html">&lt;p&gt;It&amp;#8217;s been a long while since I changed anything here and as is often the case, when I tried
 to update pelican and the pelican-bootstrap3 theme started giving me a lot of grief. After much
