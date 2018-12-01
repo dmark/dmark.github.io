@@ -1,12 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Mark Drummond - Mark Drummond</title><link href="https://dmark.github.io/" rel="alternate"></link><link href="https://dmark.github.io/feeds/mark-drummond.atom.xml" rel="self"></link><id>https://dmark.github.io/</id><updated>2018-08-20T17:05:00-04:00</updated><subtitle>Cloud and Identity Systems Lead</subtitle><entry><title>I Love New Tires (and Routine Maintenance)</title><link href="https://dmark.github.io/i-love-new-tires.html" rel="alternate"></link><published>2017-08-27T16:00:00-04:00</published><updated>2018-08-20T17:05:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:dmark.github.io,2017-08-27:/i-love-new-tires.html</id><summary type="html">&lt;p&gt;Closing in on 20,000kms on my 2016 &lt;span class="caps"&gt;R1200GS&lt;/span&gt;, and with my moto trip to
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Mark Drummond - Mark Drummond</title><link href="https://dmark.github.io/" rel="alternate"></link><link href="https://dmark.github.io/feeds/mark-drummond.atom.xml" rel="self"></link><id>https://dmark.github.io/</id><updated>2018-08-20T17:05:00-04:00</updated><subtitle>Cloud and Identity Systems Lead</subtitle><entry><title>Newfoundland Bound Day 2</title><link href="https://dmark.github.io/newfoundland-2.html" rel="alternate"></link><published>2018-08-04T12:00:00-04:00</published><updated>2018-08-04T12:00:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:dmark.github.io,2018-08-04:/newfoundland-2.html</id><summary type="html">&lt;p&gt;Saint-Jean-Port-Joli to&amp;nbsp;Moncton.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Saint-Jean-Port-Joli to&amp;nbsp;Moncton.&lt;/p&gt;</content><category term="motorsports"></category></entry><entry><title>To The Rock!</title><link href="https://dmark.github.io/newfoundland-1.html" rel="alternate"></link><published>2018-08-03T12:00:00-04:00</published><updated>2018-08-03T12:00:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:dmark.github.io,2018-08-03:/newfoundland-1.html</id><summary type="html">&lt;p&gt;So once a year a buddy and I, along with his wife, head off on one long
+motorcycle trip. Last year was Bar Harbour, Maine, with another riding buddy in
+tow. This year it&amp;#8217;s to be Newfoundland. My buddy&amp;#8217;s wife is from &lt;span class="caps"&gt;NFLD&lt;/span&gt;, and her
+parents run a …&lt;/p&gt;</summary><content type="html">&lt;p&gt;So once a year a buddy and I, along with his wife, head off on one long
+motorcycle trip. Last year was Bar Harbour, Maine, with another riding buddy in
+tow. This year it&amp;#8217;s to be Newfoundland. My buddy&amp;#8217;s wife is from &lt;span class="caps"&gt;NFLD&lt;/span&gt;, and her
+parents run a vacation lodge up around Lewisporte. Today I am off to Brockville
+where I&amp;#8217;ll meet up with the crew. Then we&amp;#8217;re off Saint-Jean-Port-Joli for our
+first&amp;nbsp;night.&lt;/p&gt;
+&lt;p&gt;This will be, by a pretty decent margin, our longest trip yet, running about
+5,400kms for&amp;nbsp;me.&lt;/p&gt;</content><category term="motosports"></category></entry><entry><title>Forking Seals</title><link href="https://dmark.github.io/fork-seals.html" rel="alternate"></link><published>2018-07-27T12:00:00-04:00</published><updated>2018-07-27T12:00:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:dmark.github.io,2018-07-27:/fork-seals.html</id><summary type="html">&lt;p&gt;The quick fix on the left fork seal did not work. Not long after leaving the
+shop you could see fork oil slowly accumulating on top of the seal and on the
+fork itself. I called Endras back and they booked my in for Friday the 28th.
+Hopefully last minute …&lt;/p&gt;</summary><content type="html">&lt;p&gt;The quick fix on the left fork seal did not work. Not long after leaving the
+shop you could see fork oil slowly accumulating on top of the seal and on the
+fork itself. I called Endras back and they booked my in for Friday the 28th.
+Hopefully last minute maintenance before a big Summer motorcycle trip doesn&amp;#8217;t
+become a&amp;nbsp;habit.&lt;/p&gt;
+&lt;p&gt;Minor panic when I got the bike in. The tech who was scheduled to do the work
+was off sick. Now, I must say Endras got me fixed up. They understood the
+urgency and got one of their other service techs to squeeze it into their
+schedule. On the other hand, a call to let me know my tech was off sick would
+have been&amp;nbsp;appreciated!&lt;/p&gt;
+&lt;p&gt;Still, all&amp;#8217;s well that ends well. The work was covered under warranty and I was
+all set for my Newfoundland trip. I also picked up the &lt;span class="caps"&gt;BMW&lt;/span&gt; Small Tankrucksack
+while I was&amp;nbsp;there.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Leaky Fork Seal" src="/images/fork-1.jpg"&gt;
+&lt;img alt="Leaky Fork Seal" src="/images/fork-2.jpg"&gt;&lt;/p&gt;</content><category term="motorsports"></category></entry><entry><title>Cloud and Identity Systems Lead</title><link href="https://dmark.github.io/new-new-job.html" rel="alternate"></link><published>2018-06-20T12:00:00-04:00</published><updated>2018-06-20T09:00:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:dmark.github.io,2018-06-20:/new-new-job.html</id><summary type="html">&lt;p&gt;A new shift in my responsibilities at work, with more focus on two key aspects
+of our environment that I have been leading on the operations side of things:
+Consolidating our cloud computing resources on &lt;a href="https://cloud.google.com/"&gt;Google Cloud
+Platform&lt;/a&gt; and our migration to our new Identity as a
+Service partner, &lt;a href="auth0.com"&gt;Auth0 …&lt;/a&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;A new shift in my responsibilities at work, with more focus on two key aspects
+of our environment that I have been leading on the operations side of things:
+Consolidating our cloud computing resources on &lt;a href="https://cloud.google.com/"&gt;Google Cloud
+Platform&lt;/a&gt; and our migration to our new Identity as a
+Service partner, &lt;a href="auth0.com"&gt;Auth0&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This is a welcome change. The nature of my work is such that I tend to be
+pulled in many different directions at once (this is what happens when you are
+interested in and develop expertise in everything under the Sun). That is still
+the case now, but at least recognizing these two keys areas does help to stay
+on&amp;nbsp;target.&lt;/p&gt;</content><category term="misc"></category></entry><entry><title>Linux Foundation Certified Engineer</title><link href="https://dmark.github.io/lfce.html" rel="alternate"></link><published>2018-04-17T12:00:00-04:00</published><updated>2018-04-17T12:00:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:dmark.github.io,2018-04-17:/lfce.html</id><summary type="html">&lt;p&gt;Renewal time for my &lt;a href="/files/lfcs.pdf"&gt;&lt;span class="caps"&gt;LFCS&lt;/span&gt;&lt;/a&gt; certification. &lt;a href="https://www.linuxfoundation.org/"&gt;The Linux
+Foundation&lt;/a&gt; will renew your &lt;span class="caps"&gt;LFCS&lt;/span&gt;
+certification for 2 years if you upgrade to the &lt;a href="/files/lfce.pdf"&gt;&lt;span class="caps"&gt;LFCE&lt;/span&gt;&lt;/a&gt; cert,
+so that&amp;#8217;s what I&amp;nbsp;did!&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Linux Foundation Certified Engineer" src="/images/lfce-small.png" title="Linux Foundation Certified Engineer"&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Renewal time for my &lt;a href="/files/lfcs.pdf"&gt;&lt;span class="caps"&gt;LFCS&lt;/span&gt;&lt;/a&gt; certification. &lt;a href="https://www.linuxfoundation.org/"&gt;The Linux
+Foundation&lt;/a&gt; will renew your &lt;span class="caps"&gt;LFCS&lt;/span&gt;
+certification for 2 years if you upgrade to the &lt;a href="/files/lfce.pdf"&gt;&lt;span class="caps"&gt;LFCE&lt;/span&gt;&lt;/a&gt; cert,
+so that&amp;#8217;s what I&amp;nbsp;did!&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Linux Foundation Certified Engineer" src="/images/lfce-small.png" title="Linux Foundation Certified Engineer"&gt;&lt;/p&gt;</content><category term="certification"></category><category term="lfce"></category></entry><entry><title>I Love New Tires (and Routine Maintenance)</title><link href="https://dmark.github.io/i-love-new-tires.html" rel="alternate"></link><published>2017-08-27T16:00:00-04:00</published><updated>2018-08-20T17:05:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:dmark.github.io,2017-08-27:/i-love-new-tires.html</id><summary type="html">&lt;p&gt;Closing in on 20,000kms on my 2016 &lt;span class="caps"&gt;R1200GS&lt;/span&gt;, and with my moto trip to
 Newfoundland looming, I booked the bike in for its 20,000km service. I really
-enjoy taking my vehicles in for routine maintenance. It&amp;#8217;s surprisingly&amp;nbsp;satisfying.&lt;/p&gt;
-&lt;p&gt;Even more satisfying is new tires. I ordered Metzeler …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Closing in on 20,000kms on my 2016 &lt;span class="caps"&gt;R1200GS&lt;/span&gt;, and with my moto trip to
+enjoy taking my vehicles in for routine maintenance. It&amp;#8217;s surprisingly
+satisfying. Even more satisfying is new tires. I just loving …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Closing in on 20,000kms on my 2016 &lt;span class="caps"&gt;R1200GS&lt;/span&gt;, and with my moto trip to
 Newfoundland looming, I booked the bike in for its 20,000km service. I really
-enjoy taking my vehicles in for routine maintenance. It&amp;#8217;s surprisingly&amp;nbsp;satisfying.&lt;/p&gt;
-&lt;p&gt;Even more satisfying is new tires. I ordered Metzeler Roadtec 01s to replace my
-stock Anakee&amp;nbsp;3s.&lt;/p&gt;
+enjoy taking my vehicles in for routine maintenance. It&amp;#8217;s surprisingly
+satisfying. Even more satisfying is new tires. I just loving putting new tires
+on my motorbike and my&amp;nbsp;car.&lt;/p&gt;
+&lt;p&gt;On my old &lt;span class="caps"&gt;FZ6&lt;/span&gt; I replaced the stock tires with Metzeler Roadtec Z8 Interacts,
+which I was quite happy with. So I decided to replace my &lt;span class="caps"&gt;GS&lt;/span&gt;&amp;#8217;s stock Anakee &lt;span class="caps"&gt;III&lt;/span&gt;
+tires with the new Metzeler Roadtec 01s. The Roadtecs are so much smoother than
+the Anakees, especially at freeway speeds, that is it a little bit hard to
+believe. Granted the Anakees are a 90/10 tire and the Roadtecs are pure road,
+but what a&amp;nbsp;difference.&lt;/p&gt;
 &lt;p&gt;I had the work done at &lt;a href="https://www.bmwbikes.ca/"&gt;Endras &lt;span class="caps"&gt;BMW&lt;/span&gt; Motorrad&lt;/a&gt; in Ajax,
 Ontario. The service tech there was great. I mentioned the small amount of oil
 on my left fork. The clip that holds the seal in place (I really have no idea

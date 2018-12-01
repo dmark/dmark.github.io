@@ -1,5 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Mark Drummond - All The Posts</title><link href="https://dmark.github.io/" rel="alternate"></link><link href="https://dmark.github.io/feeds/all-the-posts.atom.xml" rel="self"></link><id>https://dmark.github.io/</id><updated>2017-07-20T23:01:00-04:00</updated><subtitle>Cloud and Identity Systems Lead</subtitle><entry><title>AWS Certified Solutions Architect - Associate</title><link href="https://dmark.github.io/aws-architect.html" rel="alternate"></link><published>2016-08-26T00:00:00-04:00</published><updated>2016-08-26T00:00:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:dmark.github.io,2016-08-26:/aws-architect.html</id><summary type="html">&lt;p&gt;Another certification in the bag. I wrote the &lt;span class="caps"&gt;AWS&lt;/span&gt; Associate level Solutions
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Mark Drummond - All The Posts</title><link href="https://dmark.github.io/" rel="alternate"></link><link href="https://dmark.github.io/feeds/all-the-posts.atom.xml" rel="self"></link><id>https://dmark.github.io/</id><updated>2018-06-20T12:00:00-04:00</updated><subtitle>Cloud and Identity Systems Lead</subtitle><entry><title>Cloud and Identity Systems Lead</title><link href="https://dmark.github.io/new-new-job.html" rel="alternate"></link><published>2018-06-20T12:00:00-04:00</published><updated>2018-06-20T09:00:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:dmark.github.io,2018-06-20:/new-new-job.html</id><summary type="html">&lt;p&gt;A new shift in my responsibilities at work, with more focus on two key aspects
+of our environment that I have been leading on the operations side of things:
+Consolidating our cloud computing resources on &lt;a href="https://cloud.google.com/"&gt;Google Cloud
+Platform&lt;/a&gt; and our migration to our new Identity as a
+Service partner, &lt;a href="auth0.com"&gt;Auth0 …&lt;/a&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;A new shift in my responsibilities at work, with more focus on two key aspects
+of our environment that I have been leading on the operations side of things:
+Consolidating our cloud computing resources on &lt;a href="https://cloud.google.com/"&gt;Google Cloud
+Platform&lt;/a&gt; and our migration to our new Identity as a
+Service partner, &lt;a href="auth0.com"&gt;Auth0&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This is a welcome change. The nature of my work is such that I tend to be
+pulled in many different directions at once (this is what happens when you are
+interested in and develop expertise in everything under the Sun). That is still
+the case now, but at least recognizing these two keys areas does help to stay
+on&amp;nbsp;target.&lt;/p&gt;</content><category term="misc"></category></entry><entry><title>Linux Foundation Certified Engineer</title><link href="https://dmark.github.io/lfce.html" rel="alternate"></link><published>2018-04-17T12:00:00-04:00</published><updated>2018-04-17T12:00:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:dmark.github.io,2018-04-17:/lfce.html</id><summary type="html">&lt;p&gt;Renewal time for my &lt;a href="/files/lfcs.pdf"&gt;&lt;span class="caps"&gt;LFCS&lt;/span&gt;&lt;/a&gt; certification. &lt;a href="https://www.linuxfoundation.org/"&gt;The Linux
+Foundation&lt;/a&gt; will renew your &lt;span class="caps"&gt;LFCS&lt;/span&gt;
+certification for 2 years if you upgrade to the &lt;a href="/files/lfce.pdf"&gt;&lt;span class="caps"&gt;LFCE&lt;/span&gt;&lt;/a&gt; cert,
+so that&amp;#8217;s what I&amp;nbsp;did!&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Linux Foundation Certified Engineer" src="/images/lfce-small.png" title="Linux Foundation Certified Engineer"&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Renewal time for my &lt;a href="/files/lfcs.pdf"&gt;&lt;span class="caps"&gt;LFCS&lt;/span&gt;&lt;/a&gt; certification. &lt;a href="https://www.linuxfoundation.org/"&gt;The Linux
+Foundation&lt;/a&gt; will renew your &lt;span class="caps"&gt;LFCS&lt;/span&gt;
+certification for 2 years if you upgrade to the &lt;a href="/files/lfce.pdf"&gt;&lt;span class="caps"&gt;LFCE&lt;/span&gt;&lt;/a&gt; cert,
+so that&amp;#8217;s what I&amp;nbsp;did!&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Linux Foundation Certified Engineer" src="/images/lfce-small.png" title="Linux Foundation Certified Engineer"&gt;&lt;/p&gt;</content><category term="certification"></category><category term="lfce"></category></entry><entry><title>AWS Certified Solutions Architect - Associate</title><link href="https://dmark.github.io/aws-architect.html" rel="alternate"></link><published>2016-08-26T00:00:00-04:00</published><updated>2016-08-26T00:00:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:dmark.github.io,2016-08-26:/aws-architect.html</id><summary type="html">&lt;p&gt;Another certification in the bag. I wrote the &lt;span class="caps"&gt;AWS&lt;/span&gt; Associate level Solutions
 Architect exam today. I didn&amp;#8217;t realize &lt;span class="caps"&gt;AWS&lt;/span&gt; certs are only good for 2 years.
 Sets a bit of a roadmap for my &lt;span class="caps"&gt;AWS&lt;/span&gt; certifications going forward. I got my
 Associate level SysOps cert in earl 2015, so …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Another certification in the bag. I wrote the &lt;span class="caps"&gt;AWS&lt;/span&gt; Associate level Solutions
