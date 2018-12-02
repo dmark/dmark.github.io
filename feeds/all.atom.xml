@@ -1,53 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Mark Drummond</title><link href="https://dmark.github.io/" rel="alternate"></link><link href="https://dmark.github.io/feeds/all.atom.xml" rel="self"></link><id>https://dmark.github.io/</id><updated>2018-08-20T17:05:00-04:00</updated><subtitle>Cloud and Identity Systems Lead</subtitle><entry><title>Newfoundland Bound Day 2</title><link href="https://dmark.github.io/newfoundland-2.html" rel="alternate"></link><published>2018-08-04T12:00:00-04:00</published><updated>2018-08-04T12:00:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:dmark.github.io,2018-08-04:/newfoundland-2.html</id><summary type="html">&lt;p&gt;Saint-Jean-Port-Joli to&amp;nbsp;Moncton.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Saint-Jean-Port-Joli to&amp;nbsp;Moncton.&lt;/p&gt;</content><category term="motorsports"></category></entry><entry><title>To The Rock!</title><link href="https://dmark.github.io/newfoundland-1.html" rel="alternate"></link><published>2018-08-03T12:00:00-04:00</published><updated>2018-08-03T12:00:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:dmark.github.io,2018-08-03:/newfoundland-1.html</id><summary type="html">&lt;p&gt;So once a year a buddy and I, along with his wife, head off on one long
-motorcycle trip. Last year was Bar Harbour, Maine, with another riding buddy in
-tow. This year it&amp;#8217;s to be Newfoundland. My buddy&amp;#8217;s wife is from &lt;span class="caps"&gt;NFLD&lt;/span&gt;, and her
-parents run a …&lt;/p&gt;</summary><content type="html">&lt;p&gt;So once a year a buddy and I, along with his wife, head off on one long
-motorcycle trip. Last year was Bar Harbour, Maine, with another riding buddy in
-tow. This year it&amp;#8217;s to be Newfoundland. My buddy&amp;#8217;s wife is from &lt;span class="caps"&gt;NFLD&lt;/span&gt;, and her
-parents run a vacation lodge up around Lewisporte. Today I am off to Brockville
-where I&amp;#8217;ll meet up with the crew. Then we&amp;#8217;re off Saint-Jean-Port-Joli for our
-first&amp;nbsp;night.&lt;/p&gt;
-&lt;p&gt;This will be, by a pretty decent margin, our longest trip yet, running about
-5,400kms for&amp;nbsp;me.&lt;/p&gt;</content><category term="motosports"></category></entry><entry><title>Forking Seals</title><link href="https://dmark.github.io/fork-seals.html" rel="alternate"></link><published>2018-07-27T12:00:00-04:00</published><updated>2018-07-27T12:00:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:dmark.github.io,2018-07-27:/fork-seals.html</id><summary type="html">&lt;p&gt;The quick fix on the left fork seal did not work. Not long after leaving the
-shop you could see fork oil slowly accumulating on top of the seal and on the
-fork itself. I called Endras back and they booked my in for Friday the 28th.
-Hopefully last minute …&lt;/p&gt;</summary><content type="html">&lt;p&gt;The quick fix on the left fork seal did not work. Not long after leaving the
-shop you could see fork oil slowly accumulating on top of the seal and on the
-fork itself. I called Endras back and they booked my in for Friday the 28th.
-Hopefully last minute maintenance before a big Summer motorcycle trip doesn&amp;#8217;t
-become a&amp;nbsp;habit.&lt;/p&gt;
-&lt;p&gt;Minor panic when I got the bike in. The tech who was scheduled to do the work
-was off sick. Now, I must say Endras got me fixed up. They understood the
-urgency and got one of their other service techs to squeeze it into their
-schedule. On the other hand, a call to let me know my tech was off sick would
-have been&amp;nbsp;appreciated!&lt;/p&gt;
-&lt;p&gt;Still, all&amp;#8217;s well that ends well. The work was covered under warranty and I was
-all set for my Newfoundland trip. I also picked up the &lt;span class="caps"&gt;BMW&lt;/span&gt; Small Tankrucksack
-while I was&amp;nbsp;there.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Leaky Fork Seal" src="/images/fork-1.jpg"&gt;
-&lt;img alt="Leaky Fork Seal" src="/images/fork-2.jpg"&gt;&lt;/p&gt;</content><category term="motorsports"></category></entry><entry><title>Cloud and Identity Systems Lead</title><link href="https://dmark.github.io/new-new-job.html" rel="alternate"></link><published>2018-06-20T12:00:00-04:00</published><updated>2018-06-20T09:00:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:dmark.github.io,2018-06-20:/new-new-job.html</id><summary type="html">&lt;p&gt;A new shift in my responsibilities at work, with more focus on two key aspects
-of our environment that I have been leading on the operations side of things:
-Consolidating our cloud computing resources on &lt;a href="https://cloud.google.com/"&gt;Google Cloud
-Platform&lt;/a&gt; and our migration to our new Identity as a
-Service partner, &lt;a href="auth0.com"&gt;Auth0 …&lt;/a&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;A new shift in my responsibilities at work, with more focus on two key aspects
-of our environment that I have been leading on the operations side of things:
-Consolidating our cloud computing resources on &lt;a href="https://cloud.google.com/"&gt;Google Cloud
-Platform&lt;/a&gt; and our migration to our new Identity as a
-Service partner, &lt;a href="auth0.com"&gt;Auth0&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;This is a welcome change. The nature of my work is such that I tend to be
-pulled in many different directions at once (this is what happens when you are
-interested in and develop expertise in everything under the Sun). That is still
-the case now, but at least recognizing these two keys areas does help to stay
-on&amp;nbsp;target.&lt;/p&gt;</content><category term="misc"></category></entry><entry><title>Linux Foundation Certified Engineer</title><link href="https://dmark.github.io/lfce.html" rel="alternate"></link><published>2018-04-17T12:00:00-04:00</published><updated>2018-04-17T12:00:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:dmark.github.io,2018-04-17:/lfce.html</id><summary type="html">&lt;p&gt;Renewal time for my &lt;a href="/files/lfcs.pdf"&gt;&lt;span class="caps"&gt;LFCS&lt;/span&gt;&lt;/a&gt; certification. &lt;a href="https://www.linuxfoundation.org/"&gt;The Linux
-Foundation&lt;/a&gt; will renew your &lt;span class="caps"&gt;LFCS&lt;/span&gt;
-certification for 2 years if you upgrade to the &lt;a href="/files/lfce.pdf"&gt;&lt;span class="caps"&gt;LFCE&lt;/span&gt;&lt;/a&gt; cert,
-so that&amp;#8217;s what I&amp;nbsp;did!&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Linux Foundation Certified Engineer" src="/images/lfce-small.png" title="Linux Foundation Certified Engineer"&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Renewal time for my &lt;a href="/files/lfcs.pdf"&gt;&lt;span class="caps"&gt;LFCS&lt;/span&gt;&lt;/a&gt; certification. &lt;a href="https://www.linuxfoundation.org/"&gt;The Linux
-Foundation&lt;/a&gt; will renew your &lt;span class="caps"&gt;LFCS&lt;/span&gt;
-certification for 2 years if you upgrade to the &lt;a href="/files/lfce.pdf"&gt;&lt;span class="caps"&gt;LFCE&lt;/span&gt;&lt;/a&gt; cert,
-so that&amp;#8217;s what I&amp;nbsp;did!&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Linux Foundation Certified Engineer" src="/images/lfce-small.png" title="Linux Foundation Certified Engineer"&gt;&lt;/p&gt;</content><category term="certification"></category><category term="lfce"></category></entry><entry><title>I Love New Tires (and Routine Maintenance)</title><link href="https://dmark.github.io/i-love-new-tires.html" rel="alternate"></link><published>2017-08-27T16:00:00-04:00</published><updated>2018-08-20T17:05:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:dmark.github.io,2017-08-27:/i-love-new-tires.html</id><summary type="html">&lt;p&gt;Closing in on 20,000kms on my 2016 &lt;span class="caps"&gt;R1200GS&lt;/span&gt;, and with my moto trip to
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Mark Drummond</title><link href="https://markdrummond.ca/" rel="alternate"></link><link href="https://markdrummond.ca/feeds/all.atom.xml" rel="self"></link><id>https://markdrummond.ca/</id><updated>2018-11-30T17:05:00-05:00</updated><subtitle>Cloud and Identity Systems Lead</subtitle><entry><title>I Love New Tires (and Routine Maintenance)</title><link href="https://markdrummond.ca/i-love-new-tires.html" rel="alternate"></link><published>2018-07-27T16:00:00-04:00</published><updated>2018-11-30T17:05:00-05:00</updated><author><name>Mark Drummond</name></author><id>tag:markdrummond.ca,2018-07-27:/i-love-new-tires.html</id><summary type="html">&lt;p&gt;Closing in on 20,000kms on my 2016 &lt;span class="caps"&gt;R1200GS&lt;/span&gt;, and with my moto trip to
 Newfoundland looming, I booked the bike in for its 20,000km service. I really
 enjoy taking my vehicles in for routine maintenance. It&amp;#8217;s surprisingly
 satisfying. Even more satisfying is new tires. I just loving …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Closing in on 20,000kms on my 2016 &lt;span class="caps"&gt;R1200GS&lt;/span&gt;, and with my moto trip to
@@ -65,9 +17,47 @@ but what a&amp;nbsp;difference.&lt;/p&gt;
 Ontario. The service tech there was great. I mentioned the small amount of oil
 on my left fork. The clip that holds the seal in place (I really have no idea
 what I am talking about here) was not installed correctly, so the service tech
-fixed it up and told me to keep an eye out for any further&amp;nbsp;leakage.&lt;/p&gt;</content><category term="r1200gs"></category><category term="motorcycling"></category></entry><entry><title>I Broke My GS - Update</title><link href="https://dmark.github.io/i-broke-my-gs-update.html" rel="alternate"></link><published>2017-07-20T23:05:00-04:00</published><updated>2017-07-20T23:05:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:dmark.github.io,2017-07-20:/i-broke-my-gs-update.html</id><summary type="html">&lt;p&gt;One of the service reps at my dealership went to bat for me and got me squared
+fixed it up and told me to keep an eye out for any further&amp;nbsp;leakage.&lt;/p&gt;</content><category term="r1200gs"></category><category term="motorcycling"></category></entry><entry><title>Forking Seals</title><link href="https://markdrummond.ca/fork-seals.html" rel="alternate"></link><published>2018-07-27T12:00:00-04:00</published><updated>2018-07-27T12:00:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:markdrummond.ca,2018-07-27:/fork-seals.html</id><summary type="html">&lt;p&gt;The quick fix on the left fork seal did not work. Not long after leaving the
+shop you could see fork oil slowly accumulating on top of the seal and on the
+fork itself. I called Endras back and they booked my in for Friday the 28th.
+Hopefully last minute …&lt;/p&gt;</summary><content type="html">&lt;p&gt;The quick fix on the left fork seal did not work. Not long after leaving the
+shop you could see fork oil slowly accumulating on top of the seal and on the
+fork itself. I called Endras back and they booked my in for Friday the 28th.
+Hopefully last minute maintenance before a big Summer motorcycle trip doesn&amp;#8217;t
+become a&amp;nbsp;habit.&lt;/p&gt;
+&lt;p&gt;Minor panic when I got the bike in. The tech who was scheduled to do the work
+was off sick. Now, I must say Endras got me fixed up. They understood the
+urgency and got one of their other service techs to squeeze it into their
+schedule. On the other hand, a call to let me know my tech was off sick would
+have been&amp;nbsp;appreciated!&lt;/p&gt;
+&lt;p&gt;Still, all&amp;#8217;s well that ends well. The work was covered under warranty and I was
+all set for my Newfoundland trip. I also picked up the &lt;span class="caps"&gt;BMW&lt;/span&gt; Small Tankrucksack
+while I was&amp;nbsp;there.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Leaky Fork Seal" src="/images/fork-1.jpg"&gt;
+&lt;img alt="Leaky Fork Seal" src="/images/fork-2.jpg"&gt;&lt;/p&gt;</content><category term="motorsports"></category></entry><entry><title>Cloud and Identity Systems Lead</title><link href="https://markdrummond.ca/new-new-job.html" rel="alternate"></link><published>2018-06-20T12:00:00-04:00</published><updated>2018-06-20T09:00:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:markdrummond.ca,2018-06-20:/new-new-job.html</id><summary type="html">&lt;p&gt;A new shift in my responsibilities at work, with more focus on two key aspects
+of our environment that I have been leading on the operations side of things:
+Consolidating our cloud computing resources on &lt;a href="https://cloud.google.com/"&gt;Google Cloud
+Platform&lt;/a&gt; and our migration to our new Identity as a
+Service partner, &lt;a href="auth0.com"&gt;Auth0 …&lt;/a&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;A new shift in my responsibilities at work, with more focus on two key aspects
+of our environment that I have been leading on the operations side of things:
+Consolidating our cloud computing resources on &lt;a href="https://cloud.google.com/"&gt;Google Cloud
+Platform&lt;/a&gt; and our migration to our new Identity as a
+Service partner, &lt;a href="auth0.com"&gt;Auth0&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This is a welcome change. The nature of my work is such that I tend to be
+pulled in many different directions at once (this is what happens when you are
+interested in and develop expertise in everything under the Sun). That is still
+the case now, but at least recognizing these two keys areas does help to stay
+on&amp;nbsp;target.&lt;/p&gt;</content><category term="misc"></category></entry><entry><title>Linux Foundation Certified Engineer</title><link href="https://markdrummond.ca/lfce.html" rel="alternate"></link><published>2018-04-17T12:00:00-04:00</published><updated>2018-04-17T12:00:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:markdrummond.ca,2018-04-17:/lfce.html</id><summary type="html">&lt;p&gt;Renewal time for my &lt;a href="/files/lfcs.pdf"&gt;&lt;span class="caps"&gt;LFCS&lt;/span&gt;&lt;/a&gt; certification. &lt;a href="https://www.linuxfoundation.org/"&gt;The Linux
+Foundation&lt;/a&gt; will renew your &lt;span class="caps"&gt;LFCS&lt;/span&gt;
+certification for 2 years if you upgrade to the &lt;a href="/files/lfce.pdf"&gt;&lt;span class="caps"&gt;LFCE&lt;/span&gt;&lt;/a&gt; cert,
+so that&amp;#8217;s what I&amp;nbsp;did!&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Linux Foundation Certified Engineer" src="/images/lfce-small.png" title="Linux Foundation Certified Engineer"&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Renewal time for my &lt;a href="/files/lfcs.pdf"&gt;&lt;span class="caps"&gt;LFCS&lt;/span&gt;&lt;/a&gt; certification. &lt;a href="https://www.linuxfoundation.org/"&gt;The Linux
+Foundation&lt;/a&gt; will renew your &lt;span class="caps"&gt;LFCS&lt;/span&gt;
+certification for 2 years if you upgrade to the &lt;a href="/files/lfce.pdf"&gt;&lt;span class="caps"&gt;LFCE&lt;/span&gt;&lt;/a&gt; cert,
+so that&amp;#8217;s what I&amp;nbsp;did!&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Linux Foundation Certified Engineer" src="/images/lfce-small.png" title="Linux Foundation Certified Engineer"&gt;&lt;/p&gt;</content><category term="certification"></category><category term="lfce"></category></entry><entry><title>I Broke My GS - Update</title><link href="https://markdrummond.ca/i-broke-my-gs-update.html" rel="alternate"></link><published>2017-07-20T23:05:00-04:00</published><updated>2017-07-20T23:05:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:markdrummond.ca,2017-07-20:/i-broke-my-gs-update.html</id><summary type="html">&lt;p&gt;One of the service reps at my dealership went to bat for me and got me squared
 away. My &lt;span class="caps"&gt;GS&lt;/span&gt; will be all fixed up in plenty of time for my trip to&amp;nbsp;Maine.&lt;/p&gt;</summary><content type="html">&lt;p&gt;One of the service reps at my dealership went to bat for me and got me squared
-away. My &lt;span class="caps"&gt;GS&lt;/span&gt; will be all fixed up in plenty of time for my trip to&amp;nbsp;Maine.&lt;/p&gt;</content><category term="motorcycle"></category><category term="repair"></category><category term="accident"></category></entry><entry><title>I Broke My GS</title><link href="https://dmark.github.io/i-broke-my-gs.html" rel="alternate"></link><published>2017-07-17T16:12:00-04:00</published><updated>2017-07-18T19:27:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:dmark.github.io,2017-07-17:/i-broke-my-gs.html</id><summary type="html">&lt;p&gt;I broke my &lt;span class="caps"&gt;GS&lt;/span&gt;.&lt;/p&gt;
+away. My &lt;span class="caps"&gt;GS&lt;/span&gt; will be all fixed up in plenty of time for my trip to&amp;nbsp;Maine.&lt;/p&gt;</content><category term="motorcycle"></category><category term="repair"></category><category term="accident"></category></entry><entry><title>I Broke My GS</title><link href="https://markdrummond.ca/i-broke-my-gs.html" rel="alternate"></link><published>2017-07-17T16:12:00-04:00</published><updated>2017-07-18T19:27:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:markdrummond.ca,2017-07-17:/i-broke-my-gs.html</id><summary type="html">&lt;p&gt;I broke my &lt;span class="caps"&gt;GS&lt;/span&gt;.&lt;/p&gt;
 &lt;p&gt;No injuries other than my pride. Less than a second&amp;#8217;s worth of inattention and
 I dropped my bike at a gas station while I was out joy riding this past Sunday
 (July 16th). The resulting chaos was impressive for such a silly little&amp;nbsp;tip-over.&lt;/p&gt;
@@ -159,7 +149,7 @@ with a delivery time of 7 - 10 days. I forgot to ask if those were weekdays or
 business days. Also, I am supposed to be leaving on a trip to Maine, &lt;span class="caps"&gt;USA&lt;/span&gt;, in
 ten days. Oh dear&amp;#8230; I called back. One of the service people offered to try
 getting the parts from &lt;span class="caps"&gt;BMW&lt;/span&gt; in the &lt;span class="caps"&gt;US&lt;/span&gt;, but it didn&amp;#8217;t sound promising. Again, promised a
-call before the end of the day, but no such call was to be&amp;nbsp;had.&lt;/p&gt;</content><category term="motorcycle"></category><category term="repair"></category><category term="accident"></category></entry><entry><title>And My Axe!</title><link href="https://dmark.github.io/rockstar.html" rel="alternate"></link><published>2017-01-06T23:00:00-05:00</published><updated>2018-07-29T08:02:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:dmark.github.io,2017-01-06:/rockstar.html</id><summary type="html">&lt;p&gt;I bought a guitar: An Epiphone &lt;a href="https://www.epiphone.com/Products/Les-Paul/Ltd-Ed-Les-Paul-Standard-Plustop-PRO.aspx"&gt;Les Paul Standard PlusTop
+call before the end of the day, but no such call was to be&amp;nbsp;had.&lt;/p&gt;</content><category term="motorcycle"></category><category term="repair"></category><category term="accident"></category></entry><entry><title>And My Axe!</title><link href="https://markdrummond.ca/rockstar.html" rel="alternate"></link><published>2017-01-06T23:00:00-05:00</published><updated>2018-07-29T08:02:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:markdrummond.ca,2017-01-06:/rockstar.html</id><summary type="html">&lt;p&gt;I bought a guitar: An Epiphone &lt;a href="https://www.epiphone.com/Products/Les-Paul/Ltd-Ed-Les-Paul-Standard-Plustop-PRO.aspx"&gt;Les Paul Standard PlusTop
 Pro&lt;/a&gt;
 in &amp;#8220;Bourbon Burst&amp;#8221; colour scheme. And it is freakin&amp;#8217;&amp;nbsp;gorgeous.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Epiphone Les Paul Standard PlusTop Pro" src="http://images.epiphone.com.s3.amazonaws.com/Products/Exclusives/2014/Les-Paul-Standard-PlusTop-PRO/POP_LPSTDPLUSproBB.jpg"&gt;&lt;/p&gt;
@@ -177,7 +167,7 @@ Cameron&lt;/a&gt;, &lt;a href="https://www.youtube.com/channel/UC9cvVvlvr-qBssph
 Guitar&lt;/a&gt;, and others).
 Nothing formal for now. If I stick with it for a few weeks then maybe I&amp;#8217;ll
 consider formal lessons. Life goals: to be able to shred along to my favourite
-metal and punk&amp;nbsp;riffs.&lt;/p&gt;</content><category term="guitar"></category><category term="les paul"></category><category term="epiphone"></category></entry><entry><title>My 2016 BMW R1200GS</title><link href="https://dmark.github.io/my-new-moto.html" rel="alternate"></link><published>2016-09-13T14:42:00-04:00</published><updated>2016-09-13T14:42:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:dmark.github.io,2016-09-13:/my-new-moto.html</id><summary type="html">&lt;p&gt;Like all right thinking peoples, I like to ride the train. And I particularly like riding the train when there&amp;#8217;s a brand new motorcycle waiting for me at the other end of the&amp;nbsp;line.&lt;/p&gt;
+metal and punk&amp;nbsp;riffs.&lt;/p&gt;</content><category term="guitar"></category><category term="les paul"></category><category term="epiphone"></category></entry><entry><title>My 2016 BMW R1200GS</title><link href="https://markdrummond.ca/my-new-moto.html" rel="alternate"></link><published>2016-09-13T14:42:00-04:00</published><updated>2016-09-13T14:42:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:markdrummond.ca,2016-09-13:/my-new-moto.html</id><summary type="html">&lt;p&gt;Like all right thinking peoples, I like to ride the train. And I particularly like riding the train when there&amp;#8217;s a brand new motorcycle waiting for me at the other end of the&amp;nbsp;line.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="All Aboard" src="/images/new-moto-1.jpg"&gt;&lt;/p&gt;
 &lt;p&gt;Of course, a good book is a great way to pass the time if the …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Like all right thinking peoples, I like to ride the train. And I particularly like riding the train when there&amp;#8217;s a brand new motorcycle waiting for me at the other end of the&amp;nbsp;line.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="All Aboard" src="/images/new-moto-1.jpg"&gt;&lt;/p&gt;
@@ -189,7 +179,7 @@ metal and punk&amp;nbsp;riffs.&lt;/p&gt;</content><category term="guitar"></cate
 &lt;p&gt;As I have mentioned elsewhere, the turn signal switch has very little feel to&amp;nbsp;it.&lt;/p&gt;
 &lt;p&gt;Also, the fuel neck is quite long, making it very difficult to tell when the
 tank is&amp;nbsp;full.&lt;/p&gt;
-&lt;p&gt;Really hard to come up with negatives with this&amp;nbsp;bike!&lt;/p&gt;</content><category term="motorcycling"></category></entry><entry><title>AWS Certified Solutions Architect - Associate</title><link href="https://dmark.github.io/aws-architect.html" rel="alternate"></link><published>2016-08-26T00:00:00-04:00</published><updated>2016-08-26T00:00:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:dmark.github.io,2016-08-26:/aws-architect.html</id><summary type="html">&lt;p&gt;Another certification in the bag. I wrote the &lt;span class="caps"&gt;AWS&lt;/span&gt; Associate level Solutions
+&lt;p&gt;Really hard to come up with negatives with this&amp;nbsp;bike!&lt;/p&gt;</content><category term="motorcycling"></category></entry><entry><title>AWS Certified Solutions Architect - Associate</title><link href="https://markdrummond.ca/aws-architect.html" rel="alternate"></link><published>2016-08-26T00:00:00-04:00</published><updated>2016-08-26T00:00:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:markdrummond.ca,2016-08-26:/aws-architect.html</id><summary type="html">&lt;p&gt;Another certification in the bag. I wrote the &lt;span class="caps"&gt;AWS&lt;/span&gt; Associate level Solutions
 Architect exam today. I didn&amp;#8217;t realize &lt;span class="caps"&gt;AWS&lt;/span&gt; certs are only good for 2 years.
 Sets a bit of a roadmap for my &lt;span class="caps"&gt;AWS&lt;/span&gt; certifications going forward. I got my
 Associate level SysOps cert in earl 2015, so …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Another certification in the bag. I wrote the &lt;span class="caps"&gt;AWS&lt;/span&gt; Associate level Solutions
@@ -198,7 +188,7 @@ Sets a bit of a roadmap for my &lt;span class="caps"&gt;AWS&lt;/span&gt; certifi
 Associate level SysOps cert in earl 2015, so I&amp;#8217;ll want to replace it with the
 Professional level DevOps cert next year, and I&amp;#8217;ll want to replace my Associate
 level Architect cert with the Professional level cert in&amp;nbsp;2018.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="AWS Certified Solutions Architect - Associate" src="/images/Solutions-Architect-Associate.png"&gt;&lt;/p&gt;</content><category term="aws"></category></entry><entry><title>A New Ride - the BMW R1200GS</title><link href="https://dmark.github.io/r1200gs.html" rel="alternate"></link><published>2016-08-07T14:05:00-04:00</published><updated>2016-08-29T11:13:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:dmark.github.io,2016-08-07:/r1200gs.html</id><summary type="html">&lt;h2&gt;A Winner&amp;nbsp;[Updated]&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="AWS Certified Solutions Architect - Associate" src="/images/Solutions-Architect-Associate.png"&gt;&lt;/p&gt;</content><category term="aws"></category></entry><entry><title>A New Ride - the BMW R1200GS</title><link href="https://markdrummond.ca/r1200gs.html" rel="alternate"></link><published>2016-08-07T14:05:00-04:00</published><updated>2016-08-29T11:13:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:markdrummond.ca,2016-08-07:/r1200gs.html</id><summary type="html">&lt;h2&gt;A Winner&amp;nbsp;[Updated]&lt;/h2&gt;
 &lt;p&gt;I had a 2017 &lt;span class="caps"&gt;BMW&lt;/span&gt; &lt;span class="caps"&gt;R1200GS&lt;/span&gt; in &amp;#8220;Frozen Dark Blue Metallic&amp;#8221; on order with a variety
 of gizmos including &lt;span class="caps"&gt;BMW&lt;/span&gt;&amp;#8217;s Navigator V &lt;span class="caps"&gt;GPS&lt;/span&gt; system, keyless ride, and the
 Akrapovic exhaust. Being only 172cm tall, I was getting the bike lowered to
@@ -310,7 +300,7 @@ programs and the role that played in my decision. It turns&amp;nbsp;out:&lt;/p&g
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;I&amp;#8217;m guessing sales isn&amp;#8217;t particularly high on Triumph&amp;#8217;s agenda on this side of
-the pond? Would you be inclined to buy a ~$25,000 motorcycle without riding it&amp;nbsp;first?&lt;/p&gt;</content><category term="motorcycling"></category></entry><entry><title>Platform and Data Operations Analyst</title><link href="https://dmark.github.io/new-job.html" rel="alternate"></link><published>2016-07-08T12:00:00-04:00</published><updated>2016-07-20T09:00:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:dmark.github.io,2016-07-08:/new-job.html</id><summary type="html">&lt;p&gt;In what was more than a bit of a surprise, I was &amp;#8220;laterally promoted&amp;#8221; to a new
+the pond? Would you be inclined to buy a ~$25,000 motorcycle without riding it&amp;nbsp;first?&lt;/p&gt;</content><category term="motorcycling"></category></entry><entry><title>Platform and Data Operations Analyst</title><link href="https://markdrummond.ca/new-job.html" rel="alternate"></link><published>2016-07-08T12:00:00-04:00</published><updated>2016-07-20T09:00:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:markdrummond.ca,2016-07-08:/new-job.html</id><summary type="html">&lt;p&gt;In what was more than a bit of a surprise, I was &amp;#8220;laterally promoted&amp;#8221; to a new
 role with my employer, something I only found out less than 24 hours before it
 was announced to the department. I shall not complain. A bit of an odd way to
 go about …&lt;/p&gt;</summary><content type="html">&lt;p&gt;In what was more than a bit of a surprise, I was &amp;#8220;laterally promoted&amp;#8221; to a new
@@ -328,7 +318,7 @@ some very junior level work with our Data Services team for the past year or
 so, and I hope to continue doing more, though the details still need to be
 hammered out. It is possible my new position will lead me more toward &amp;#8216;data
 engineering&amp;#8217;, helping our data team leverage cloud-based data services. The
-door is certainly open for me to spend more of my time on data /&amp;nbsp;analytics.&lt;/p&gt;</content><category term="misc"></category></entry><entry><title>Linux Foundation Certified System Administrator</title><link href="https://dmark.github.io/lfcs.html" rel="alternate"></link><published>2016-05-05T10:25:00-04:00</published><updated>2016-05-05T10:59:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:dmark.github.io,2016-05-05:/lfcs.html</id><summary type="html">&lt;p&gt;I&amp;#8217;ve been at this Unix and Linux systems management stuff for over 20 years
+door is certainly open for me to spend more of my time on data /&amp;nbsp;analytics.&lt;/p&gt;</content><category term="misc"></category></entry><entry><title>Linux Foundation Certified System Administrator</title><link href="https://markdrummond.ca/lfcs.html" rel="alternate"></link><published>2016-05-05T10:25:00-04:00</published><updated>2016-05-05T10:59:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:markdrummond.ca,2016-05-05:/lfcs.html</id><summary type="html">&lt;p&gt;I&amp;#8217;ve been at this Unix and Linux systems management stuff for over 20 years
 now. As with my undergraduate degree&lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1" rel="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt;, I&amp;#8217;ve long wanted to knock out a few
 relevant technology certifications. Following on from my &lt;span class="caps"&gt;AWS&lt;/span&gt; SysOps
 certification, I took and passed the &lt;a href="https://www.linuxfoundation.org/"&gt;Linux
@@ -350,7 +340,7 @@ University&lt;/a&gt;, chipping away at a &lt;span class="caps"&gt;B.A.&lt;/span&
 &lt;a href="https://www.econ.queensu.ca"&gt;Economics&lt;/a&gt;.&amp;#160;&lt;a class="footnote-backref" href="#fnref:1" rev="footnote" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</content><category term="lfcs"></category></entry><entry><title>My First Pull Request</title><link href="https://dmark.github.io/my-first-pull-request.html" rel="alternate"></link><published>2015-05-20T16:59:00-04:00</published><updated>2015-05-20T19:36:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:dmark.github.io,2015-05-20:/my-first-pull-request.html</id><summary type="html">&lt;p&gt;I use &lt;a href="https://getpelican.com/"&gt;Pelican&lt;/a&gt; and the
+&lt;/div&gt;</content><category term="lfcs"></category></entry><entry><title>My First Pull Request</title><link href="https://markdrummond.ca/my-first-pull-request.html" rel="alternate"></link><published>2015-05-20T16:59:00-04:00</published><updated>2015-05-20T19:36:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:markdrummond.ca,2015-05-20:/my-first-pull-request.html</id><summary type="html">&lt;p&gt;I use &lt;a href="https://getpelican.com/"&gt;Pelican&lt;/a&gt; and the
 &lt;a href="https://github.com/DandyDev/pelican-bootstrap3"&gt;pelican-bootstrap3&lt;/a&gt; theme to
 built this&amp;nbsp;site.&lt;/p&gt;
 &lt;p&gt;I made my first real pull request today in the form of a minor contribution to
@@ -366,7 +356,7 @@ you to add a series of images to the sidebar. The original intent was to allow
 me to add certification marks to my sidebar, which you can now see in action
 right&amp;nbsp;here!&lt;/p&gt;
 &lt;p&gt;Props to &lt;a href="https://github.com/DandyDev"&gt;@DandyDev&lt;/a&gt; for the pro&amp;nbsp;tips.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="My first pull request" src="/images/my-first-pull-request.png" title="My first pull request"&gt;&lt;/p&gt;</content><category term="git"></category><category term="github"></category><category term="pelican-bootstrap3"></category></entry><entry><title>AWS SysOps Administration - Associate</title><link href="https://dmark.github.io/aws-sysops.html" rel="alternate"></link><published>2015-05-20T08:23:00-04:00</published><updated>2017-07-20T23:01:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:dmark.github.io,2015-05-20:/aws-sysops.html</id><summary type="html">&lt;p&gt;Last week I took the &lt;a href="https://aws.amazon.com/certification/certified-sysops-admin-associate/"&gt;&lt;span class="caps"&gt;AWS&lt;/span&gt; SysOps Administrator -
+&lt;p&gt;&lt;img alt="My first pull request" src="/images/my-first-pull-request.png" title="My first pull request"&gt;&lt;/p&gt;</content><category term="git"></category><category term="github"></category><category term="pelican-bootstrap3"></category></entry><entry><title>AWS SysOps Administration - Associate</title><link href="https://markdrummond.ca/aws-sysops.html" rel="alternate"></link><published>2015-05-20T08:23:00-04:00</published><updated>2017-07-20T23:01:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:markdrummond.ca,2015-05-20:/aws-sysops.html</id><summary type="html">&lt;p&gt;Last week I took the &lt;a href="https://aws.amazon.com/certification/certified-sysops-admin-associate/"&gt;&lt;span class="caps"&gt;AWS&lt;/span&gt; SysOps Administrator -
 Associate&lt;/a&gt;
 test and &lt;a href="/files/awsSysOpsAdmin_AE.pdf"&gt;passed&lt;/a&gt; with flying colours. Next step
 will be the Developer and then the DevOps certifications, both of which I hope
@@ -378,7 +368,7 @@ test and &lt;a href="/files/awsSysOpsAdmin_AE.pdf"&gt;passed&lt;/a&gt; with flyi
 will be the Developer and then the DevOps certifications, both of which I hope
 to complete this year. I look forward to doing a lot more work in &lt;span class="caps"&gt;AWS&lt;/span&gt; in the&amp;nbsp;future.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="AWS SysOps Administrator -
-Associate" src="/images/SysOps-Administrator-Associate.png"&gt;&lt;/p&gt;</content><category term="aws"></category></entry><entry><title>My First Kaggle Competition</title><link href="https://dmark.github.io/my-first-kaggle-comp.html" rel="alternate"></link><published>2015-05-04T00:00:00-04:00</published><updated>2015-05-04T00:00:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:dmark.github.io,2015-05-04:/my-first-kaggle-comp.html</id><summary type="html">&lt;p&gt;We are wrapping up the final week of &lt;span class="caps"&gt;MIT&lt;/span&gt;&amp;#8217;s &lt;a href="https://www.edx.org/course/analytics-edge-mitx-15-071x-0"&gt;15.071x &amp;#8220;The Analytics
+Associate" src="/images/SysOps-Administrator-Associate.png"&gt;&lt;/p&gt;</content><category term="aws"></category></entry><entry><title>My First Kaggle Competition</title><link href="https://markdrummond.ca/my-first-kaggle-comp.html" rel="alternate"></link><published>2015-05-04T00:00:00-04:00</published><updated>2015-05-04T00:00:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:markdrummond.ca,2015-05-04:/my-first-kaggle-comp.html</id><summary type="html">&lt;p&gt;We are wrapping up the final week of &lt;span class="caps"&gt;MIT&lt;/span&gt;&amp;#8217;s &lt;a href="https://www.edx.org/course/analytics-edge-mitx-15-071x-0"&gt;15.071x &amp;#8220;The Analytics
 Edge&amp;#8221;&lt;/a&gt; course,
 delivered online via &lt;a href="https://edx.org"&gt;edX.org&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;As part of the course I participated in my first Kaggle competition. I finished
