@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Mark Drummond - Software Development</title><link href="https://markdrummond.ca/" rel="alternate"></link><link href="https://markdrummond.ca/feeds/software-development.atom.xml" rel="self"></link><id>https://markdrummond.ca/</id><updated>2015-05-20T19:36:00-04:00</updated><subtitle>Cloud and Identity Systems Lead</subtitle><entry><title>My First Pull Request</title><link href="https://markdrummond.ca/my-first-pull-request.html" rel="alternate"></link><published>2015-05-20T16:59:00-04:00</published><updated>2015-05-20T19:36:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:markdrummond.ca,2015-05-20:/my-first-pull-request.html</id><summary type="html">&lt;p&gt;I use &lt;a href="https://getpelican.com/"&gt;Pelican&lt;/a&gt; and the
+&lt;a href="https://github.com/DandyDev/pelican-bootstrap3"&gt;pelican-bootstrap3&lt;/a&gt; theme to
+built this&amp;nbsp;site.&lt;/p&gt;
+&lt;p&gt;I made my first real pull request today in the form of a minor contribution to
+&lt;a href="https://github.com/DandyDev/pelican-bootstrap3"&gt;pelican-bootstrap3&lt;/a&gt;. I added a
+&lt;a href="https://github.com/DandyDev/pelican-bootstrap3/pull/190"&gt;feature&lt;/a&gt; that allows
+you to add a series of images to the sidebar. The original intent was to allow …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I use &lt;a href="https://getpelican.com/"&gt;Pelican&lt;/a&gt; and the
+&lt;a href="https://github.com/DandyDev/pelican-bootstrap3"&gt;pelican-bootstrap3&lt;/a&gt; theme to
+built this&amp;nbsp;site.&lt;/p&gt;
+&lt;p&gt;I made my first real pull request today in the form of a minor contribution to
+&lt;a href="https://github.com/DandyDev/pelican-bootstrap3"&gt;pelican-bootstrap3&lt;/a&gt;. I added a
+&lt;a href="https://github.com/DandyDev/pelican-bootstrap3/pull/190"&gt;feature&lt;/a&gt; that allows
+you to add a series of images to the sidebar. The original intent was to allow
+me to add certification marks to my sidebar, which you can now see in action
+right&amp;nbsp;here!&lt;/p&gt;
+&lt;p&gt;Props to &lt;a href="https://github.com/DandyDev"&gt;@DandyDev&lt;/a&gt; for the pro&amp;nbsp;tips.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="My first pull request" src="/images/my-first-pull-request.png" title="My first pull request"&gt;&lt;/p&gt;</content><category term="github"></category><category term="pelican-bootstrap3"></category></entry></feed>
