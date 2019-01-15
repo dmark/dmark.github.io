@@ -33,25 +33,25 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
 <meta name="author" content="Mark Drummond" />
-<meta name="description" content="I’m in Las Vegas this week for Gartner’s IAM Summit, being held at Ceasar’s Palace. Vegas isn’t really my cup of tea but one goes where the conferences are. Pro tip: The desert is really freaking cold in December. I mean, not Canada cold, but way …" />
+<meta name="description" content="I was in Las Vegas this week for Gartner’s IAM Summit, hosted at Ceasar’s Palace. Vegas isn’t really my cup of tea but one goes where the conferences are. Pro tip: The desert is really freaking cold in December. I mean, not Canada cold, but way colder …" />
 <meta name="keywords" content="gartner, iam-summit, ceasers-palace, las-vegas">
 <meta property="og:site_name" content="Mark Drummond"/>
-<meta property="og:title" content="The Gartner IAM Summit - Day 0"/>
-<meta property="og:description" content="I’m in Las Vegas this week for Gartner’s IAM Summit, being held at Ceasar’s Palace. Vegas isn’t really my cup of tea but one goes where the conferences are. Pro tip: The desert is really freaking cold in December. I mean, not Canada cold, but way …"/>
+<meta property="og:title" content="The Gartner IAM Summit"/>
+<meta property="og:description" content="I was in Las Vegas this week for Gartner’s IAM Summit, hosted at Ceasar’s Palace. Vegas isn’t really my cup of tea but one goes where the conferences are. Pro tip: The desert is really freaking cold in December. I mean, not Canada cold, but way colder …"/>
 <meta property="og:locale" content="en_CA"/>
 <meta property="og:url" content="https://markdrummond.ca/gartner-iam-summit-day-0.html"/>
 <meta property="og:type" content="article"/>
 <meta property="article:published_time" content="2018-12-02 19:41:00-05:00"/>
-<meta property="article:modified_time" content="2018-12-02 19:41:00-05:00"/>
+<meta property="article:modified_time" content="2019-01-14 23:09:00-05:00"/>
 <meta property="article:author" content="https://markdrummond.ca/author/mark-drummond.html">
-<meta property="article:section" content="Training & Certification"/>
+<meta property="article:section" content="Education, Training, and Certification"/>
 <meta property="article:tag" content="gartner"/>
 <meta property="article:tag" content="iam-summit"/>
 <meta property="article:tag" content="ceasers-palace"/>
 <meta property="article:tag" content="las-vegas"/>
 <meta property="og:image" content="/images/avatar.jpg">
 
-  <title>Mark Drummond &ndash; The Gartner IAM Summit - Day 0</title>
+  <title>Mark Drummond &ndash; The Gartner IAM Summit</title>
 
 </head>
 <body>
@@ -100,9 +100,9 @@
 
 <article class="single">
   <header>
-    <h1 id="gartner-iam-summit-day-0">The Gartner <span class="caps">IAM</span> Summit - Day&nbsp;0</h1>
+    <h1 id="gartner-iam-summit-day-0">The Gartner <span class="caps">IAM</span>&nbsp;Summit</h1>
     <p>
-          Posted on December 02, 2018 in <a href="https://markdrummond.ca/category/training-certification.html">Training & Certification</a>
+          Posted on December 02, 2018 in <a href="https://markdrummond.ca/category/education-training-and-certification.html">Education, Training, and Certification</a>
 
 
     </p>
@@ -110,19 +110,71 @@
 
 
   <div>
-    <p>I&#8217;m in <a href="https://en.wikipedia.org/wiki/Las_Vegas">Las Vegas</a> this week for
+    <p>I was in <a href="https://en.wikipedia.org/wiki/Las_Vegas">Las Vegas</a> this week for
 <a href="https://www.gartner.com/en">Gartner&#8217;s</a> <a href="https://www.gartner.com/en/conferences/na/identity-access-management-us"><span class="caps">IAM</span>
 Summit</a>,
-being held at <a href="https://www.caesars.com/caesars-palace">Ceasar&#8217;s Palace</a>. Vegas
+hosted at <a href="https://www.caesars.com/caesars-palace">Ceasar&#8217;s Palace</a>. Vegas
 isn&#8217;t really my cup of tea but one goes where the conferences are. Pro tip: The
 desert is really freaking cold in December. I mean, not Canada cold, but way
-colder than a desert should&nbsp;be.</p>
-<p>I flew in yesterday, which gave me a leasurely day today for registration, and
-allowed me to attend a couple &#8220;tutorials&#8221; as well as the welcome reception. The
-tutorials were just talks, not apparentyl different from any other conference
-session I have attended. There was certainly nothing hands-on about them. I
-peeled out of the welcome reception pretty quick, welcome receptions also not
-really being my thing. And I do have an exam to study&nbsp;for.</p>
+colder than a desert should be. Bring&nbsp;layers.</p>
+<h2>Main&nbsp;Takeaways</h2>
+<ul>
+<li>Deploy <span class="caps">MFA</span>&nbsp;everywhere,</li>
+<li>You must have people on your team who are intimately familiar with OAuth and <span class="caps">OIDC</span>,</li>
+<li>If you haven&#8217;t already, start working on Identity&nbsp;Governance,</li>
+<li>Continuous identity proofing was by far the most interesting and compeling subject for&nbsp;me.</li>
+</ul>
+<h2>Identity Governance <span class="amp">&amp;</span> Administration (<span class="caps">IGA</span>)</h2>
+<p>Just last week I was doing manual extracts of user data and hand producing <span class="caps">CSV</span>
+files for audit stuff. Stop doing that! Investigate <span class="caps">IGA</span>&nbsp;options.</p>
+<h2>Identity&nbsp;Proofing</h2>
+<p>Proving the identity of customers, elevating the level of trust in a given
+identity, continuous re-validation of existing identities. Email address
+validation, phone number validation, credit bureau checks, <span class="caps">RSA</span>-type adaptive
+risk callouts, elevated trust expiry and re-validation, &#8230; automate all of&nbsp;it.</p>
+<p>Build an identity proofing <span class="caps">API</span>! The <span class="caps">API</span> can be called at any time by any app
+(or other <span class="caps">API</span>) to validate, revalidate, or improve the validation of an
+identity. The <span class="caps">API</span> would be modular and each module handles one method of&nbsp;proofing.</p>
+<h2>Best Practices for OAuth 2.0 and <span class="caps">OIDC</span></h2>
+<ul>
+<li>Best Practices for OAuth 2.0 and <span class="caps">OIDC</span>,</li>
+<li>OAuth 2.0 and <span class="caps">OIDC</span> are evolving rapidly. Have one or more people on staff to stay on top of current standards and best&nbsp;practices,</li>
+<li>OAuth <span class="amp">&amp;</span> <span class="caps">OIDC</span> mailing&nbsp;lists,</li>
+<li>Documentation: https://oauth.net/2/,&nbsp;https://openid.net/connect/,</li>
+<li><span class="caps">JWT</span> standards <span class="amp">&amp;</span> best practices:&nbsp;https://jwt.io,</li>
+<li>Least privilege / Minimize number of claims in a <span class="caps">JWT</span>,</li>
+<li>Coarse-grained authorization in the middle layer (<span class="caps">API</span> gateway, security&nbsp;proxy)</li>
+<li>Implement a permissions <span class="caps">API</span> for anything more complicated than a simple list of&nbsp;roles,</li>
+<li>Permissions <span class="caps">API</span> answers the question &#8220;What is this identity allowed to do?&#8221; on behalf of other apps and&nbsp;APIs.</li>
+<li>Fine-grained authorization in the app / <span class="caps">API</span>, either directly in the app / <span class="caps">API</span> or via the permissions <span class="caps">API</span>,</li>
+<li>Token revocation is a challenge - valid tokens are autonomous, and remain valid until they time out. Keep those <span class="caps">JWT</span> timeouts&nbsp;short,</li>
+<li>AppAuth pattern / flow&nbsp;good,</li>
+<li>Implicit flow bad (no real trust here, but also no&nbsp;alternative?)</li>
+<li>(alternative is to stop building SPAs until better solutions are&nbsp;developed)</li>
+</ul>
+<h2>Gartner Conference&nbsp;ProTips</h2>
+<p>Install the Gartner app on your phone well in advance of your&nbsp;conference.</p>
+<p>Some sessions are limited access and require you to register. This includes
+Roundtable and Ask the Analyst sessions. I did not get any indication from
+Gartner when sign up for these sessions was available, and they were all full
+by the time I found out. If full, you can go to the room for one of these
+sessions 15 minutes before the start and put your name on a wait list. Lots of
+people just sign up for everything and then don&#8217;t show&nbsp;up</p>
+<p>There are also 1-on-1 sessions available. You tell the Gartner folks what you
+want to discuss and they will match you up with an appropriate Gartner&nbsp;analyst.</p>
+<p>Obviously use the networking events when you can, especially those targeted at
+specific groups. I went to the Financial Industry networking breakfast and made
+a few contacts there, and our country rep set up a dinner for all the
+Canadians, which proved to be&nbsp;fruitful.</p>
+<h2>Tutorials</h2>
+<p>I changed my travel plans to go down a day early, because there were
+&#8220;tutorials&#8221; being offered the day before the event officially started. I have
+no idea why Gartner calls these tutorials. They were no different than any
+other presentation style session. Someone from Gartner standing there talking
+and flipping slides. Which is fine but they were not &#8220;tutorials&#8221; in any usual&nbsp;sense.</p>
+<p>I still recommend going a day early (the day before the day before the event
+starts). You can register early (no morning rush on the first day) and there
+was an orientation and networking session that&nbsp;evening.</p>
   </div>
   <div class="tag-cloud">
     <p>

@@ -1,5 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Mark Drummond - Mark Drummond</title><link href="https://markdrummond.ca/" rel="alternate"></link><link href="https://markdrummond.ca/feeds/mark-drummond.atom.xml" rel="self"></link><id>https://markdrummond.ca/</id><updated>2019-01-04T16:00:00-05:00</updated><subtitle>Cloud and Identity Systems Lead</subtitle><entry><title>Goodreads 2018 Reading Challenge</title><link href="https://markdrummond.ca/2018-books.html" rel="alternate"></link><published>2018-12-31T12:00:00-05:00</published><updated>2019-01-04T16:00:00-05:00</updated><author><name>Mark Drummond</name></author><id>tag:markdrummond.ca,2018-12-31:/2018-books.html</id><summary type="html">&lt;h2&gt;Books and Books and All Sorts of&amp;nbsp;Books&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Mark Drummond - Mark Drummond</title><link href="https://markdrummond.ca/" rel="alternate"></link><link href="https://markdrummond.ca/feeds/mark-drummond.atom.xml" rel="self"></link><id>https://markdrummond.ca/</id><updated>2019-10-14T21:52:00-04:00</updated><subtitle>Cloud and Identity Systems Lead</subtitle><entry><title>authzero - A CLI for the Auth0 Management API</title><link href="https://markdrummond.ca/authzero.html" rel="alternate"></link><published>2019-01-14T23:02:00-05:00</published><updated>2019-01-14T23:02:00-05:00</updated><author><name>Mark Drummond</name></author><id>tag:markdrummond.ca,2019-01-14:/authzero.html</id><summary type="html">&lt;p&gt;I started work on a &lt;a href="https://github.com/dmark/authzero"&gt;command line interface&lt;/a&gt;
+for the &lt;a href="https://auth0.com/"&gt;Auth0&lt;/a&gt; &lt;a href="https://auth0.com/docs/api/management/v2"&gt;Management
+&lt;span class="caps"&gt;API&lt;/span&gt;&lt;/a&gt;. The tool is built with
+&lt;a href="https://www.typescriptlang.org/index.html"&gt;TypeScript&lt;/a&gt;, &lt;a href="https://oclif.io/"&gt;oclif&lt;/a&gt;, &lt;a href="https://nodejs.org/en/"&gt;node.js&lt;/a&gt;, and Auth0&amp;#8217;s &lt;a href="https://github.com/auth0/node-auth0"&gt;node-auth0 &lt;span class="caps"&gt;SDK&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ authzero --help
+Auth0 Command Line Interface
+
+VERSION
+  authzero/0.0.0 darwin-x64 node-v11.6.0
+
+USAGE
+  $ authzero &lt;span class="o"&gt;[&lt;/span&gt;COMMAND&lt;span class="o"&gt;]&lt;/span&gt;
+
+COMMANDS
+  client      Get client &lt;span class="o"&gt;(&lt;/span&gt;application …&lt;/pre&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;I started work on a &lt;a href="https://github.com/dmark/authzero"&gt;command line interface&lt;/a&gt;
+for the &lt;a href="https://auth0.com/"&gt;Auth0&lt;/a&gt; &lt;a href="https://auth0.com/docs/api/management/v2"&gt;Management
+&lt;span class="caps"&gt;API&lt;/span&gt;&lt;/a&gt;. The tool is built with
+&lt;a href="https://www.typescriptlang.org/index.html"&gt;TypeScript&lt;/a&gt;, &lt;a href="https://oclif.io/"&gt;oclif&lt;/a&gt;, &lt;a href="https://nodejs.org/en/"&gt;node.js&lt;/a&gt;, and Auth0&amp;#8217;s &lt;a href="https://github.com/auth0/node-auth0"&gt;node-auth0 &lt;span class="caps"&gt;SDK&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ authzero --help
+Auth0 Command Line Interface
+
+VERSION
+  authzero/0.0.0 darwin-x64 node-v11.6.0
+
+USAGE
+  $ authzero &lt;span class="o"&gt;[&lt;/span&gt;COMMAND&lt;span class="o"&gt;]&lt;/span&gt;
+
+COMMANDS
+  client      Get client &lt;span class="o"&gt;(&lt;/span&gt;application&lt;span class="o"&gt;)&lt;/span&gt; settings.
+  connection  Get connection settings.
+  &lt;span class="nb"&gt;help&lt;/span&gt;        display &lt;span class="nb"&gt;help&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; authzero
+  rule        Get rule.
+  tenant      Get tenant settings.
+  user        Get profile &lt;span class="k"&gt;for&lt;/span&gt; specificed user.
+
+$
+&lt;/pre&gt;&lt;/div&gt;</content><category term="typescript"></category><category term="nodejs"></category><category term="oclif"></category><category term="node-auth0"></category><category term="auth0"></category></entry><entry><title>Goodreads 2018 Reading Challenge</title><link href="https://markdrummond.ca/2018-books.html" rel="alternate"></link><published>2018-12-31T12:00:00-05:00</published><updated>2019-01-04T16:00:00-05:00</updated><author><name>Mark Drummond</name></author><id>tag:markdrummond.ca,2018-12-31:/2018-books.html</id><summary type="html">&lt;h2&gt;Books and Books and All Sorts of&amp;nbsp;Books&lt;/h2&gt;
 &lt;p&gt;&lt;img alt="The Stack" src="/images/2019-01-04 16.55.25.jpg" title="The Stack"&gt;&lt;/p&gt;
 &lt;p&gt;I like to read. I track my reading habits on
 &lt;a href="https://www.goodreads.com/"&gt;Goodreads&lt;/a&gt;, and I started using the Goodreads
@@ -173,24 +209,77 @@ Reading Challenge&amp;nbsp;started:&lt;/p&gt;
 &lt;li&gt;&lt;a href="https://www.goodreads.com/book/show/18762133-the-science-of-leadership?from_search=true"&gt;&lt;span class="dquo"&gt;&amp;#8220;&lt;/span&gt;The Science of Leadership&amp;#8221;&lt;/a&gt; - &lt;a href="https://www.goodreads.com/author/show/1851008.Julian_Barling"&gt;Julian&amp;nbsp;Barling&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.goodreads.com/book/show/27968891-site-reliability-engineering?ac=1&amp;amp;from_search=true"&gt;&lt;span class="dquo"&gt;&amp;#8220;&lt;/span&gt;Site Reliability Engineering&amp;#8221;&lt;/a&gt; - &lt;a href="https://www.goodreads.com/author/show/14705355.Betsy_Beyer"&gt;Betsy&amp;nbsp;Beyer&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.goodreads.com/book/show/31338520-google-cloud-platform-in-action?ac=1&amp;amp;from_search=true"&gt;&lt;span class="dquo"&gt;&amp;#8220;&lt;/span&gt;Google Cloud in Action&amp;#8221;&lt;/a&gt; - &lt;a href="https://www.goodreads.com/author/show/18304140.JJ_Geewax"&gt;&lt;span class="caps"&gt;JJ&lt;/span&gt;&amp;nbsp;Geewax&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><category term="goodreads"></category><category term="bookworm"></category></entry><entry><title>The Gartner IAM Summit - Day 0</title><link href="https://markdrummond.ca/gartner-iam-summit-day-0.html" rel="alternate"></link><published>2018-12-02T19:41:00-05:00</published><updated>2018-12-02T19:41:00-05:00</updated><author><name>Mark Drummond</name></author><id>tag:markdrummond.ca,2018-12-02:/gartner-iam-summit-day-0.html</id><summary type="html">&lt;p&gt;I&amp;#8217;m in &lt;a href="https://en.wikipedia.org/wiki/Las_Vegas"&gt;Las Vegas&lt;/a&gt; this week for
+&lt;/ul&gt;</content><category term="goodreads"></category><category term="bookworm"></category></entry><entry><title>The Gartner IAM Summit</title><link href="https://markdrummond.ca/gartner-iam-summit-day-0.html" rel="alternate"></link><published>2018-12-02T19:41:00-05:00</published><updated>2019-01-14T23:09:00-05:00</updated><author><name>Mark Drummond</name></author><id>tag:markdrummond.ca,2018-12-02:/gartner-iam-summit-day-0.html</id><summary type="html">&lt;p&gt;I was in &lt;a href="https://en.wikipedia.org/wiki/Las_Vegas"&gt;Las Vegas&lt;/a&gt; this week for
 &lt;a href="https://www.gartner.com/en"&gt;Gartner&amp;#8217;s&lt;/a&gt; &lt;a href="https://www.gartner.com/en/conferences/na/identity-access-management-us"&gt;&lt;span class="caps"&gt;IAM&lt;/span&gt;
 Summit&lt;/a&gt;,
-being held at &lt;a href="https://www.caesars.com/caesars-palace"&gt;Ceasar&amp;#8217;s Palace&lt;/a&gt;. Vegas
-isn&amp;#8217;t really my cup of tea but one goes where the conferences are. Pro tip: The
-desert is really freaking cold in December. I mean, not Canada cold, but way …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I&amp;#8217;m in &lt;a href="https://en.wikipedia.org/wiki/Las_Vegas"&gt;Las Vegas&lt;/a&gt; this week for
-&lt;a href="https://www.gartner.com/en"&gt;Gartner&amp;#8217;s&lt;/a&gt; &lt;a href="https://www.gartner.com/en/conferences/na/identity-access-management-us"&gt;&lt;span class="caps"&gt;IAM&lt;/span&gt;
-Summit&lt;/a&gt;,
-being held at &lt;a href="https://www.caesars.com/caesars-palace"&gt;Ceasar&amp;#8217;s Palace&lt;/a&gt;. Vegas
+hosted at &lt;a href="https://www.caesars.com/caesars-palace"&gt;Ceasar&amp;#8217;s Palace&lt;/a&gt;. Vegas
 isn&amp;#8217;t really my cup of tea but one goes where the conferences are. Pro tip: The
 desert is really freaking cold in December. I mean, not Canada cold, but way
-colder than a desert should&amp;nbsp;be.&lt;/p&gt;
-&lt;p&gt;I flew in yesterday, which gave me a leasurely day today for registration, and
-allowed me to attend a couple &amp;#8220;tutorials&amp;#8221; as well as the welcome reception. The
-tutorials were just talks, not apparentyl different from any other conference
-session I have attended. There was certainly nothing hands-on about them. I
-peeled out of the welcome reception pretty quick, welcome receptions also not
-really being my thing. And I do have an exam to study&amp;nbsp;for.&lt;/p&gt;</content><category term="gartner"></category><category term="iam-summit"></category><category term="ceasers-palace"></category><category term="las-vegas"></category></entry><entry><title>The Viking Tour - Day 13</title><link href="https://markdrummond.ca/viking-tour-day-13.html" rel="alternate"></link><published>2018-08-15T12:00:00-04:00</published><updated>2018-12-02T12:13:00-05:00</updated><author><name>Mark Drummond</name></author><id>tag:markdrummond.ca,2018-08-15:/viking-tour-day-13.html</id><summary type="html">&lt;p&gt;Salaberry-de-Valleyfield&lt;/p&gt;
+colder …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I was in &lt;a href="https://en.wikipedia.org/wiki/Las_Vegas"&gt;Las Vegas&lt;/a&gt; this week for
+&lt;a href="https://www.gartner.com/en"&gt;Gartner&amp;#8217;s&lt;/a&gt; &lt;a href="https://www.gartner.com/en/conferences/na/identity-access-management-us"&gt;&lt;span class="caps"&gt;IAM&lt;/span&gt;
+Summit&lt;/a&gt;,
+hosted at &lt;a href="https://www.caesars.com/caesars-palace"&gt;Ceasar&amp;#8217;s Palace&lt;/a&gt;. Vegas
+isn&amp;#8217;t really my cup of tea but one goes where the conferences are. Pro tip: The
+desert is really freaking cold in December. I mean, not Canada cold, but way
+colder than a desert should be. Bring&amp;nbsp;layers.&lt;/p&gt;
+&lt;h2&gt;Main&amp;nbsp;Takeaways&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Deploy &lt;span class="caps"&gt;MFA&lt;/span&gt;&amp;nbsp;everywhere,&lt;/li&gt;
+&lt;li&gt;You must have people on your team who are intimately familiar with OAuth and &lt;span class="caps"&gt;OIDC&lt;/span&gt;,&lt;/li&gt;
+&lt;li&gt;If you haven&amp;#8217;t already, start working on Identity&amp;nbsp;Governance,&lt;/li&gt;
+&lt;li&gt;Continuous identity proofing was by far the most interesting and compeling subject for&amp;nbsp;me.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Identity Governance &lt;span class="amp"&gt;&amp;amp;&lt;/span&gt; Administration (&lt;span class="caps"&gt;IGA&lt;/span&gt;)&lt;/h2&gt;
+&lt;p&gt;Just last week I was doing manual extracts of user data and hand producing &lt;span class="caps"&gt;CSV&lt;/span&gt;
+files for audit stuff. Stop doing that! Investigate &lt;span class="caps"&gt;IGA&lt;/span&gt;&amp;nbsp;options.&lt;/p&gt;
+&lt;h2&gt;Identity&amp;nbsp;Proofing&lt;/h2&gt;
+&lt;p&gt;Proving the identity of customers, elevating the level of trust in a given
+identity, continuous re-validation of existing identities. Email address
+validation, phone number validation, credit bureau checks, &lt;span class="caps"&gt;RSA&lt;/span&gt;-type adaptive
+risk callouts, elevated trust expiry and re-validation, &amp;#8230; automate all of&amp;nbsp;it.&lt;/p&gt;
+&lt;p&gt;Build an identity proofing &lt;span class="caps"&gt;API&lt;/span&gt;! The &lt;span class="caps"&gt;API&lt;/span&gt; can be called at any time by any app
+(or other &lt;span class="caps"&gt;API&lt;/span&gt;) to validate, revalidate, or improve the validation of an
+identity. The &lt;span class="caps"&gt;API&lt;/span&gt; would be modular and each module handles one method of&amp;nbsp;proofing.&lt;/p&gt;
+&lt;h2&gt;Best Practices for OAuth 2.0 and &lt;span class="caps"&gt;OIDC&lt;/span&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Best Practices for OAuth 2.0 and &lt;span class="caps"&gt;OIDC&lt;/span&gt;,&lt;/li&gt;
+&lt;li&gt;OAuth 2.0 and &lt;span class="caps"&gt;OIDC&lt;/span&gt; are evolving rapidly. Have one or more people on staff to stay on top of current standards and best&amp;nbsp;practices,&lt;/li&gt;
+&lt;li&gt;OAuth &lt;span class="amp"&gt;&amp;amp;&lt;/span&gt; &lt;span class="caps"&gt;OIDC&lt;/span&gt; mailing&amp;nbsp;lists,&lt;/li&gt;
+&lt;li&gt;Documentation: https://oauth.net/2/,&amp;nbsp;https://openid.net/connect/,&lt;/li&gt;
+&lt;li&gt;&lt;span class="caps"&gt;JWT&lt;/span&gt; standards &lt;span class="amp"&gt;&amp;amp;&lt;/span&gt; best practices:&amp;nbsp;https://jwt.io,&lt;/li&gt;
+&lt;li&gt;Least privilege / Minimize number of claims in a &lt;span class="caps"&gt;JWT&lt;/span&gt;,&lt;/li&gt;
+&lt;li&gt;Coarse-grained authorization in the middle layer (&lt;span class="caps"&gt;API&lt;/span&gt; gateway, security&amp;nbsp;proxy)&lt;/li&gt;
+&lt;li&gt;Implement a permissions &lt;span class="caps"&gt;API&lt;/span&gt; for anything more complicated than a simple list of&amp;nbsp;roles,&lt;/li&gt;
+&lt;li&gt;Permissions &lt;span class="caps"&gt;API&lt;/span&gt; answers the question &amp;#8220;What is this identity allowed to do?&amp;#8221; on behalf of other apps and&amp;nbsp;APIs.&lt;/li&gt;
+&lt;li&gt;Fine-grained authorization in the app / &lt;span class="caps"&gt;API&lt;/span&gt;, either directly in the app / &lt;span class="caps"&gt;API&lt;/span&gt; or via the permissions &lt;span class="caps"&gt;API&lt;/span&gt;,&lt;/li&gt;
+&lt;li&gt;Token revocation is a challenge - valid tokens are autonomous, and remain valid until they time out. Keep those &lt;span class="caps"&gt;JWT&lt;/span&gt; timeouts&amp;nbsp;short,&lt;/li&gt;
+&lt;li&gt;AppAuth pattern / flow&amp;nbsp;good,&lt;/li&gt;
+&lt;li&gt;Implicit flow bad (no real trust here, but also no&amp;nbsp;alternative?)&lt;/li&gt;
+&lt;li&gt;(alternative is to stop building SPAs until better solutions are&amp;nbsp;developed)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Gartner Conference&amp;nbsp;ProTips&lt;/h2&gt;
+&lt;p&gt;Install the Gartner app on your phone well in advance of your&amp;nbsp;conference.&lt;/p&gt;
+&lt;p&gt;Some sessions are limited access and require you to register. This includes
+Roundtable and Ask the Analyst sessions. I did not get any indication from
+Gartner when sign up for these sessions was available, and they were all full
+by the time I found out. If full, you can go to the room for one of these
+sessions 15 minutes before the start and put your name on a wait list. Lots of
+people just sign up for everything and then don&amp;#8217;t show&amp;nbsp;up&lt;/p&gt;
+&lt;p&gt;There are also 1-on-1 sessions available. You tell the Gartner folks what you
+want to discuss and they will match you up with an appropriate Gartner&amp;nbsp;analyst.&lt;/p&gt;
+&lt;p&gt;Obviously use the networking events when you can, especially those targeted at
+specific groups. I went to the Financial Industry networking breakfast and made
+a few contacts there, and our country rep set up a dinner for all the
+Canadians, which proved to be&amp;nbsp;fruitful.&lt;/p&gt;
+&lt;h2&gt;Tutorials&lt;/h2&gt;
+&lt;p&gt;I changed my travel plans to go down a day early, because there were
+&amp;#8220;tutorials&amp;#8221; being offered the day before the event officially started. I have
+no idea why Gartner calls these tutorials. They were no different than any
+other presentation style session. Someone from Gartner standing there talking
+and flipping slides. Which is fine but they were not &amp;#8220;tutorials&amp;#8221; in any usual&amp;nbsp;sense.&lt;/p&gt;
+&lt;p&gt;I still recommend going a day early (the day before the day before the event
+starts). You can register early (no morning rush on the first day) and there
+was an orientation and networking session that&amp;nbsp;evening.&lt;/p&gt;</content><category term="gartner"></category><category term="iam-summit"></category><category term="ceasers-palace"></category><category term="las-vegas"></category></entry><entry><title>The Viking Tour - Day 13</title><link href="https://markdrummond.ca/viking-tour-day-13.html" rel="alternate"></link><published>2018-08-15T12:00:00-04:00</published><updated>2018-12-02T12:13:00-05:00</updated><author><name>Mark Drummond</name></author><id>tag:markdrummond.ca,2018-08-15:/viking-tour-day-13.html</id><summary type="html">&lt;p&gt;Salaberry-de-Valleyfield&lt;/p&gt;
 &lt;p&gt;Distance traveled:&amp;nbsp;240kms&lt;/p&gt;
 &lt;p&gt;Home Sweet&amp;nbsp;Home&lt;/p&gt;</summary><content type="html">&lt;p&gt;Salaberry-de-Valleyfield&lt;/p&gt;
 &lt;p&gt;Distance traveled:&amp;nbsp;240kms&lt;/p&gt;
@@ -429,42 +518,47 @@ d&amp;#8217;Haberville&lt;/a&gt; is a motorcyclist friendly&amp;nbsp;location.&l
 &lt;p&gt;Just around the corner from the Blache d&amp;#8217;Haberville is the &lt;a href="https://goo.gl/maps/zhsT3eG9iKN2"&gt;Pub Ras
 L&amp;#8217;Bock&lt;/a&gt;. Patio dining, quality local beer,
 great food, waterfront views, all within walking distance of the&amp;nbsp;motel.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Pub Ras L'Bock" src="/images/nfld/2018080301.jpg" title="Pub Ras L'Bock"&gt;&lt;/p&gt;</content><category term="motorsports"></category></entry><entry><title>I Love New Tires (and Routine Maintenance)</title><link href="https://markdrummond.ca/i-love-new-tires.html" rel="alternate"></link><published>2018-07-27T16:00:00-04:00</published><updated>2018-11-30T17:05:00-05:00</updated><author><name>Mark Drummond</name></author><id>tag:markdrummond.ca,2018-07-27:/i-love-new-tires.html</id><summary type="html">&lt;p&gt;Closing in on 20,000kms on my 2016 &lt;span class="caps"&gt;R1200GS&lt;/span&gt;, and with my moto trip to
-Newfoundland looming, I booked the bike in for its 20,000km service. I really
-enjoy taking my vehicles in for routine maintenance. It&amp;#8217;s surprisingly
-satisfying. Even more satisfying is new tires. I just loving …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Closing in on 20,000kms on my 2016 &lt;span class="caps"&gt;R1200GS&lt;/span&gt;, and with my moto trip to
-Newfoundland looming, I booked the bike in for its 20,000km service. I really
-enjoy taking my vehicles in for routine maintenance. It&amp;#8217;s surprisingly
-satisfying. Even more satisfying is new tires. I just loving putting new tires
-on my motorbike and my&amp;nbsp;car.&lt;/p&gt;
-&lt;p&gt;On my old &lt;span class="caps"&gt;FZ6&lt;/span&gt; I replaced the stock tires with Metzeler Roadtec Z8 Interacts,
-which I was quite happy with. So I decided to replace my &lt;span class="caps"&gt;GS&lt;/span&gt;&amp;#8217;s stock Anakee &lt;span class="caps"&gt;III&lt;/span&gt;
-tires with the new Metzeler Roadtec 01s. The Roadtecs are so much smoother than
-the Anakees, especially at freeway speeds, that is it a little bit hard to
-believe. Granted the Anakees are a 90/10 tire and the Roadtecs are pure road,
-but what a&amp;nbsp;difference.&lt;/p&gt;
-&lt;p&gt;I had the work done at &lt;a href="https://www.bmwbikes.ca/"&gt;Endras &lt;span class="caps"&gt;BMW&lt;/span&gt; Motorrad&lt;/a&gt; in Ajax,
-Ontario. The service tech there was great. I mentioned the small amount of oil
-on my left fork. The clip that holds the seal in place (I really have no idea
-what I am talking about here) was not installed correctly, so the service tech
-fixed it up and told me to keep an eye out for any further&amp;nbsp;leakage.&lt;/p&gt;</content><category term="motorsports"></category></entry><entry><title>Forking Seals</title><link href="https://markdrummond.ca/fork-seals.html" rel="alternate"></link><published>2018-07-27T12:00:00-04:00</published><updated>2018-12-02T19:55:00-05:00</updated><author><name>Mark Drummond</name></author><id>tag:markdrummond.ca,2018-07-27:/fork-seals.html</id><summary type="html">&lt;p&gt;The quick fix on the left fork seal did not work. Not long after leaving the
+&lt;p&gt;&lt;img alt="Pub Ras L'Bock" src="/images/nfld/2018080301.jpg" title="Pub Ras L'Bock"&gt;&lt;/p&gt;</content><category term="motorsports"></category></entry><entry><title>Forking Seals</title><link href="https://markdrummond.ca/fork-seals.html" rel="alternate"></link><published>2018-07-27T12:00:00-04:00</published><updated>2019-01-14T22:56:00-05:00</updated><author><name>Mark Drummond</name></author><id>tag:markdrummond.ca,2018-07-27:/fork-seals.html</id><summary type="html">&lt;p&gt;The quick fix on the left fork seal did not work. Not long after leaving the
 shop you could see fork oil slowly accumulating on top of the seal and on the
-fork itself. I called Endras back and they booked my in for Friday the 28th.
-Hopefully last minute …&lt;/p&gt;</summary><content type="html">&lt;p&gt;The quick fix on the left fork seal did not work. Not long after leaving the
+fork itself. I called Endras back and they booked my in for Friday the 27th.
+Hopefully &lt;a href="/i-broke-my-gs.html#i-broke-my-gs"&gt;last minute …&lt;/a&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;The quick fix on the left fork seal did not work. Not long after leaving the
 shop you could see fork oil slowly accumulating on top of the seal and on the
-fork itself. I called Endras back and they booked my in for Friday the 28th.
-Hopefully last minute maintenance before a big Summer motorcycle trip doesn&amp;#8217;t
-become a&amp;nbsp;habit.&lt;/p&gt;
+fork itself. I called Endras back and they booked my in for Friday the 27th.
+Hopefully &lt;a href="/i-broke-my-gs.html#i-broke-my-gs"&gt;last minute maintenance before a big Summer motorcycle
+trip&lt;/a&gt; doesn&amp;#8217;t become a&amp;nbsp;habit.&lt;/p&gt;
 &lt;p&gt;Minor panic when I got the bike in. The tech who was scheduled to do the work
-was off sick. Now, I must say Endras got me fixed up. They understood the
-urgency and got one of their other service techs to squeeze it into their
-schedule. On the other hand, a call to let me know my tech was off sick would
-have been&amp;nbsp;appreciated!&lt;/p&gt;
+was off sick. Now, Endras got me fixed up. They understood the urgency and got
+one of their other service techs to squeeze it into their schedule even though
+they were all fully booked up. That said, a call to let me know my tech was off
+sick would have been appreciated, especially given it&amp;#8217;s a ~2hr ride for me to
+get to Ajax from my&amp;nbsp;place.&lt;/p&gt;
 &lt;p&gt;Still, all&amp;#8217;s well that ends well. The work was covered under warranty and I was
 all set for my Newfoundland trip. I also picked up the &lt;span class="caps"&gt;BMW&lt;/span&gt; Small Tankrucksack
-while I was&amp;nbsp;there.&lt;/p&gt;
+while I was there so I would have some at-hand storage while on the&amp;nbsp;road.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Leaky Fork Seal" src="/images/fork-1.jpg"&gt;
-&lt;img alt="Leaky Fork Seal" src="/images/fork-2.jpg"&gt;&lt;/p&gt;</content><category term="motorsports"></category></entry><entry><title>Cloud and Identity Systems Lead</title><link href="https://markdrummond.ca/new-new-job.html" rel="alternate"></link><published>2018-06-20T12:00:00-04:00</published><updated>2018-06-20T09:00:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:markdrummond.ca,2018-06-20:/new-new-job.html</id><summary type="html">&lt;p&gt;A new shift in my responsibilities at work, with more focus on two key aspects
+&lt;img alt="Leaky Fork Seal" src="/images/fork-2.jpg"&gt;&lt;/p&gt;</content><category term="motorsports"></category><category term="r1200gs"></category><category term="bmw"></category></entry><entry><title>I Love New Tires (and Routine Maintenance)</title><link href="https://markdrummond.ca/i-love-new-tires.html" rel="alternate"></link><published>2018-07-20T16:00:00-04:00</published><updated>2019-01-14T22:51:00-05:00</updated><author><name>Mark Drummond</name></author><id>tag:markdrummond.ca,2018-07-20:/i-love-new-tires.html</id><summary type="html">&lt;p&gt;Closing in on 20,000kms on my 2016 &lt;span class="caps"&gt;R1200GS&lt;/span&gt;, and with my moto trip to
+&lt;a href="https://en.wikipedia.org/wiki/Newfoundland_and_Labrador"&gt;Newfoundland&lt;/a&gt;
+looming, I booked the bike in for its 20,000km service. I must admit, I
+&lt;em&gt;really&lt;/em&gt; enjoy taking my vehicles in for routine maintenance. It&amp;#8217;s surprisingly
+satisfying. Even more satisfying is new tires …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Closing in on 20,000kms on my 2016 &lt;span class="caps"&gt;R1200GS&lt;/span&gt;, and with my moto trip to
+&lt;a href="https://en.wikipedia.org/wiki/Newfoundland_and_Labrador"&gt;Newfoundland&lt;/a&gt;
+looming, I booked the bike in for its 20,000km service. I must admit, I
+&lt;em&gt;really&lt;/em&gt; enjoy taking my vehicles in for routine maintenance. It&amp;#8217;s surprisingly
+satisfying. Even more satisfying is new tires. I just loving putting new tires
+on my motorbike, or my&amp;nbsp;car.&lt;/p&gt;
+&lt;p&gt;On my old &lt;span class="caps"&gt;FZ6&lt;/span&gt; I replaced the stock tires with
+&lt;a href="https://www.metzeler.com/en-ww/home"&gt;Metzeler&lt;/a&gt; Roadtec Z8 Interacts, which I
+was quite happy with. So I decided to replace my &lt;span class="caps"&gt;GS&lt;/span&gt;&amp;#8217;s stock Anakee &lt;span class="caps"&gt;III&lt;/span&gt; tires
+with the new Metzeler Roadtec 01s. The Roadtecs are so much smoother than the
+Anakees, especially at freeway speeds, that is it a little bit hard to believe.
+Granted the Anakees are a 90/10 (road/gravel) tire and the Roadtecs are pure
+road, but what a&amp;nbsp;difference.&lt;/p&gt;
+&lt;p&gt;I had the work done at &lt;a href="https://www.bmwbikes.ca/"&gt;Endras &lt;span class="caps"&gt;BMW&lt;/span&gt; Motorrad&lt;/a&gt; in Ajax,
+Ontario. The service tech there was great. I mentioned the small amount of oil
+on my left fork. Apparently the clip that holds the seal in place (I really
+have no idea what I am talking about here) was not installed correctly, so the
+service tech fixed it up and told me to keep an eye out for any further
+leakage, which would necessitate replacing the fork&amp;nbsp;seals.&lt;/p&gt;</content><category term="motorsports"></category><category term="bmw"></category><category term="r1200gs"></category></entry><entry><title>Cloud and Identity Systems Lead</title><link href="https://markdrummond.ca/new-new-job.html" rel="alternate"></link><published>2018-06-20T12:00:00-04:00</published><updated>2019-01-14T22:48:00-05:00</updated><author><name>Mark Drummond</name></author><id>tag:markdrummond.ca,2018-06-20:/new-new-job.html</id><summary type="html">&lt;p&gt;A new shift in my responsibilities at work, with more focus on two key aspects
 of our environment that I have been leading on the operations side of things:
 Consolidating our cloud computing resources on &lt;a href="https://cloud.google.com/"&gt;Google Cloud
 Platform&lt;/a&gt; and our migration to our new Identity as a
@@ -472,12 +566,8 @@ Service partner, &lt;a href="auth0.com"&gt;Auth0 …&lt;/a&gt;&lt;/p&gt;</summar
 of our environment that I have been leading on the operations side of things:
 Consolidating our cloud computing resources on &lt;a href="https://cloud.google.com/"&gt;Google Cloud
 Platform&lt;/a&gt; and our migration to our new Identity as a
-Service partner, &lt;a href="auth0.com"&gt;Auth0&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;This is a welcome change. The nature of my work is such that I tend to be
-pulled in many different directions at once (this is what happens when you are
-interested in and develop expertise in everything under the Sun). That is still
-the case now, but at least recognizing these two keys areas does help to stay
-on&amp;nbsp;target.&lt;/p&gt;</content><category term="misc"></category></entry><entry><title>Linux Foundation Certified Engineer</title><link href="https://markdrummond.ca/lfce.html" rel="alternate"></link><published>2018-04-17T12:00:00-04:00</published><updated>2018-04-17T12:00:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:markdrummond.ca,2018-04-17:/lfce.html</id><summary type="html">&lt;p&gt;Renewal time for my &lt;a href="/files/lfcs.pdf"&gt;&lt;span class="caps"&gt;LFCS&lt;/span&gt;&lt;/a&gt; certification. &lt;a href="https://www.linuxfoundation.org/"&gt;The Linux
+Service partner, &lt;a href="auth0.com"&gt;Auth0&lt;/a&gt;. This is a welcome change which brings
+increased focus on my two key areas of&amp;nbsp;responsibility.&lt;/p&gt;</content><category term="misc"></category></entry><entry><title>Linux Foundation Certified Engineer</title><link href="https://markdrummond.ca/lfce.html" rel="alternate"></link><published>2018-04-17T12:00:00-04:00</published><updated>2019-01-14T22:47:00-05:00</updated><author><name>Mark Drummond</name></author><id>tag:markdrummond.ca,2018-04-17:/lfce.html</id><summary type="html">&lt;p&gt;Renewal time for my &lt;a href="/files/lfcs.pdf"&gt;&lt;span class="caps"&gt;LFCS&lt;/span&gt;&lt;/a&gt; certification. &lt;a href="https://www.linuxfoundation.org/"&gt;The Linux
 Foundation&lt;/a&gt; will renew your &lt;span class="caps"&gt;LFCS&lt;/span&gt;
 certification for 2 years if you upgrade to the &lt;a href="/files/lfce.pdf"&gt;&lt;span class="caps"&gt;LFCE&lt;/span&gt;&lt;/a&gt; cert,
 so that&amp;#8217;s what I&amp;nbsp;did!&lt;/p&gt;
@@ -485,9 +575,13 @@ so that&amp;#8217;s what I&amp;nbsp;did!&lt;/p&gt;
 Foundation&lt;/a&gt; will renew your &lt;span class="caps"&gt;LFCS&lt;/span&gt;
 certification for 2 years if you upgrade to the &lt;a href="/files/lfce.pdf"&gt;&lt;span class="caps"&gt;LFCE&lt;/span&gt;&lt;/a&gt; cert,
 so that&amp;#8217;s what I&amp;nbsp;did!&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Linux Foundation Certified Engineer" src="/images/lfce-small.png" title="Linux Foundation Certified Engineer"&gt;&lt;/p&gt;</content><category term="certification"></category><category term="lfce"></category></entry><entry><title>I Broke My GS - Update</title><link href="https://markdrummond.ca/i-broke-my-gs-update.html" rel="alternate"></link><published>2017-07-20T23:05:00-04:00</published><updated>2017-07-20T23:05:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:markdrummond.ca,2017-07-20:/i-broke-my-gs-update.html</id><summary type="html">&lt;p&gt;One of the service reps at my dealership went to bat for me and got me squared
-away. My &lt;span class="caps"&gt;GS&lt;/span&gt; will be all fixed up in plenty of time for my trip to&amp;nbsp;Maine.&lt;/p&gt;</summary><content type="html">&lt;p&gt;One of the service reps at my dealership went to bat for me and got me squared
-away. My &lt;span class="caps"&gt;GS&lt;/span&gt; will be all fixed up in plenty of time for my trip to&amp;nbsp;Maine.&lt;/p&gt;</content><category term="motorsports"></category></entry><entry><title>I Broke My GS</title><link href="https://markdrummond.ca/i-broke-my-gs.html" rel="alternate"></link><published>2017-07-17T16:12:00-04:00</published><updated>2017-07-18T19:27:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:markdrummond.ca,2017-07-17:/i-broke-my-gs.html</id><summary type="html">&lt;p&gt;I broke my &lt;span class="caps"&gt;GS&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Linux Foundation Certified Engineer" src="/images/lfce-small.png" title="Linux Foundation Certified Engineer"&gt;&lt;/p&gt;</content><category term="certification"></category><category term="lfce"></category><category term="linux"></category></entry><entry><title>I Broke My GS - Update</title><link href="https://markdrummond.ca/i-broke-my-gs-update.html" rel="alternate"></link><published>2017-07-20T23:05:00-04:00</published><updated>2019-01-14T22:43:00-05:00</updated><author><name>Mark Drummond</name></author><id>tag:markdrummond.ca,2017-07-20:/i-broke-my-gs-update.html</id><summary type="html">&lt;p&gt;One of the service reps at my dealership went to bat for me and got me squared
+away. My &lt;span class="caps"&gt;GS&lt;/span&gt; will be all fixed up in plenty of time for my trip to&amp;nbsp;Maine.&lt;/p&gt;
+&lt;p&gt;Worth mentioning: I reported my crap &lt;a href="https://www.caasco.com/"&gt;&lt;span class="caps"&gt;CAA&lt;/span&gt;&lt;/a&gt; experience
+to &lt;span class="caps"&gt;CAA&lt;/span&gt;. They did not seem to care …&lt;/p&gt;</summary><content type="html">&lt;p&gt;One of the service reps at my dealership went to bat for me and got me squared
+away. My &lt;span class="caps"&gt;GS&lt;/span&gt; will be all fixed up in plenty of time for my trip to&amp;nbsp;Maine.&lt;/p&gt;
+&lt;p&gt;Worth mentioning: I reported my crap &lt;a href="https://www.caasco.com/"&gt;&lt;span class="caps"&gt;CAA&lt;/span&gt;&lt;/a&gt; experience
+to &lt;span class="caps"&gt;CAA&lt;/span&gt;. They did not seem to care one&amp;nbsp;lick.&lt;/p&gt;</content><category term="motorsports"></category></entry><entry><title>I Broke My GS</title><link href="https://markdrummond.ca/i-broke-my-gs.html" rel="alternate"></link><published>2017-07-17T16:12:00-04:00</published><updated>2019-01-14T22:19:00-05:00</updated><author><name>Mark Drummond</name></author><id>tag:markdrummond.ca,2017-07-17:/i-broke-my-gs.html</id><summary type="html">&lt;p&gt;I broke my &lt;span class="caps"&gt;GS&lt;/span&gt;.&lt;/p&gt;
 &lt;p&gt;No injuries other than my pride. Less than a second&amp;#8217;s worth of inattention and
 I dropped my bike at a gas station while I was out joy riding this past Sunday
 (July 16th). The resulting chaos was impressive for such a silly little&amp;nbsp;tip-over.&lt;/p&gt;
@@ -495,78 +589,93 @@ I dropped my bike at a gas station while I was out joy riding this past Sunday
 &lt;p&gt;No injuries other than my pride. Less than a second&amp;#8217;s worth of inattention and
 I dropped my bike at a gas station while I was out joy riding this past Sunday
 (July 16th). The resulting chaos was impressive for such a silly little&amp;nbsp;tip-over.&lt;/p&gt;
-&lt;p&gt;I had taken back roads from Kingston all the way out to Hawkesbury and was
-returning via highway 17. There was a convenient gas station and Tim&amp;#8217;s in
-Alfred. A top up would get me home without stopping and it was time for some
-water and a snack. Gas station was first so I pulled up to a&amp;nbsp;pump.&lt;/p&gt;
-&lt;p&gt;This is where the less than a second of inattention comes in. I didn&amp;#8217;t ensure
-my kick stand was fully engaged before I started to lean the bike over. And
-down it went. One moment I&amp;#8217;m looking at the price of Premium and the next
-moment I&amp;#8217;m staring at my toppled over moto underneath me. I admit I was
-confused for a&amp;nbsp;bit.&lt;/p&gt;
+&lt;p&gt;I had taken back roads all the way out to
+&lt;a href="https://en.wikipedia.org/wiki/Hawkesbury,_Ontario"&gt;Hawkesbury&lt;/a&gt; and was
+returning home via highway 17. There was a convenient gas station and Tim&amp;#8217;s in
+&lt;a href="https://en.wikipedia.org/wiki/Alfred_and_Plantagenet"&gt;Alfred&lt;/a&gt;. A top up would
+get me home without stopping and it was time for some water and a snack. Gas
+station was first so I pulled up to a&amp;nbsp;pump.&lt;/p&gt;
+&lt;p&gt;This is where less than a second of inattention comes in. I didn&amp;#8217;t ensure my
+kick stand was fully engaged before I started to lean the bike over. And down
+it went. Once a bike starts to go, it&amp;#8217;s real hard to stop it. One moment I&amp;#8217;m
+looking at the price of Premium and the next moment I&amp;#8217;m staring at my toppled
+over moto underneath me. I admit I was confused for a&amp;nbsp;bit.&lt;/p&gt;
 &lt;p&gt;Well, an opportunity to work on my deadlift. Initially it seemed like a total
 non-event. Some minor scuffs on the plastic. Sad, but it is a &lt;span class="caps"&gt;GS&lt;/span&gt; after all.
 Everything looked to be in order so I proceeded to fill up. Yes, I should have
-confirmed it was operable first! Paid for my gas (it was one of &lt;em&gt;those&lt;/em&gt; gas
-stations), got geared back up, jumped in the saddle and turned on the power.
-Motion by my left foot caught my eye. I looked down to see gasoline &lt;em&gt;gushing&lt;/em&gt;
-out of my&amp;nbsp;motorcycle.&lt;/p&gt;
+confirmed it was operable first! Paid for my gas, got geared back up, jumped in
+the saddle and turned on the power. Motion by my left foot caught my eye. I
+looked down to see gasoline &lt;em&gt;gushing&lt;/em&gt; out of my&amp;nbsp;motorcycle.&lt;/p&gt;
 &lt;p&gt;I was a little stunned. In some sort of state of shock. With my wits mostly
 going off in various directions I turned off the power and wheeled the bike out
-of the way.  Had a closer look, removed a piece of &amp;#8216;protective&amp;#8217; bodywork and
-saw the damage. The exterior portion of my fuel injector had been sheered&amp;nbsp;off!&lt;/p&gt;
+of the way. Had a closer look, removed a piece of &amp;#8216;protective&amp;#8217; bodywork and saw
+the damage. The exterior portion of my fuel injector had been sheared off! I&amp;#8217;ll
+not repeat what I was thinking of &lt;span class="caps"&gt;BMW&lt;/span&gt; while staring at this obviously horribly
+exposed piece of critical&amp;nbsp;equipment!&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Some fragile components" src="/images/i-broke-my-gs-1.jpg"&gt;&lt;/p&gt;
-&lt;p&gt;As it turned out, when the bike tipped over, it was positioned so that the
-cylinder head fell just beside the pump&amp;#8217;s concrete island, which allowed the
-lip of the concrete island to impact the fuel injector assembly, which is
-protected only by a heavy plastic cover. Not much protection when the weight of
-the bike is laying on it. Had the bike been an inch or so closer or farther
-from the pump, I&amp;#8217;d have escaped with just the scratched&amp;nbsp;plastics.&lt;/p&gt;
+&lt;p&gt;How could this happen?! As it turned out, when the bike tipped over, it was
+positioned so that the cylinder head fell just beside the pump&amp;#8217;s concrete
+island, which allowed the lip of the concrete island to impact the fuel
+injector assembly, which is protected only by a heavy plastic cover. Not much
+protection when the weight of the bike is laying on it. Had the bike been an
+inch or so closer or farther from the pump, I&amp;#8217;d have escaped with just the
+scratched&amp;nbsp;plastics.&lt;/p&gt;
 &lt;p&gt;I was 250kms from&amp;nbsp;home.&lt;/p&gt;
 &lt;h1&gt;&lt;span class="caps"&gt;CAA&lt;/span&gt; to the Rescue? More or&amp;nbsp;Less&amp;#8230;&lt;/h1&gt;
-&lt;p&gt;I called &lt;span class="caps"&gt;CAA&lt;/span&gt; at 6:&lt;span class="caps"&gt;16PM&lt;/span&gt;. They were busy so it was a bit of a wait before someone
-could take my call. After initially logging the call they had to transfer me to
-the &amp;#8220;Ontario East&amp;#8221; region so I was on hold again. Finally by 7:&lt;span class="caps"&gt;27PM&lt;/span&gt; a truck was
-on its way to pick me&amp;nbsp;up!&lt;/p&gt;
+&lt;p&gt;I called &lt;a href="https://www.caasco.com/"&gt;&lt;span class="caps"&gt;CAA&lt;/span&gt;&lt;/a&gt; at 6:&lt;span class="caps"&gt;16PM&lt;/span&gt;. They were busy so it was a
+bit of a wait before someone could take my call. After initially logging the
+call they had to transfer me to the &amp;#8220;Ontario East&amp;#8221; region (my &amp;#8220;home&amp;#8221; region
+being something else) so I was on hold again. Finally by 7:&lt;span class="caps"&gt;27PM&lt;/span&gt; a truck was on
+its way to pick me&amp;nbsp;up!&lt;/p&gt;
 &lt;p&gt;Just kidding. That&amp;#8217;s just what the text message from &lt;span class="caps"&gt;CAA&lt;/span&gt; said. At around 7:&lt;span class="caps"&gt;53PM&lt;/span&gt;
 the dispatcher called to see if the truck had arrived. No. Ok, so they&amp;#8217;ll try
 calling the driver and get back to me. Text message with an &lt;span class="caps"&gt;ETA&lt;/span&gt;&amp;nbsp;update.&lt;/p&gt;
 &lt;p&gt;8:&lt;span class="caps"&gt;12PM&lt;/span&gt; - Dispatch calls to see if the truck has arrived. Nope. Oh&amp;#8230; we&amp;#8217;re
 having trouble getting in touch with the driver. We&amp;#8217;ll get back to you. Text
-message with an &lt;span class="caps"&gt;ETA&lt;/span&gt;&amp;nbsp;update.&lt;/p&gt;
+message with an &lt;span class="caps"&gt;ETA&lt;/span&gt; update. (Maybe call another&amp;nbsp;truck?!)&lt;/p&gt;
 &lt;p&gt;8:&lt;span class="caps"&gt;34PM&lt;/span&gt; - Dispatch calls to see if the truck has arrived. Nien. The driver is
-not answering his phone.  So send another bloody truck! But dispatch insists on
-trying once more. It&amp;#8217;s getting dark and starting to&amp;nbsp;rain.&lt;/p&gt;
+not answering his phone. (But seriously, just call another bloody truck!) But
+dispatch insists on trying once more. It&amp;#8217;s getting dark and starting to rain.
+The gas station owners have closed up shop and headed&amp;nbsp;home.&lt;/p&gt;
 &lt;p&gt;45 minutes goes by with not a word from dispatch. So I call &lt;span class="caps"&gt;CAA&lt;/span&gt; again. On hold
 again. Transferred to East again. On hold again. Finally speaking to another
-dispatcher and they too try calling the original driver but aren&amp;#8217;t having any&amp;nbsp;luck.&lt;/p&gt;
+dispatcher and they too try calling the original driver but aren&amp;#8217;t having any
+luck. &lt;span class="caps"&gt;CALL&lt;/span&gt; &lt;span class="caps"&gt;ANOTHER&lt;/span&gt; &lt;span class="caps"&gt;TRUCK&lt;/span&gt;!&lt;/p&gt;
 &lt;p&gt;9:&lt;span class="caps"&gt;38PM&lt;/span&gt; - Finally dispatch sends out a new driver with a 40 minute &lt;span class="caps"&gt;ETA&lt;/span&gt;. But Lady
 Luck was smiling upon me that day! The new driver is there in about 20 minutes.
-This kid was great. He got me squared away real quick. We stopped at that Tim&amp;#8217;s
-I was going to stop at 3+ hours ago for some coffee, and had a nice chat with
-some random moto guy whose daughter actually works at my&amp;nbsp;dealership.&lt;/p&gt;
+And this kid was great. He got me squared away real quick. We stopped at that
+Tim&amp;#8217;s I was going to stop at 3+ hours ago for some coffee, and had a nice chat
+with some random moto guy whose daughter actually works at the dealership where
+I bought my &lt;span class="caps"&gt;R1200GS&lt;/span&gt;, and the dealership &lt;span class="caps"&gt;CAA&lt;/span&gt; was going to haul it&amp;nbsp;to.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Loaded up" src="/images/i-broke-my-gs-2.jpg"&gt;&lt;/p&gt;
-&lt;p&gt;An hour later we dropped the bike off at my dealership in Nepean. The driver
-was kind enough to drop me off at my hotel. I suspect the dispatcher told him
-to go the extra mile on this call. Still, kudos to that young lad from Leduc
-towing, and a pox on &lt;span class="caps"&gt;CAA&lt;/span&gt; and the guy from Garage Lamarche who was supposed to
-pick me up. &lt;strong&gt;Whose shop was, by the by, &lt;a href="https://goo.gl/maps/E1bQP5oYnUk"&gt;1 minute down the
-road&lt;/a&gt; from the gas station where I was&amp;nbsp;stuck!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;An hour later we dropped the bike off at dealership. The driver was kind enough
+to drop me off at my hotel. I suspect the dispatcher told him to go the extra
+mile on this call. Still, kudos to that young lad from &lt;a href="https://www.facebook.com/RemorquageLeducTowing/"&gt;Leduc
+towing&lt;/a&gt;, and a pox on &lt;span class="caps"&gt;CAA&lt;/span&gt; and
+the guy from Garage Lamarche who was supposed to pick me up. &lt;strong&gt;Whose shop was,
+by the by, &lt;a href="https://goo.gl/maps/E1bQP5oYnUk"&gt;1 minute down the road&lt;/a&gt; from the
+gas station where I was&amp;nbsp;stuck!&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;So, first call at 6:&lt;span class="caps"&gt;19PM&lt;/span&gt;. Dropped the bike off at around Midnight. Around 6
 hours to move a motorcycle 83kms. &lt;span class="caps"&gt;CAA&lt;/span&gt; dispatch should not have waited anywhere
 near so long before sending another driver. And I shouldn&amp;#8217;t have waited so long
 to start telling them to send another&amp;nbsp;driver.&lt;/p&gt;
+&lt;p&gt;Lessons&amp;nbsp;learned:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Lean on dispatch hard right away to send another&amp;nbsp;vehicle,&lt;/li&gt;
+&lt;li&gt;Call &lt;span class="caps"&gt;BMW&lt;/span&gt; Roadside Assistance &amp;#8230; maybe their response would have been&amp;nbsp;better.&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h1&gt;At the&amp;nbsp;Dealership&lt;/h1&gt;
 &lt;p&gt;So the next day (Monday, July 17th), I was at the dealership well before
 opening. Once the shop opened I got my bike logged in and was immediately told
 it would be a day or two before it even gets looked at it. I was a little
 dismayed. I asked the guy at the desk if someone could at just take a quick
 look. Which he did. Which wasn&amp;#8217;t very helpful. Their &lt;span class="caps"&gt;BMW&lt;/span&gt; mechanic could have
-taken a 30 second glance and told me what he&amp;nbsp;though.&lt;/p&gt;
-&lt;p&gt;For the record, if you&amp;#8217;re a Harley-Davidson owner and you break down while
-traveling the nearest H-D dealership will put your bike at the front of the
-line for assessment and, if possible, repair. I really truly completely love my
-&lt;span class="caps"&gt;GS&lt;/span&gt;, but &lt;span class="caps"&gt;BMW&lt;/span&gt; could learn something&amp;nbsp;here.&lt;/p&gt;
+taken a 30 second glance and told me what he&amp;nbsp;thought.&lt;/p&gt;
+&lt;p&gt;For the record, if you&amp;#8217;re a
+&lt;a href="https://www.harley-davidson.com/ca/en/index.html"&gt;Harley-Davidson&lt;/a&gt; owner and
+you break down while traveling the nearest H-D dealership will put your bike at
+the front of the line for assessment and, if possible, repair. I really truly
+completely love my &lt;span class="caps"&gt;GS&lt;/span&gt;, but &lt;span class="caps"&gt;BMW&lt;/span&gt; could learn something&amp;nbsp;here.&lt;/p&gt;
 &lt;p&gt;So I caught a cab to the train station and booked a lift home. While waiting I
 called &lt;span class="caps"&gt;BMW&lt;/span&gt; to ask if they offered anything like priority service for travelers.
 Nien. That&amp;#8217;s up to each dealership. I called the dealership to ask the same. I
@@ -578,8 +687,9 @@ than I feared, but some of the parts would need to be ordered in from Germany,
 with a delivery time of 7 - 10 days. I forgot to ask if those were weekdays or
 business days. Also, I am supposed to be leaving on a trip to Maine, &lt;span class="caps"&gt;USA&lt;/span&gt;, in
 ten days. Oh dear&amp;#8230; I called back. One of the service people offered to try
-getting the parts from &lt;span class="caps"&gt;BMW&lt;/span&gt; in the &lt;span class="caps"&gt;US&lt;/span&gt;, but it didn&amp;#8217;t sound promising. Again, promised a
-call before the end of the day, but no such call was to be&amp;nbsp;had.&lt;/p&gt;</content><category term="motorsports"></category></entry><entry><title>And My Axe!</title><link href="https://markdrummond.ca/rockstar.html" rel="alternate"></link><published>2017-01-06T23:00:00-05:00</published><updated>2018-07-29T08:02:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:markdrummond.ca,2017-01-06:/rockstar.html</id><summary type="html">&lt;p&gt;I bought a guitar: An Epiphone &lt;a href="https://www.epiphone.com/Products/Les-Paul/Ltd-Ed-Les-Paul-Standard-Plustop-PRO.aspx"&gt;Les Paul Standard PlusTop
+getting the parts from &lt;span class="caps"&gt;BMW&lt;/span&gt; in the &lt;span class="caps"&gt;US&lt;/span&gt;, but it didn&amp;#8217;t sound promising. Again,
+promised a call before the end of the day, but no such call was to be&amp;nbsp;had.&lt;/p&gt;
+&lt;p&gt;This is not going&amp;nbsp;well!&lt;/p&gt;</content><category term="motorsports"></category><category term="bmw"></category><category term="r1200gs"></category></entry><entry><title>And My Axe!</title><link href="https://markdrummond.ca/rockstar.html" rel="alternate"></link><published>2017-01-06T23:00:00-05:00</published><updated>2019-01-14T22:18:00-05:00</updated><author><name>Mark Drummond</name></author><id>tag:markdrummond.ca,2017-01-06:/rockstar.html</id><summary type="html">&lt;p&gt;I bought a guitar: An Epiphone &lt;a href="https://www.epiphone.com/Products/Les-Paul/Ltd-Ed-Les-Paul-Standard-Plustop-PRO.aspx"&gt;Les Paul Standard PlusTop
 Pro&lt;/a&gt;
 in &amp;#8220;Bourbon Burst&amp;#8221; colour scheme. And it is freakin&amp;#8217;&amp;nbsp;gorgeous.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Epiphone Les Paul Standard PlusTop Pro" src="http://images.epiphone.com.s3.amazonaws.com/Products/Exclusives/2014/Les-Paul-Standard-PlusTop-PRO/POP_LPSTDPLUSproBB.jpg"&gt;&lt;/p&gt;
@@ -595,9 +705,9 @@ in &amp;#8220;Bourbon Burst&amp;#8221; colour scheme. And it is freakin&amp;#821
 forms of scales, and lots of YouTube lessons (&lt;a href="https://www.youtube.com/channel/UCqB_YqWcTAZZz4viqcs6aLQ"&gt;Lessons with
 Cameron&lt;/a&gt;, &lt;a href="https://www.youtube.com/channel/UC9cvVvlvr-qBssphm1EdYGQ"&gt;Andy
 Guitar&lt;/a&gt;, and others).
-Nothing formal for now. If I stick with it for a few weeks then maybe I&amp;#8217;ll
+Nothing formal for now. If I stick with it for a year or so then maybe I&amp;#8217;ll
 consider formal lessons. Life goals: to be able to shred along to my favourite
-metal and punk&amp;nbsp;riffs.&lt;/p&gt;</content><category term="guitar"></category><category term="les-paul"></category><category term="epiphone"></category></entry><entry><title>My 2016 BMW R1200GS</title><link href="https://markdrummond.ca/my-new-moto.html" rel="alternate"></link><published>2016-09-13T14:42:00-04:00</published><updated>2016-09-13T14:42:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:markdrummond.ca,2016-09-13:/my-new-moto.html</id><summary type="html">&lt;p&gt;Like all right thinking peoples, I like to ride the train. And I particularly like riding the train when there&amp;#8217;s a brand new motorcycle waiting for me at the other end of the&amp;nbsp;line.&lt;/p&gt;
+metal and punk&amp;nbsp;riffs.&lt;/p&gt;</content><category term="guitar"></category><category term="les-paul"></category><category term="epiphone"></category></entry><entry><title>My 2016 BMW R1200GS</title><link href="https://markdrummond.ca/my-new-moto.html" rel="alternate"></link><published>2016-09-13T14:42:00-04:00</published><updated>2019-01-14T22:17:00-05:00</updated><author><name>Mark Drummond</name></author><id>tag:markdrummond.ca,2016-09-13:/my-new-moto.html</id><summary type="html">&lt;p&gt;Like all right thinking peoples, I like to ride the train. And I particularly like riding the train when there&amp;#8217;s a brand new motorcycle waiting for me at the other end of the&amp;nbsp;line.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="All Aboard" src="/images/new-moto-1.jpg"&gt;&lt;/p&gt;
 &lt;p&gt;Of course, a good book is a great way to pass the time if the …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Like all right thinking peoples, I like to ride the train. And I particularly like riding the train when there&amp;#8217;s a brand new motorcycle waiting for me at the other end of the&amp;nbsp;line.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="All Aboard" src="/images/new-moto-1.jpg"&gt;&lt;/p&gt;
@@ -609,45 +719,53 @@ metal and punk&amp;nbsp;riffs.&lt;/p&gt;</content><category term="guitar"></cate
 &lt;p&gt;As I have mentioned elsewhere, the turn signal switch has very little feel to&amp;nbsp;it.&lt;/p&gt;
 &lt;p&gt;Also, the fuel neck is quite long, making it very difficult to tell when the
 tank is&amp;nbsp;full.&lt;/p&gt;
-&lt;p&gt;Really hard to come up with negatives with this&amp;nbsp;bike!&lt;/p&gt;</content><category term="motorsports"></category></entry><entry><title>AWS Certified Solutions Architect - Associate</title><link href="https://markdrummond.ca/aws-architect.html" rel="alternate"></link><published>2016-08-26T00:00:00-04:00</published><updated>2016-08-26T00:00:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:markdrummond.ca,2016-08-26:/aws-architect.html</id><summary type="html">&lt;p&gt;Another certification in the bag. I wrote the &lt;span class="caps"&gt;AWS&lt;/span&gt; Associate level Solutions
-Architect exam today. I didn&amp;#8217;t realize &lt;span class="caps"&gt;AWS&lt;/span&gt; certs are only good for 2 years.
-Sets a bit of a roadmap for my &lt;span class="caps"&gt;AWS&lt;/span&gt; certifications going forward. I got my
-Associate level SysOps cert in earl 2015, so …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Another certification in the bag. I wrote the &lt;span class="caps"&gt;AWS&lt;/span&gt; Associate level Solutions
-Architect exam today. I didn&amp;#8217;t realize &lt;span class="caps"&gt;AWS&lt;/span&gt; certs are only good for 2 years.
-Sets a bit of a roadmap for my &lt;span class="caps"&gt;AWS&lt;/span&gt; certifications going forward. I got my
-Associate level SysOps cert in earl 2015, so I&amp;#8217;ll want to replace it with the
-Professional level DevOps cert next year, and I&amp;#8217;ll want to replace my Associate
-level Architect cert with the Professional level cert in&amp;nbsp;2018.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="AWS Certified Solutions Architect - Associate" src="/images/Solutions-Architect-Associate.png"&gt;&lt;/p&gt;</content><category term="aws"></category><category term="certification"></category></entry><entry><title>A New Ride - the BMW R1200GS</title><link href="https://markdrummond.ca/r1200gs.html" rel="alternate"></link><published>2016-08-07T14:05:00-04:00</published><updated>2016-08-29T11:13:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:markdrummond.ca,2016-08-07:/r1200gs.html</id><summary type="html">&lt;h2&gt;A Winner&amp;nbsp;[Updated]&lt;/h2&gt;
+&lt;p&gt;Really hard to come up with negatives with this&amp;nbsp;bike!&lt;/p&gt;</content><category term="motorsports"></category><category term="r1200gs"></category><category term="bmw"></category></entry><entry><title>AWS Certified Solutions Architect - Associate</title><link href="https://markdrummond.ca/aws-architect.html" rel="alternate"></link><published>2016-08-26T00:00:00-04:00</published><updated>2019-01-14T22:13:00-05:00</updated><author><name>Mark Drummond</name></author><id>tag:markdrummond.ca,2016-08-26:/aws-architect.html</id><summary type="html">&lt;p&gt;Another certification in the bag. I wrote the &lt;a href="https://aws.amazon.com/certification/certified-solutions-architect-associate/"&gt;&lt;span class="caps"&gt;AWS&lt;/span&gt; Associate level Solutions
+Architect&lt;/a&gt;
+exam today. I didn&amp;#8217;t realize &lt;span class="caps"&gt;AWS&lt;/span&gt; certs are only good for 2 years.  Sets a bit
+of a roadmap for my &lt;span class="caps"&gt;AWS&lt;/span&gt; certifications going forward. I got my Associate level
+SysOps cert in early 2015, so …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Another certification in the bag. I wrote the &lt;a href="https://aws.amazon.com/certification/certified-solutions-architect-associate/"&gt;&lt;span class="caps"&gt;AWS&lt;/span&gt; Associate level Solutions
+Architect&lt;/a&gt;
+exam today. I didn&amp;#8217;t realize &lt;span class="caps"&gt;AWS&lt;/span&gt; certs are only good for 2 years.  Sets a bit
+of a roadmap for my &lt;span class="caps"&gt;AWS&lt;/span&gt; certifications going forward. I got my Associate level
+SysOps cert in early 2015, so I&amp;#8217;ll want to replace it with the Professional
+level DevOps cert next year, and I&amp;#8217;ll want to replace my &lt;a href="/files/aws-sol-architect.pdf"&gt;Associate level
+Architect cert&lt;/a&gt; with the Professional level cert
+in&amp;nbsp;2018.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="AWS Certified Solutions Architect - Associate" src="/images/Solutions-Architect-Associate.png"&gt;&lt;/p&gt;</content><category term="aws"></category><category term="certification"></category></entry><entry><title>A New Ride - the BMW R1200GS</title><link href="https://markdrummond.ca/r1200gs.html" rel="alternate"></link><published>2016-08-07T14:05:00-04:00</published><updated>2019-10-14T21:52:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:markdrummond.ca,2016-08-07:/r1200gs.html</id><summary type="html">&lt;h2&gt;A Winner&amp;nbsp;[Updated]&lt;/h2&gt;
 &lt;p&gt;I had a 2017 &lt;span class="caps"&gt;BMW&lt;/span&gt; &lt;span class="caps"&gt;R1200GS&lt;/span&gt; in &amp;#8220;Frozen Dark Blue Metallic&amp;#8221; on order with a variety
 of gizmos including &lt;span class="caps"&gt;BMW&lt;/span&gt;&amp;#8217;s Navigator V &lt;span class="caps"&gt;GPS&lt;/span&gt; system, keyless ride, and the
-Akrapovic exhaust. Being only 172cm tall, I was getting the bike lowered to
-better fit my&amp;nbsp;height.&lt;/p&gt;
-&lt;p&gt;My …&lt;/p&gt;</summary><content type="html">&lt;h2&gt;A Winner&amp;nbsp;[Updated]&lt;/h2&gt;
+Akrapovic exhaust (admittedly a silly expense, but a great deal of fun). Being
+only 172cm tall, I was …&lt;/p&gt;</summary><content type="html">&lt;h2&gt;A Winner&amp;nbsp;[Updated]&lt;/h2&gt;
 &lt;p&gt;I had a 2017 &lt;span class="caps"&gt;BMW&lt;/span&gt; &lt;span class="caps"&gt;R1200GS&lt;/span&gt; in &amp;#8220;Frozen Dark Blue Metallic&amp;#8221; on order with a variety
 of gizmos including &lt;span class="caps"&gt;BMW&lt;/span&gt;&amp;#8217;s Navigator V &lt;span class="caps"&gt;GPS&lt;/span&gt; system, keyless ride, and the
-Akrapovic exhaust. Being only 172cm tall, I was getting the bike lowered to
-better fit my&amp;nbsp;height.&lt;/p&gt;
-&lt;p&gt;My dealer recently contacted me to say they had a 2016 model available thanks
-to another buyer who backed out of the deal. Still in its crate, same colour,
-all the factory options and the lowering kit installed, and it can be ready for
-me in a week or&amp;nbsp;two.&lt;/p&gt;
+Akrapovic exhaust (admittedly a silly expense, but a great deal of fun). Being
+only 172cm tall, I was getting the bike lowered to better fit my height. I hear
+other people my height ride the stock bike but during my demo rides I was
+tiptoeing at stop signs and red lights, a recipe for busted&amp;nbsp;plastics.&lt;/p&gt;
+&lt;p&gt;Plot twist: My dealer contacted me to say they had a 2016 model available
+thanks to another buyer who backed out of the deal. Still in its crate, same
+colour, all the factory options including the ones I wasn&amp;#8217;t planning to buy
+(spoked wheels, quickshifter), factory lowered, and it can be ready for me in a
+week or&amp;nbsp;two.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="2016 BMW R1200GS" src="/images/r1200gs_large.jpg"&gt;&lt;/p&gt;
 &lt;h2&gt;I&amp;nbsp;Ride&lt;/h2&gt;
-&lt;p&gt;I received my motorcycle license in the Fall of 2011. I also bought my first
-and, until now, only motorcycle at the same time: a previously enjoyed 2006
-Yamaha &lt;span class="caps"&gt;FZ6&lt;/span&gt; sport touring bike. The previous owners didn&amp;#8217;t do much with it,
-there being only 9,000kms on it at the time of purchase. Since then I&amp;#8217;ve added
-about 40,000kms to the odo. I commute to work by motorcycle most days from
-March until well into December, do occasional joy rides on the weekends, and I
-love long distance motorcycle&amp;nbsp;touring.&lt;/p&gt;
+&lt;p&gt;I earned my motorcycle license in the Fall of 2011. I also bought my first and,
+until now, only motorcycle at the same time: a previously enjoyed 2006 Yamaha
+&lt;span class="caps"&gt;FZ6&lt;/span&gt; sport touring bike in blazingly fast red. The previous owner(s) didn&amp;#8217;t do
+much with it, there being only 9,030kms on it at the time of purchase. Since
+then I&amp;#8217;ve added about 40,000kms to the odo. I commute to work by motorcycle
+most days from March until well into December, do occasional joy rides on the
+weekends, and I love long distance motorcycle touring. I even rode that beast
+to &lt;a href="https://en.wikipedia.org/wiki/Charlottetown"&gt;Charlottetown&lt;/a&gt; and&amp;nbsp;back.&lt;/p&gt;
 &lt;p&gt;The &lt;span class="caps"&gt;FZ6&lt;/span&gt; is a blast to ride and I love it now as much, and possibly even more,
 than ever. However, while it is a sport touring rig, it lacks certain creature
-comforts for the long road, like cruise control and power outlets. The
-after-market saddle I bought is good for 1.5 to 2 hours at a time. Not bad, but
-2+ hours would be better. Some of the missing features on the &lt;span class="caps"&gt;FZ6&lt;/span&gt; can be added
-(power, heated grips) but I want to upgrade to something with modern technology
-and touring features as&amp;nbsp;stock.&lt;/p&gt;
+comforts for the long road, like cruise control and power outlets. And the
+slightly forward riding position is just not conducive to long distance riding,
+unless maybe you&amp;#8217;re 22 years old. Which I am not. The after-market saddle I
+bought is good for 1.5 to 2 hours at a time. Not bad, but 2+ hours would be
+better. Some of the missing features on the &lt;span class="caps"&gt;FZ6&lt;/span&gt; can be added (power, heated
+grips) but I want to upgrade to something with modern technology and touring
+features as&amp;nbsp;stock.&lt;/p&gt;
 &lt;p&gt;I&amp;#8217;ve been shopping new bikes for a year or more now and recently narrowed the
 field of options to a single mid-size bike, the Triumph Tiger 800 &lt;span class="caps"&gt;XRT&lt;/span&gt;, and
 four&amp;nbsp;heavyweights:&lt;/p&gt;
@@ -663,20 +781,15 @@ fantastic. If you like that style of bike, you&amp;#8217;d be hard pressed to fi
 something else that offers everything the 800 &lt;span class="caps"&gt;XRT&lt;/span&gt; offers. It is a blast to ride
 and has both cruise control and heated seats, the later being a first in
 mid-sized bikes as far as I&amp;nbsp;know.&lt;/p&gt;
-&lt;p&gt;I had looked at Yamaha&amp;#8217;s &lt;span class="caps"&gt;FJ&lt;/span&gt;-09 as well, but it lacks cruise control, which
-is a deal breaker for me. I suspect Yamaha will add cruise for 2017 (it is on
-the new for 2017 &lt;span class="caps"&gt;FZ&lt;/span&gt;-10) but no matter, I have already decided to go with a
+&lt;p&gt;I had looked at Yamaha&amp;#8217;s &lt;span class="caps"&gt;FJ&lt;/span&gt;-09 as well, but it lacks cruise control, which is a
+deal breaker for me. I suspect Yamaha will add cruise for 2017 (it is on the
+new for 2017 &lt;span class="caps"&gt;FZ&lt;/span&gt;-10) but no matter, as I have already decided to go with a
 heavyweight bike. One nice feature of the &lt;span class="caps"&gt;FJ&lt;/span&gt;-09 over the Tiger: adjustable
 suspension. Why Triumph did not include the adjustable &lt;span class="caps"&gt;WP&lt;/span&gt; suspension on the &lt;span class="caps"&gt;XR&lt;/span&gt;
-models of the 800, when it is included in the &lt;span class="caps"&gt;XC&lt;/span&gt; models, is beyond&amp;nbsp;me.&lt;/p&gt;
-&lt;p&gt;I had actually put a deposit down on a 2017 Tiger 800 &lt;span class="caps"&gt;XRT&lt;/span&gt;, but I knew the
-mid-size bike was going to be a temporary measure on my way to an eventual
-heavyweight. I decided to skip the half-step and go straight to the heavy, in
-part because, why finance the 800 now, only to finance a heavyweight later? I
-had, and maybe still have, some concerns about using the larger bike for daily
-commuting. Nonetheless, I&amp;#8217;ve decided to go with the&amp;nbsp;heavy.&lt;/p&gt;
+road oriented models of the 800, when it is included in the &lt;span class="caps"&gt;XC&lt;/span&gt; off-road
+oriented models, is beyond&amp;nbsp;me.&lt;/p&gt;
 &lt;h2&gt;Yamaha &lt;span class="caps"&gt;FJR1300&lt;/span&gt;&lt;/h2&gt;
-&lt;p&gt;My experiences with the &lt;span class="caps"&gt;FZ6&lt;/span&gt; have made me somewhat of a &amp;#8220;Yamaha guy&amp;#8221;. I really
+&lt;p&gt;My experiences with the &lt;span class="caps"&gt;FZ6&lt;/span&gt; have made me somewhat of a Yamaha fanboi. I really
 want to love the &lt;span class="caps"&gt;FJR&lt;/span&gt;. It is drop-dead gorgeous, and a fantastic ride by all
 accounts (I haven&amp;#8217;t ridden it myself). But it is old. The basic platform was
 introduced in 2001. Yamaha has made incremental changes to the bike over the
@@ -686,20 +799,22 @@ gave the &lt;span class="caps"&gt;FJR&lt;/span&gt; a full reboot, I would be giv
 &lt;h2&gt;The&amp;nbsp;Beemers&lt;/h2&gt;
 &lt;p&gt;I took advantage of &lt;span class="caps"&gt;BMW&lt;/span&gt;&amp;#8217;s demo roadshow on multiple occasions this year to ride
 the &lt;span class="caps"&gt;K1600GT&lt;/span&gt;, the &lt;span class="caps"&gt;R1200RT&lt;/span&gt; (twice), and the &lt;span class="caps"&gt;R1200GS&lt;/span&gt; (twice). The K was great, but
-just too much power for my liking. It&amp;#8217;s a race bike in full touring rig. Most
+just too much power for my liking. It&amp;#8217;s a race bike in full touring rig.
+Honestly, it&amp;#8217;s a bit alarming, at least for this less experienced rider! Most
 recently I rode the &lt;span class="caps"&gt;RT&lt;/span&gt; and the &lt;span class="caps"&gt;GS&lt;/span&gt; back to back, and without any doubt I found
 the &lt;span class="caps"&gt;GS&lt;/span&gt; to be both more comfortable and more rideable for&amp;nbsp;me.&lt;/p&gt;
 &lt;p&gt;I had some specific issues with the &lt;span class="caps"&gt;RT&lt;/span&gt;. The front end seemed to waver at low
 speeds (30 - 50kph). I don&amp;#8217;t remember that happening the first time I rode the
-&lt;span class="caps"&gt;RT&lt;/span&gt;, but it was a consistent issue the second time around. And there is a ton of
-vibration in handlebars at 4500 - &lt;span class="caps"&gt;5000RPM&lt;/span&gt; which is a rev range you frequently
-find yourself in. The &lt;span class="caps"&gt;GS&lt;/span&gt; had neither of these problems. It&amp;#8217;s only &amp;#8216;issue&amp;#8217; is
-its height. It is super-tall in its stock setup, and I am not! I did the demo
-rides with the low seat and that was manageable, but I am going with the
-lowering kit option which will allow me to use the low or regular seat. The low
-seat will be good for stop-and-go commuter traffic, while the regular height
-seat will provide extra comfort on long trips. Mind you, I found the low seat
-to be very comfortable in the first&amp;nbsp;place.&lt;/p&gt;
+&lt;span class="caps"&gt;RT&lt;/span&gt;, but it was a consistent issue the second time around. And there is a decent
+amount of vibration in handlebars at 4500 - &lt;span class="caps"&gt;5000RPM&lt;/span&gt;, which is a rev range you
+frequently find yourself in on the&amp;nbsp;highway.&lt;/p&gt;
+&lt;p&gt;The &lt;span class="caps"&gt;GS&lt;/span&gt; had neither of these problems. Its only issue is its height. It is
+super-tall in its stock setup, and I am not! I did the demo rides with the low
+seat and that was manageable, but I am going with the lowering kit option which
+will allow me to use the low or regular seat. The low seat will be good for
+stop-and-go commuter traffic, while the regular height seat will provide extra
+comfort on long trips. Mind you, I found the low seat to be very comfortable in
+the first&amp;nbsp;place.&lt;/p&gt;
 &lt;p&gt;There is one very annoying issue with all the BMWs: The switch gear on the
 handlebars has little to no tactile feedback, in particular the turn signal
 switch. With gloves on you cannot feel the switch moving and there is no
@@ -712,12 +827,13 @@ ridiculous that &lt;span class="caps"&gt;BMW&lt;/span&gt; would mess something l
 &lt;p&gt;Unfortunately Triumph does not offer any sort of demo program for the Explorer
 in Canada.  While I am sure the Explorer is a very good bike (generally very
 positive reviews all around) and despite a strong personal affinity for the
-Triumph brand, the inability to ride a demo bike was a major factor in my
-decision to go with the &lt;span class="caps"&gt;BMW&lt;/span&gt;. Maybe I&amp;#8217;ll take a trip to the &lt;span class="caps"&gt;UK&lt;/span&gt; at some point and
-take an Explorer out for a spin, but for now my decision is made, and I am
-bloody&amp;nbsp;excited!&lt;/p&gt;
-&lt;p&gt;As an aside: I actually emailed Triumph &amp;#8220;Canada&amp;#8221; about the lack of demo
-programs and the role that played in my decision. It turns&amp;nbsp;out:&lt;/p&gt;
+Triumph brand, not to mention 3-cylinder engines, the inability to demo the
+bike was a major factor in my decision to go with the &lt;span class="caps"&gt;BMW&lt;/span&gt;. I was actually
+considering footing the bill for a flight to London, as there is a Triumph
+dealer just north of London where I could have tested the bike. A worthwhile
+investment considering the machine costs about $30K &lt;span class="caps"&gt;CAD&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;An aside: I actually emailed Triumph Canada about the lack of demo programs and
+the role that played in my decision. It turns&amp;nbsp;out:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;The contact email address on the Triump Canada web site actually goes to
@@ -730,7 +846,7 @@ programs and the role that played in my decision. It turns&amp;nbsp;out:&lt;/p&g
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;I&amp;#8217;m guessing sales isn&amp;#8217;t particularly high on Triumph&amp;#8217;s agenda on this side of
-the pond? Would you be inclined to buy a ~$25,000 motorcycle without riding it&amp;nbsp;first?&lt;/p&gt;</content><category term="motorsports"></category></entry><entry><title>Platform and Data Operations Analyst</title><link href="https://markdrummond.ca/new-job.html" rel="alternate"></link><published>2016-07-08T12:00:00-04:00</published><updated>2016-07-20T09:00:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:markdrummond.ca,2016-07-08:/new-job.html</id><summary type="html">&lt;p&gt;In what was more than a bit of a surprise, I was &amp;#8220;laterally promoted&amp;#8221; to a new
+the pond? Would you be inclined to buy a ~$30,000 motorcycle without riding it&amp;nbsp;first?&lt;/p&gt;</content><category term="motorsports"></category><category term="bmw"></category><category term="r1200gs"></category></entry><entry><title>Platform and Data Operations Analyst</title><link href="https://markdrummond.ca/new-job.html" rel="alternate"></link><published>2016-07-08T12:00:00-04:00</published><updated>2016-07-20T09:00:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:markdrummond.ca,2016-07-08:/new-job.html</id><summary type="html">&lt;p&gt;In what was more than a bit of a surprise, I was &amp;#8220;laterally promoted&amp;#8221; to a new
 role with my employer, something I only found out less than 24 hours before it
 was announced to the department. I shall not complain. A bit of an odd way to
 go about …&lt;/p&gt;</summary><content type="html">&lt;p&gt;In what was more than a bit of a surprise, I was &amp;#8220;laterally promoted&amp;#8221; to a new
@@ -748,7 +864,7 @@ some very junior level work with our Data Services team for the past year or
 so, and I hope to continue doing more, though the details still need to be
 hammered out. It is possible my new position will lead me more toward &amp;#8216;data
 engineering&amp;#8217;, helping our data team leverage cloud-based data services. The
-door is certainly open for me to spend more of my time on data /&amp;nbsp;analytics.&lt;/p&gt;</content><category term="misc"></category></entry><entry><title>Linux Foundation Certified System Administrator</title><link href="https://markdrummond.ca/lfcs.html" rel="alternate"></link><published>2016-05-05T10:25:00-04:00</published><updated>2016-05-05T10:59:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:markdrummond.ca,2016-05-05:/lfcs.html</id><summary type="html">&lt;p&gt;I&amp;#8217;ve been at this Unix and Linux systems management stuff for over 20 years
+door is certainly open for me to spend more of my time on data /&amp;nbsp;analytics.&lt;/p&gt;</content><category term="misc"></category></entry><entry><title>Linux Foundation Certified System Administrator</title><link href="https://markdrummond.ca/lfcs.html" rel="alternate"></link><published>2016-05-05T10:25:00-04:00</published><updated>2019-01-14T21:49:00-05:00</updated><author><name>Mark Drummond</name></author><id>tag:markdrummond.ca,2016-05-05:/lfcs.html</id><summary type="html">&lt;p&gt;I&amp;#8217;ve been at this Unix and Linux systems management stuff for over 20 years
 now. As with my undergraduate degree&lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1" rel="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt;, I&amp;#8217;ve long wanted to knock out a few
 relevant technology certifications. Following on from my &lt;span class="caps"&gt;AWS&lt;/span&gt; SysOps
 certification, I took and passed the &lt;a href="https://www.linuxfoundation.org/"&gt;Linux
@@ -770,23 +886,25 @@ University&lt;/a&gt;, chipping away at a &lt;span class="caps"&gt;B.A.&lt;/span&
 &lt;a href="https://www.econ.queensu.ca"&gt;Economics&lt;/a&gt;.&amp;#160;&lt;a class="footnote-backref" href="#fnref:1" rev="footnote" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</content><category term="lfcs"></category><category term="certification"></category></entry><entry><title>My First Pull Request</title><link href="https://markdrummond.ca/my-first-pull-request.html" rel="alternate"></link><published>2015-05-20T16:59:00-04:00</published><updated>2015-05-20T19:36:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:markdrummond.ca,2015-05-20:/my-first-pull-request.html</id><summary type="html">&lt;p&gt;I use &lt;a href="https://getpelican.com/"&gt;Pelican&lt;/a&gt; and the
+&lt;/div&gt;</content><category term="lfcs"></category><category term="certification"></category><category term="linux"></category></entry><entry><title>My First Pull Request</title><link href="https://markdrummond.ca/my-first-pull-request.html" rel="alternate"></link><published>2015-05-20T16:59:00-04:00</published><updated>2018-01-14T21:35:00-05:00</updated><author><name>Mark Drummond</name></author><id>tag:markdrummond.ca,2015-05-20:/my-first-pull-request.html</id><summary type="html">&lt;p&gt;I use &lt;a href="https://getpelican.com/"&gt;Pelican&lt;/a&gt; and the
 &lt;a href="https://github.com/DandyDev/pelican-bootstrap3"&gt;pelican-bootstrap3&lt;/a&gt; theme to
 built this&amp;nbsp;site.&lt;/p&gt;
-&lt;p&gt;I made my first real pull request today in the form of a minor contribution to
+&lt;p&gt;I made my first pull request today in the form of a minor contribution to
 &lt;a href="https://github.com/DandyDev/pelican-bootstrap3"&gt;pelican-bootstrap3&lt;/a&gt;. I added a
 &lt;a href="https://github.com/DandyDev/pelican-bootstrap3/pull/190"&gt;feature&lt;/a&gt; that allows
-you to add a series of images to the sidebar. The original intent was to allow …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I use &lt;a href="https://getpelican.com/"&gt;Pelican&lt;/a&gt; and the
+you to add a series of images to the sidebar. The original intent was to allow
+me …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I use &lt;a href="https://getpelican.com/"&gt;Pelican&lt;/a&gt; and the
 &lt;a href="https://github.com/DandyDev/pelican-bootstrap3"&gt;pelican-bootstrap3&lt;/a&gt; theme to
 built this&amp;nbsp;site.&lt;/p&gt;
-&lt;p&gt;I made my first real pull request today in the form of a minor contribution to
+&lt;p&gt;I made my first pull request today in the form of a minor contribution to
 &lt;a href="https://github.com/DandyDev/pelican-bootstrap3"&gt;pelican-bootstrap3&lt;/a&gt;. I added a
 &lt;a href="https://github.com/DandyDev/pelican-bootstrap3/pull/190"&gt;feature&lt;/a&gt; that allows
 you to add a series of images to the sidebar. The original intent was to allow
 me to add certification marks to my sidebar, which you can now see in action
 right&amp;nbsp;here!&lt;/p&gt;
-&lt;p&gt;Props to &lt;a href="https://github.com/DandyDev"&gt;@DandyDev&lt;/a&gt; for the pro&amp;nbsp;tips.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="My first pull request" src="/images/my-first-pull-request.png" title="My first pull request"&gt;&lt;/p&gt;</content><category term="github"></category><category term="pelican-bootstrap3"></category></entry><entry><title>AWS SysOps Administration - Associate</title><link href="https://markdrummond.ca/aws-sysops.html" rel="alternate"></link><published>2015-05-20T08:23:00-04:00</published><updated>2017-07-20T23:01:00-04:00</updated><author><name>Mark Drummond</name></author><id>tag:markdrummond.ca,2015-05-20:/aws-sysops.html</id><summary type="html">&lt;p&gt;Last week I took the &lt;a href="https://aws.amazon.com/certification/certified-sysops-admin-associate/"&gt;&lt;span class="caps"&gt;AWS&lt;/span&gt; SysOps Administrator -
+&lt;p&gt;Props to &lt;a href="https://github.com/DandyDev"&gt;@DandyDev&lt;/a&gt; for the pro tips re:
+submitting good&amp;nbsp;PRs.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="My first pull request" src="/images/my-first-pull-request.png" title="My first pull request"&gt;&lt;/p&gt;</content><category term="github"></category><category term="pelican-bootstrap3"></category></entry><entry><title>AWS SysOps Administration - Associate</title><link href="https://markdrummond.ca/aws-sysops.html" rel="alternate"></link><published>2015-05-20T08:23:00-04:00</published><updated>2018-01-14T21:46:00-05:00</updated><author><name>Mark Drummond</name></author><id>tag:markdrummond.ca,2015-05-20:/aws-sysops.html</id><summary type="html">&lt;p&gt;Last week I took the &lt;a href="https://aws.amazon.com/certification/certified-sysops-admin-associate/"&gt;&lt;span class="caps"&gt;AWS&lt;/span&gt; SysOps Administrator -
 Associate&lt;/a&gt;
 test and &lt;a href="/files/awsSysOpsAdmin_AE.pdf"&gt;passed&lt;/a&gt; with flying colours. Next step
 will be the Developer and then the DevOps certifications, both of which I hope
@@ -798,16 +916,18 @@ test and &lt;a href="/files/awsSysOpsAdmin_AE.pdf"&gt;passed&lt;/a&gt; with flyi
 will be the Developer and then the DevOps certifications, both of which I hope
 to complete this year. I look forward to doing a lot more work in &lt;span class="caps"&gt;AWS&lt;/span&gt; in the&amp;nbsp;future.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="AWS SysOps Administrator -
-Associate" src="/images/SysOps-Administrator-Associate.png"&gt;&lt;/p&gt;</content><category term="aws"></category><category term="certification"></category></entry><entry><title>My First Kaggle Competition</title><link href="https://markdrummond.ca/my-first-kaggle-competition.html" rel="alternate"></link><published>2015-05-04T00:00:00-04:00</published><updated>2018-12-04T05:59:00-05:00</updated><author><name>Mark Drummond</name></author><id>tag:markdrummond.ca,2015-05-04:/my-first-kaggle-competition.html</id><summary type="html">&lt;p&gt;We are wrapping up the final week of &lt;span class="caps"&gt;MIT&lt;/span&gt;&amp;#8217;s &lt;a href="https://www.edx.org/course/analytics-edge-mitx-15-071x-0"&gt;15.071x &amp;#8220;The Analytics
+Associate" src="/images/SysOps-Administrator-Associate.png"&gt;&lt;/p&gt;</content><category term="aws"></category><category term="certification"></category><category term="cloud"></category></entry><entry><title>My First Kaggle Competition</title><link href="https://markdrummond.ca/my-first-kaggle-competition.html" rel="alternate"></link><published>2015-05-04T00:00:00-04:00</published><updated>2019-01-14T21:43:00-05:00</updated><author><name>Mark Drummond</name></author><id>tag:markdrummond.ca,2015-05-04:/my-first-kaggle-competition.html</id><summary type="html">&lt;p&gt;We are wrapping up the final week of &lt;span class="caps"&gt;MIT&lt;/span&gt;&amp;#8217;s &lt;a href="https://www.edx.org/course/analytics-edge-mitx-15-071x-0"&gt;15.071x &amp;#8220;The Analytics
 Edge&amp;#8221;&lt;/a&gt; course,
 delivered online via &lt;a href="https://edx.org"&gt;edX.org&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;As part of the course I participated in my first Kaggle competition. I finished
-in 1406th place out of 2923 people with a Private leaderboard score of 0.88319 …&lt;/p&gt;</summary><content type="html">&lt;p&gt;We are wrapping up the final week of &lt;span class="caps"&gt;MIT&lt;/span&gt;&amp;#8217;s &lt;a href="https://www.edx.org/course/analytics-edge-mitx-15-071x-0"&gt;15.071x &amp;#8220;The Analytics
+&lt;p&gt;As part of the course I participated in my first
+&lt;a href="https://www.kaggle.com/"&gt;Kaggle&lt;/a&gt; competition. I finished in 1406th place out
+of 2923 people with a Private leaderboard score of 0.88319 …&lt;/p&gt;</summary><content type="html">&lt;p&gt;We are wrapping up the final week of &lt;span class="caps"&gt;MIT&lt;/span&gt;&amp;#8217;s &lt;a href="https://www.edx.org/course/analytics-edge-mitx-15-071x-0"&gt;15.071x &amp;#8220;The Analytics
 Edge&amp;#8221;&lt;/a&gt; course,
 delivered online via &lt;a href="https://edx.org"&gt;edX.org&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;As part of the course I participated in my first Kaggle competition. I finished
-in 1406th place out of 2923 people with a Private leaderboard score of 0.88319,
-down from a public leaderboard score of&amp;nbsp;0.91792.&lt;/p&gt;
+&lt;p&gt;As part of the course I participated in my first
+&lt;a href="https://www.kaggle.com/"&gt;Kaggle&lt;/a&gt; competition. I finished in 1406th place out
+of 2923 people with a Private leaderboard score of 0.88319, down from a public
+leaderboard score of&amp;nbsp;0.91792.&lt;/p&gt;
 &lt;p&gt;The mean score for all submissions was 0.8551523, median 0.90237, with a
 standard deviation of&amp;nbsp;0.09301734.&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;Min.    1st Qu. Median  Mean    3rd Qu. Max.
@@ -821,4 +941,4 @@ interesting to see some of the dramatic shifts in the top tier finishers when
 going from the publicly available test data to the private test data&amp;nbsp;set.&lt;/p&gt;
 &lt;p&gt;My code is &lt;a href="https://github.com/dmark/kaggle-titanic"&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;The red and blue lines below represent my final and public leaderboard scores&amp;nbsp;respectively.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Kaggle Results" src="/images/15.071x-kaggle-results.png"&gt;&lt;/p&gt;</content><category term="data-analytics"></category><category term="kaggle"></category></entry></feed>
+&lt;p&gt;&lt;img alt="Kaggle Results" src="/images/15.071x-kaggle-results.png"&gt;&lt;/p&gt;</content><category term="data-analytics"></category><category term="kaggle"></category><category term="data"></category><category term="python"></category><category term="pandas"></category><category term="numpy"></category></entry></feed>

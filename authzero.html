@@ -32,18 +32,27 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
-    <meta name="author" content="Mark Drummond" />
-    <meta name="description" content="Mark Drummond" />
+<meta name="author" content="Mark Drummond" />
+<meta name="description" content="I started work on a command line interface for the Auth0 Management API. The tool is built with TypeScript, oclif, node.js, and Auth0’s node-auth0 SDK. $ authzero --help Auth0 Command Line Interface VERSION authzero/0.0.0 darwin-x64 node-v11.6.0 USAGE $ authzero [COMMAND] COMMANDS client Get client (application …" />
+<meta name="keywords" content="typescript, nodejs, oclif, node-auth0, auth0">
 <meta property="og:site_name" content="Mark Drummond"/>
-<meta property="og:type" content="blog"/>
-<meta property="og:title" content="Mark Drummond"/>
-<meta property="og:description" content="Mark Drummond"/>
+<meta property="og:title" content="authzero - A CLI for the Auth0 Management API"/>
+<meta property="og:description" content="I started work on a command line interface for the Auth0 Management API. The tool is built with TypeScript, oclif, node.js, and Auth0’s node-auth0 SDK. $ authzero --help Auth0 Command Line Interface VERSION authzero/0.0.0 darwin-x64 node-v11.6.0 USAGE $ authzero [COMMAND] COMMANDS client Get client (application …"/>
 <meta property="og:locale" content="en_CA"/>
-<meta property="og:url" content="https://markdrummond.ca"/>
+<meta property="og:url" content="https://markdrummond.ca/authzero.html"/>
+<meta property="og:type" content="article"/>
+<meta property="article:published_time" content="2019-01-14 23:02:00-05:00"/>
+<meta property="article:modified_time" content="2019-01-14 23:02:00-05:00"/>
+<meta property="article:author" content="https://markdrummond.ca/author/mark-drummond.html">
+<meta property="article:section" content="Software Development"/>
+<meta property="article:tag" content="typescript"/>
+<meta property="article:tag" content="nodejs"/>
+<meta property="article:tag" content="oclif"/>
+<meta property="article:tag" content="node-auth0"/>
+<meta property="article:tag" content="auth0"/>
 <meta property="og:image" content="/images/avatar.jpg">
 
-  <title>Mark Drummond &ndash;     Tag lfce
-</title>
+  <title>Mark Drummond &ndash; authzero - A CLI for the Auth0 Management API</title>
 
 </head>
 <body>
@@ -90,35 +99,56 @@
 
     </nav>
 
-
-
-<article>
+<article class="single">
   <header>
-    <h2><a href="https://markdrummond.ca/lfce.html#lfce">Linux Foundation Certified&nbsp;Engineer</a></h2>
+    <h1 id="authzero">authzero - A <span class="caps">CLI</span> for the Auth0 Management <span class="caps">API</span></h1>
     <p>
-          Posted on April 17, 2018 in <a href="https://markdrummond.ca/category/education-training-and-certification.html">Education, Training, and Certification</a>
-
+          Posted on January 14, 2019 in <a href="https://markdrummond.ca/category/software-development.html">Software Development</a>
 
 
     </p>
   </header>
+
+
   <div>
-      <p>Renewal time for my <a href="/files/lfcs.pdf"><span class="caps">LFCS</span></a> certification. <a href="https://www.linuxfoundation.org/">The Linux
-Foundation</a> will renew your <span class="caps">LFCS</span>
-certification for 2 years if you upgrade to the <a href="/files/lfce.pdf"><span class="caps">LFCE</span></a> cert,
-so that&#8217;s what I&nbsp;did!</p>
-<p><img alt="Linux Foundation Certified Engineer" src="/images/lfce-small.png" title="Linux Foundation Certified Engineer"></p>
-      <br>
-      <a class="btn" href="https://markdrummond.ca/lfce.html#lfce">    Continue reading
-</a>
+    <p>I started work on a <a href="https://github.com/dmark/authzero">command line interface</a>
+for the <a href="https://auth0.com/">Auth0</a> <a href="https://auth0.com/docs/api/management/v2">Management
+<span class="caps">API</span></a>. The tool is built with
+<a href="https://www.typescriptlang.org/index.html">TypeScript</a>, <a href="https://oclif.io/">oclif</a>, <a href="https://nodejs.org/en/">node.js</a>, and Auth0&#8217;s <a href="https://github.com/auth0/node-auth0">node-auth0 <span class="caps">SDK</span></a>.</p>
+<div class="highlight"><pre><span></span>$ authzero --help
+Auth0 Command Line Interface
+
+VERSION
+  authzero/0.0.0 darwin-x64 node-v11.6.0
+
+USAGE
+  $ authzero <span class="o">[</span>COMMAND<span class="o">]</span>
+
+COMMANDS
+  client      Get client <span class="o">(</span>application<span class="o">)</span> settings.
+  connection  Get connection settings.
+  <span class="nb">help</span>        display <span class="nb">help</span> <span class="k">for</span> authzero
+  rule        Get rule.
+  tenant      Get tenant settings.
+  user        Get profile <span class="k">for</span> specificed user.
+
+$
+</pre></div>
   </div>
+  <div class="tag-cloud">
+    <p>
+      <a href="https://markdrummond.ca/tag/typescript.html">typescript</a>
+      <a href="https://markdrummond.ca/tag/nodejs.html">nodejs</a>
+      <a href="https://markdrummond.ca/tag/oclif.html">oclif</a>
+      <a href="https://markdrummond.ca/tag/node-auth0.html">node-auth0</a>
+      <a href="https://markdrummond.ca/tag/auth0.html">auth0</a>
+    </p>
+  </div>
+
+
+
+
 </article>
-
-  <div class="pagination">
-  </div>
-
-
-
 
     <footer>
 <p>
