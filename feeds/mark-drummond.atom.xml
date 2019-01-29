@@ -1,25 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Mark Drummond - Mark Drummond</title><link href="https://markdrummond.ca/" rel="alternate"></link><link href="https://markdrummond.ca/feeds/mark-drummond.atom.xml" rel="self"></link><id>https://markdrummond.ca/</id><updated>2019-10-14T21:52:00-04:00</updated><subtitle>Cloud and Identity Systems Lead</subtitle><entry><title>Password Expiry is a Terrible Policy</title><link href="https://markdrummond.ca/password-expiry.html" rel="alternate"></link><published>2019-01-29T11:32:00-05:00</published><updated>2019-01-29T11:32:00-05:00</updated><author><name>Mark Drummond</name></author><id>tag:markdrummond.ca,2019-01-29:/password-expiry.html</id><summary type="html">&lt;p&gt;A pet peeve, and an opinion&amp;nbsp;piece:&lt;/p&gt;
-&lt;p&gt;Enforced password expiry is a terrible policy which encourages users to choose
-a minimally secure password. Given a set of password requirements (number of
-characters, content requirements, etc.) the user will almost certainly choose a
-password which only just meets those password requirements …&lt;/p&gt;</summary><content type="html">&lt;p&gt;A pet peeve, and an opinion&amp;nbsp;piece:&lt;/p&gt;
-&lt;p&gt;Enforced password expiry is a terrible policy which encourages users to choose
-a minimally secure password. Given a set of password requirements (number of
-characters, content requirements, etc.) the user will almost certainly choose a
-password which only just meets those password requirements, if they know they
-will need to change their password after some period of time. Why bother
-creating and memorizing a &lt;a href="http://world.std.com/~reinhold/diceware.html"&gt;good, secure
-password&lt;/a&gt;, if I need to change it
-in 90&amp;nbsp;days?&lt;/p&gt;
-&lt;p&gt;A better solution is to encourage password complexity, and to impliment proper
-password content and quality settings. &lt;strong&gt;Require&lt;/strong&gt; your users to use &lt;a href="https://www.owasp.org/index.php/Authentication_Cheat_Sheet#Implement_Proper_Password_Strength_Controls"&gt;&lt;span class="caps"&gt;OWASP&lt;/span&gt;
-compliant
-passwords&lt;/a&gt;,
-&lt;strong&gt;encourage&lt;/strong&gt; them to go beyond &lt;span class="caps"&gt;OWASP&lt;/span&gt; requirements, and ditch password expiry.
-Of course, the proper solution is to implement &lt;a href="https://en.wikipedia.org/wiki/Multi-factor_authentication"&gt;multi-factor
-authentication&lt;/a&gt;
-which should obviate the need to expire passwords&amp;nbsp;altogether.&lt;/p&gt;</content><category term="security"></category></entry><entry><title>Auth0 Command Line Utilities</title><link href="https://markdrummond.ca/authcli-utilities.html" rel="alternate"></link><published>2019-01-14T23:36:00-05:00</published><updated>2019-01-14T23:36:00-05:00</updated><author><name>Mark Drummond</name></author><id>tag:markdrummond.ca,2019-01-14:/authcli-utilities.html</id><summary type="html">&lt;p&gt;Not to be confused with my &lt;a href="https://github.com/dmark/authzero"&gt;&lt;code&gt;authzero&lt;/code&gt; command line
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Mark Drummond - Mark Drummond</title><link href="https://markdrummond.ca/" rel="alternate"></link><link href="https://markdrummond.ca/feeds/mark-drummond.atom.xml" rel="self"></link><id>https://markdrummond.ca/</id><updated>2019-10-14T21:52:00-04:00</updated><subtitle>Cloud and Identity Systems Lead</subtitle><entry><title>Password Expiry is a Terrible Policy</title><link href="https://markdrummond.ca/password-expiry.html" rel="alternate"></link><published>2019-01-29T11:32:00-05:00</published><updated>2019-01-29T15:18:00-05:00</updated><author><name>Mark Drummond</name></author><id>tag:markdrummond.ca,2019-01-29:/password-expiry.html</id><summary type="html">&lt;p&gt;A pet peeve, and an opinion, triggered by a recent&amp;nbsp;experience:&lt;/p&gt;
+&lt;p&gt;Regularly occuring enforced password expiry is a terrible policy, whether it is
+every 60 days, or every 12 months. As a policy, it encourages users to choose
+the &lt;em&gt;minimally secure&lt;/em&gt; password. Given a set of password complexity
+requirements (length …&lt;/p&gt;</summary><content type="html">&lt;p&gt;A pet peeve, and an opinion, triggered by a recent&amp;nbsp;experience:&lt;/p&gt;
+&lt;p&gt;Regularly occuring enforced password expiry is a terrible policy, whether it is
+every 60 days, or every 12 months. As a policy, it encourages users to choose
+the &lt;em&gt;minimally secure&lt;/em&gt; password. Given a set of password complexity
+requirements (length and content) the user will almost certainly choose a
+password which only just meets those requirements, knowing they will need to
+change their password again in the near future. Why bother creating and
+memorizing a &lt;a href="http://world.std.com/~reinhold/diceware.html"&gt;good, secure
+password&lt;/a&gt;, if you need to change
+it in 90&amp;nbsp;days?&lt;/p&gt;
+&lt;h2&gt;There is a Better&amp;nbsp;Way&lt;/h2&gt;
+&lt;p&gt;First, and most important: implement some manner of &lt;a href="https://en.wikipedia.org/wiki/Multi-factor_authentication"&gt;multi-factor
+authentication
+(&lt;span class="caps"&gt;MFA&lt;/span&gt;)&lt;/a&gt;, even if it
+is just &lt;span class="caps"&gt;SMS&lt;/span&gt; based &lt;span class="caps"&gt;MFA&lt;/span&gt;. It&amp;#8217;s &lt;a href="https://auth0.com/blog/why-sms-multi-factor-still-matters/"&gt;much better than
+nothing&lt;/a&gt;! &lt;span class="caps"&gt;MFA&lt;/span&gt; also
+obviates the need to auto-expire passwords since it protects against a
+compromised&amp;nbsp;password.&lt;/p&gt;
+&lt;p&gt;&lt;span class="caps"&gt;MFA&lt;/span&gt; notwithstanding, a better solution is to encourage password complexity, and
+to implement proper password content and quality settings. &lt;em&gt;Require&lt;/em&gt; your users
+to use &lt;a href="https://www.owasp.org/index.php/Authentication_Cheat_Sheet#Implement_Proper_Password_Strength_Controls"&gt;&lt;span class="caps"&gt;OWASP&lt;/span&gt; compliant
+passwords&lt;/a&gt;
+(10 character passwords are no more difficult to remember than 8 character
+passwords), &lt;em&gt;encourage&lt;/em&gt; them to go beyond &lt;span class="caps"&gt;OWASP&lt;/span&gt; requirements (e.g., 12
+characters passwords) and to use a &lt;a href="https://1password.com/sign-up/ca/"&gt;password
+manager&lt;/a&gt;, and then ditch password&amp;nbsp;expiry.&lt;/p&gt;</content><category term="information-security"></category><category term="pet-peeves"></category></entry><entry><title>Auth0 Command Line Utilities</title><link href="https://markdrummond.ca/authcli-utilities.html" rel="alternate"></link><published>2019-01-14T23:36:00-05:00</published><updated>2019-01-14T23:36:00-05:00</updated><author><name>Mark Drummond</name></author><id>tag:markdrummond.ca,2019-01-14:/authcli-utilities.html</id><summary type="html">&lt;p&gt;Not to be confused with my &lt;a href="https://github.com/dmark/authzero"&gt;&lt;code&gt;authzero&lt;/code&gt; command line
 interface&lt;/a&gt;, this repo contains &lt;a href="https://github.com/dmark/auth0-cli-utilities"&gt;general
 purpose python scripts&lt;/a&gt; for
 interfacing with the &lt;a href="https://auth0.com/"&gt;Auth0&lt;/a&gt; &lt;a href="https://auth0.com/docs/api/management/v2"&gt;Management
