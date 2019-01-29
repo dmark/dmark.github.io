@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Mark Drummond - Mark Drummond</title><link>https://markdrummond.ca/</link><description>Cloud and Identity Systems Lead</description><lastBuildDate>Mon, 14 Oct 2019 21:52:00 -0400</lastBuildDate><item><title>Auth0 Command Line Utilities</title><link>https://markdrummond.ca/authcli-utilities.html</link><description>&lt;p&gt;Not to be confused with my &lt;a href="https://github.com/dmark/authzero"&gt;&lt;code&gt;authzero&lt;/code&gt; command line
+<rss version="2.0"><channel><title>Mark Drummond - Mark Drummond</title><link>https://markdrummond.ca/</link><description>Cloud and Identity Systems Lead</description><lastBuildDate>Mon, 14 Oct 2019 21:52:00 -0400</lastBuildDate><item><title>Password Expiry is a Terrible Policy</title><link>https://markdrummond.ca/password-expiry.html</link><description>&lt;p&gt;A pet peeve, and an opinion&amp;nbsp;piece:&lt;/p&gt;
+&lt;p&gt;Enforced password expiry is a terrible policy which encourages users to choose
+a minimally secure password. Given a set of password requirements (number of
+characters, content requirements, etc.) the user will almost certainly choose a
+password which only just meets those password requirements …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mark Drummond</dc:creator><pubDate>Tue, 29 Jan 2019 11:32:00 -0500</pubDate><guid isPermaLink="false">tag:markdrummond.ca,2019-01-29:/password-expiry.html</guid><category>security</category></item><item><title>Auth0 Command Line Utilities</title><link>https://markdrummond.ca/authcli-utilities.html</link><description>&lt;p&gt;Not to be confused with my &lt;a href="https://github.com/dmark/authzero"&gt;&lt;code&gt;authzero&lt;/code&gt; command line
 interface&lt;/a&gt;, this repo contains &lt;a href="https://github.com/dmark/auth0-cli-utilities"&gt;general
 purpose python scripts&lt;/a&gt; for
 interfacing with the &lt;a href="https://auth0.com/"&gt;Auth0&lt;/a&gt; &lt;a href="https://auth0.com/docs/api/management/v2"&gt;Management
