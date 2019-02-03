@@ -1,51 +1,25 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic' rel='stylesheet' type='text/css'>
-
-    <link rel="stylesheet/less" type="text/css" href="https://markdrummond.ca/theme/stylesheet/style.less">
-    <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.5.1/less.min.js" type="text/javascript"></script>
-
-  <link rel="stylesheet" type="text/css" href="https://markdrummond.ca/theme/pygments/monokai.min.css">
-  <link rel="stylesheet" type="text/css" href="https://markdrummond.ca/theme/font-awesome/css/font-awesome.min.css">
-
-    <link href="https://markdrummond.ca/extra/custom.css" rel="stylesheet">
-
-    <link href="https://markdrummond.ca/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Mark Drummond Atom">
-
-
-    <link rel="shortcut icon" href="/images/Drummond.png" type="image/x-icon">
-    <link rel="icon" href="/images/Drummond.png" type="image/x-icon">
-
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="HandheldFriendly" content="True" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="robots" content="index, follow" />
-
-    <!-- Chrome, Firefox OS and Opera -->
-    <meta name="theme-color" content="#11335d">
-    <!-- Windows Phone -->
-    <meta name="msapplication-navbutton-color" content="#11335d">
-    <!-- iOS Safari -->
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-
-    <meta name="author" content="Mark Drummond" />
-    <meta name="description" content="Mark Drummond" />
-<meta property="og:site_name" content="Mark Drummond"/>
-<meta property="og:type" content="blog"/>
-<meta property="og:title" content="Mark Drummond"/>
-<meta property="og:description" content="Mark Drummond"/>
-<meta property="og:locale" content="en_CA"/>
-<meta property="og:url" content="https://markdrummond.ca"/>
-<meta property="og:image" content="/images/avatar.jpg">
-
-  <title>Mark Drummond &ndash; Projects</title>
-
+        <meta charset="utf-8" />
+        <title>Mark Drummond &ndash; Projects</title>
+        <link rel="stylesheet" href="/theme/css/main.css" />
+        <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="A Pelican Blog Atom Feed" />
 </head>
-<body>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="/">A Pelican Blog </a></h1>
+                <nav><ul>
+                    <li><a href="/pages/mark-drummond-about.html">Mark Drummond &ndash; About</a></li>
+                    <li class="active"><a href="/pages/mark-drummond-projects.html">Mark Drummond &ndash; Projects</a></li>
+                    <li><a href="/pages/mark-drummond-resume.html">Mark Drummond &ndash; Resume</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+    <h1 class="entry-title">Mark Drummond &ndash; Projects</h1>
+    
+    
   <aside>
     <div>
       <a href="https://markdrummond.ca">
@@ -57,7 +31,7 @@
       <nav>
         <ul class="list">
           <li><a href="https://markdrummond.ca/pages/about.html#about">About</a></li>
-          <li><a href="https://markdrummond.ca/pages/propjects.html#propjects">Projects</a></li>
+          <li><a href="https://markdrummond.ca/pages/projects.html#projects">Projects</a></li>
           <li><a href="https://markdrummond.ca/pages/resume.html#resume">Resume</a></li>
 
           <li><a href="https://community.auth0.com/" target="_blank">Auth0 Community</a></li>
@@ -91,12 +65,22 @@
 
 <article class="single">
   <header>
-    <h1 id="propjects">Projects</h1>
+    <h1 id="projects">Projects</h1>
   </header>
   <div>
-    <p>As a &#8220;not a developer&#8221;, code and code-adjacent stuff that I have done, starting
-from the most recent&nbsp;contributions:</p>
+    <p>As a &#8220;not a developer&#8221;, code and code-adjacent projects and contributions,
+starting from the most&nbsp;recent:</p>
 <ul>
+<li>A <a href="https://github.com/dmark/authzero">command line interface</a> for the
+  <a href="https://auth0.com/">Auth0</a> <a href="https://auth0.com/docs/api/management/v2">Management
+  <span class="caps">API</span></a>. The tool is built with
+  <a href="https://www.typescriptlang.org/index.html">TypeScript</a>,
+  <a href="https://oclif.io/">oclif</a>, <a href="https://nodejs.org/en/">node.js</a>, and Auth0&#8217;s
+  <a href="https://github.com/auth0/node-auth0">node-auth0 <span class="caps">SDK</span></a>.</li>
+<li>Not to be confused with my <a href="https://github.com/dmark/authzero"><code>authzero</code> command line
+  interface</a>, this repo contains general
+  purpose python scripts for interfacing with the <a href="https://auth0.com/">Auth0</a>
+  <a href="https://auth0.com/docs/api/management/v2">Management <span class="caps">API</span></a>.</li>
 <li>I&#8217;ve made some contributions to <a href="https://github.com/auth0/docs">Auth0&#8217;s
   documentation</a>: <span class="caps">PR</span> for a <a href="https://github.com/auth0/docs/pull/3159">minor update to an
   example command</a>, <span class="caps">PR</span> to <a href="https://github.com/auth0/docs/pull/3162">update the
@@ -127,15 +111,8 @@ from the most recent&nbsp;contributions:</p>
 </p>
 <p>    Powered by <a href="http://getpelican.com" target="_blank">Pelican</a> - <a href="https://github.com/alexandrevicenzi/flex" target="_blank">Flex</a> theme by <a href="http://alexandrevicenzi.com" target="_blank">Alexandre Vicenzi</a>
 </p><p>
-  <a rel="license"
-     href="http://creativecommons.org/licenses/by-sa/4.0/"
-     target="_blank">
-    <img alt="Creative Commons License"
-         title="Creative Commons License"
-         style="border-width:0"
-         src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png"
-         width="80"
-         height="15"/>
+  <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">
+    <img alt="Creative Commons License" title="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" width="80" height="15" />
   </a>
 </p>    </footer>
   </main>
@@ -164,5 +141,25 @@ from the most recent&nbsp;contributions:</p>
   "description": "Mark Drummond"
 }
 </script>
+
+</section>
+        <section id="extras" class="body">
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
 </body>
 </html>
