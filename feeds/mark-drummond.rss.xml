@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Mark Drummond - Mark Drummond</title><link>https://markdrummond.ca/</link><description>Cloud and Identity Systems Lead</description><lastBuildDate>Mon, 14 Oct 2019 21:52:00 -0400</lastBuildDate><item><title>Password Expiry is a Terrible Policy</title><link>https://markdrummond.ca/password-expiry.html</link><description>&lt;p&gt;A pet peeve, and an opinion, triggered by a recent&amp;nbsp;experience:&lt;/p&gt;
+<rss version="2.0"><channel><title>Mark Drummond - Mark Drummond</title><link>https://markdrummond.ca/</link><description>Cloud and Identity Systems Lead</description><lastBuildDate>Mon, 14 Oct 2019 21:52:00 -0400</lastBuildDate><item><title>Disqus Power Up</title><link>https://markdrummond.ca/disqus.html</link><description>&lt;p&gt;So, for the five people (were they people?) who hit this non-blog last month, I
+added &lt;a href="https://disqus.com/"&gt;Disqus&lt;/a&gt; to the site. I don&amp;#8217;t use Disqus much myself
+(no one needs to read my bad takes &amp;#8230; wait, &amp;#8230; &lt;em&gt;thinkyface.gif&lt;/em&gt;) but, much
+like this blog, it was an opportunity to play with …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mark Drummond</dc:creator><pubDate>Wed, 06 Feb 2019 20:17:00 -0500</pubDate><guid isPermaLink="false">tag:markdrummond.ca,2019-02-06:/disqus.html</guid><category>disqus</category></item><item><title>Password Expiry is a Terrible Policy</title><link>https://markdrummond.ca/password-expiry.html</link><description>&lt;p&gt;A pet peeve, and an opinion, triggered by a recent&amp;nbsp;experience:&lt;/p&gt;
 &lt;p&gt;Regularly occuring enforced password expiry is a terrible policy, whether it is
 every 60 days, or every 12 months. As a policy, it encourages users to choose
 the &lt;em&gt;minimally secure&lt;/em&gt; password. Given a set of password complexity
