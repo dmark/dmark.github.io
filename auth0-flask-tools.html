@@ -33,16 +33,16 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
 <meta name="author" content="Mark Drummond" />
-<meta name="description" content="Another Auth0 project, this time using Flask and the Auth0 python SDK. First up: build my own interface for managing users in an Auth0 hosted database." />
+<meta name="description" content="Another Auth0 project, this time using Flask and the Auth0 python SDK. First up: build my own interface for managing users in an Auth0 hosted user database. The main reason for doing this is to expose user_metadata and app_metadata for editing by an authorized user. You can edit metadata in …" />
 <meta name="keywords" content="python, flask, auth0">
 <meta property="og:site_name" content="Mark Drummond"/>
 <meta property="og:title" content="Auth0 Flask Tools"/>
-<meta property="og:description" content="Another Auth0 project, this time using Flask and the Auth0 python SDK. First up: build my own interface for managing users in an Auth0 hosted database."/>
+<meta property="og:description" content="Another Auth0 project, this time using Flask and the Auth0 python SDK. First up: build my own interface for managing users in an Auth0 hosted user database. The main reason for doing this is to expose user_metadata and app_metadata for editing by an authorized user. You can edit metadata in …"/>
 <meta property="og:locale" content="en_CA"/>
 <meta property="og:url" content="https://markdrummond.ca/auth0-flask-tools.html"/>
 <meta property="og:type" content="article"/>
 <meta property="article:published_time" content="2019-02-06 20:53:00-05:00"/>
-<meta property="article:modified_time" content="2019-02-06 20:53:00-05:00"/>
+<meta property="article:modified_time" content="2019-02-07 07:12:00-05:00"/>
 <meta property="article:author" content="https://markdrummond.ca/author/mark-drummond.html">
 <meta property="article:section" content="Software Development"/>
 <meta property="article:tag" content="python"/>
@@ -110,9 +110,18 @@
 
   <div>
     <p>Another <a href="https://auth0.com">Auth0</a> project, this time using Flask and the Auth0
-python <span class="caps">SDK</span>.  First up: build my own
-<a href="https://github.com/dmark/auth0-flask-utilities">interface</a> for managing users
-in an Auth0 hosted&nbsp;database.</p>
+python <span class="caps">SDK</span>. First up: build my own <a href="https://github.com/dmark/auth0-flask-utilities">interface for managing
+users</a> in an Auth0 hosted user
+database. The main reason for doing this is to expose <a href="https://auth0.com/docs/users/concepts/overview-user-metadata"><code>user_metadata</code> and
+<code>app_metadata</code></a>
+for editing by an authorized&nbsp;user.</p>
+<p>You can edit metadata in the management console, but that exposes too much
+functionality to a user who just needs to do user account management. On the
+other hand, the <a href="https://auth0.com/docs/extensions/delegated-admin/v3">Delegated Administration
+Dashboard</a>, purpose built
+to expose user account management to users who do not need access to the entire
+management console, does not allow editing of metadata. <a href="https://github.com/auth0-extensions/auth0-delegated-administration-extension/issues/161">At least not
+yet</a>.</p>
 <p><img alt="Auth0 User Manager" src="https://raw.githubusercontent.com/dmark/auth0-flask-utilities/master/screenshots/Screenshot%202019-02-06%2020.56.52.png" title="Auth0 User Manager"></p>
   </div>
   <div class="tag-cloud">
