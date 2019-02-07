@@ -32,18 +32,25 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
-    <meta name="author" content="Mark Drummond" />
-    <meta name="description" content="Mark Drummond" />
+<meta name="author" content="Mark Drummond" />
+<meta name="description" content="Another Auth0 project, this time using Flask and the Auth0 python SDK. First up: build my own interface for managing users in an Auth0 hosted database." />
+<meta name="keywords" content="python, flask, auth0">
 <meta property="og:site_name" content="Mark Drummond"/>
-<meta property="og:type" content="blog"/>
-<meta property="og:title" content="Mark Drummond"/>
-<meta property="og:description" content="Mark Drummond"/>
+<meta property="og:title" content="Auth0 Flask Tools"/>
+<meta property="og:description" content="Another Auth0 project, this time using Flask and the Auth0 python SDK. First up: build my own interface for managing users in an Auth0 hosted database."/>
 <meta property="og:locale" content="en_CA"/>
-<meta property="og:url" content="https://markdrummond.ca"/>
+<meta property="og:url" content="https://markdrummond.ca/auth0-flask-tools.html"/>
+<meta property="og:type" content="article"/>
+<meta property="article:published_time" content="2019-01-14 23:45:00-05:00"/>
+<meta property="article:modified_time" content="2019-01-14 23:45:00-05:00"/>
+<meta property="article:author" content="https://markdrummond.ca/author/mark-drummond.html">
+<meta property="article:section" content="Software Development"/>
+<meta property="article:tag" content="python"/>
+<meta property="article:tag" content="flask"/>
+<meta property="article:tag" content="auth0"/>
 <meta property="og:image" content="/images/avatar.jpg">
 
-  <title>Mark Drummond &ndash;     Category Software Development
-</title>
+  <title>Mark Drummond &ndash; Auth0 Flask Tools</title>
 
 </head>
 <body>
@@ -90,113 +97,48 @@
 
     </nav>
 
-
-
-<article>
+<article class="single">
   <header>
-    <h2><a href="https://markdrummond.ca/auth0-flask-tools.html#auth0-flask-tools">Auth0 Flask&nbsp;Tools</a></h2>
+    <h1 id="auth0-flask-tools">Auth0 Flask&nbsp;Tools</h1>
     <p>
           Posted on January 14, 2019 in <a href="https://markdrummond.ca/category/software-development.html">Software Development</a>
 
 
-
     </p>
   </header>
+
+
   <div>
-      <p>Another <a href="https://auth0.com">Auth0</a> project, this time using Flask and the Auth0
+    <p>Another <a href="https://auth0.com">Auth0</a> project, this time using Flask and the Auth0
 python <span class="caps">SDK</span>.  First up: build my own
 <a href="https://github.com/dmark/auth0-flask-utilities">interface</a> for managing users
 in an Auth0 hosted&nbsp;database.</p>
-      <br>
-      <a class="btn" href="https://markdrummond.ca/auth0-flask-tools.html#auth0-flask-tools">    Continue reading
-</a>
   </div>
-  <hr />
-</article>
-<article>
-  <header>
-    <h2><a href="https://markdrummond.ca/authcli-utilities.html#authcli-utilities">Auth0 Command Line&nbsp;Utilities</a></h2>
+  <div class="tag-cloud">
     <p>
-          Posted on January 14, 2019 in <a href="https://markdrummond.ca/category/software-development.html">Software Development</a>
-
-
-
+      <a href="https://markdrummond.ca/tag/python.html">python</a>
+      <a href="https://markdrummond.ca/tag/flask.html">flask</a>
+      <a href="https://markdrummond.ca/tag/auth0.html">auth0</a>
     </p>
-  </header>
-  <div>
-      <p>Not to be confused with my <a href="https://github.com/dmark/authzero"><code>authzero</code> command line
-interface</a>, this repo contains <a href="https://github.com/dmark/auth0-cli-utilities">general
-purpose python scripts</a> for
-interfacing with the <a href="https://auth0.com/">Auth0</a> <a href="https://auth0.com/docs/api/management/v2">Management
-<span class="caps">API</span></a>.</p>
-      <br>
-      <a class="btn" href="https://markdrummond.ca/authcli-utilities.html#authcli-utilities">    Continue reading
-</a>
   </div>
-  <hr />
+
+
+
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'markdrummond';
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>
+        Please enable JavaScript to view comments.
+
+</noscript>
 </article>
-<article>
-  <header>
-    <h2><a href="https://markdrummond.ca/authzero.html#authzero">authzero - A <span class="caps">CLI</span> for the Auth0 Management <span class="caps">API</span></a></h2>
-    <p>
-          Posted on January 14, 2019 in <a href="https://markdrummond.ca/category/software-development.html">Software Development</a>
-
-
-
-    </p>
-  </header>
-  <div>
-      <p>I started work on a <a href="https://github.com/dmark/authzero">command line interface</a>
-for the <a href="https://auth0.com/">Auth0</a> <a href="https://auth0.com/docs/api/management/v2">Management
-<span class="caps">API</span></a>. The tool is built with
-<a href="https://www.typescriptlang.org/index.html">TypeScript</a>, <a href="https://oclif.io/">oclif</a>, <a href="https://nodejs.org/en/">node.js</a>, and Auth0&#8217;s <a href="https://github.com/auth0/node-auth0">node-auth0 <span class="caps">SDK</span></a>.</p>
-<div class="highlight"><pre><span></span>$ authzero --help
-Auth0 Command Line Interface
-
-VERSION
-  authzero/0.0.0 darwin-x64 node-v11.6.0
-
-USAGE
-  $ authzero <span class="o">[</span>COMMAND<span class="o">]</span>
-
-COMMANDS
-  client      Get client <span class="o">(</span>application …</pre></div>
-      <br>
-      <a class="btn" href="https://markdrummond.ca/authzero.html#authzero">    Continue reading
-</a>
-  </div>
-  <hr />
-</article>
-<article>
-  <header>
-    <h2><a href="https://markdrummond.ca/my-first-pull-request.html#my-first-pull-request">My First Pull&nbsp;Request</a></h2>
-    <p>
-          Posted on May 20, 2015 in <a href="https://markdrummond.ca/category/software-development.html">Software Development</a>
-
-
-
-    </p>
-  </header>
-  <div>
-      <p>I use <a href="https://getpelican.com/">Pelican</a> and the
-<a href="https://github.com/DandyDev/pelican-bootstrap3">pelican-bootstrap3</a> theme to
-built this&nbsp;site.</p>
-<p>I made my first pull request today in the form of a minor contribution to
-<a href="https://github.com/DandyDev/pelican-bootstrap3">pelican-bootstrap3</a>. I added a
-<a href="https://github.com/DandyDev/pelican-bootstrap3/pull/190">feature</a> that allows
-you to add a series of images to the sidebar. The original intent was to allow
-me …</p>
-      <br>
-      <a class="btn" href="https://markdrummond.ca/my-first-pull-request.html#my-first-pull-request">    Continue reading
-</a>
-  </div>
-</article>
-
-  <div class="pagination">
-  </div>
-
-
-
 
     <footer>
 <p>
