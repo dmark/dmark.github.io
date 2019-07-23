@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Mark Drummond - Mark Drummond</title><link>https://markdrummond.ca/</link><description>Cloud and Identity Systems Lead</description><lastBuildDate>Mon, 14 Oct 2019 21:52:00 -0400</lastBuildDate><item><title>Auth0 Flask Tools</title><link>https://markdrummond.ca/auth0-flask-tools.html</link><description>&lt;p&gt;Another &lt;a href="https://auth0.com"&gt;Auth0&lt;/a&gt; project, this time using Flask and the Auth0
+<rss version="2.0"><channel><title>Mark Drummond - Mark Drummond</title><link>https://markdrummond.ca/</link><description>Digital Identity and Physical Motorcycles</description><lastBuildDate>Mon, 14 Oct 2019 21:52:00 -0400</lastBuildDate><item><title>The Arai XD-4</title><link>https://markdrummond.ca/xd-4.html</link><description>&lt;p&gt;I have a &lt;a href="https://www.shoei-helmets.com/rf-1200-features-summary/"&gt;Shoei
+&lt;span class="caps"&gt;RF&lt;/span&gt;-1200&lt;/a&gt; head. The
+&lt;span class="caps"&gt;RF&lt;/span&gt;-1200 in an &lt;span class="caps"&gt;XL&lt;/span&gt; is the best fitting and most comfortable helmet I have owned,
+yet when my lovely all white &lt;span class="caps"&gt;RF&lt;/span&gt;-1200 with its Mass Effect and Destiny stickers
+was due for replacement, my eyes started to wander. In particular …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mark Drummond</dc:creator><pubDate>Mon, 22 Jul 2019 21:33:00 -0400</pubDate><guid isPermaLink="false">tag:markdrummond.ca,2019-07-22:/xd-4.html</guid><category>motorsports</category><category>reviews</category></item><item><title>Auth0 Flask Tools</title><link>https://markdrummond.ca/auth0-flask-tools.html</link><description>&lt;p&gt;Another &lt;a href="https://auth0.com"&gt;Auth0&lt;/a&gt; project, this time using Flask and the Auth0
 python &lt;span class="caps"&gt;SDK&lt;/span&gt;. First up: build my own &lt;a href="https://github.com/dmark/auth0-flask-utilities"&gt;interface for managing
 users&lt;/a&gt; in an Auth0 hosted user
 database. The main reason for doing this is to expose &lt;a href="https://auth0.com/docs/users/concepts/overview-user-metadata"&gt;&lt;code&gt;user_metadata&lt;/code&gt; and
@@ -20,17 +24,17 @@ interfacing with the &lt;a href="https://auth0.com/"&gt;Auth0&lt;/a&gt; &lt;a hr
 for the &lt;a href="https://auth0.com/"&gt;Auth0&lt;/a&gt; &lt;a href="https://auth0.com/docs/api/management/v2"&gt;Management
 &lt;span class="caps"&gt;API&lt;/span&gt;&lt;/a&gt;. The tool is built with
 &lt;a href="https://www.typescriptlang.org/index.html"&gt;TypeScript&lt;/a&gt;, &lt;a href="https://oclif.io/"&gt;oclif&lt;/a&gt;, &lt;a href="https://nodejs.org/en/"&gt;node.js&lt;/a&gt;, and Auth0&amp;#8217;s &lt;a href="https://github.com/auth0/node-auth0"&gt;node-auth0 &lt;span class="caps"&gt;SDK&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ authzero --help
-Auth0 Command Line Interface
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ &lt;span class="nv"&gt;authzero&lt;/span&gt; &lt;span class="o"&gt;--&lt;/span&gt;&lt;span class="nv"&gt;help&lt;/span&gt;
+&lt;span class="nv"&gt;Auth0&lt;/span&gt; &lt;span class="nv"&gt;Command&lt;/span&gt; &lt;span class="nv"&gt;Line&lt;/span&gt; &lt;span class="nv"&gt;Interface&lt;/span&gt;
 
-VERSION
-  authzero/0.0.0 darwin-x64 node-v11.6.0
+&lt;span class="nv"&gt;VERSION&lt;/span&gt;
+  &lt;span class="nv"&gt;authzero&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;.&lt;span class="mi"&gt;0&lt;/span&gt;.&lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="nv"&gt;darwin&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="nv"&gt;x64&lt;/span&gt; &lt;span class="nv"&gt;node&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="nv"&gt;v11&lt;/span&gt;.&lt;span class="mi"&gt;6&lt;/span&gt;.&lt;span class="mi"&gt;0&lt;/span&gt;
 
-USAGE
-  $ authzero &lt;span class="o"&gt;[&lt;/span&gt;COMMAND&lt;span class="o"&gt;]&lt;/span&gt;
+&lt;span class="nv"&gt;USAGE&lt;/span&gt;
+  $ &lt;span class="nv"&gt;authzero&lt;/span&gt; [&lt;span class="nv"&gt;COMMAND&lt;/span&gt;]
 
-COMMANDS
-  client      Get client &lt;span class="o"&gt;(&lt;/span&gt;application …&lt;/pre&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mark Drummond</dc:creator><pubDate>Mon, 14 Jan 2019 23:02:00 -0500</pubDate><guid isPermaLink="false">tag:markdrummond.ca,2019-01-14:/authzero.html</guid><category>typescript</category><category>nodejs</category><category>oclif</category><category>node-auth0</category><category>auth0</category></item><item><title>Moar (Desktop) Power</title><link>https://markdrummond.ca/moar-compute-power.html</link><description></description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mark Drummond</dc:creator><pubDate>Wed, 02 Jan 2019 12:00:00 -0500</pubDate><guid isPermaLink="false">tag:markdrummond.ca,2019-01-02:/moar-compute-power.html</guid><category>computing</category><category>gaming</category></item><item><title>Goodreads 2018 Reading Challenge</title><link>https://markdrummond.ca/2018-books.html</link><description>&lt;h2&gt;Books and Books and All Sorts of&amp;nbsp;Books&lt;/h2&gt;
+&lt;span class="nv"&gt;COMMANDS&lt;/span&gt;
+  &lt;span class="nv"&gt;client&lt;/span&gt;      &lt;span class="nv"&gt;Get …&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mark Drummond</dc:creator><pubDate>Mon, 14 Jan 2019 23:02:00 -0500</pubDate><guid isPermaLink="false">tag:markdrummond.ca,2019-01-14:/authzero.html</guid><category>typescript</category><category>nodejs</category><category>oclif</category><category>node-auth0</category><category>auth0</category></item><item><title>Moar (Desktop) Power</title><link>https://markdrummond.ca/moar-compute-power.html</link><description></description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mark Drummond</dc:creator><pubDate>Wed, 02 Jan 2019 12:00:00 -0500</pubDate><guid isPermaLink="false">tag:markdrummond.ca,2019-01-02:/moar-compute-power.html</guid><category>computing</category><category>gaming</category></item><item><title>Goodreads 2018 Reading Challenge</title><link>https://markdrummond.ca/2018-books.html</link><description>&lt;h2&gt;Books and Books and All Sorts of&amp;nbsp;Books&lt;/h2&gt;
 &lt;p&gt;&lt;img alt="The Stack" src="/images/2019-01-04 16.55.25.jpg" title="The Stack"&gt;&lt;/p&gt;
 &lt;p&gt;I like to read. I track my reading habits on
 &lt;a href="https://www.goodreads.com/"&gt;Goodreads&lt;/a&gt;, and I started using the Goodreads
@@ -147,7 +151,7 @@ only 172cm tall, I was …&lt;/p&gt;</description><dc:creator xmlns:dc="http://p
 role with my employer, something I only found out less than 24 hours before it
 was announced to the department. I shall not complain. A bit of an odd way to
 go about …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mark Drummond</dc:creator><pubDate>Fri, 08 Jul 2016 12:00:00 -0400</pubDate><guid isPermaLink="false">tag:markdrummond.ca,2016-07-08:/new-job.html</guid><category>misc</category></item><item><title>Linux Foundation Certified System Administrator</title><link>https://markdrummond.ca/lfcs.html</link><description>&lt;p&gt;I&amp;#8217;ve been at this Unix and Linux systems management stuff for over 20 years
-now. As with my undergraduate degree&lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1" rel="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt;, I&amp;#8217;ve long wanted to knock out a few
+now. As with my undergraduate degree&lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;, I&amp;#8217;ve long wanted to knock out a few
 relevant technology certifications. Following on from my &lt;span class="caps"&gt;AWS&lt;/span&gt; SysOps
 certification, I took and passed the &lt;a href="https://www.linuxfoundation.org/"&gt;Linux
 Foundation&amp;#8217;s&lt;/a&gt;

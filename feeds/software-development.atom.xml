@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Mark Drummond - Software Development</title><link href="https://markdrummond.ca/" rel="alternate"></link><link href="https://markdrummond.ca/feeds/software-development.atom.xml" rel="self"></link><id>https://markdrummond.ca/</id><updated>2019-02-07T07:12:00-05:00</updated><subtitle>Cloud and Identity Systems Lead</subtitle><entry><title>Auth0 Flask Tools</title><link href="https://markdrummond.ca/auth0-flask-tools.html" rel="alternate"></link><published>2019-02-06T20:53:00-05:00</published><updated>2019-02-07T07:12:00-05:00</updated><author><name>Mark Drummond</name></author><id>tag:markdrummond.ca,2019-02-06:/auth0-flask-tools.html</id><summary type="html">&lt;p&gt;Another &lt;a href="https://auth0.com"&gt;Auth0&lt;/a&gt; project, this time using Flask and the Auth0
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Mark Drummond - Software Development</title><link href="https://markdrummond.ca/" rel="alternate"></link><link href="https://markdrummond.ca/feeds/software-development.atom.xml" rel="self"></link><id>https://markdrummond.ca/</id><updated>2019-02-07T07:12:00-05:00</updated><subtitle>Digital Identity and Physical Motorcycles</subtitle><entry><title>Auth0 Flask Tools</title><link href="https://markdrummond.ca/auth0-flask-tools.html" rel="alternate"></link><published>2019-02-06T20:53:00-05:00</published><updated>2019-02-07T07:12:00-05:00</updated><author><name>Mark Drummond</name></author><id>tag:markdrummond.ca,2019-02-06:/auth0-flask-tools.html</id><summary type="html">&lt;p&gt;Another &lt;a href="https://auth0.com"&gt;Auth0&lt;/a&gt; project, this time using Flask and the Auth0
 python &lt;span class="caps"&gt;SDK&lt;/span&gt;. First up: build my own &lt;a href="https://github.com/dmark/auth0-flask-utilities"&gt;interface for managing
 users&lt;/a&gt; in an Auth0 hosted user
 database. The main reason for doing this is to expose &lt;a href="https://auth0.com/docs/users/concepts/overview-user-metadata"&gt;&lt;code&gt;user_metadata&lt;/code&gt; and
@@ -18,11 +18,7 @@ Dashboard&lt;/a&gt;, purpose built
 to expose user account management to users who do not need access to the entire
 management console, does not allow editing of metadata. &lt;a href="https://github.com/auth0-extensions/auth0-delegated-administration-extension/issues/161"&gt;At least not
 yet&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Auth0 User Manager" src="https://raw.githubusercontent.com/dmark/auth0-flask-utilities/master/screenshots/Screenshot%202019-02-06%2020.56.52.png" title="Auth0 User Manager"&gt;&lt;/p&gt;</content><category term="python"></category><category term="flask"></category><category term="auth0"></category></entry><entry><title>Auth0 Command Line Utilities</title><link href="https://markdrummond.ca/authcli-utilities.html" rel="alternate"></link><published>2019-01-14T23:36:00-05:00</published><updated>2019-01-14T23:36:00-05:00</updated><author><name>Mark Drummond</name></author><id>tag:markdrummond.ca,2019-01-14:/authcli-utilities.html</id><summary type="html">&lt;p&gt;Not to be confused with my &lt;a href="https://github.com/dmark/authzero"&gt;&lt;code&gt;authzero&lt;/code&gt; command line
-interface&lt;/a&gt;, this repo contains &lt;a href="https://github.com/dmark/auth0-cli-utilities"&gt;general
-purpose python scripts&lt;/a&gt; for
-interfacing with the &lt;a href="https://auth0.com/"&gt;Auth0&lt;/a&gt; &lt;a href="https://auth0.com/docs/api/management/v2"&gt;Management
-&lt;span class="caps"&gt;API&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Not to be confused with my &lt;a href="https://github.com/dmark/authzero"&gt;&lt;code&gt;authzero&lt;/code&gt; command line
+&lt;p&gt;&lt;img alt="Auth0 User Manager" src="https://raw.githubusercontent.com/dmark/auth0-flask-utilities/master/screenshots/Screenshot%202019-02-06%2020.56.52.png" title="Auth0 User Manager"&gt;&lt;/p&gt;</content><category term="python"></category><category term="flask"></category><category term="auth0"></category></entry><entry><title>Auth0 Command Line Utilities</title><link href="https://markdrummond.ca/authcli-utilities.html" rel="alternate"></link><published>2019-01-14T23:36:00-05:00</published><updated>2019-01-14T23:36:00-05:00</updated><author><name>Mark Drummond</name></author><id>tag:markdrummond.ca,2019-01-14:/authcli-utilities.html</id><content type="html">&lt;p&gt;Not to be confused with my &lt;a href="https://github.com/dmark/authzero"&gt;&lt;code&gt;authzero&lt;/code&gt; command line
 interface&lt;/a&gt;, this repo contains &lt;a href="https://github.com/dmark/auth0-cli-utilities"&gt;general
 purpose python scripts&lt;/a&gt; for
 interfacing with the &lt;a href="https://auth0.com/"&gt;Auth0&lt;/a&gt; &lt;a href="https://auth0.com/docs/api/management/v2"&gt;Management
@@ -30,36 +26,36 @@ interfacing with the &lt;a href="https://auth0.com/"&gt;Auth0&lt;/a&gt; &lt;a hr
 for the &lt;a href="https://auth0.com/"&gt;Auth0&lt;/a&gt; &lt;a href="https://auth0.com/docs/api/management/v2"&gt;Management
 &lt;span class="caps"&gt;API&lt;/span&gt;&lt;/a&gt;. The tool is built with
 &lt;a href="https://www.typescriptlang.org/index.html"&gt;TypeScript&lt;/a&gt;, &lt;a href="https://oclif.io/"&gt;oclif&lt;/a&gt;, &lt;a href="https://nodejs.org/en/"&gt;node.js&lt;/a&gt;, and Auth0&amp;#8217;s &lt;a href="https://github.com/auth0/node-auth0"&gt;node-auth0 &lt;span class="caps"&gt;SDK&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ authzero --help
-Auth0 Command Line Interface
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ &lt;span class="nv"&gt;authzero&lt;/span&gt; &lt;span class="o"&gt;--&lt;/span&gt;&lt;span class="nv"&gt;help&lt;/span&gt;
+&lt;span class="nv"&gt;Auth0&lt;/span&gt; &lt;span class="nv"&gt;Command&lt;/span&gt; &lt;span class="nv"&gt;Line&lt;/span&gt; &lt;span class="nv"&gt;Interface&lt;/span&gt;
 
-VERSION
-  authzero/0.0.0 darwin-x64 node-v11.6.0
+&lt;span class="nv"&gt;VERSION&lt;/span&gt;
+  &lt;span class="nv"&gt;authzero&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;.&lt;span class="mi"&gt;0&lt;/span&gt;.&lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="nv"&gt;darwin&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="nv"&gt;x64&lt;/span&gt; &lt;span class="nv"&gt;node&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="nv"&gt;v11&lt;/span&gt;.&lt;span class="mi"&gt;6&lt;/span&gt;.&lt;span class="mi"&gt;0&lt;/span&gt;
 
-USAGE
-  $ authzero &lt;span class="o"&gt;[&lt;/span&gt;COMMAND&lt;span class="o"&gt;]&lt;/span&gt;
+&lt;span class="nv"&gt;USAGE&lt;/span&gt;
+  $ &lt;span class="nv"&gt;authzero&lt;/span&gt; [&lt;span class="nv"&gt;COMMAND&lt;/span&gt;]
 
-COMMANDS
-  client      Get client &lt;span class="o"&gt;(&lt;/span&gt;application …&lt;/pre&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;I started work on a &lt;a href="https://github.com/dmark/authzero"&gt;command line interface&lt;/a&gt;
+&lt;span class="nv"&gt;COMMANDS&lt;/span&gt;
+  &lt;span class="nv"&gt;client&lt;/span&gt;      &lt;span class="nv"&gt;Get …&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;I started work on a &lt;a href="https://github.com/dmark/authzero"&gt;command line interface&lt;/a&gt;
 for the &lt;a href="https://auth0.com/"&gt;Auth0&lt;/a&gt; &lt;a href="https://auth0.com/docs/api/management/v2"&gt;Management
 &lt;span class="caps"&gt;API&lt;/span&gt;&lt;/a&gt;. The tool is built with
 &lt;a href="https://www.typescriptlang.org/index.html"&gt;TypeScript&lt;/a&gt;, &lt;a href="https://oclif.io/"&gt;oclif&lt;/a&gt;, &lt;a href="https://nodejs.org/en/"&gt;node.js&lt;/a&gt;, and Auth0&amp;#8217;s &lt;a href="https://github.com/auth0/node-auth0"&gt;node-auth0 &lt;span class="caps"&gt;SDK&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ authzero --help
-Auth0 Command Line Interface
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ &lt;span class="nv"&gt;authzero&lt;/span&gt; &lt;span class="o"&gt;--&lt;/span&gt;&lt;span class="nv"&gt;help&lt;/span&gt;
+&lt;span class="nv"&gt;Auth0&lt;/span&gt; &lt;span class="nv"&gt;Command&lt;/span&gt; &lt;span class="nv"&gt;Line&lt;/span&gt; &lt;span class="nv"&gt;Interface&lt;/span&gt;
 
-VERSION
-  authzero/0.0.0 darwin-x64 node-v11.6.0
+&lt;span class="nv"&gt;VERSION&lt;/span&gt;
+  &lt;span class="nv"&gt;authzero&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;.&lt;span class="mi"&gt;0&lt;/span&gt;.&lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="nv"&gt;darwin&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="nv"&gt;x64&lt;/span&gt; &lt;span class="nv"&gt;node&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="nv"&gt;v11&lt;/span&gt;.&lt;span class="mi"&gt;6&lt;/span&gt;.&lt;span class="mi"&gt;0&lt;/span&gt;
 
-USAGE
-  $ authzero &lt;span class="o"&gt;[&lt;/span&gt;COMMAND&lt;span class="o"&gt;]&lt;/span&gt;
+&lt;span class="nv"&gt;USAGE&lt;/span&gt;
+  $ &lt;span class="nv"&gt;authzero&lt;/span&gt; [&lt;span class="nv"&gt;COMMAND&lt;/span&gt;]
 
-COMMANDS
-  client      Get client &lt;span class="o"&gt;(&lt;/span&gt;application&lt;span class="o"&gt;)&lt;/span&gt; settings.
-  connection  Get connection settings.
-  &lt;span class="nb"&gt;help&lt;/span&gt;        display &lt;span class="nb"&gt;help&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; authzero
-  rule        Get rule.
-  tenant      Get tenant settings.
-  user        Get profile &lt;span class="k"&gt;for&lt;/span&gt; specificed user.
+&lt;span class="nv"&gt;COMMANDS&lt;/span&gt;
+  &lt;span class="nv"&gt;client&lt;/span&gt;      &lt;span class="nv"&gt;Get&lt;/span&gt; &lt;span class="nv"&gt;client&lt;/span&gt; &lt;span class="ss"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;application&lt;/span&gt;&lt;span class="ss"&gt;)&lt;/span&gt; &lt;span class="nv"&gt;settings&lt;/span&gt;.
+  &lt;span class="nv"&gt;connection&lt;/span&gt;  &lt;span class="nv"&gt;Get&lt;/span&gt; &lt;span class="nv"&gt;connection&lt;/span&gt; &lt;span class="nv"&gt;settings&lt;/span&gt;.
+  &lt;span class="nv"&gt;help&lt;/span&gt;        &lt;span class="nv"&gt;display&lt;/span&gt; &lt;span class="nv"&gt;help&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="nv"&gt;authzero&lt;/span&gt;
+  &lt;span class="nv"&gt;rule&lt;/span&gt;        &lt;span class="nv"&gt;Get&lt;/span&gt; &lt;span class="nv"&gt;rule&lt;/span&gt;.
+  &lt;span class="nv"&gt;tenant&lt;/span&gt;      &lt;span class="nv"&gt;Get&lt;/span&gt; &lt;span class="nv"&gt;tenant&lt;/span&gt; &lt;span class="nv"&gt;settings&lt;/span&gt;.
+  &lt;span class="nv"&gt;user&lt;/span&gt;        &lt;span class="nv"&gt;Get&lt;/span&gt; &lt;span class="nv"&gt;profile&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="nv"&gt;specificed&lt;/span&gt; &lt;span class="nv"&gt;user&lt;/span&gt;.
 
 $
 &lt;/pre&gt;&lt;/div&gt;</content><category term="typescript"></category><category term="nodejs"></category><category term="oclif"></category><category term="node-auth0"></category><category term="auth0"></category></entry><entry><title>My First Pull Request</title><link href="https://markdrummond.ca/my-first-pull-request.html" rel="alternate"></link><published>2015-05-20T16:59:00-04:00</published><updated>2018-01-14T21:35:00-05:00</updated><author><name>Mark Drummond</name></author><id>tag:markdrummond.ca,2015-05-20:/my-first-pull-request.html</id><summary type="html">&lt;p&gt;I use &lt;a href="https://getpelican.com/"&gt;Pelican&lt;/a&gt; and the
