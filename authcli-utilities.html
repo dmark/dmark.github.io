@@ -2,13 +2,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic' rel='stylesheet' type='text/css'>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro|Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
 
     <link rel="stylesheet/less" type="text/css" href="https://markdrummond.ca/theme/stylesheet/style.less">
     <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.5.1/less.min.js" type="text/javascript"></script>
 
   <link rel="stylesheet" type="text/css" href="https://markdrummond.ca/theme/pygments/monokai.min.css">
-  <link rel="stylesheet" type="text/css" href="https://markdrummond.ca/theme/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="https://markdrummond.ca/theme/font-awesome/css/fontawesome.css">
+  <link rel="stylesheet" type="text/css" href="https://markdrummond.ca/theme/font-awesome/css/brands.css">
+  <link rel="stylesheet" type="text/css" href="https://markdrummond.ca/theme/font-awesome/css/solid.css">
 
     <link href="https://markdrummond.ca/extra/custom.css" rel="stylesheet">
 
@@ -18,12 +26,17 @@
     <link rel="shortcut icon" href="/images/Drummond.png" type="image/x-icon">
     <link rel="icon" href="/images/Drummond.png" type="image/x-icon">
 
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="HandheldFriendly" content="True" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="robots" content="index, follow" />
+<!-- Google Analytics -->
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-130250201-1', 'auto');
+  ga('send', 'pageview');
+</script>
+<!-- End Google Analytics -->
     <!-- Chrome, Firefox OS and Opera -->
     <meta name="theme-color" content="#11335d">
     <!-- Windows Phone -->
@@ -31,10 +44,14 @@
     <!-- iOS Safari -->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!-- Microsoft EDGE -->
+    <meta name="msapplication-TileColor" content="#11335d">
 
 <meta name="author" content="Mark Drummond" />
 <meta name="description" content="Not to be confused with my authzero command line interface, this repo contains general purpose python scripts for interfacing with the Auth0 Management API." />
 <meta name="keywords" content="python, python-auth0, auth0">
+
+
 <meta property="og:site_name" content="Mark Drummond"/>
 <meta property="og:title" content="Auth0 Command Line Utilities"/>
 <meta property="og:description" content="Not to be confused with my authzero command line interface, this repo contains general purpose python scripts for interfacing with the Auth0 Management API."/>
@@ -64,20 +81,41 @@
 <p>Digital Identity and Physical Motorcycles</p>
       <nav>
         <ul class="list">
-          <li><a href="https://markdrummond.ca/pages/about.html#about">About</a></li>
-          <li><a href="https://markdrummond.ca/pages/projects.html#projects">Projects</a></li>
 
-          <li><a href="/files/resume.pdf" target="_blank">Resume</a></li>
-          <li><a href="https://community.auth0.com/" target="_blank">Auth0 Community</a></li>
+            <li><a target="_blank" href="https://markdrummond.ca/pages/about.html#about">About</a></li>
+            <li><a target="_blank" href="https://markdrummond.ca/pages/projects.html#projects">Projects</a></li>
+
+            <li><a target="_blank" href="/files/resume.pdf" >Resume</a></li>
+            <li><a target="_blank" href="https://community.auth0.com/" >Auth0 Community</a></li>
         </ul>
       </nav>
 
       <ul class="social">
-        <li><a class="sc-github" href="https://github.com/dmark" target="_blank"><i class="fa fa-github"></i></a></li>
-        <li><a class="sc-stack-overflow" href="https://stackoverflow.com/users/3606230/shep" target="_blank"><i class="fa fa-stack-overflow"></i></a></li>
-        <li><a class="sc-twitter" href="https://twitter.com/drumboots" target="_blank"><i class="fa fa-twitter"></i></a></li>
-        <li><a class="sc-linkedin" href="https://www.linkedin.com/in/medrummond/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-        <li><a class="sc-rss" href="/feeds/all.atom.xml" target="_blank"><i class="fa fa-rss"></i></a></li>
+          <li>
+            <a  class="sc-github" href="https://github.com/dmark" target="_blank">
+            <i class="fab fa-github">
+            </i>
+          </a></li>
+          <li>
+            <a  class="sc-stack-overflow" href="https://stackoverflow.com/users/3606230/shep" target="_blank">
+            <i class="fab fa-stack-overflow">
+            </i>
+          </a></li>
+          <li>
+            <a  class="sc-twitter" href="https://twitter.com/drumboots" target="_blank">
+            <i class="fab fa-twitter">
+            </i>
+          </a></li>
+          <li>
+            <a  class="sc-linkedin" href="https://www.linkedin.com/in/medrummond/" target="_blank">
+            <i class="fab fa-linkedin">
+            </i>
+          </a></li>
+          <li>
+            <a  class="sc-rss" href="/feeds/all.atom.xml" target="_blank">
+            <i class="fas fa-rss">
+            </i>
+          </a></li>
       </ul>
     </div>
 
@@ -99,6 +137,7 @@
 
 <article class="single">
   <header>
+      
     <h1 id="authcli-utilities">Auth0 Command Line&nbsp;Utilities</h1>
     <p>
           Posted on January 14, 2019 in <a href="https://markdrummond.ca/category/software-development.html">Software Development</a>
@@ -126,6 +165,8 @@ interfacing with the <a href="https://auth0.com/">Auth0</a> <a href="https://aut
 
 
 
+
+<!-- Disqus -->
 <div id="disqus_thread"></div>
 <script type="text/javascript">
     var disqus_shortname = 'markdrummond';
@@ -139,13 +180,14 @@ interfacing with the <a href="https://auth0.com/">Auth0</a> <a href="https://aut
         Please enable JavaScript to view comments.
 
 </noscript>
+<!-- End Disqus -->
 </article>
 
     <footer>
 <p>
-  &copy; Mark Drummond 2018 - This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>
+  &copy;  2018 - This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>
 </p>
-<p>    Powered by <a href="http://getpelican.com" target="_blank">Pelican</a> - <a href="https://github.com/alexandrevicenzi/flex" target="_blank">Flex</a> theme by <a href="http://alexandrevicenzi.com" target="_blank">Alexandre Vicenzi</a>
+<p>    Built with <a href="http://getpelican.com" target="_blank">Pelican</a> using <a href="http://bit.ly/flex-pelican" target="_blank">Flex</a> theme
 </p><p>
   <a rel="license"
      href="http://creativecommons.org/licenses/by-sa/4.0/"
@@ -153,24 +195,13 @@ interfacing with the <a href="https://auth0.com/">Auth0</a> <a href="https://aut
     <img alt="Creative Commons License"
          title="Creative Commons License"
          style="border-width:0"
-         src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png"
+           src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png"
          width="80"
          height="15"/>
   </a>
 </p>    </footer>
   </main>
 
-<!-- Google Analytics -->
-<script type="text/javascript">
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-130250201-1', 'auto');
-  ga('send', 'pageview');
-</script>
-<!-- End Google Analytics -->
 
 
 
@@ -184,5 +215,6 @@ interfacing with the <a href="https://auth0.com/">Auth0</a> <a href="https://aut
   "description": "Mark Drummond"
 }
 </script>
+
 </body>
 </html>
