@@ -127,9 +127,9 @@ of 2923 people with a Private leaderboard score of 0.88319, down from a public
 leaderboard score of&amp;nbsp;0.91792.&lt;/p&gt;
 &lt;p&gt;The mean score for all submissions was 0.8551523, median 0.90237, with a
 standard deviation of&amp;nbsp;0.09301734.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="err"&gt;Min.    1st Qu. Median  Mean    3rd Qu. Max.&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;Min.    1st Qu. Median  Mean    3rd Qu. Max.&lt;/span&gt;
 &lt;span class="err"&gt;0.2500  0.7945  0.9024  0.8552  0.9204  0.9455&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;Not a great result, but a great learning experience. Many of the top finishers
