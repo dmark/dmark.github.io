@@ -7,11 +7,15 @@ aside {
     color: #f2e2ba;
     text-align: center;
 }
+.tag-cloud a {
+    background-color: #edb220;
+    color: #333333;
+}
 a {
     color: #006633;
     text-decoration: none;
 }
 a.btn, section#isso-thread section.auth-section p.post-action input {
-    background-color: #ffcc33;
-    color: #333333;
+    background-color: #edb220;
+    color: #1a535c;
 }
