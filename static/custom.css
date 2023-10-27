@@ -1,0 +1,17 @@
+body {
+    background-color: #f2e2ba;
+    color: #333333;
+}
+aside {
+    background-color: #006633;
+    color: #f2e2ba;
+    text-align: center;
+}
+a {
+    color: #006633;
+    text-decoration: none;
+}
+a.btn, section#isso-thread section.auth-section p.post-action input {
+    background-color: #ffcc33;
+    color: #333333;
+}
