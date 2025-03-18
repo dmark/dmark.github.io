@@ -57,7 +57,7 @@ html {
   text-align: center;
   padding: 2rem 1rem;
   color: rgba(255,255,255,.5);
-  background-color: #333333;
+  background-color: #202020;
 }
 @media (min-width: 48em) {
   .sidebar {
@@ -283,24 +283,4 @@ a.sidebar-social-item.active:focus {
 .theme-base-0f .content a,
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
-}
-
-/* Black */
-.theme-base-10 .sidebar {
-  background-color: #202020;
-}
-
-.theme-base-0f .content a,
-.theme-base-0f .related-posts li a:hover {
-  color: #202020;
-}
-
-/* Grey */
-.theme-base-11 .sidebar {
-  background-color: #333333;
-}
-
-.theme-base-0f .content a,
-.theme-base-0f .related-posts li a:hover {
-  color: #333333;
 }

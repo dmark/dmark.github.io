@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+	<head>
+		<link href="http://gmpg.org/xfn/11" rel="profile">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+		<!-- Metadata -->
+	<meta name="description" content="It's a blog about nothing!">
+	<meta property="og:description" content="It's a blog about nothing!">
+	<meta property="og:title" content="A Tiny Bit of ARM64 Assembly" />
+	<meta property="og:type" content="article" />
+	<meta property="og:url" content="https://markdrummond.ca/arm64-assembly.html" />
+		<meta property="og:image" content="https://markdrummond.ca/images/ridaventure.jpg" />
+
+		<!-- Enable responsiveness on mobile devices-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+		<title>md - It's a blog about nothing!</title>
+
+		<!-- CSS -->
+		<link href="//fonts.googleapis.com/" rel="dns-prefetch">
+		<link href="//fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic|Abril+Fatface|PT+Sans:400,400italic,700&amp;subset=latin,latin-ext" rel="stylesheet">
+
+		<link rel="stylesheet" href="https://markdrummond.ca/theme/css/poole.css" />
+		<link rel="stylesheet" href="https://markdrummond.ca/theme/css/hyde.css" />
+		<link rel="stylesheet" href="https://markdrummond.ca/theme/css/syntax.css" />
+			<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css" crossorigin="anonymous">
+			<link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+
+		<!-- Feeds -->
+
+		<!-- Analytics -->
+	</head>
+
+	<body class="theme-base-10">
+<div class="sidebar">
+	<div class="container sidebar-sticky">
+		<div class="sidebar-about">
+
+			<h1>
+				<a href="/">
+					<img class="profile-picture" src="https://markdrummond.ca/images/ridaventure.jpg">
+					md
+				</a>
+			</h1>
+			<p class="lead"></p>
+			<p class="lead">It's a blog about nothing! </p>
+			<p></p>
+		</div>
+			<ul class="sidebar-nav">
+					<li><a href="https://dgc-cgn.org/standards/">DGSI</a></li>
+					<li><a href="https://idpro.org/">IDPro.org</a></li>
+					<li><a href="https://www.idsalliance.org">IDSA</a></li>
+					<li><a href="https://www.isc2.org/">ISC2</a></li>
+					<li><a href="https://owasp.org">OWASP</a></li>
+					<li><a href="https://www.usenix.org">USENIX</a></li>
+			</ul>
+		<nav class="sidebar-social">
+					<a class="sidebar-social-item" href="https://www.linkedin.com/in/medrummond/" target="_blank">
+						<i class="fa fa-linkedin"></i>
+					</a>
+					<a class="sidebar-social-item" href="https://medium.com/@m.e.drummond" target="_blank">
+						<i class="fa fa-medium"></i>
+					</a>
+					<a class="sidebar-social-item" href="https://github.com/dmark" target="_blank">
+						<i class="fa fa-github"></i>
+					</a>
+					<a class="sidebar-social-item" href="https://ioc.exchange/@markdrummond" target="_blank">
+						<i class="fa fa-mastodon"></i>
+					</a>
+			<a class="sidebar-social-item" href="https://markdrummond.ca/">
+				<i class="fa fa-rss"></i>
+			</a>
+		</nav>
+	</div>
+</div>		<div class="content container">
+<div class="post">
+	<h1 class="post-title">A Tiny Bit of ARM64 Assembly</h1>
+	<span class="post-date">Sat 15 February 2025</span>
+	<p>Experienced programmers with time on their side always insist you should know how to program in C, and you should be able to read assembly. Maybe they are right. Or maybe they have the good fortune to be able to pontificate from on high. I mean, I agree with them. I strongly believe everyone who works in technology (in, not just with), should know what is happening under the hood. But maybe I am wrong.</p>
+<p>If you do want to start learning to read assembly, where and how do you start? The time honoured tradition here is: write a simple program in C, compile it, disassemble it, and compare the two.</p>
+<p>If you are on a Mac, you can use <code>clang</code> to compile your C code, and <code>otool</code> to do the disassembly. If you have a full C/C++ IDE available, it likely has a disassembler built in.</p>
+<p>Start with some simple math, and use small numbers. This makes it easy to see the numbers in the assembly code. Take this bit of C for example:</p>
+<div class="highlight"><pre><span></span><code>int main()
+{
+    int a,b,c;
+    a=5;
+    b=7;
+    c=a+b;
+}
+</code></pre></div>
+
+<p>It should be clear what is happening here. Compile it, and then disassemble it:</p>
+<div class="highlight"><pre><span></span><code>$<span class="w"> </span>make<span class="w"> </span>foo
+cc<span class="w">     </span>foo.c<span class="w">   </span>-o<span class="w"> </span>foo
+$<span class="w"> </span>otool<span class="w"> </span>-tv<span class="w"> </span>foo
+foo:
+<span class="o">(</span>__TEXT,__text<span class="o">)</span><span class="w"> </span>section
+_main:
+0000000100003f78<span class="w">        </span>sub<span class="w">     </span>sp,<span class="w"> </span>sp,<span class="w"> </span><span class="c1">#0x10</span>
+0000000100003f7c<span class="w">        </span>mov<span class="w">     </span>w8,<span class="w"> </span><span class="c1">#0x5</span>
+0000000100003f80<span class="w">        </span>str<span class="w">     </span>w8,<span class="w"> </span><span class="o">[</span>sp,<span class="w"> </span><span class="c1">#0xc]</span>
+0000000100003f84<span class="w">        </span>mov<span class="w">     </span>w8,<span class="w"> </span><span class="c1">#0x7</span>
+0000000100003f88<span class="w">        </span>str<span class="w">     </span>w8,<span class="w"> </span><span class="o">[</span>sp,<span class="w"> </span><span class="c1">#0x8]</span>
+0000000100003f8c<span class="w">        </span>ldr<span class="w">     </span>w8,<span class="w"> </span><span class="o">[</span>sp,<span class="w"> </span><span class="c1">#0xc]</span>
+0000000100003f90<span class="w">        </span>ldr<span class="w">     </span>w9,<span class="w"> </span><span class="o">[</span>sp,<span class="w"> </span><span class="c1">#0x8]</span>
+0000000100003f94<span class="w">        </span>add<span class="w">     </span>w8,<span class="w"> </span>w8,<span class="w"> </span>w9
+0000000100003f98<span class="w">        </span>str<span class="w">     </span>w8,<span class="w"> </span><span class="o">[</span>sp,<span class="w"> </span><span class="c1">#0x4]</span>
+0000000100003f9c<span class="w">        </span>mov<span class="w">     </span>w0,<span class="w"> </span><span class="c1">#0x0</span>
+0000000100003fa0<span class="w">        </span>add<span class="w">     </span>sp,<span class="w"> </span>sp,<span class="w"> </span><span class="c1">#0x10</span>
+0000000100003fa4<span class="w">        </span>ret
+</code></pre></div>
+
+<p>Now start with the basics. You know you assigned the values 5 and 7 to some variables, and you can see those assignments on lines <code>3f7c</code> and <code>3f84</code> (referring to the last four digits of the hex numbers in the first column). Both of these lines are using the <code>mov</code> operator to copy data into a register, in this case register w8.</p>
+<h1>ARM64 General-Purpose Registers</h1>
+<p>ARM has 30 general-purpose, 64-bit registers. These registers can be referred to in different ways, each way dictating the number of bit that you are addressing. Remember, these registers are 64-bits wide, and they are named <code>x0</code> through <code>x30</code>.</p>
+<p>But they are also named <code>w0</code> through <code>w30</code>. What is the difference? If you use the <code>x</code> names, you are addressing the full 64 bits of each register. If you use the <code>w</code> names, you are addressing the lower 32 bits of each register. In other words, using the <code>x</code> registers will result in 64-bit operations while the <code>w</code> registers will result in 32-bit operations.</p>
+<p>Notice in the C code above the variables are <code>ints</code>, and the register references in the assembly are <code>w</code> registers. If I change the <code>ints</code> in the source code to <code>longs</code>:</p>
+<div class="highlight"><pre><span></span><code>int main()
+{
+    int a,b,c;
+    a=5;
+    b=7;
+    c=a+b;
+}
+</code></pre></div>
+
+<p>Compile, and disassemble:</p>
+<div class="highlight"><pre><span></span><code>foo:
+(__TEXT,__text) section
+_main:
+0000000100003f78        sub     sp, sp, #0x20
+0000000100003f7c        mov     x8, #0x5
+0000000100003f80        str     x8, [sp, #0x18]
+0000000100003f84        mov     x8, #0x7
+0000000100003f88        str     x8, [sp, #0x10]
+0000000100003f8c        ldr     x8, [sp, #0x18]
+0000000100003f90        ldr     x9, [sp, #0x10]
+0000000100003f94        add     x8, x8, x9
+0000000100003f98        str     x8, [sp, #0x8]
+0000000100003f9c        mov     w0, #0x0
+0000000100003fa0        add     sp, sp, #0x20
+0000000100003fa4        ret
+</code></pre></div>
+
+<p>Now the registers are being referenced with their <code>x</code> names, other than on line <code>3f9c</code>, which is likely doing something special.</p>
+</div>
+		</div>
+	</body>
+</html>
