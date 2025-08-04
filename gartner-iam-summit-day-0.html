@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+	<head>
+		<link href="http://gmpg.org/xfn/11" rel="profile">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+		<!-- Metadata -->
+	<meta name="description" content="Move slow and fix things.">
+	<meta property="og:description" content="Move slow and fix things.">
+	<meta property="og:title" content="The Gartner IAM Summit" />
+	<meta property="og:type" content="article" />
+	<meta property="og:url" content="https://markdrummond.ca/gartner-iam-summit-day-0.html" />
+		<meta property="og:image" content="https://markdrummond.ca/images/ridaventure.jpg" />
+
+		<!-- Enable responsiveness on mobile devices-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+		<title>md - Move slow and fix things.</title>
+
+		<!-- CSS -->
+		<link href="//fonts.googleapis.com/" rel="dns-prefetch">
+		<link href="//fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic|Abril+Fatface|PT+Sans:400,400italic,700&amp;subset=latin,latin-ext" rel="stylesheet">
+
+		<link rel="stylesheet" href="https://markdrummond.ca/theme/css/poole.css" />
+		<link rel="stylesheet" href="https://markdrummond.ca/theme/css/hyde.css" />
+		<link rel="stylesheet" href="https://markdrummond.ca/theme/css/syntax.css" />
+			<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css" crossorigin="anonymous">
+			<link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+
+		<!-- Feeds -->
+
+		<!-- Analytics -->
+	</head>
+
+	<body class="theme-base-10">
+<div class="sidebar">
+	<div class="container sidebar-sticky">
+		<div class="sidebar-about">
+
+			<h1>
+				<a href="/">
+					<img class="profile-picture" src="https://markdrummond.ca/images/ridaventure.jpg">
+					md
+				</a>
+			</h1>
+			<p class="lead"></p>
+			<p class="lead">Move slow and fix things. </p>
+			<p></p>
+		</div>
+			<ul class="sidebar-nav">
+					<li><a href="https://dgc-cgn.org/standards/">DGSI</a></li>
+					<li><a href="https://idpro.org/">IDPro.org</a></li>
+					<li><a href="https://www.idsalliance.org">IDSA</a></li>
+					<li><a href="https://www.isc2.org/">ISC2</a></li>
+					<li><a href="https://owasp.org">OWASP</a></li>
+					<li><a href="https://www.usenix.org">USENIX</a></li>
+			</ul>
+		<nav class="sidebar-social">
+					<a class="sidebar-social-item" href="https://www.linkedin.com/in/medrummond/" target="_blank">
+						<i class="fa fa-linkedin"></i>
+					</a>
+					<a class="sidebar-social-item" href="https://medium.com/@m.e.drummond" target="_blank">
+						<i class="fa fa-medium"></i>
+					</a>
+					<a class="sidebar-social-item" href="https://github.com/dmark" target="_blank">
+						<i class="fa fa-github"></i>
+					</a>
+					<a class="sidebar-social-item" href="https://ioc.exchange/@markdrummond" target="_blank">
+						<i class="fa fa-mastodon"></i>
+					</a>
+			<a class="sidebar-social-item" href="https://markdrummond.ca/">
+				<i class="fa fa-rss"></i>
+			</a>
+		</nav>
+			<p class="sidebar-footer">This work is licensed under CC BY-SA 4.0</p>
+	</div>
+</div>		<div class="content container">
+<div class="post">
+	<h1 class="post-title">The Gartner IAM Summit</h1>
+	<span class="post-date">Sun 02 December 2018</span>
+	<p>I was in <a href="https://en.wikipedia.org/wiki/Las_Vegas">Las Vegas</a> this week for
+<a href="https://www.gartner.com/en">Gartner's</a> <a href="https://www.gartner.com/en/conferences/na/identity-access-management-us">IAM
+Summit</a>,
+hosted at <a href="https://www.caesars.com/caesars-palace">Ceasar's Palace</a>. Vegas
+isn't really my cup of tea but one goes where the conferences are. Pro tip: The
+desert is really freaking cold in December. I mean, not Canada cold, but way
+colder than a desert should be. Bring layers.</p>
+<h2>Main Takeaways</h2>
+<ul>
+<li>Deploy MFA everywhere,</li>
+<li>You must have people on your team who are intimately familiar with OAuth and OIDC,</li>
+<li>If you haven't already, start working on Identity Governance,</li>
+<li>Continuous identity proofing was by far the most interesting and compelling subject for me.</li>
+</ul>
+<h2>Identity Governance &amp; Administration (IGA)</h2>
+<p>Just last week I was doing manual extracts of user data and hand producing CSV
+files for audit stuff. Stop doing that! Investigate IGA options.</p>
+<h2>Identity Proofing</h2>
+<p>Proving the identity of customers, elevating the level of trust in a given
+identity, continuous re-validation of existing identities. Email address
+validation, phone number validation, credit bureau checks, RSA-type adaptive
+risk callouts, elevated trust expiry and re-validation, ... automate all of it.</p>
+<p>Build an identity proofing API! The API can be called at any time by any app
+(or other API) to validate, revalidate, or improve the validation of an
+identity. The API would be modular and each module handles one method of
+proofing.</p>
+<h2>Best Practices for OAuth 2.0 and OIDC</h2>
+<ul>
+<li>Best Practices for OAuth 2.0 and OIDC,</li>
+<li>OAuth 2.0 and OIDC are evolving rapidly. Have one or more people on staff to stay on top of current standards and best practices,</li>
+<li>OAuth &amp; OIDC mailing lists,</li>
+<li>Documentation: https://oauth.net/2/, https://openid.net/connect/,</li>
+<li>JWT standards &amp; best practices: https://jwt.io,</li>
+<li>Least privilege / Minimize number of claims in a JWT,</li>
+<li>Coarse-grained authorization in the middle layer (API gateway, security proxy)</li>
+<li>Implement a permissions API for anything more complicated than a simple list of roles,</li>
+<li>Permissions API answers the question "What is this identity allowed to do?" on behalf of other apps and APIs.</li>
+<li>Fine-grained authorization in the app / API, either directly in the app / API or via the permissions API,</li>
+<li>Token revocation is a challenge - valid tokens are autonomous, and remain valid until they time out. Keep those JWT timeouts short,</li>
+<li>AppAuth pattern / flow good,</li>
+<li>Implicit flow bad (no real trust here, but also no alternative?)</li>
+<li>(alternative is to stop building SPAs until better solutions are developed)</li>
+</ul>
+<h2>Gartner Conference ProTips</h2>
+<p>Install the Gartner app on your phone well in advance of your conference.</p>
+<p>Some sessions are limited access and require you to register. This includes
+Roundtable and Ask the Analyst sessions. I did not get any indication from
+Gartner when sign up for these sessions was available, and they were all full
+by the time I found out. If full, you can go to the room for one of these
+sessions 15 minutes before the start and put your name on a wait list. Lots of
+people just sign up for everything and then don't show up</p>
+<p>There are also 1-on-1 sessions available. You tell the Gartner folks what you
+want to discuss and they will match you up with an appropriate Gartner analyst.</p>
+<p>Obviously use the networking events when you can, especially those targeted at
+specific groups. I went to the Financial Industry networking breakfast and made
+a few contacts there, and our country rep set up a dinner for all the
+Canadians, which proved to be fruitful.</p>
+<h2>Tutorials</h2>
+<p>I changed my travel plans to go down a day early, because there were
+"tutorials" being offered the day before the event officially started. I have
+no idea why Gartner calls these tutorials. They were no different than any
+other presentation style session. Someone from Gartner standing there talking
+and flipping slides. Which is fine but they were not "tutorials" in any usual
+sense.</p>
+<p>I still recommend going a day early (the day before the day before the event
+starts). You can register early (no morning rush on the first day) and there
+was an orientation and networking session that evening.</p>
+</div>
+		</div>
+	</body>
+</html>

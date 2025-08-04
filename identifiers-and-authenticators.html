@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+	<head>
+		<link href="http://gmpg.org/xfn/11" rel="profile">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+		<!-- Metadata -->
+	<meta name="description" content="Move slow and fix things.">
+	<meta property="og:description" content="Move slow and fix things.">
+	<meta property="og:title" content="Identifiers and Authenticators" />
+	<meta property="og:type" content="article" />
+	<meta property="og:url" content="https://markdrummond.ca/identifiers-and-authenticators.html" />
+		<meta property="og:image" content="https://markdrummond.ca/images/ridaventure.jpg" />
+
+		<!-- Enable responsiveness on mobile devices-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+		<title>md - Move slow and fix things.</title>
+
+		<!-- CSS -->
+		<link href="//fonts.googleapis.com/" rel="dns-prefetch">
+		<link href="//fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic|Abril+Fatface|PT+Sans:400,400italic,700&amp;subset=latin,latin-ext" rel="stylesheet">
+
+		<link rel="stylesheet" href="https://markdrummond.ca/theme/css/poole.css" />
+		<link rel="stylesheet" href="https://markdrummond.ca/theme/css/hyde.css" />
+		<link rel="stylesheet" href="https://markdrummond.ca/theme/css/syntax.css" />
+			<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css" crossorigin="anonymous">
+			<link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+
+		<!-- Feeds -->
+
+		<!-- Analytics -->
+	</head>
+
+	<body class="theme-base-10">
+<div class="sidebar">
+	<div class="container sidebar-sticky">
+		<div class="sidebar-about">
+
+			<h1>
+				<a href="/">
+					<img class="profile-picture" src="https://markdrummond.ca/images/ridaventure.jpg">
+					md
+				</a>
+			</h1>
+			<p class="lead"></p>
+			<p class="lead">Move slow and fix things. </p>
+			<p></p>
+		</div>
+			<ul class="sidebar-nav">
+					<li><a href="https://dgc-cgn.org/standards/">DGSI</a></li>
+					<li><a href="https://idpro.org/">IDPro.org</a></li>
+					<li><a href="https://www.idsalliance.org">IDSA</a></li>
+					<li><a href="https://www.isc2.org/">ISC2</a></li>
+					<li><a href="https://owasp.org">OWASP</a></li>
+					<li><a href="https://www.usenix.org">USENIX</a></li>
+			</ul>
+		<nav class="sidebar-social">
+					<a class="sidebar-social-item" href="https://www.linkedin.com/in/medrummond/" target="_blank">
+						<i class="fa fa-linkedin"></i>
+					</a>
+					<a class="sidebar-social-item" href="https://medium.com/@m.e.drummond" target="_blank">
+						<i class="fa fa-medium"></i>
+					</a>
+					<a class="sidebar-social-item" href="https://github.com/dmark" target="_blank">
+						<i class="fa fa-github"></i>
+					</a>
+					<a class="sidebar-social-item" href="https://ioc.exchange/@markdrummond" target="_blank">
+						<i class="fa fa-mastodon"></i>
+					</a>
+			<a class="sidebar-social-item" href="https://markdrummond.ca/">
+				<i class="fa fa-rss"></i>
+			</a>
+		</nav>
+			<p class="sidebar-footer">This work is licensed under CC BY-SA 4.0</p>
+	</div>
+</div>		<div class="content container">
+<div class="post">
+	<h1 class="post-title">Identifiers and Authenticators</h1>
+	<span class="post-date">Thu 16 September 2021</span>
+	<p>[Originally posted on Medium
+<a href="https://medium.com/@m.e.drummond/thinking-out-loud-identifiers-and-authenticators-8eb5069de777">here</a>.
+It's not clear to me whether to keep running with this platform or to use
+something more convenient like Medium or Ghost.]</p>
+<p>Quite literally me thinking out loud about identifiers and authenticators while
+also trying out this medium.com blogging thing. Feedback is welcome. I am most
+certainly still formulating my thoughts on some of this content, particularly
+around management of internal and external identifiers.</p>
+<p>This article assumes a certain degree of familiarity with the underlying
+material. Technical terms may or may not be defined. Much of this discussion
+assumes your use case requires you to uniquely identify a Subject.</p>
+<h2>Identifiers vs. Authenticators</h2>
+<p>In the process of authenticating and authorizing a Subject, we first need to
+identify them. Traditionally this is done by having them provide an identifier
+like a self-selected username, an assigned identifier, or an email address. In
+this model, the Subject self-asserts their identity during the authentication
+process.</p>
+<p>Since the Subject is self-asserting their identity, we usually want a way to
+establish trust that they are who they claim to be. This is traditionally
+accomplished with a password, a shared secret between the Subject and the
+Identity Provider. If the Subject knows the shared secret for the claimed
+identity, we assume they are the actual Subject who owns that identity.</p>
+<p>Aside: In a properly designed system the Identity Provider does not store the
+secret itself, instead storing a cryptographically secure hashed version of the
+password.</p>
+<h2>Identifiers as Authenticators?</h2>
+<p>This is possibly contrary thinking and feedback is appreciated.</p>
+<p>The division between "identifier" and "authenticator" is not always clear.
+Imagine a secret shared only between two Subjects. If the secret is known only
+to them, then the secret itself serves to both identify and authenticate the
+Subjects to each other.</p>
+<p>Likewise biometric data, and this might be taken as especially controversial,
+serves both purposes. Your fingerprint, under the assumption that it is unique,
+both identifies you, and can be used to authenticate you. Despite potential
+concerns with relying on a single factor as both an identifier and an
+authenticator, this is how we use biometrics today in many use cases.</p>
+<p>You might argue that this use case is identification only, not authentication,
+and that in some use cases identification is sufficient, but I find this to be
+splitting hairs. I can unlock my laptop with my password or my fingerprint. The
+result is the same and in my opinion this is both identification and
+authentication.</p>
+<h2>External Identifiers vs. Internal Identifiers</h2>
+<p>It was Ian Glazer's talk "The Most Forgotten Thing In Identity Management" and
+article "Identifiers and Usernames" that got me thinking in depth about
+internal vs external identifiers, how we use them, what problems they solve,
+and what challenges they introduce. In general decoupling external and internal
+identifiers makes our lives in IT much easier, and provides a better user
+experience.</p>
+<h2>External Identifiers</h2>
+<p>External identifiers are the identifiers referred to above, the self-selected
+or assigned "username" being the canonical example. Email address is another
+commonly used external identifier. External identifiers provide Subjects a
+relatively easy, memorable, though certainly not infallible way of identifying
+themselves to a service.</p>
+<p>It is important to note that external identifiers may change over time and your
+service should account for this. The Subject may wish to use a new email
+address, or they may wish to choose a new username. Providing an optimal user
+experience means supporting mutable external identifiers.</p>
+<p>Consider Sony's PlayStation Network (PSN) IDs which, until only relatively
+recently, could not be changed. I don't have data for this but I imagine it was
+pretty common for PlayStation users, no longer happy with the PSN ID they chose
+when they were 14 years old, to want to change their PSN ID. I don't believe
+the details are public but the lack of support for changing your PSN ID may
+have been the result of embedding the PSN ID, an external identifier, in
+various back-end systems, making it difficult to change and requiring manual
+intrvention and likely direct editing of database records.</p>
+<h2>Internal Identifiers</h2>
+<p>Internal identifiers are used by your digital systems to uniquely identify a
+digital identity. A classic example is the Unix uid which provides a unique
+numerical identifier for each digital identity on the system. A modern example
+would be issuing an ISO / IETF standard UUID to every digital identity. This is
+an identifier that is not (necessarily) known or visible to your users. The
+internal identifier is immutable, allowing you to support mutable external
+identifiers without disrupting the user experience.</p>
+<h2>Uniqueness</h2>
+<p>It is worth noting that the Unix uid allows a 1-uid-to-many-identifiers model.
+While each uid is unique, it can be mapped to more than one username. Each such
+username is simply an alias for the same identity identified by the given uid.
+I'm not sure if this is universal to all flavours of Unix and Linux but it was
+certainly true for the systems I have managed.</p>
+<p>It is not clear to me whether this 1-to-many model is a good idea. Should there
+always be a 1-to-1 relationship between internal and external identifiers or
+are there use cases that benefit from a 1-to-many relationship? What about
+many-to-1?</p>
+<h2>Delete Me?</h2>
+<p>This is area where I have not completely worked through the details. It seems
+to me that there are a number of reasons you should never delete an internal
+identifier, and maybe external identifiers too:</p>
+<p>You may need to maintain records for a Subject even if they are no longer
+associated with your service (regulatory requirements?). You may need to
+maintain a golden record of some sort.</p>
+<p>You want to avoid internal identifier reuse. This is far more obvious and does
+not require you to maintain other data about the Subject.</p>
+<p>Some complications:</p>
+<ul>
+<li>Right to be Forgotten: what does this mean for internal identifiers?</li>
+<li>A return user: if a Subject returns to your service, will you link them back
+  to their old internal identifier, in which case, how do you support that
+  process? Even if you give them a new internal identifier, what if your use
+  case requires linking them to their old data?</li>
+<li>Likewise previously used usernames or email addresses. I believe it is the
+  case that you could allow both of these to be reused if you are confident
+  they won't link to old data, but there are likely other considerations.</li>
+</ul>
+<h2>Authenticators</h2>
+<p>I don't have much to offer here. I believe the following are all well
+established:</p>
+<ul>
+<li>Passwords are bad but unfortunately still necessary in many cases,</li>
+<li>Enforced password complexity rules and password expiration are doubly bad,</li>
+<li>Passwords managers are good where passwords are necessary but password
+  manager user experience is not great,</li>
+<li>Hardware authenticators, platform authenticators, and biometrics are all
+  becoming more popular and passwordless authentication gaining ground as well.</li>
+</ul>
+</div>
+		</div>
+	</body>
+</html>
