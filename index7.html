@@ -55,6 +55,8 @@
 					<li><a href="https://www.isc2.org/">ISC2</a></li>
 					<li><a href="https://owasp.org">OWASP</a></li>
 					<li><a href="https://www.usenix.org">USENIX</a></li>
+					<li><a href="https://markdrummond.ca/pages/personal-records.html">Personal Records</a></li>
+					<li><a href="https://markdrummond.ca/pages/about.html">About</a></li>
 			</ul>
 		<nav class="sidebar-social">
 					<a class="sidebar-social-item" href="https://www.linkedin.com/in/medrummond/" target="_blank">
@@ -78,53 +80,155 @@
 </div>		<div class="content container">
 	<div class="posts">
 			<div class="post">
-				<h1 class="post-title" href="https://markdrummond.ca/training-log-20211108.html">
-					<a href="https://markdrummond.ca/training-log-20211108.html">Training Log 2021-11-08</a>
+				<h1 class="post-title" href="https://markdrummond.ca/password-expiry.html">
+					<a href="https://markdrummond.ca/password-expiry.html">Password Expiry is a Terrible Policy</a>
 				</h1>
-				<span class="post-date">Mon 08 November 2021</span>
+				<span class="post-date">Tue 29 January 2019</span>
 				<p>
-					<p>I was uncertain but I didn't need to be.</p>
-<style type="text/css">
-.tg  {border-collapse:collapse;border-color:#ccc;border-spacing:0;}
-.tg td{background-color:#fff;border-bottom-width:1px;border-color:#ccc;border-style:solid;border-top-width:1px;
-  border-width:0px;color:#333;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;
-  word-break:normal;}
-.tg th{background-color:#f0f0f0;border-bottom-width:1px …</style>
+					<p>A pet peeve, and an opinion, triggered by a recent experience:</p>
+<p>Regularly occurring enforced password expiry is a terrible policy, whether it is
+every 60 days, or every 12 months. As a policy, it encourages users to choose
+the <em>minimally secure</em> password. Given a set of password complexity
+requirements (length …</p>
 				</p>
-				<a class="read-more" href="training-log-20211108.html">Continue reading »</a>
+				<a class="read-more" href="password-expiry.html">Continue reading »</a>
 			</div>
 			<div class="post">
-				<h1 class="post-title" href="https://markdrummond.ca/training-log-20211105.html">
-					<a href="https://markdrummond.ca/training-log-20211105.html">Training Log 2021-11-05</a>
+				<h1 class="post-title" href="https://markdrummond.ca/authcli-utilities.html">
+					<a href="https://markdrummond.ca/authcli-utilities.html">Auth0 Command Line Utilities</a>
 				</h1>
-				<span class="post-date">Fri 05 November 2021</span>
+				<span class="post-date">Mon 14 January 2019</span>
 				<p>
-					<p>Double-plus good.</p>
-<style type="text/css">
-.tg  {border-collapse:collapse;border-color:#ccc;border-spacing:0;}
-.tg td{background-color:#fff;border-bottom-width:1px;border-color:#ccc;border-style:solid;border-top-width:1px;
-  border-width:0px;color:#333;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;
-  word-break:normal;}
-.tg th{background-color:#f0f0f0;border-bottom-width:1px;border-color:#ccc;border-style:solid;border-top-width:1px;
-  border-width …</style>
+					<p>Not to be confused with my <a href="https://github.com/dmark/authzero"><code>authzero</code> command line
+interface</a>, this repo contains <a href="https://github.com/dmark/auth0-cli-utilities">general
+purpose python scripts</a> for
+interfacing with the <a href="https://auth0.com/">Auth0</a> <a href="https://auth0.com/docs/api/management/v2">Management
+API</a>.</p>
 				</p>
-				<a class="read-more" href="training-log-20211105.html">Continue reading »</a>
+				<a class="read-more" href="authcli-utilities.html">Continue reading »</a>
 			</div>
 			<div class="post">
-				<h1 class="post-title" href="https://markdrummond.ca/training-log-20211103.html">
-					<a href="https://markdrummond.ca/training-log-20211103.html">Training Log 2021-11-03</a>
+				<h1 class="post-title" href="https://markdrummond.ca/authzero.html">
+					<a href="https://markdrummond.ca/authzero.html">authzero - A CLI for the Auth0 Management API</a>
 				</h1>
-				<span class="post-date">Wed 03 November 2021</span>
+				<span class="post-date">Mon 14 January 2019</span>
 				<p>
-					<p>Oi.</p>
-<p>This session was a bit rough. Not the weights, which are still very light, but
-everything else was kind of <em>off</em>, especially during my squats and presses.
-Deadlift was ok.</p>
-<style type="text/css">
-.tg  {border-collapse:collapse;border-color:#ccc;border-spacing:0;}
-.tg td{background-color:#fff;border-bottom-width:1px;border-color:#ccc;border-style:solid;border-top-width:1px …</style>
+					<p>I started work on a <a href="https://github.com/dmark/authzero">command line interface</a>
+for the <a href="https://auth0.com/">Auth0</a> <a href="https://auth0.com/docs/api/management/v2">Management
+API</a>. The tool is built with
+<a href="https://www.typescriptlang.org/index.html">TypeScript</a>, <a href="https://oclif.io/">oclif</a>, <a href="https://nodejs.org/en/">node.js</a>, and Auth0's <a href="https://github.com/auth0/node-auth0">node-auth0 SDK</a>.</p>
+<div class="highlight"><pre><span></span><code><span class="err">$</span><span class="w"> </span><span class="n">authzero</span><span class="w"> </span><span class="o">--</span><span class="n">help</span>
+<span class="n">Auth0</span><span class="w"> </span><span class="n">Command</span><span class="w"> </span><span class="n">Line</span><span class="w"> </span><span class="n">Interface</span>
+
+<span class="n">VERSION</span>
+<span class="w">  </span><span class="n">authzero</span><span class="o">/</span><span class="mf">0.0.0</span><span class="w"> </span><span class="n">darwin</span><span class="o">-</span><span class="n">x64</span><span class="w"> </span><span class="n">node</span><span class="o">-</span><span class="n">v11</span><span class="mf">.6.0</span>
+
+<span class="k">USAGE</span>
+<span class="w">  </span><span class="err">$</span><span class="w"> </span><span class="n">authzero</span><span class="w"> </span><span class="o">[</span><span class="n">COMMAND</span><span class="o">]</span>
+
+<span class="n">COMMANDS</span>
+<span class="w">  </span><span class="n">client</span><span class="w">      </span><span class="k">Get</span><span class="w"> </span><span class="n">client …</span></code></pre></div>
 				</p>
-				<a class="read-more" href="training-log-20211103.html">Continue reading »</a>
+				<a class="read-more" href="authzero.html">Continue reading »</a>
+			</div>
+			<div class="post">
+				<h1 class="post-title" href="https://markdrummond.ca/2018-books.html">
+					<a href="https://markdrummond.ca/2018-books.html">My Year in Books 2018</a>
+				</h1>
+				<span class="post-date">Mon 31 December 2018</span>
+				<p>
+					<p>36 books this year!</p>
+				</p>
+				<a class="read-more" href="2018-books.html">Continue reading »</a>
+			</div>
+			<div class="post">
+				<h1 class="post-title" href="https://markdrummond.ca/gartner-iam-summit-day-0.html">
+					<a href="https://markdrummond.ca/gartner-iam-summit-day-0.html">The Gartner IAM Summit</a>
+				</h1>
+				<span class="post-date">Sun 02 December 2018</span>
+				<p>
+					<p>I was in <a href="https://en.wikipedia.org/wiki/Las_Vegas">Las Vegas</a> this week for
+<a href="https://www.gartner.com/en">Gartner's</a> <a href="https://www.gartner.com/en/conferences/na/identity-access-management-us">IAM
+Summit</a>,
+hosted at <a href="https://www.caesars.com/caesars-palace">Ceasar's Palace</a>. Vegas
+isn't really my cup of tea but one goes where the conferences are. Pro tip: The
+desert is really freaking cold in December. I mean, not Canada cold, but way
+colder than a desert …</p>
+				</p>
+				<a class="read-more" href="gartner-iam-summit-day-0.html">Continue reading »</a>
+			</div>
+			<div class="post">
+				<h1 class="post-title" href="https://markdrummond.ca/viking-tour-day-13.html">
+					<a href="https://markdrummond.ca/viking-tour-day-13.html">The Viking Tour - Day 13</a>
+				</h1>
+				<span class="post-date">Wed 15 August 2018</span>
+				<p>
+					<p>Salaberry-de-Valleyfield</p>
+<p>Distance traveled: 240kms</p>
+<p>Home Sweet Home</p>
+				</p>
+				<a class="read-more" href="viking-tour-day-13.html">Continue reading »</a>
+			</div>
+			<div class="post">
+				<h1 class="post-title" href="https://markdrummond.ca/viking-tour-day-12.html">
+					<a href="https://markdrummond.ca/viking-tour-day-12.html">The Viking Tour - Day 12</a>
+				</h1>
+				<span class="post-date">Tue 14 August 2018</span>
+				<p>
+					<p>Edmundston to Salaberry-de-Valleyfield</p>
+<p>Distance traveled (approximate): 611kms</p>
+<p>Almost homeward bound. More of those gorgeous inter-New Brunswick - Quebec
+views.</p>
+<p><img alt="TCH to Quebec" src="/images/nfld/2018081401.jpg# default bordered" title="TCH to Quebec"></p>
+<p>On our way to our last motel, we stopped at the massive <a href="https://goo.gl/maps/VPG7jfcCJFM2">Carrier Harley /
+Can-Am / BMW Motorrad</a> shop in
+<a href="https://en.wikipedia.org/wiki/Drummondville">Drummondville</a>. These guys had
+everything, even the BMW Motorrad bikini, flip-flops, and board …</p>
+				</p>
+				<a class="read-more" href="viking-tour-day-12.html">Continue reading »</a>
+			</div>
+			<div class="post">
+				<h1 class="post-title" href="https://markdrummond.ca/viking-tour-day-11.html">
+					<a href="https://markdrummond.ca/viking-tour-day-11.html">The Viking Tour - Day 11</a>
+				</h1>
+				<span class="post-date">Mon 13 August 2018</span>
+				<p>
+					<p>Antigonish to Moncton to Edmundston.</p>
+<p>Distance traveled (approximate): 718kms</p>
+<p>Today was a very long haul, with a somewhat unplanned detour. The Harley was
+very clearly spitting oil out the right side so on our way to Edmunstun, we
+headed into Moncton to visit <a href="https://goo.gl/maps/eaaGwhSHJrv">Toys for Big Boys
+Harley-Davidson</a>. Apparently the …</p>
+				</p>
+				<a class="read-more" href="viking-tour-day-11.html">Continue reading »</a>
+			</div>
+			<div class="post">
+				<h1 class="post-title" href="https://markdrummond.ca/viking-tour-day-10.html">
+					<a href="https://markdrummond.ca/viking-tour-day-10.html">The Viking Tour - Day 10</a>
+				</h1>
+				<span class="post-date">Sun 12 August 2018</span>
+				<p>
+					<p>Channel-Port aux Basques to
+<a href="https://en.wikipedia.org/wiki/Antigonish,_Nova_Scotia">Antigonish</a>. We altered
+our return ferry to cross in the daytime. We also got lucky and we able to
+upgrade to a berth so we could at least try to nap. Still not the best way to
+do the crossing on motorcycles since you are still …</p>
+				</p>
+				<a class="read-more" href="viking-tour-day-10.html">Continue reading »</a>
+			</div>
+			<div class="post">
+				<h1 class="post-title" href="https://markdrummond.ca/viking-tour-day-9.html">
+					<a href="https://markdrummond.ca/viking-tour-day-9.html">The Viking Tour - Day 9</a>
+				</h1>
+				<span class="post-date">Sat 11 August 2018</span>
+				<p>
+					<p>From the Lodge to Port aux Basques.</p>
+<p>Distance traveled (approximate): 528kms</p>
+<p>And we're off! We've made some adjustments to our return plans. We will spend
+the night in Channel-Port aux Basques and then take a day crossing back to
+North Sydney. Ideally we would then spend a night in North …</p>
+				</p>
+				<a class="read-more" href="viking-tour-day-9.html">Continue reading »</a>
 			</div>
 	</div>
 	<div class="pagination">
